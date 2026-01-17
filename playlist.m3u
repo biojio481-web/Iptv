@@ -1,6 +1,5 @@
 manual_channels = """
 #EXTINF:-1, Live-1
-
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1, NHK World Japan
 https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
