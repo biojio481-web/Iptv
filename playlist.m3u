@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-id="Live-1" tvg-logo="https://i.imgur.com/k2adSjA.png" group-title="Entertainment",Asian TV (720p)
 http://redforce.live:8082/STAR.SPORTS1.HD/index.m3u8?token=1e5397506cc4fb3dd5ec770cd0748e2ce8aa7b9c-1db1a856154213f9163393b3a396f8d4-1753318691-1753307891&remote=no_check_ip
 #EXTINF:-1 tvg-id="BoishakhiTV.bd@SD" tvg-logo="https://i.imgur.com/gxL05Y4.png" group-title="General",Boishakhi TV
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+http://redforce.live:8082/STAR.SPORTS1.HD/index.m3u8?token=1e5397506cc4fb3dd5ec770cd0748e2ce8aa7b9c-1db1a856154213f9163393b3a396f8d4-1753318691-1753307891&remote=no_check_ip
 #EXTINF:-1 tvg-id="BTVChattogram.bd@SD" tvg-logo="https://i.imgur.com/hvpyuek.png" group-title="Undefined",BTV Chattogram (1080p)
 https://www.btvlive.gov.bd/streams/ef8b8bbc-98b7-4ba7-a49d-a0adaf259d35/ES/a707f2dc-9704-413a-a67c-17c64a77c350/index.m3u8
 #EXTINF:-1 tvg-id="BTVNational.bd@SD" tvg-logo="https://i.imgur.com/5OE2FDt.png" group-title="Undefined",BTV National (1080p)
