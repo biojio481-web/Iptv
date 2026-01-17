@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:-1 ,Live-1-FreeTV
 http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 ,Live-2-Freetv
+#EXTINF:-1 ,Live-2-FreeTv
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 ,NatGeo Wild
 https://itpolly.iptv.digijadoo.net/live/nat_geo_wild/chunks.m3u8
