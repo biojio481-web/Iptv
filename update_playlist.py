@@ -10,7 +10,7 @@ https://da.gd/YWCS05
 # ২. অন্য যাদের প্লেলিস্ট অ্যাড করতে চান তাদের RAW লিংক এখানে দিন
 # আপনি চাইলে একাধিক লিংক লিস্টে রাখতে পারেন
 OTHER_PLAYLIST_URLS = [
-    "https://raw.githubusercontent.com/username/repo/master/playlist.m3u8",
+    "https://da.gd/YWCS05",
     "https://da.gd/YWCS05"
 ]
 
