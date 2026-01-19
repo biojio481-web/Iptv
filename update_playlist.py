@@ -4,7 +4,7 @@ import requests
 # যদি নিজের কিছু না থাকে তবে এটি খালি রাখতে পারেন
 MY_CHANNELS = """#EXTM3U
 #EXTINF:-1, My Custom Channel
-https://example.com/stream.m3u8
+https://da.gd/YWCS05
 """
 
 # ২. অন্য যাদের প্লেলিস্ট অ্যাড করতে চান তাদের RAW লিংক এখানে দিন
