@@ -8,6 +8,6 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-4
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-5
-http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-id="SomoyTV" tvg-logo="https://example.com/somoy_logo.png", Somoy TV
+http://redforce.live:8082/A.SPORTS.HD/index.m3u8?token=6439808aec16a6460d85747c00bd524873accb3a-779afe0b923d8402bed9eb8718ad2356-1753473400-1753462600&remote=no_check_ip
+#EXTINF:-1 tvg-id="SomoyTV" tvg-logo=" https://iconscout.com/3d-icon/live-football-match-3d-icon_9370865 ", Somoy TV
 https://stream.somoynews.tv/live/somoy.m3u8
