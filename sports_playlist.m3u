@@ -9,3 +9,5 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-5
 http://172.16.29.2:8090/hls/tsportshd.m3u8
+#EXTINF:-1 tvg-id="SomoyTV" tvg-logo="https://example.com/somoy_logo.png", Somoy TV
+https://stream.somoynews.tv/live/somoy.m3u8
