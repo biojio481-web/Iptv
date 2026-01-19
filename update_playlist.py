@@ -11,7 +11,7 @@ https://da.gd/YWCS05
 # আপনি চাইলে একাধিক লিংক লিস্টে রাখতে পারেন
 OTHER_PLAYLIST_URLS = [
     "https://raw.githubusercontent.com/username/repo/master/playlist.m3u8",
-    "https://example.com/another_playlist.m3u8"
+    "https://da.gd/YWCS05"
 ]
 
 def update_playlist():
