@@ -22,4 +22,4 @@ http://172.16.29.34/live/ontest1/ontest1/330.m3u8
 #EXTINF:-1 ,Live-11-Special
 http://redforce.live:8082/SSC.SPORTS.5.HD/index.m3u8?token=249643cf6224172ac684fbb84dcd5cda7a31bb21-d6cb045000b2335f7287ca6539fbaef1-1753576335-1753565535&remote=no_check_ip
 #EXTINF:-1 ,Live-12-Special
-http://redforce.live:8082/SSC.SPORTS.5.HD/index.m3u8?token=249643cf6224172ac684fbb84dcd5cda7a31bb21-d6cb045000b2335f7287ca6539fbaef1-1753576335-1753565535&remote=no_check_ip
+http://redforce.live:8082/STAR.SPORTS-SEL1.HD/index.m3u8?token=c143eded127160ddd79b70425b3699afa5e77b38-c5657f55084fa060b2fa2721d386b0e2-1753589226-1753578426&remote=no_check_ip
