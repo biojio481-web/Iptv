@@ -11,7 +11,7 @@ def create_channel():
     logo = "https://i.ibb.co/BV07dhKk/Gemini-Generated-Image-3j1njw3j1njw3j1n.png"
     
     movie_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
-    sports_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
+    sports_link = "http://103.182.170.32:8888/play/a04g"
     series_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
     # ---------------------------------------
 
