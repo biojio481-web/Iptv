@@ -6,7 +6,7 @@ def merge_playlists():
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
         "https://da.gd/GXn1",
-        "https://ranapk.short.gy/TG@RANAPKBDSx/tvd.m3u"
+        "https://is.gd/yf9bBw.m3u"
     ]
     
     combined_content = "#EXTM3U\n"
