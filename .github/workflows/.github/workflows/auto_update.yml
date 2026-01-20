@@ -1,0 +1,22 @@
+name: Auto Update Playlist
+on:
+  workflow_dispatch: # এতে আপনি ম্যানুয়ালি বাটন টিপে রান করতে পারবেন
+  schedule:
+    - cron: '0 0 * * *' # প্রতিদিন রাত ১২টায় অটো আপডেট হবে
+
+jobs:
+  run_script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install requests
+        run: pip install requests
+      - name: Run script
+        run: python update_playlist.py
+      - name: Save changes
+        run: |
+          git config --global user.name "Action Bot"
+          git config --global user.email "bot@github.com"
+          git add playlist.m3u8
+          git commit -m "Playlist updated" || exit 0
+          git push
