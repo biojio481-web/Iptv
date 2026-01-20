@@ -5,7 +5,7 @@ def merge_online_playlists():
     links = [
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-        "এখানে_৩_নম্বর_লিঙ্ক_দিন",
+        "https://da.gd/GXn1",
         "এখানে_৪_নম্বর_লিঙ্ক_দিন"
     ]
     
