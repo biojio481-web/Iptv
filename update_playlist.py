@@ -2,7 +2,7 @@ import requests
 
 def merge_online_playlists():
     url1 = "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"
-    url2 = "https://da.gd/YWCS05"
+    url2 = "https://da.gd/GXn1"
     
     links = [url1, url2]
     combined_content = "#EXTM3U\n"
