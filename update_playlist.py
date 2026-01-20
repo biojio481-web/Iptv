@@ -1,32 +1,30 @@
 import requests
 
 def merge_online_playlists():
-    # এখানে আপনার সব সোর্স লিঙ্কগুলো থাকবে
+    # আপনার দেওয়া ৪টি লিঙ্ক এখানে সাজানো আছে
     links = [
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
         "https://da.gd/GXn1",
-        "https://da.gd/GXn1"
+        "https://is.gd/yf9bBw.m3u" # আপনার দেওয়া নতুন ৪ নম্বর লিঙ্ক
     ]
     
     combined_content = "#EXTM3U\n"
-
+    
     for url in links:
-        if not url.startswith("http"): # যদি লিঙ্ক না থাকে তবে স্কিপ করবে
-            continue
-            
         try:
-            r = requests.get(url, timeout=30)
+            # শর্ট লিঙ্ক এবং ডিরেক্ট লিঙ্ক উভয়ের জন্যই কাজ করবে
+            r = requests.get(url, timeout=30, allow_redirects=True)
             if r.status_code == 200:
-                # #EXTM3U রিমুভ করে ক্লিন ডেটা নেওয়া
+                # মেইন হেডার #EXTM3U বাদ দিয়ে শুধু চ্যানেলের অংশটুকু নেওয়া
                 data = r.text.replace("#EXTM3U", "").strip()
                 if data:
                     combined_content += data + "\n"
-                    print(f"Added: {url}")
+                    print(f"Successfully added: {url}")
         except Exception as e:
-            print(f"Failed: {url} | Error: {e}")
+            print(f"Failed to fetch {url}: {e}")
 
-    # ফাইনাল ফাইল সেভ করা
+    # ফাইনাল ফাইলটি playlist.m3u নামে সেভ করা
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(combined_content.strip())
 
