@@ -1,28 +1,26 @@
-name: Sports Link Bot
-
+name: SportsBot
 on:
   schedule:
     - cron: '*/20 * * * *'
-  workflow_dispatch: 
-
+  workflow_dispatch:
 jobs:
-  build:
+  run-bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
+      - name: Copy Code
         uses: actions/checkout@v3
-      - name: Set up Python
+      - name: Python Setup
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - name: Install dependencies
+      - name: Install Requests
         run: pip install requests
-      - name: Run scraper
+      - name: Run
         run: python scraper.py
-      - name: Commit and push
+      - name: Save File
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "action@github.com"
+          git config --global user.name "bot"
+          git config --global user.email "bot@github.com"
           git add mysports.m3u
-          git commit -m "Auto refresh" || exit 0
+          git commit -m "Update" || exit 0
           git push
