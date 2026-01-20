@@ -1,26 +1,25 @@
-name: Auto Update
+name: UpdatePlaylist
 on:
   schedule:
-    - cron: '0 0 * * *' # প্রতিদিন আপডেট হবে
-  workflow_dispatch:      # আপনি চাইলে নিজেও বাটন টিপে আপডেট করতে পারবেন
+    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর অটো আপডেট হবে
+  workflow_dispatch: 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
       - name: Install requests
         run: pip install requests
-      - name: Run script
-        run: python update_playlist.py
-      - name: Commit changes
+      - name: Run scraper
+        run: python scraper.py
+      - name: Commit and push
         run: |
-          git config --global user.name "github-actions"
+          git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add playlist.m3u8
-          git commit -m "Auto update" || exit 0
+          git add playlist.m3u
+          git commit -m "Playlist updated" || exit 0
           git push
