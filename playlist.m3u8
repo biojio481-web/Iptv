@@ -4,12 +4,25 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-2
 http://172.16.29.34/live/ontest1/ontest1/252.m3u8
 #EXTINF:-1 ,Live-3
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 ,Live-4
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 #EXTINF:-1 ,Live-5
-https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/inpyms8ezu/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
-#EXTINF:-1 tvg-id="SomoyTV" tvg-logo=" https://iconscout.com/3d-icon/live-football-match-3d-icon_9370865 ", Somoy TV
+http://172.16.29.34/live/ontest1/ontest1/349.m3u8
+#EXTINF:-1 ,Live-6
+http://172.16.29.34/live/ontest1/ontest1/443.m3u8
+#EXTINF:-1 ,Live-7
+http://172.16.29.34/live/ontest1/ontest1/328.m3u8
+#EXTINF:-1 ,Live-8
+http://172.16.29.34/live/ontest1/ontest1/375.m3u8
+#EXTINF:-1 ,Live-9
+http://172.16.29.34/live/ontest1/ontest1/480.m3u8
+#EXTINF:-1 ,Live-10
+http://172.16.29.34/live/ontest1/ontest1/330.m3u8
+#EXTINF:-1 ,Live-11-Special
+http://172.16.29.2:8090/hls/tsportshd.m3u8
+#EXTINF:-1 ,Live-12-Special
+http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kids ABC ᴴᴰ" tvg-logo="https://iili.io/Lj76dP.md.png" group-title="EXCLUSIVE",Kids ABC ᴴᴰ
 http://defaultgen.com:5050/cardoodette@yahoo.com/N2tCnJmn7N/567057
 #EXTINF:-1 tvg-id="" tvg-name="Kids 123 ᴴᴰ" tvg-logo="https://iili.io/Lj76dP.md.png" group-title="EXCLUSIVE",Kids 123 ᴴᴰ
