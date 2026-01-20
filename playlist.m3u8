@@ -22,7 +22,7 @@ http://172.16.29.34/live/ontest1/ontest1/330.m3u8
 #EXTINF:-1 ,Live-11-Special
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-12-Special
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+http://redforce.live:8082/STAR.SPORTS-SEL1.HD/tracks-v1a1/mono.m3u8?token=86f5956cdea1091865eb110ffdd425f2c14f1a12-bd7fe0e97936fde743d5d667998d9096-1753550743-1753539943
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25,h_125,w_125/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/&XplorHD_Thumbnail_d10a0ffe-6acf-4def-9d52-a66175279857.png",&flix HD - Rs 19.00
 http://103.182.170.32:8888/play/a02a
 #EXTINF:-1 tvg-logo="https://mediaready.videoready.tv/tatasky-epg/image/fetch/f_auto,fl_lossy,q_auto,dpr_1.25,h_125,w_125/https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/&tvHD_Thumbnail_72f7b0e7-e24a-4f50-a457-42380b344da9.png",&tv - Rs 6.00
