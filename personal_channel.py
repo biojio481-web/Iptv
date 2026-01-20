@@ -10,9 +10,9 @@ def create_channel():
     channel_name = "Star Tv HD"
     logo = "https://i.ibb.co/BV07dhKk/Gemini-Generated-Image-3j1njw3j1njw3j1n.png"
     
-    movie_link = "এখানে_আপনার_মুভি_লিঙ্ক"
-    sports_link = "এখানে_আপনার_স্পোর্টস_লিঙ্ক"
-    series_link = "এখানে_আপনার_সিরিজ_লিঙ্ক"
+    movie_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
+    sports_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
+    series_link = "http://172.16.29.2:8090/hls/tsportshd.m3u8"
     # ---------------------------------------
 
     if 600 <= current_total_minutes < 900:
