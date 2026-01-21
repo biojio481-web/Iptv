@@ -2,18 +2,21 @@ name: Daily Channel Update
 
 on:
   schedule:
-    - cron: '0 * * * *' # প্রতি ঘণ্টায় এটি চলবে
-  workflow_dispatch: # ম্যানুয়ালি চালানোর জন্য
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # এটি গিটহাবকে ফাইল লেখার অনুমতি দেয়
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
@@ -24,8 +27,8 @@ jobs:
 
       - name: Push Updates
         run: |
-          git config --global user.name "AutoUpdater"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add my_channels.m3u
-          git commit -m "Token updated" || exit 0
+          git commit -m "Auto updated token" || exit 0
           git push
