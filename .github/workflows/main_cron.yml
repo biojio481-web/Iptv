@@ -1,0 +1,31 @@
+name: Daily Channel Update
+
+on:
+  schedule:
+    - cron: '0 * * * *' # প্রতি ঘণ্টায় এটি চলবে
+  workflow_dispatch: # ম্যানুয়ালি চালানোর জন্য
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Run Script
+        run: |
+          pip install requests
+          python token_fetcher.py
+
+      - name: Push Updates
+        run: |
+          git config --global user.name "AutoUpdater"
+          git config --global user.email "bot@github.com"
+          git add my_channels.m3u
+          git commit -m "Token updated" || exit 0
+          git push
