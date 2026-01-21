@@ -1,4 +1,4 @@
-name: Daily Channel Update
+name: IPTV Auto Update
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # এটি গিটহাবকে ফাইল লেখার অনুমতি দেয়
+  contents: write
 
 jobs:
   build:
@@ -20,15 +20,16 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Run Script
-        run: |
-          pip install requests
-          python token_fetcher.py
+      - name: Install dependencies
+        run: pip install requests
 
-      - name: Push Updates
+      - name: Run Scraper
+        run: python token_fetcher.py
+
+      - name: Commit and Push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add my_channels.m3u
-          git commit -m "Auto updated token" || exit 0
-          git push
+          git add live_tv.m3u
+          git commit -m "Updated Playlist" || exit 0
+          git push origin main
