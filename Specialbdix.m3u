@@ -20,6 +20,6 @@ http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 #EXTINF:-1 ,Live-10
 http://172.16.29.34/live/ontest1/ontest1/330.m3u8
 #EXTINF:-1 ,Live-11-Special
-https://zx.visiona.top:8443/us1new/astro2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8yMS8yMDI2IDE6NDc6MzcgUE0maGFzaF92YWx1ZT1XOVVYNGxwcG1OcWhFMVl1WVB4UHhnPT0mdmFsaWRtaW51dGVzPTImaWQ9MzIzMQ==
+http://redforce.live:8082/STAR.SPORTS1.HD/index.m3u8?token=5b74950981820a81c969f36efe0cc48a91c73dd0-8877ba632bbe42ac8bc6f69a05b0b03a-1753654655-1753643855&remote=no_check_ip
 #EXTINF:-1 ,Live-12-Special
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
