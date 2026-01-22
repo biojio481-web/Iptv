@@ -1,28 +1,4 @@
 #EXTM3U
-#EXTINF:-1 ,Live-1
-http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 ,Live-2
-http://172.16.29.34/live/ontest1/ontest1/252.m3u8
-#EXTINF:-1 ,Live-3
-http://172.16.29.2:8090/hls/ASportsHD.m3u8
-#EXTINF:-1 ,Live-4
-http://172.16.29.34/live/ontest1/ontest1/347.m3u8
-#EXTINF:-1 ,Live-5
-http://172.16.29.34/live/ontest1/ontest1/349.m3u8
-#EXTINF:-1 ,Live-6
-http://172.16.29.34/live/ontest1/ontest1/443.m3u8
-#EXTINF:-1 ,Live-7
-http://172.16.29.34/live/ontest1/ontest1/328.m3u8
-#EXTINF:-1 ,Live-8
-http://172.16.29.34/live/ontest1/ontest1/375.m3u8
-#EXTINF:-1 ,Live-9
-http://172.16.29.34/live/ontest1/ontest1/480.m3u8
-#EXTINF:-1 ,Live-10
-http://172.16.29.34/live/ontest1/ontest1/330.m3u8
-#EXTINF:-1 ,Live-11-Special
-http://redforce.live:8082/STAR.SPORTS1.HD/index.m3u8?token=5b74950981820a81c969f36efe0cc48a91c73dd0-8877ba632bbe42ac8bc6f69a05b0b03a-1753654655-1753643855&remote=no_check_ip
-#EXTINF:-1 ,Live-12-Special
-https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 #=================================
 # Developed By: ABU SAEEiD × Rifaz
 # GitHub @abusaeeidx
