@@ -5,7 +5,7 @@ def merge_playlists():
     links = [
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-        "https://da.gd/GXn1",
+        "http://172.16.29.34/get.php?username=ontest1&password=ontest1&type=m3u_plus&output=ts",
         "https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/refs/heads/main/toffee_OTT_Navigator.m3u"
     ]
     
