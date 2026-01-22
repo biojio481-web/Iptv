@@ -1,28 +1,31 @@
 import requests
 
 def merge_playlists():
-    # আপনার দেওয়া ৪টি লিঙ্ক
-    links = [
-        "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist.m3u",
+    # অনলাইন লিঙ্কগুলো
+    online_links = [
+        "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-        "http://172.16.29.34/get.php?username=ontest1&password=ontest1&type=m3u_plus&output=ts",
         "https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/refs/heads/main/toffee_OTT_Navigator.m3u"
     ]
     
+    # আপনার লোকাল আইএসপি লিঙ্ক
+    local_isp_link = "http://172.16.29.34/get.php?username=ontest1&password=ontest1&type=m3u_plus&output=ts"
+    
     combined_content = "#EXTM3U\n"
     
-    for url in links:
+    # লোকাল লিঙ্ক যোগ
+    combined_content += f'#EXTINF:-1 group-title="My ISP", ISP Live TV\n{local_isp_link}\n'
+    
+    # অনলাইন লিঙ্কগুলো থেকে ডাটা সংগ্রহ
+    for url in online_links:
         try:
-            # allow_redirects=True দেওয়া হয়েছে শর্ট লিঙ্কের জন্য
-            r = requests.get(url, timeout=30, allow_redirects=True)
+            r = requests.get(url, timeout=20)
             if r.status_code == 200:
-                # ডুপ্লিকেট হেডার বাদ দেওয়া
                 data = r.text.replace("#EXTM3U", "").strip()
                 if data:
                     combined_content += data + "\n"
-                    print(f"Success: {url}")
         except Exception as e:
-            print(f"Error: {url} | {e}")
+            print(f"Error fetching {url}: {e}")
 
     # ফাইনাল ফাইল সেভ
     with open("playlist.m3u", "w", encoding="utf-8") as f:
