@@ -1,6 +1,8 @@
 #EXTM3U
-#EXTINF:-1 group-title="My ISP", ISP Live TV
+
+#EXTINF:-1 tvg-id="MyISP" group-title="MY_LOCAL_CHANNELS", === MY ISP LIVE TV ===
 http://172.16.29.34/get.php?username=ontest1&password=ontest1&type=m3u_plus&output=ts
+
 #EXTINF:-1 ,Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-2
@@ -35,8 +37,6 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 # It aggregates publicly available data for informational purposes only.
 # For any issues or concerns, please contact the developer.
 #==================================
-
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png" group-title="Live Event", Sri Lanka vs England (England tour of Sri Lanka- 2026)
 https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-ENGVSSL/master.m3u8?hdnea=exp=1769114889~acl=/*~id=28842396058789651966316174671223~hmac=dfe594bc35665338e68f728a87925763a39344a38d2c45d58142d23080a4d548
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Giles_Shield_FC-Web.jpg" group-title="Live Event", Dyandeep Seva Mandal vs Swami Vivekanand (Giles Shield 2026)
