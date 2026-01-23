@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 ,Cloud Tv
+http://172.19.178.49:18190/star_sports_1_hd/index.fmp4.m3u8?token=d169159293ce521ebdb43cbc0df747ad47f7eaca-7c799013de04b94847a562173393d3e0-1769208909-1769198109
 #EXTINF:-1 ,Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 ,Live-2
@@ -306,6 +308,7 @@ http://172.16.29.34:80/play/JmU-3pCgErAiWP5dU8MsA2NnBfpteKtx5uGLNAgM5Zs/ts
 http://172.16.29.34:80/play/JmU-3pCgErAiWP5dU8MsA0FuZJqodlomE1xYx7JHZas/ts
 #EXTINF:-1 xui-id="336" tvg-id="" tvg-name="SPORTS 18 HD" tvg-logo="http://172.16.29.34:80/images/c959c1df1b5e43dc74c3476d335d83d9.png" group-title="ALL CHANNELS",SPORTS 18 HD
 http://172.16.29.34:80/play/JmU-3pCgErAiWP5dU8MsA98PzWIzraWb90pov-Jlhqo/ts
+
 #EXTINF:-1 xui-id="279" tvg-id="" tvg-name="&PRIVE HD" tvg-logo="http://172.16.29.34:80/images/08d41c9dcdc3cd5f5074b748f4d8318e.png" group-title="ALL CHANNELS",&PRIVE HD
 http://172.16.29.34:80/play/JmU-3pCgErAiWP5dU8MsA3taxXXNZYOufkQNGg267hM/ts
 #=================================
