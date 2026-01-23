@@ -6,7 +6,7 @@ def merge_playlists():
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u",
         "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
         "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-        "https://raw.githubusercontent.com/BINOD-XD/Toffee-Auto-Update-Playlist/refs/heads/main/toffee_OTT_Navigator.m3u",
+        "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
         "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
         
         # ভবিষ্যতে আরও লিঙ্ক এখানে দিতে পারবেন
