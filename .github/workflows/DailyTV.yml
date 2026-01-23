@@ -1,0 +1,31 @@
+name: Daily TV Update
+on:
+  schedule:
+    - cron: '0 * * * *' # প্রতি ঘণ্টায় অটো আপডেট হবে
+  workflow_dispatch: # আপনি যখন খুশি ম্যানুয়ালি রান করতে পারবেন
+
+jobs:
+  update-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Code Download
+        uses: actions/checkout@v3
+
+      - name: Python Ready
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Pytz Install
+        run: pip install pytz
+
+      - name: Run My Script
+        run: python Live24/7.py # আপনার দেওয়া সেই পাইথন ফাইলটি
+
+      - name: Save Changes
+        run: |
+          git config --global user.name "TV-Bot"
+          git config --global user.email "bot@github.com"
+          git add main.m3u
+          git commit -m "Auto Update: $(date)" || exit 0
+          git push
