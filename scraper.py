@@ -1,17 +1,9 @@
 import requests
+import re
 
 def merge_playlists():
-    # ১. প্লেলিস্ট লিঙ্ক এবং তাদের জন্য আলাদা নাম (Folder Name)
-    playlists = [
-        {"name": "BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
-        {"name": "Ontest BDIX", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
-        {"name": "Mrgify BDIX", "url": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u"},
-        {"name": "Main IPTV", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u"},
-        {"name": "CricHD Sports", "url": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"}
-    ]
-    
-    # আপনার সেই ১২টি নিজস্ব চ্যানেল সবার উপরে যোগ করা
-    my_own_channels = """#EXTM3U
+    # ১. আপনার নিজস্ব ১২টি চ্যানেল (সবার উপরে থাকবে)
+    combined_content = """#EXTM3U
 #EXTINF:-1 group-title="MY BDIX",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 group-title="MY BDIX",Live-2
@@ -38,40 +30,45 @@ https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-    combined_content = my_own_channels + "\n"
+    # ২. ৫টি ভিন্ন প্লেলিস্টের জন্য ৫টি ফোল্ডার নাম
+    playlists = [
+        {"folder": "BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
+        {"folder": "Ontest Plus", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
+        {"folder": "Mrgify BDIX", "url": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u"},
+        {"folder": "Main Collection", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u"},
+        {"folder": "CricHD Sports", "url": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u"}
+    ]
+    
     headers = {'User-Agent': 'Mozilla/5.0'}
-
-    print("চ্যানেলগুলো ক্যাটাগরি অনুযায়ী সাজানো হচ্ছে...")
 
     for pl in playlists:
         try:
             r = requests.get(pl['url'], headers=headers, timeout=30)
             if r.status_code == 200:
-                content = r.text
-                # আগের মেইন হেডার বাদ দেওয়া
-                data = content.replace("#EXTM3U", "").strip()
+                # মেইন হেডার বাদ দেওয়া
+                data = r.text.replace("#EXTM3U", "").strip()
                 
-                # প্রতিটি চ্যানেলের সাথে নতুন ফোল্ডার বা গ্রুপ নাম যোগ করা
+                # ফোল্ডার বা ক্যাটাগরি সেট করা
                 lines = data.split('\n')
                 for line in lines:
                     if line.startswith("#EXTINF"):
-                        # আগের গ্রুপ টাইটেল থাকলে তা সরিয়ে আপনার দেওয়া নাম বসানো
+                        # যদি আগে থেকেই group-title থাকে তবে সেটি বদলে আমাদের ফোল্ডার নাম দেওয়া
                         if 'group-title="' in line:
-                            import re
-                            line = re.sub(r'group-title="[^"]*"', f'group-title="{pl["name"]}"', line)
+                            line = re.sub(r'group-title="[^"]*"', f'group-title="{pl["folder"]}"', line)
                         else:
-                            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{pl["name"]}"')
+                            # group-title না থাকলে নতুন করে যোগ করা
+                            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{pl["folder"]}"')
                     
-                    combined_content += line + "\n"
-                print(f"যুক্ত হয়েছে: {pl['name']}")
-        except Exception as e:
-            print(f"এরর: {pl['name']} | {e}")
+                    if line.strip():
+                        combined_content += line + "\n"
+        except:
+            continue
 
-    # ফাইনাল সেভ
+    # ৩. সেভ করা
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(combined_content.strip())
     
-    print("\nঅভিনন্দন! ফোল্ডার অনুযায়ী প্লেলিস্ট আপডেট সম্পন্ন হয়েছে।")
+    print("Update Success!")
 
 if __name__ == "__main__":
     merge_playlists()
