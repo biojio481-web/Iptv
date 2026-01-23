@@ -2,10 +2,10 @@ import requests
 import re
 
 def merge_playlists():
-    # আপনার আপলোড করা লোগো লিঙ্ক (এটি একটি গ্লোবাল ভেরিয়েবল হিসেবে সেট করলাম)
-    STAR_LOGO = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_l9lfvxl9lfvxl9lf.jpg"
+    # আপনার দেওয়া লোগো লিঙ্কটি এখানে বসানো হয়েছে
+    STAR_LOGO = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_l9lfvxl9lfvxl9lf.png"
 
-    # ১. আপনার নিজস্ব ১২টি চ্যানেল
+    # ১. আপনার নিজস্ব ১২টি চ্যানেল (সরাসরি আপনার দেওয়া লিঙ্কগুলো)
     my_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-1: T-Sports HD
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -33,6 +33,7 @@ https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
+    # ২. ৫টি ভিন্ন প্লেলিস্টের লিঙ্ক
     playlists = [
         {"folder": "BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
         {"folder": "Ontest Plus", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
@@ -52,14 +53,13 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
                 lines = data.split('\n')
                 for line in lines:
                     if line.startswith("#EXTINF"):
-                        # ১. ফোল্ডার নাম সেট করা
+                        # ফোল্ডার বা গ্রুপ সেট করা
                         if 'group-title="' in line:
                             line = re.sub(r'group-title="[^"]*"', f'group-title="{pl["folder"]}"', line)
                         else:
                             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{pl["folder"]}"')
                         
-                        # ২. সব চ্যানেলে আপনার লোগোটি বসানো
-                        # যদি আগে লোগো থাকে সেটি মুছে নতুনটি বসাবে
+                        # আপনার লোগোটি প্রতিটি লাইনে ইনজেক্ট করা
                         if 'tvg-logo="' in line:
                             line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{STAR_LOGO}"', line)
                         else:
@@ -70,10 +70,11 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
         except:
             continue
 
+    # ৩. playlist.m3u ফাইলটি সেভ করা
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(combined_content.strip())
     
-    print("সব চ্যানেলে 'Star Tv HD' লোগো সেট করা হয়েছে!")
+    print("অভিনন্দন! লোগোসহ প্লেলিস্ট আপডেট হয়েছে।")
 
 if __name__ == "__main__":
     merge_playlists()
