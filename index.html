@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My IPTV Web Player</title>
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
+    <style>
+        body { background: #0f0f0f; color: white; font-family: Arial, sans-serif; margin: 0; display: flex; flex-direction: column; align-items: center; }
+        header { width: 100%; padding: 15px; text-align: center; background: #1a1a1a; border-bottom: 2px solid #333; }
+        header img { height: 70px; } /* Header er logo ektu boro kora hoyeche */
+        
+        .container { display: flex; width: 95%; max-width: 1300px; margin-top: 20px; gap: 20px; flex-wrap: wrap; }
+        
+        #video-container { position: relative; flex: 2; min-width: 300px; background: #000; border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.7); }
+        .video-js { width: 100% !important; height: 550px !important; }
+        
+        /* --- Logo Settings (Baam dike ebong Boro) --- */
+        .watermark {
+            position: absolute;
+            top: 25px;       /* Upor theke durotto */
+            left: 25px;      /* Baam theke durotto */
+            width: 120px;    /* Logo-ti boro kora hoyeche (120px) */
+            z-index: 10;
+            opacity: 0.8;    /* Logo-ti ekhon aro sposto dekhabe */
+            pointer-events: none; /* Logo-te click lagle jate problem na hoy */
+        }
+
+        #playlist { flex: 1; min-width: 300px; height: 550px; overflow-y: auto; background: #1a1a1a; padding: 15px; border-radius: 10px; border: 1px solid #333; }
+        .channel-item { display: flex; align-items: center; padding: 12px; margin-bottom: 10px; background: #262626; cursor: pointer; border-radius: 8px; transition: 0.2s; border-left: 4px solid transparent; }
+        .channel-item:hover { background: #333; border-left-color: #ffcc00; }
+        .channel-item img { width: 40px; height: 40px; margin-right: 15px; border-radius: 5px; object-fit: contain; background: #000; }
+        
+        h3 { margin-top: 0; font-size: 20px; color: #ffcc00; text-transform: uppercase; letter-spacing: 1px; }
+        
+        /* Mobile adjustment */
+        @media (max-width: 768px) {
+            .video-js { height: 250px !important; }
+            #playlist { height: 400px; }
+            .watermark { width: 80px; top: 15px; left: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png" alt="Main Logo">
+</header>
+
+<div class="container">
+    <div id="video-container">
+        <img src="https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png" class="watermark">
+        
+        <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto" data-setup='{}'>
+            <p class="vjs-no-js">To view this video please enable JavaScript</p>
+        </video>
+    </div>
+
+    <div id="playlist">
+        <h3>Channel List</h3>
+        <div id="channel-list">Loading channels...</div>
+    </div>
+</div>
+
+<script src="https://vjs.zencdn.net/7.20.3/video.min.js"></script>
+<script>
+    const player = videojs('my-video');
+    const m3uUrl = 'https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist.m3u'; 
+
+    async function loadPlaylist() {
+        try {
+            const response = await fetch(m3uUrl);
+            const data = await response.text();
+            const lines = data.split('\n');
+            const listContainer = document.getElementById('channel-list');
+            listContainer.innerHTML = '';
+
+            let currentChannel = {};
+
+            for (let i = 0; i < lines.length; i++) {
+                if (lines[i].startsWith('#EXTINF:')) {
+                    const info = lines[i];
+                    // Logo link khuje ber kora
+                    const logoMatch = info.match(/tvg-logo="([^"]+)"/);
+                    currentChannel.logo = logoMatch ? logoMatch[1] : '';
+                    currentChannel.name = info.split(',')[1] || 'Unknown Channel';
+                } else if (lines[i].trim().startsWith('http')) {
+                    const url = lines[i].trim();
+                    const name = currentChannel.name;
+                    const logo = currentChannel.logo;
+
+                    const div = document.createElement('div');
+                    div.className = 'channel-item';
+                    div.innerHTML = `<img src="${logo || 'https://via.placeholder.com/40'}" onerror="this.src='https://via.placeholder.com/40'"> <span>${name}</span>`;
+                    
+                    div.onclick = () => {
+                        player.src({ type: 'application/x-mpegURL', src: url });
+                        player.play();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    };
+                    listContainer.appendChild(div);
+                    currentChannel = {}; // Reset for next channel
+                }
+            }
+        } catch (error) {
+            console.error('Error loading playlist:', error);
+            document.getElementById('channel-list').innerText = 'Failed to load channels.';
+        }
+    }
+
+    loadPlaylist();
+</script>
+
+</body>
+</html>
