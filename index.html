@@ -17,12 +17,12 @@
         /* Video Player Wrapper */
         .player-wrapper { position: relative; flex: 2.5; min-width: 350px; background: #000; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.8); }
         
-        /* Watermark Logo (Boro & Baam Dike) */
+        /* Watermark Logo (TV Style) */
         .tv-watermark {
             position: absolute;
             top: 30px;
             left: 30px;
-            width: 150px;
+            width: 150px; /* Boro Logo */
             z-index: 10;
             opacity: 0.8;
             pointer-events: none;
@@ -33,13 +33,13 @@
         .playlist-container { flex: 1; min-width: 320px; background: var(--panel-bg); border-radius: 12px; display: flex; flex-direction: column; height: 650px; border: 1px solid #333; }
         
         .search-area { padding: 15px; border-bottom: 1px solid #333; }
-        #search-input { width: 100%; padding: 12px; border-radius: 8px; border: none; background: #252525; color: white; outline: none; }
+        #search-input { width: 100%; padding: 12px; border-radius: 8px; border: none; background: #252525; color: white; outline: none; box-sizing: border-box; }
 
         #channel-list { flex: 1; overflow-y: auto; padding: 10px; }
         .category-header { background: #333; padding: 8px 15px; margin: 15px 0 8px 0; border-radius: 5px; color: var(--plyr-color-main); font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
 
         .channel-item { display: flex; align-items: center; padding: 10px; margin-bottom: 8px; background: #222; cursor: pointer; border-radius: 8px; transition: 0.2s; border-left: 3px solid transparent; }
-        .channel-item:hover { background: #333; border-left-color: var(--plyr-color-main); }
+        .channel-item:hover { background: #333; border-left-color: var(--plyr-color-main); transform: scale(1.02); }
         .channel-item img { width: 40px; height: 40px; margin-right: 12px; border-radius: 4px; object-fit: contain; background: #000; }
 
         /* Scrollbar */
@@ -62,13 +62,12 @@
 <div class="main-layout">
     <div class="player-wrapper">
         <img src="https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png" class="tv-watermark">
-        
         <video id="player" playsinline controls></video>
     </div>
 
     <div class="playlist-container">
         <div class="search-area">
-            <input type="text" id="search-input" placeholder="Search Channels..." onkeyup="filterChannels()">
+            <input type="text" id="search-input" placeholder="চ্যানেল খুঁজুন..." onkeyup="filterChannels()">
         </div>
         <div id="channel-list">Loading...</div>
     </div>
@@ -80,11 +79,13 @@
     const video = document.getElementById('player');
     const m3uUrl = 'https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist.m3u';
     let allChannels = [];
+    let hls = new Hls();
     
     // Initialize Plyr
     const player = new Plyr(video, {
         controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
-        settings: ['quality', 'speed']
+        settings: ['quality', 'speed'],
+        quality: { default: 720, options: [1080, 720, 480, 360] }
     });
 
     async function loadPlaylist() {
@@ -132,34 +133,4 @@
             header.innerText = group;
             listContainer.appendChild(header);
 
-            grouped[group].forEach(ch => {
-                const div = document.createElement('div');
-                div.className = 'channel-item';
-                div.innerHTML = `<img src="${ch.logo || 'https://via.placeholder.com/40'}"> <span>${ch.name}</span>`;
-                div.onclick = () => playStream(ch.url);
-                listContainer.appendChild(div);
-            });
-        }
-    }
-
-    function playStream(url) {
-        if (Hls.isSupported()) {
-            const hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = url;
-        }
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function filterChannels() {
-        const query = document.getElementById('search-input').value.toLowerCase();
-        const filtered = allChannels.filter(ch => ch.name.toLowerCase().includes(query));
-        renderChannels(filtered);
-    }
-
-    loadPlaylist();
-</script>
-</body>
-</html>
+            grouped
