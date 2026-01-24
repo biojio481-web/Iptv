@@ -3,167 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricfy Style OTT</title>
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+    <title>Cricfy Pro Player</title>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <style>
-        :root { --cricfy-gold: #ffcc00; --cricfy-dark: #0a0e14; --cricfy-card: #161b22; }
-        body { background: var(--cricfy-dark); color: #fff; font-family: 'Roboto', sans-serif; margin: 0; }
+        :root { --main-gold: #ffcc00; --dark-bg: #0d1117; --card-bg: #161b22; }
+        body { background: var(--dark-bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; }
 
         /* Header like Cricfy App */
-        header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; }
-        header .logo-text { font-size: 20px; font-weight: bold; color: var(--cricfy-gold); }
-        .live-dot { height: 10px; width: 10px; background: red; border-radius: 50%; display: inline-block; margin-right: 5px; animation: blink 1s infinite; }
-        @keyframes blink { 0% {opacity: 1;} 50% {opacity: 0.3;} 100% {opacity: 1;} }
+        .app-header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--main-gold); sticky: top; z-index: 1000; }
+        .app-header h1 { margin: 0; font-size: 18px; color: var(--main-gold); letter-spacing: 1px; }
 
-        /* Video Player */
-        .video-box { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
-        .watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.5; }
+        /* Video Player Wrapper */
+        .player-box { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; }
+        .video-js { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
+        
+        /* 3. Fullscreen Watermark Fix */
+        .vjs-watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.6; pointer-events: none; }
 
-        /* Cricfy Search & Category */
-        .app-controls { padding: 15px; max-width: 900px; margin: 0 auto; }
-        .search-box { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--cricfy-card); color: #fff; margin-bottom: 15px; outline: none; }
-        .search-box:focus { border-color: var(--cricfy-gold); }
+        /* 4. Search Bar */
+        .search-section { padding: 15px; max-width: 900px; margin: 0 auto; }
+        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card-bg); color: #fff; outline: none; font-size: 14px; box-sizing: border-box; }
+        .search-input:focus { border-color: var(--main-gold); }
 
-        .cat-row { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; scrollbar-width: none; }
-        .cat-chip { background: var(--cricfy-card); color: #8b949e; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
-        .cat-chip.active { background: var(--cricfy-gold); color: #000; font-weight: bold; border-color: var(--cricfy-gold); }
+        /* Categories */
+        .cat-box { display: flex; overflow-x: auto; gap: 10px; padding: 0 15px 15px; max-width: 900px; margin: 0 auto; scrollbar-width: none; }
+        .cat-item { background: #21262d; padding: 7px 15px; border-radius: 20px; font-size: 12px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
+        .cat-item.active { background: var(--main-gold); color: #000; font-weight: bold; }
 
-        /* Channel List (Vertical List like App) */
-        .channel-list { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
-        .channel-item { 
-            background: var(--cricfy-card); 
+        /* 1 & 2. Channel List with Names */
+        .channel-container { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+        .channel-row { 
+            background: var(--card-bg); 
             display: flex; 
             align-items: center; 
-            padding: 12px; 
-            border-radius: 12px; 
+            padding: 10px; 
+            border-radius: 10px; 
             cursor: pointer;
-            transition: 0.2s;
             border: 1px solid transparent;
+            transition: 0.3s;
         }
-        .channel-item:hover { background: #1c2128; border-color: #30363d; }
-        .channel-item img { width: 50px; height: 50px; border-radius: 8px; object-fit: contain; background: #fff; padding: 2px; }
-        .channel-info { margin-left: 15px; flex-grow: 1; }
-        .channel-info h4 { margin: 0; font-size: 15px; color: #f0f6fc; }
-        .channel-info p { margin: 3px 0 0; font-size: 12px; color: #8b949e; }
-        .play-icon { color: var(--cricfy-gold); font-size: 20px; }
+        .channel-row:hover { border-color: var(--main-gold); background: #1c2128; }
+        .channel-row img { width: 50px; height: 50px; border-radius: 6px; object-fit: contain; background: #fff; }
+        .channel-meta { margin-left: 15px; flex-grow: 1; }
+        .channel-meta h3 { margin: 0; font-size: 15px; color: #f0f6fc; }
+        .channel-meta p { margin: 4px 0 0; font-size: 11px; color: #8b949e; }
+        .play-btn { color: var(--main-gold); font-size: 20px; padding-right: 5px; }
 
-        /* Fullscreen Watermark */
-        .plyr--is-fullscreen .watermark { opacity: 0.4; width: 40px; }
+        @media (max-width: 600px) { .channel-meta h3 { font-size: 14px; } }
     </style>
 </head>
 <body>
 
-<header>
-    <div class="logo-text">CRICFY LIVE</div>
-    <div style="font-size: 12px;"><span class="live-dot"></span> LIVE EVENTS</div>
-</header>
-
-<div class="video-box" id="playerWrap">
-    <img id="app-logo" src="" class="watermark">
-    <video id="player" playsinline controls crossorigin="anonymous"></video>
+<div class="app-header">
+    <h1>PRO LIVE TV</h1>
+    <div style="color: #00ff00; font-size: 11px; font-weight: bold;">● SERVER ACTIVE</div>
 </div>
 
-<div class="app-controls">
-    <input type="text" id="search" class="search-box" placeholder="Search Channels or Events..." onkeyup="search()">
-    <div class="cat-row" id="cats">
-        <div class="cat-chip active" onclick="filter('All', this)">All</div>
-    </div>
+<div class="player-box">
+    <img id="player-logo" src="" class="vjs-watermark">
+    <video id="live-player" class="video-js vjs-big-play-centered vjs-theme-city" controls preload="auto"></video>
 </div>
 
-<div class="channel-list" id="list">
-    </div>
+<div class="search-section">
+    <input type="text" id="searchInput" class="search-input" placeholder="Search Channels..." onkeyup="doSearch()">
+</div>
 
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+<div class="cat-box" id="catMenu">
+    <div class="cat-item active" onclick="filterCat('All', this)">All</div>
+</div>
+
+<div class="channel-container" id="channelList">
+    <p style="text-align: center; color: #8b949e;">চ্যানেল লোড হচ্ছে...</p>
+</div>
+
+<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 
 <script>
     const user = "biojio481-web", repo = "Iptv";
-    const base = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
-    const logoUrl = base + "logo.png";
-    const m3uUrl = base + "playlist.m3u";
+    const baseRaw = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
+    const logoSrc = baseRaw + "logo.png";
+    const m3uSrc = baseRaw + "playlist.m3u";
 
-    document.getElementById('app-logo').src = logoUrl;
+    document.getElementById('player-logo').src = logoSrc;
 
-    const video = document.getElementById('player');
-    const player = new Plyr(video, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
-    let hls = new Hls();
-    let dataStore = [];
+    const player = videojs('live-player');
+    let masterList = [];
 
-    // Fullscreen watermark management
-    player.on('enterfullscreen', () => document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('app-logo')));
-    player.on('exitfullscreen', () => document.getElementById('playerWrap').prepend(document.getElementById('app-logo')));
+    async function setupApp() {
+        try {
+            const res = await fetch(m3uSrc);
+            const text = await res.text();
+            const lines = text.split('\n');
+            let channels = [], cur = {}, cats = new Set();
 
-    async function init() {
-        const res = await fetch(m3uUrl);
-        const text = await res.text();
-        const lines = text.split('\n');
-        let channels = [], cur = {}, cats = new Set();
+            lines.forEach(line => {
+                if (line.startsWith('#EXTINF:')) {
+                    cur.name = line.split(',')[1]?.trim() || "Live TV";
+                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
+                    cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
+                    cats.add(cur.group);
+                } else if (line.trim().startsWith('http')) {
+                    cur.url = line.trim();
+                    channels.push({...cur});
+                    cur = {};
+                }
+            });
 
-        lines.forEach(line => {
-            if (line.startsWith('#EXTINF:')) {
-                cur.name = line.split(',')[1]?.trim() || "Live Match";
-                cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "Live TV";
-                cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                cats.add(cur.group);
-            } else if (line.trim().startsWith('http')) {
-                cur.url = line.trim();
-                channels.push({...cur});
-                cur = {};
-            }
-        });
+            masterList = channels;
+            
+            // Setup Categories
+            const catDiv = document.getElementById('catMenu');
+            cats.forEach(c => {
+                const item = document.createElement('div');
+                item.className = 'cat-item';
+                item.innerText = c;
+                item.onclick = (e) => filterCat(c, e.target);
+                catDiv.appendChild(item);
+            });
 
-        dataStore = channels;
-        const catDiv = document.getElementById('cats');
-        cats.forEach(c => {
-            const div = document.createElement('div');
-            div.className = 'cat-chip';
-            div.innerText = c;
-            div.onclick = (e) => filter(c, e.target);
-            catDiv.appendChild(div);
-        });
-        render(dataStore);
+            renderList(masterList);
+        } catch (e) { console.log("Failed to load M3U"); }
     }
 
-    function render(data) {
-        const list = document.getElementById('list');
-        list.innerHTML = data.map(ch => `
-            <div class="channel-item" onclick="play('${ch.url}')">
-                <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
-                <div class="channel-info">
-                    <h4>${ch.name}</h4>
-                    <p>${ch.group} • 1080p</p>
+    function renderList(data) {
+        const listDiv = document.getElementById('channelList');
+        listDiv.innerHTML = data.map(ch => `
+            <div class="channel-row" onclick="playLive('${ch.url}')">
+                <img src="${ch.logo}" onerror="this.src='${logoSrc}'">
+                <div class="channel-meta">
+                    <h3>${ch.name}</h3>
+                    <p>${ch.group} • Live</p>
                 </div>
-                <div class="play-icon">▶</div>
+                <div class="play-btn">▶</div>
             </div>
         `).join('');
     }
 
-    function play(url) {
-        if (Hls.isSupported()) {
-            hls.destroy();
-            hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => player.play());
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = url;
-            player.play();
-        }
+    function playLive(url) {
+        player.src({ src: url, type: 'application/x-mpegURL' });
+        player.play();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function filter(c, el) {
-        document.querySelectorAll('.cat-chip').forEach(ch => ch.classList.remove('active'));
+    function filterCat(c, el) {
+        document.querySelectorAll('.cat-item').forEach(item => item.classList.remove('active'));
         el.classList.add('active');
-        render(c === 'All' ? dataStore : dataStore.filter(x => x.group === c));
+        renderList(c === 'All' ? masterList : masterList.filter(x => x.group === c));
     }
 
-    function search() {
-        const q = document.getElementById('search').value.toLowerCase();
-        render(dataStore.filter(x => x.name.toLowerCase().includes(q)));
+    function doSearch() {
+        const q = document.getElementById('searchInput').value.toLowerCase();
+        renderList(masterList.filter(x => x.name.toLowerCase().includes(q)));
     }
 
-    init();
+    setupApp();
 </script>
 </body>
 </html>
