@@ -2,40 +2,27 @@ import requests
 import re
 
 def merge_playlists():
-    # আপনার পছন্দের নতুন লোগো লিঙ্কটি এখানে সেট করা হয়েছে
+    # আপনার সেই ৩ডি লোগো
     STAR_LOGO = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_36682y36682y3668.png"
 
-    # ১. আপনার নিজস্ব চ্যানেলগুলো (নতুন লোগো ও হেডারসহ)
+    # ১. Emby-র জন্য ইউনিক ID (tvg-id) সহ আপনার চ্যানেলগুলো
     my_content = f"""#EXTM3U
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-1: T-Sports HD
+#EXTINF:-1 tvg-id="bdix-tsports" tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-1: T-Sports HD
 http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-2
+#EXTINF:-1 tvg-id="bdix-live2" tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-2
 http://172.16.29.34/live/ontest1/ontest1/252.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-3: A-Sports HD
+#EXTINF:-1 tvg-id="bdix-asports" tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-3: A-Sports HD
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-4
+#EXTINF:-1 tvg-id="bdix-live4" tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-4
 http://172.16.29.34/live/ontest1/ontest1/347.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-5
-http://172.16.29.34/live/ontest1/ontest1/349.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-6
-http://172.16.29.34/live/ontest1/ontest1/443.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-7
-http://172.16.29.34/live/ontest1/ontest1/328.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-8
-http://172.16.29.34/live/ontest1/ontest1/375.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-9
-http://172.16.29.34/live/ontest1/ontest1/480.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-10
-http://172.16.29.34/live/ontest1/ontest1/330.m3u8
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-11-Special
+#EXTINF:-1 tvg-id="bdix-live11" tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-11-Special
 https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
-#EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-12-Special
+#EXTINF:-1 tvg-id="special-ranapk" tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-12-Special
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 #EXTVLCOPT:http-referrer=https://ranapk.online/
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-    # ২. আপনার ৫টি প্লেলিস্টের লিঙ্ক
     playlists = [
         {"folder": "T20 World Cup 2026 BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
         {"folder": "Ontest Plus", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
@@ -53,30 +40,27 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
             if r.status_code == 200:
                 data = r.text.replace("#EXTM3U", "").strip()
                 lines = data.split('\n')
+                count = 0
                 for line in lines:
                     if line.startswith("#EXTINF"):
-                        # ফোল্ডার বা গ্রুপ সেট করা
-                        if 'group-title="' in line:
-                            line = re.sub(r'group-title="[^"]*"', f'group-title="{pl["folder"]}"', line)
-                        else:
-                            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{pl["folder"]}"')
+                        count += 1
+                        # Emby-র জন্য প্রতিটি লাইনে অটোমেটিক tvg-id যোগ করা
+                        if 'tvg-id="' not in line:
+                            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-id="{pl["folder"].replace(" ","")}_{count}"')
                         
-                        # আপনার নতুন লোগোটি প্রতিটি লাইনে ইনজেক্ট করা
-                        if 'tvg-logo="' in line:
-                            line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{STAR_LOGO}"', line)
-                        else:
-                            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{STAR_LOGO}"')
+                        # লোগো এবং ক্যাটাগরি ফিক্স
+                        line = re.sub(r'group-title="[^"]*"', f'group-title="{pl["folder"]}"', line)
+                        line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{STAR_LOGO}"', line)
 
                     if line.strip():
                         combined_content += line + "\n"
         except:
             continue
 
-    # ৩. ফাইনাল ফাইল সেভ করা
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(combined_content.strip())
     
-    print(f"সফলভাবে নতুন লোগোসহ প্লেলিস্ট তৈরি হয়েছে।")
+    print("সফলভাবে Emby ফ্রেন্ডলি প্লেলিস্ট তৈরি হয়েছে।")
 
 if __name__ == "__main__":
     merge_playlists()
