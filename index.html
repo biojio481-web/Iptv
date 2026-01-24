@@ -8,48 +8,23 @@
     <style>
         :root { --main-gold: #ffcc00; --dark-bg: #0d1117; --card-bg: #161b22; }
         body { background: var(--dark-bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; }
-
-        /* Header like Cricfy App */
-        .app-header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--main-gold); sticky: top; z-index: 1000; }
-        .app-header h1 { margin: 0; font-size: 18px; color: var(--main-gold); letter-spacing: 1px; }
-
-        /* Video Player Wrapper */
+        .app-header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--main-gold); position: sticky; top: 0; z-index: 1000; }
+        .app-header h1 { margin: 0; font-size: 18px; color: var(--main-gold); }
         .player-box { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; }
         .video-js { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
-        
-        /* 3. Fullscreen Watermark Fix */
         .vjs-watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.6; pointer-events: none; }
-
-        /* 4. Search Bar */
         .search-section { padding: 15px; max-width: 900px; margin: 0 auto; }
-        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card-bg); color: #fff; outline: none; font-size: 14px; box-sizing: border-box; }
-        .search-input:focus { border-color: var(--main-gold); }
-
-        /* Categories */
+        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card-bg); color: #fff; outline: none; box-sizing: border-box; }
         .cat-box { display: flex; overflow-x: auto; gap: 10px; padding: 0 15px 15px; max-width: 900px; margin: 0 auto; scrollbar-width: none; }
         .cat-item { background: #21262d; padding: 7px 15px; border-radius: 20px; font-size: 12px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
         .cat-item.active { background: var(--main-gold); color: #000; font-weight: bold; }
-
-        /* 1 & 2. Channel List with Names */
         .channel-container { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-        .channel-row { 
-            background: var(--card-bg); 
-            display: flex; 
-            align-items: center; 
-            padding: 10px; 
-            border-radius: 10px; 
-            cursor: pointer;
-            border: 1px solid transparent;
-            transition: 0.3s;
-        }
+        .channel-row { background: var(--card-bg); display: flex; align-items: center; padding: 10px; border-radius: 10px; cursor: pointer; border: 1px solid transparent; transition: 0.3s; }
         .channel-row:hover { border-color: var(--main-gold); background: #1c2128; }
         .channel-row img { width: 50px; height: 50px; border-radius: 6px; object-fit: contain; background: #fff; }
         .channel-meta { margin-left: 15px; flex-grow: 1; }
         .channel-meta h3 { margin: 0; font-size: 15px; color: #f0f6fc; }
-        .channel-meta p { margin: 4px 0 0; font-size: 11px; color: #8b949e; }
-        .play-btn { color: var(--main-gold); font-size: 20px; padding-right: 5px; }
-
-        @media (max-width: 600px) { .channel-meta h3 { font-size: 14px; } }
+        .play-btn { color: var(--main-gold); font-size: 20px; }
     </style>
 </head>
 <body>
@@ -61,7 +36,7 @@
 
 <div class="player-box">
     <img id="player-logo" src="" class="vjs-watermark">
-    <video id="live-player" class="video-js vjs-big-play-centered vjs-theme-city" controls preload="auto"></video>
+    <video id="live-player" class="video-js vjs-big-play-centered" controls preload="auto"></video>
 </div>
 
 <div class="search-section">
@@ -85,7 +60,6 @@
     const m3uSrc = baseRaw + "playlist.m3u";
 
     document.getElementById('player-logo').src = logoSrc;
-
     const player = videojs('live-player');
     let masterList = [];
 
@@ -93,7 +67,7 @@
         try {
             const res = await fetch(m3uSrc);
             const text = await res.text();
-            const lines = text.split('\n');
+            const lines = text.text().split('\n');
             let channels = [], cur = {}, cats = new Set();
 
             lines.forEach(line => {
@@ -110,30 +84,22 @@
             });
 
             masterList = channels;
-            
-            // Setup Categories
-            const catDiv = document.getElementById('catMenu');
             cats.forEach(c => {
                 const item = document.createElement('div');
                 item.className = 'cat-item';
                 item.innerText = c;
                 item.onclick = (e) => filterCat(c, e.target);
-                catDiv.appendChild(item);
+                document.getElementById('catMenu').appendChild(item);
             });
-
             renderList(masterList);
-        } catch (e) { console.log("Failed to load M3U"); }
+        } catch (e) { console.log("Error"); }
     }
 
     function renderList(data) {
-        const listDiv = document.getElementById('channelList');
-        listDiv.innerHTML = data.map(ch => `
+        document.getElementById('channelList').innerHTML = data.map(ch => `
             <div class="channel-row" onclick="playLive('${ch.url}')">
                 <img src="${ch.logo}" onerror="this.src='${logoSrc}'">
-                <div class="channel-meta">
-                    <h3>${ch.name}</h3>
-                    <p>${ch.group} • Live</p>
-                </div>
+                <div class="channel-meta"><h3>${ch.name}</h3><p>${ch.group}</p></div>
                 <div class="play-btn">▶</div>
             </div>
         `).join('');
