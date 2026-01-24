@@ -3,51 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricfy Pro Player</title>
+    <title>Cricfy Style OTT</title>
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <style>
-        :root { --main-gold: #ffcc00; --dark-bg: #0d1117; --card-bg: #161b22; }
-        body { background: var(--dark-bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; }
-        .app-header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--main-gold); position: sticky; top: 0; z-index: 1000; }
-        .app-header h1 { margin: 0; font-size: 18px; color: var(--main-gold); }
-        .player-box { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; }
+        :root { --accent: #ffcc00; --bg: #0d1117; --card: #161b22; }
+        body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; }
+        
+        /* App Style Header */
+        header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--accent); position: sticky; top: 0; z-index: 1000; }
+        header h1 { margin: 0; font-size: 18px; color: var(--accent); }
+        
+        /* Video Player */
+        .player-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; }
         .video-js { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
-        .vjs-watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.6; pointer-events: none; }
-        .search-section { padding: 15px; max-width: 900px; margin: 0 auto; }
-        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card-bg); color: #fff; outline: none; box-sizing: border-box; }
-        .cat-box { display: flex; overflow-x: auto; gap: 10px; padding: 0 15px 15px; max-width: 900px; margin: 0 auto; scrollbar-width: none; }
+        .vjs-watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.5; pointer-events: none; }
+
+        /* Search Box */
+        .controls { padding: 15px; max-width: 900px; margin: 0 auto; }
+        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card); color: #fff; outline: none; box-sizing: border-box; margin-bottom: 15px; }
+        
+        /* Categories */
+        .cat-scroll { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 15px; scrollbar-width: none; }
+        .cat-scroll::-webkit-scrollbar { display: none; }
         .cat-item { background: #21262d; padding: 7px 15px; border-radius: 20px; font-size: 12px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
-        .cat-item.active { background: var(--main-gold); color: #000; font-weight: bold; }
-        .channel-container { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
-        .channel-row { background: var(--card-bg); display: flex; align-items: center; padding: 10px; border-radius: 10px; cursor: pointer; border: 1px solid transparent; transition: 0.3s; }
-        .channel-row:hover { border-color: var(--main-gold); background: #1c2128; }
-        .channel-row img { width: 50px; height: 50px; border-radius: 6px; object-fit: contain; background: #fff; }
-        .channel-meta { margin-left: 15px; flex-grow: 1; }
-        .channel-meta h3 { margin: 0; font-size: 15px; color: #f0f6fc; }
-        .play-btn { color: var(--main-gold); font-size: 20px; }
+        .cat-item.active { background: var(--accent); color: #000; font-weight: bold; }
+
+        /* Cricfy Style List */
+        .list-container { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
+        .channel-row { background: var(--card); display: flex; align-items: center; padding: 10px; border-radius: 12px; cursor: pointer; border: 1px solid transparent; transition: 0.2s; }
+        .channel-row:hover { border-color: var(--accent); background: #1c2128; }
+        .channel-row img { width: 45px; height: 45px; border-radius: 8px; object-fit: contain; background: #fff; padding: 2px; }
+        .info { margin-left: 15px; flex-grow: 1; }
+        .info h4 { margin: 0; font-size: 14px; color: #f0f6fc; }
+        .info p { margin: 3px 0 0; font-size: 11px; color: #8b949e; }
+        .play-btn { color: var(--accent); font-size: 18px; }
     </style>
 </head>
 <body>
 
-<div class="app-header">
+<header>
     <h1>PRO LIVE TV</h1>
-    <div style="color: #00ff00; font-size: 11px; font-weight: bold;">● SERVER ACTIVE</div>
+    <div style="font-size: 10px; color: #00ff00;">● ONLINE</div>
+</header>
+
+<div class="player-container">
+    <img id="wm" src="" class="vjs-watermark">
+    <video id="v-player" class="video-js vjs-big-play-centered" controls preload="auto"></video>
 </div>
 
-<div class="player-box">
-    <img id="player-logo" src="" class="vjs-watermark">
-    <video id="live-player" class="video-js vjs-big-play-centered" controls preload="auto"></video>
+<div class="controls">
+    <input type="text" id="srch" class="search-input" placeholder="Search Channels..." onkeyup="search()">
+    <div class="cat-scroll" id="cat-list">
+        <div class="cat-item active" onclick="filter('All', this)">All</div>
+    </div>
 </div>
 
-<div class="search-section">
-    <input type="text" id="searchInput" class="search-input" placeholder="Search Channels..." onkeyup="doSearch()">
-</div>
-
-<div class="cat-box" id="catMenu">
-    <div class="cat-item active" onclick="filterCat('All', this)">All</div>
-</div>
-
-<div class="channel-container" id="channelList">
+<div class="list-container" id="grid">
     <p style="text-align: center; color: #8b949e;">চ্যানেল লোড হচ্ছে...</p>
 </div>
 
@@ -55,74 +66,76 @@
 
 <script>
     const user = "biojio481-web", repo = "Iptv";
-    const baseRaw = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
-    const logoSrc = baseRaw + "logo.png";
-    const m3uSrc = baseRaw + "playlist.m3u";
+    const raw = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
+    const logoUrl = raw + "logo.png";
+    const m3uUrl = raw + "playlist.m3u";
 
-    document.getElementById('player-logo').src = logoSrc;
-    const player = videojs('live-player');
-    let masterList = [];
+    document.getElementById('wm').src = logoUrl;
+    const vPlayer = videojs('v-player');
+    let db = [];
 
-    async function setupApp() {
+    async function init() {
         try {
-            const res = await fetch(m3uSrc);
+            const res = await fetch(m3uUrl);
             const text = await res.text();
-            const lines = text.text().split('\n');
-            let channels = [], cur = {}, cats = new Set();
+            const lines = text.split('\n');
+            let list = [], item = {}, cats = new Set();
 
             lines.forEach(line => {
                 if (line.startsWith('#EXTINF:')) {
-                    cur.name = line.split(',')[1]?.trim() || "Live TV";
-                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
-                    cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                    cats.add(cur.group);
+                    item.name = line.split(',')[1]?.trim() || "Live TV";
+                    item.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
+                    item.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
+                    cats.add(item.group);
                 } else if (line.trim().startsWith('http')) {
-                    cur.url = line.trim();
-                    channels.push({...cur});
-                    cur = {};
+                    item.url = line.trim();
+                    list.push({...item});
+                    item = {};
                 }
             });
 
-            masterList = channels;
+            db = list;
             cats.forEach(c => {
-                const item = document.createElement('div');
-                item.className = 'cat-item';
-                item.innerText = c;
-                item.onclick = (e) => filterCat(c, e.target);
-                document.getElementById('catMenu').appendChild(item);
+                const div = document.createElement('div');
+                div.className = 'cat-item';
+                div.innerText = c;
+                div.onclick = (e) => filter(c, e.target);
+                document.getElementById('cat-list').appendChild(div);
             });
-            renderList(masterList);
-        } catch (e) { console.log("Error"); }
+            render(db);
+        } catch (e) {
+            document.getElementById('grid').innerHTML = "প্লেলিস্ট লোড করতে সমস্যা হয়েছে।";
+        }
     }
 
-    function renderList(data) {
-        document.getElementById('channelList').innerHTML = data.map(ch => `
-            <div class="channel-row" onclick="playLive('${ch.url}')">
-                <img src="${ch.logo}" onerror="this.src='${logoSrc}'">
-                <div class="channel-meta"><h3>${ch.name}</h3><p>${ch.group}</p></div>
+    function render(data) {
+        document.getElementById('grid').innerHTML = data.map(ch => `
+            <div class="channel-row" onclick="play('${ch.url}')">
+                <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
+                <div class="info"><h4>${ch.name}</h4><p>${ch.group}</p></div>
                 <div class="play-btn">▶</div>
             </div>
         `).join('');
     }
 
-    function playLive(url) {
-        player.src({ src: url, type: 'application/x-mpegURL' });
-        player.play();
+    function play(url) {
+        vPlayer.src({ src: url, type: 'application/x-mpegURL' });
+        vPlayer.play();
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function filterCat(c, el) {
-        document.querySelectorAll('.cat-item').forEach(item => item.classList.remove('active'));
+    function filter(c, el) {
+        document.querySelectorAll('.cat-item').forEach(i => i.classList.remove('active'));
         el.classList.add('active');
-        renderList(c === 'All' ? masterList : masterList.filter(x => x.group === c));
+        render(c === 'All' ? db : db.filter(x => x.group === c));
     }
 
-    function doSearch() {
-        const q = document.getElementById('searchInput').value.toLowerCase();
-        renderList(masterList.filter(x => x.name.toLowerCase().includes(q)));
+    function search() {
+        const q = document.getElementById('srch').value.toLowerCase();
+        render(db.filter(x => x.name.toLowerCase().includes(q)));
     }
 
-    setupApp();
+    init();
 </script>
 </body>
 </html>
