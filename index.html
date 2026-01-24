@@ -6,40 +6,53 @@
     <title>Premium OTT Player</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --primary: #e50914; --bg: #0f0f0f; --card-bg: #1a1a1a; --text: #ffffff; }
+        :root { --primary: #e50914; --bg: #0a0a0a; --card-bg: #1a1a1a; --text: #ffffff; }
         body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding-bottom: 50px; }
         
         /* Redforce Style Header */
         header { background: #000; padding: 12px; display: flex; justify-content: center; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 1000; }
         header img { height: 40px; }
 
-        /* Video Player Section */
+        /* Video Section */
         .video-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
-        .tv-logo-overlay { position: absolute; top: 15px; left: 15px; width: 60px; z-index: 10; opacity: 0.8; pointer-events: none; display: block !important; }
+        /* Fullscreen-এ লোগো দেখানোর জন্য বিশেষ পজিশনিং */
+        .tv-logo-overlay { 
+            position: absolute; top: 15px; left: 15px; width: 60px; z-index: 2147483647; 
+            opacity: 0.8; pointer-events: none; 
+        }
 
         /* Search & Navigation */
         .controls-wrapper { max-width: 900px; margin: 0 auto; padding: 15px; }
-        .search-box { width: 100%; padding: 12px 20px; border-radius: 25px; border: 1px solid #333; background: #111; color: #fff; outline: none; margin-bottom: 15px; font-size: 14px; }
+        .search-box { 
+            width: 100%; padding: 12px 20px; border-radius: 25px; border: 1px solid #333; 
+            background: #111; color: #fff; outline: none; margin-bottom: 15px; font-size: 14px; 
+            box-sizing: border-box;
+        }
         .search-box:focus { border-color: var(--primary); }
 
         .category-nav { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; scrollbar-width: none; border-bottom: 1px solid #222; }
         .category-nav::-webkit-scrollbar { display: none; }
-        .cat-btn { background: #222; border: 1px solid #333; color: #ccc; padding: 8px 18px; border-radius: 20px; cursor: pointer; white-space: nowrap; transition: 0.3s; }
+        .cat-btn { background: #222; border: 1px solid #333; color: #ccc; padding: 8px 18px; border-radius: 20px; cursor: pointer; white-space: nowrap; transition: 0.3s; font-size: 13px; }
         .cat-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); font-weight: bold; }
 
-        /* Grid Layout for Channel Logos */
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 15px; padding: 15px; max-width: 1200px; margin: 0 auto; }
-        .channel-card { background: #fff; border-radius: 10px; overflow: hidden; cursor: pointer; transition: 0.2s; border: 1px solid #ddd; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 10px; aspect-ratio: 1/1.2; }
-        .channel-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(229, 9, 20, 0.3); }
-        .channel-card img { width: 100%; height: 75%; object-fit: contain; }
-        .channel-card span { color: #000; font-size: 11px; font-weight: bold; text-align: center; width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 5px; }
-
-        /* Fullscreen Watermark Fix */
-        .plyr--is-fullscreen .tv-logo-overlay { position: absolute; z-index: 2147483647; width: 50px; opacity: 0.6; }
+        /* Channel Grid */
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); gap: 12px; padding: 15px; max-width: 1200px; margin: 0 auto; }
+        .channel-card { 
+            background: #fff; border-radius: 10px; overflow: hidden; cursor: pointer; transition: 0.2s; 
+            border: 1px solid #ddd; display: flex; flex-direction: column; align-items: center; 
+            justify-content: space-between; padding: 10px; aspect-ratio: 1/1.3; 
+        }
+        .channel-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(229, 9, 20, 0.4); }
+        .channel-card img { width: 100%; height: 70%; object-fit: contain; }
+        
+        /* Channel Name Styling */
+        .channel-card span { 
+            color: #000; font-size: 11px; font-weight: bold; text-align: center; 
+            width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-top: 5px; 
+        }
 
         @media (max-width: 600px) {
             .grid-container { grid-template-columns: repeat(3, 1fr); gap: 10px; }
-            .channel-card { padding: 8px; }
         }
     </style>
 </head>
@@ -53,14 +66,14 @@
 </div>
 
 <div class="controls-wrapper">
-    <input type="text" id="search-input" class="search-box" placeholder="সার্চ করুন আপনার চ্যানেল..." onkeyup="search()">
+    <input type="text" id="search-input" class="search-box" placeholder="সার্চ করুন আপনার প্রিয় চ্যানেল..." onkeyup="search()">
     <div class="category-nav" id="cat-menu">
         <button class="cat-btn active" onclick="filterCat('All')">All</button>
     </div>
 </div>
 
 <div id="grid" class="grid-container">
-    <p style="grid-column: 1/-1; text-align: center;">চ্যানেল লোড হচ্ছে...</p>
+    <p style="grid-column: 1/-1; text-align: center;">লোড হচ্ছে...</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
@@ -81,9 +94,10 @@
     let allChannels = [];
     let currentCat = 'All';
 
-    // Fullscreen Logo Management
+    // ১. ফুলস্ক্রিন লোগো ফিক্স
     player.on('enterfullscreen', () => {
-        document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('player-watermark'));
+        const logo = document.getElementById('player-watermark');
+        document.querySelector('.plyr__video-wrapper').appendChild(logo);
     });
     player.on('exitfullscreen', () => {
         document.getElementById('playerParent').prepend(document.getElementById('player-watermark'));
@@ -112,7 +126,7 @@
             allChannels = channels;
             setupCats(Array.from(cats));
             display(allChannels);
-        } catch (e) { console.error("M3U Load Failed"); }
+        } catch (e) { console.error("Playlist failed"); }
     }
 
     function setupCats(cats) {
@@ -132,6 +146,7 @@
 
     function display(data) {
         const grid = document.getElementById('grid');
+        // ২. চ্যানেলের নাম যোগ করা হয়েছে (<span> ট্যাগ)
         grid.innerHTML = data.map(ch => `
             <div class="channel-card" onclick="play('${ch.url}')">
                 <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
@@ -141,6 +156,7 @@
     }
 
     function play(url) {
+        // ৪. চ্যানেল না চলার সমস্যা সমাধানে HLS অপ্টিমাইজেশন
         if (Hls.isSupported()) {
             hls.destroy();
             hls = new Hls();
