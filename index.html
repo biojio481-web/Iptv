@@ -3,139 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cricfy Style OTT</title>
+    <title>OTT Navigator Web</title>
     <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
     <style>
-        :root { --accent: #ffcc00; --bg: #0d1117; --card: #161b22; }
-        body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; }
-        
-        /* App Style Header */
-        header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--accent); position: sticky; top: 0; z-index: 1000; }
-        header h1 { margin: 0; font-size: 18px; color: var(--accent); }
-        
-        /* Video Player */
-        .player-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; }
-        .video-js { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
-        .vjs-watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.5; pointer-events: none; }
+        :root { --nav-bg: rgba(0, 0, 0, 0.85); --accent: #00d2ff; }
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; background: #000; font-family: 'Segoe UI', sans-serif; overflow: hidden; }
 
-        /* Search Box */
-        .controls { padding: 15px; max-width: 900px; margin: 0 auto; }
-        .search-input { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--card); color: #fff; outline: none; box-sizing: border-box; margin-bottom: 15px; }
+        /* Fullscreen Player Wrapper */
+        .ott-container { position: relative; width: 100vw; height: 100vh; display: flex; }
         
-        /* Categories */
-        .cat-scroll { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 15px; scrollbar-width: none; }
-        .cat-scroll::-webkit-scrollbar { display: none; }
-        .cat-item { background: #21262d; padding: 7px 15px; border-radius: 20px; font-size: 12px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
-        .cat-item.active { background: var(--accent); color: #000; font-weight: bold; }
+        .video-wrapper { flex-grow: 1; position: relative; background: #000; }
+        .video-js { width: 100% !important; height: 100% !important; }
 
-        /* Cricfy Style List */
-        .list-container { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
-        .channel-row { background: var(--card); display: flex; align-items: center; padding: 10px; border-radius: 12px; cursor: pointer; border: 1px solid transparent; transition: 0.2s; }
-        .channel-row:hover { border-color: var(--accent); background: #1c2128; }
-        .channel-row img { width: 45px; height: 45px; border-radius: 8px; object-fit: contain; background: #fff; padding: 2px; }
-        .info { margin-left: 15px; flex-grow: 1; }
-        .info h4 { margin: 0; font-size: 14px; color: #f0f6fc; }
-        .info p { margin: 3px 0 0; font-size: 11px; color: #8b949e; }
-        .play-btn { color: var(--accent); font-size: 18px; }
+        /* Sidebar Navigation like OTT Navigator */
+        .ott-sidebar {
+            width: 300px;
+            background: var(--nav-bg);
+            height: 100%;
+            position: absolute;
+            left: -300px; /* Hidden by default */
+            top: 0;
+            z-index: 9999;
+            transition: 0.3s ease;
+            border-right: 1px solid #333;
+            display: flex;
+            flex-direction: column;
+        }
+        .ott-sidebar.open { left: 0; }
+
+        .sidebar-header { padding: 20px; border-bottom: 1px solid #222; }
+        .sidebar-header h2 { margin: 0; color: var(--accent); font-size: 18px; text-transform: uppercase; }
+        .search-box { width: 90%; padding: 8px; margin-top: 10px; background: #222; border: 1px solid #444; color: #fff; border-radius: 4px; }
+
+        .channel-list { flex-grow: 1; overflow-y: auto; padding: 10px; scrollbar-width: thin; }
+        .channel-item {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+        .channel-item:hover, .channel-item.active { background: rgba(0, 210, 255, 0.2); border-left: 4px solid var(--accent); }
+        .channel-item img { width: 40px; height: 40px; border-radius: 4px; object-fit: contain; background: #fff; }
+        .channel-info { margin-left: 12px; }
+        .channel-info span { display: block; color: #fff; font-size: 14px; font-weight: 500; }
+        
+        /* Floating Menu Button */
+        .menu-toggle {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10000;
+            background: var(--accent);
+            color: #000;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        /* Watermark */
+        .ott-watermark { position: absolute; top: 20px; right: 20px; width: 60px; opacity: 0.5; z-index: 100; pointer-events: none; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>PRO LIVE TV</h1>
-    <div style="font-size: 10px; color: #00ff00;">● ONLINE</div>
-</header>
-
-<div class="player-container">
-    <img id="wm" src="" class="vjs-watermark">
-    <video id="v-player" class="video-js vjs-big-play-centered" controls preload="auto"></video>
-</div>
-
-<div class="controls">
-    <input type="text" id="srch" class="search-input" placeholder="Search Channels..." onkeyup="search()">
-    <div class="cat-scroll" id="cat-list">
-        <div class="cat-item active" onclick="filter('All', this)">All</div>
+<div class="ott-container">
+    <button class="menu-toggle" onclick="toggleMenu()">☰ MENU</button>
+    
+    <div class="ott-sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>OTT NAVIGATOR</h2>
+            <input type="text" class="search-box" placeholder="Search channel..." onkeyup="search(this.value)">
+        </div>
+        <div class="channel-list" id="list">
+            <p style="text-align: center; color: #666;">Loading Channels...</p>
+        </div>
     </div>
-</div>
 
-<div class="list-container" id="grid">
-    <p style="text-align: center; color: #8b949e;">চ্যানেল লোড হচ্ছে...</p>
+    <div class="video-wrapper">
+        <img id="logo" src="" class="ott-watermark">
+        <video id="my-video" class="video-js vjs-big-play-centered" controls preload="auto"></video>
+    </div>
 </div>
 
 <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 
 <script>
     const user = "biojio481-web", repo = "Iptv";
-    const raw = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
-    const logoUrl = raw + "logo.png";
-    const m3uUrl = raw + "playlist.m3u";
+    const rawUrl = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
+    const m3uUrl = rawUrl + "playlist.m3u";
+    const logoUrl = rawUrl + "logo.png";
 
-    document.getElementById('wm').src = logoUrl;
-    const vPlayer = videojs('v-player');
-    let db = [];
+    document.getElementById('logo').src = logoUrl;
+    const player = videojs('my-video');
+    let allChannels = [];
 
-    async function init() {
+    function toggleMenu() {
+        document.getElementById('sidebar').classList.toggle('open');
+    }
+
+    async function loadData() {
         try {
             const res = await fetch(m3uUrl);
             const text = await res.text();
             const lines = text.split('\n');
-            let list = [], item = {}, cats = new Set();
+            let list = [], cur = {};
 
             lines.forEach(line => {
                 if (line.startsWith('#EXTINF:')) {
-                    item.name = line.split(',')[1]?.trim() || "Live TV";
-                    item.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
-                    item.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                    cats.add(item.group);
+                    cur.name = line.split(',')[1]?.trim() || "Live TV";
+                    cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || logoUrl;
                 } else if (line.trim().startsWith('http')) {
-                    item.url = line.trim();
-                    list.push({...item});
-                    item = {};
+                    cur.url = line.trim();
+                    list.push({...cur});
+                    cur = {};
                 }
             });
 
-            db = list;
-            cats.forEach(c => {
-                const div = document.createElement('div');
-                div.className = 'cat-item';
-                div.innerText = c;
-                div.onclick = (e) => filter(c, e.target);
-                document.getElementById('cat-list').appendChild(div);
-            });
-            render(db);
+            allChannels = list;
+            render(allChannels);
         } catch (e) {
-            document.getElementById('grid').innerHTML = "প্লেলিস্ট লোড করতে সমস্যা হয়েছে।";
+            document.getElementById('list').innerHTML = "Error loading data.";
         }
     }
 
     function render(data) {
-        document.getElementById('grid').innerHTML = data.map(ch => `
-            <div class="channel-row" onclick="play('${ch.url}')">
+        const container = document.getElementById('list');
+        container.innerHTML = data.map((ch, index) => `
+            <div class="channel-item" onclick="playCh('${ch.url}', this)">
                 <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
-                <div class="info"><h4>${ch.name}</h4><p>${ch.group}</p></div>
-                <div class="play-btn">▶</div>
+                <div class="channel-info">
+                    <span>${ch.name}</span>
+                </div>
             </div>
         `).join('');
     }
 
-    function play(url) {
-        vPlayer.src({ src: url, type: 'application/x-mpegURL' });
-        vPlayer.play();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-
-    function filter(c, el) {
-        document.querySelectorAll('.cat-item').forEach(i => i.classList.remove('active'));
+    function playCh(url, el) {
+        player.src({ src: url, type: 'application/x-mpegURL' });
+        player.play();
+        document.querySelectorAll('.channel-item').forEach(i => i.classList.remove('active'));
         el.classList.add('active');
-        render(c === 'All' ? db : db.filter(x => x.group === c));
+        if (window.innerWidth < 768) toggleMenu(); // Mobile-এ অটো মেনু বন্ধ হবে
     }
 
-    function search() {
-        const q = document.getElementById('srch').value.toLowerCase();
-        render(db.filter(x => x.name.toLowerCase().includes(q)));
+    function search(q) {
+        const filtered = allChannels.filter(c => c.name.toLowerCase().includes(q.toLowerCase()));
+        render(filtered);
     }
 
-    init();
+    loadData();
 </script>
 </body>
 </html>
