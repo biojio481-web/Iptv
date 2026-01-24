@@ -1,12 +1,15 @@
 name: UpdatePlaylist
+
 on:
   schedule:
-    - cron: '0 */6 * * *' # Protidin raat 12ta, sokal 6ta, dupur 12ta ebong bikel 6ta-te update hobe
-  workflow_dispatch:      # Manual run korar option
+    - cron: '0 */6 * * *'   # Protì 6 ghonta por por auto update hobe
+  workflow_dispatch:        # Manual run button thakbe
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write       # File push korar permission nishchit kora holo
     steps:
       - uses: actions/checkout@v3
       
@@ -14,17 +17,17 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-          
-      - name: Install requests
+
+      - name: Install dependencies
         run: pip install requests
-        
+
       - name: Run scraper
         run: python scraper.py
-        
+
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add .  # Eta sob folder-er file-ke GitHub-e upload korbe
-          git commit -m "Auto updated playlists via 6-hour cron" || exit 0
+          git add playlist.m3u
+          git commit -m "IPTV Playlist Fresh Update - $(date)" || exit 0
           git push
