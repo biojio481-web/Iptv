@@ -3,195 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro Live TV Player</title>
+    <title>Cricfy Style OTT</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --accent: #00d2ff; --bg: #0f0f0f; --card-bg: #ffffff; }
-        body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 30px; }
+        :root { --cricfy-gold: #ffcc00; --cricfy-dark: #0a0e14; --cricfy-card: #161b22; }
+        body { background: var(--cricfy-dark); color: #fff; font-family: 'Roboto', sans-serif; margin: 0; }
 
-        /* S.S.Net Style Header */
-        header { background: #000; padding: 10px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--accent); }
-        header img { height: 30px; }
-        .live-badge { background: #28a745; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; }
+        /* Header like Cricfy App */
+        header { background: #000; padding: 15px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; }
+        header .logo-text { font-size: 20px; font-weight: bold; color: var(--cricfy-gold); }
+        .live-dot { height: 10px; width: 10px; background: red; border-radius: 50%; display: inline-block; margin-right: 5px; animation: blink 1s infinite; }
+        @keyframes blink { 0% {opacity: 1;} 50% {opacity: 0.3;} 100% {opacity: 1;} }
 
-        /* Video Section */
-        .player-container { width: 100%; max-width: 850px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
-        .overlay-logo { position: absolute; top: 12px; left: 12px; width: 50px; z-index: 10; opacity: 0.7; pointer-events: none; }
+        /* Video Player */
+        .video-box { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
+        .watermark { position: absolute; top: 10px; right: 10px; width: 45px; z-index: 10; opacity: 0.5; }
 
-        /* Horizontal Category Menu */
-        .cat-scroll { display: flex; overflow-x: auto; background: #1a1a1a; padding: 10px; gap: 8px; scrollbar-width: none; }
-        .cat-scroll::-webkit-scrollbar { display: none; }
-        .cat-btn { background: var(--accent); color: #000; border: none; padding: 6px 14px; border-radius: 3px; font-size: 11px; font-weight: bold; cursor: pointer; white-space: nowrap; text-transform: uppercase; }
+        /* Cricfy Search & Category */
+        .app-controls { padding: 15px; max-width: 900px; margin: 0 auto; }
+        .search-box { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #30363d; background: var(--cricfy-card); color: #fff; margin-bottom: 15px; outline: none; }
+        .search-box:focus { border-color: var(--cricfy-gold); }
 
-        /* Search Bar */
-        .search-container { padding: 10px; max-width: 850px; margin: 0 auto; }
-        .search-bar { width: 100%; padding: 10px 15px; border-radius: 5px; border: 1px solid #333; background: #1c1c1c; color: #fff; box-sizing: border-box; }
+        .cat-row { display: flex; overflow-x: auto; gap: 10px; padding-bottom: 10px; scrollbar-width: none; }
+        .cat-chip { background: var(--cricfy-card); color: #8b949e; padding: 8px 16px; border-radius: 20px; font-size: 13px; cursor: pointer; white-space: nowrap; border: 1px solid #30363d; }
+        .cat-chip.active { background: var(--cricfy-gold); color: #000; font-weight: bold; border-color: var(--cricfy-gold); }
 
-        /* Horizontal Channel List (Like Screenshot) */
-        .channel-horizontal { 
-            display: flex; 
-            overflow-x: auto; 
-            padding: 15px 10px; 
-            gap: 12px; 
-            scrollbar-width: thin;
-            scrollbar-color: var(--accent) #000;
-        }
+        /* Channel List (Vertical List like App) */
+        .channel-list { padding: 0 15px; max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px; }
         .channel-item { 
-            min-width: 95px; 
-            max-width: 95px; 
-            background: var(--card-bg); 
-            border-radius: 6px; 
-            padding: 6px; 
-            text-align: center; 
+            background: var(--cricfy-card); 
+            display: flex; 
+            align-items: center; 
+            padding: 12px; 
+            border-radius: 12px; 
             cursor: pointer;
             transition: 0.2s;
+            border: 1px solid transparent;
         }
-        .channel-item:hover { transform: scale(1.05); }
-        .channel-item img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 4px; }
-        .channel-item span { 
-            display: block; 
-            color: #000; 
-            font-size: 10px; 
-            font-weight: bold; 
-            margin-top: 5px; 
-            white-space: nowrap; 
-            overflow: hidden; 
-            text-overflow: ellipsis; 
-        }
+        .channel-item:hover { background: #1c2128; border-color: #30363d; }
+        .channel-item img { width: 50px; height: 50px; border-radius: 8px; object-fit: contain; background: #fff; padding: 2px; }
+        .channel-info { margin-left: 15px; flex-grow: 1; }
+        .channel-info h4 { margin: 0; font-size: 15px; color: #f0f6fc; }
+        .channel-info p { margin: 3px 0 0; font-size: 12px; color: #8b949e; }
+        .play-icon { color: var(--cricfy-gold); font-size: 20px; }
 
-        /* Fullscreen Watermark Fix */
-        .plyr--is-fullscreen .overlay-logo { z-index: 2147483647; width: 45px; }
-
-        @media (min-width: 900px) {
-            .channel-horizontal { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); overflow: visible; }
-        }
+        /* Fullscreen Watermark */
+        .plyr--is-fullscreen .watermark { opacity: 0.4; width: 40px; }
     </style>
 </head>
 <body>
 
 <header>
-    <img id="top-logo" src="" alt="Brand">
-    <div class="live-badge">● LIVE TV</div>
+    <div class="logo-text">CRICFY LIVE</div>
+    <div style="font-size: 12px;"><span class="live-dot"></span> LIVE EVENTS</div>
 </header>
 
-<div class="player-container" id="pWrap">
-    <img id="watermark" src="" class="overlay-logo">
+<div class="video-box" id="playerWrap">
+    <img id="app-logo" src="" class="watermark">
     <video id="player" playsinline controls crossorigin="anonymous"></video>
 </div>
 
-<div class="cat-scroll" id="category-list">
-    <button class="cat-btn" onclick="filterData('All')">All Channels</button>
+<div class="app-controls">
+    <input type="text" id="search" class="search-box" placeholder="Search Channels or Events..." onkeyup="search()">
+    <div class="cat-row" id="cats">
+        <div class="cat-chip active" onclick="filter('All', this)">All</div>
+    </div>
 </div>
 
-<div class="search-container">
-    <input type="text" id="searchBox" class="search-bar" placeholder="চ্যানেল খুঁজুন..." onkeyup="runSearch()">
-</div>
-
-<div class="channel-horizontal" id="channel-grid">
-    <p style="text-align: center; width: 100%;">চ্যানেল লোড হচ্ছে...</p>
-</div>
+<div class="channel-list" id="list">
+    </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
 <script>
-    const config = {
-        user: "biojio481-web",
-        repo: "Iptv",
-        logoName: "logo.png",
-        m3uName: "playlist.m3u"
-    };
+    const user = "biojio481-web", repo = "Iptv";
+    const base = `https://raw.githubusercontent.com/${user}/${repo}/main/`;
+    const logoUrl = base + "logo.png";
+    const m3uUrl = base + "playlist.m3u";
 
-    const baseUrl = `https://raw.githubusercontent.com/${config.user}/${config.repo}/main/`;
-    const fullLogo = baseUrl + config.logoName;
-    
-    document.getElementById('top-logo').src = fullLogo;
-    document.getElementById('watermark').src = fullLogo;
+    document.getElementById('app-logo').src = logoUrl;
 
-    const videoElement = document.getElementById('player');
-    const playerInst = new Plyr(videoElement, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
-    let hlsInst = new Hls();
-    let masterData = [];
+    const video = document.getElementById('player');
+    const player = new Plyr(video, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
+    let hls = new Hls();
+    let dataStore = [];
 
-    // Fullscreen logo persistent fix
-    playerInst.on('enterfullscreen', () => {
-        document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('watermark'));
-    });
-    playerInst.on('exitfullscreen', () => {
-        document.getElementById('pWrap').prepend(document.getElementById('watermark'));
-    });
+    // Fullscreen watermark management
+    player.on('enterfullscreen', () => document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('app-logo')));
+    player.on('exitfullscreen', () => document.getElementById('playerWrap').prepend(document.getElementById('app-logo')));
 
-    async function loadApp() {
-        try {
-            const response = await fetch(baseUrl + config.m3uName);
-            const dataText = await response.text();
-            const rows = dataText.split('\n');
-            let list = [], item = {}, groups = new Set();
+    async function init() {
+        const res = await fetch(m3uUrl);
+        const text = await res.text();
+        const lines = text.split('\n');
+        let channels = [], cur = {}, cats = new Set();
 
-            rows.forEach(row => {
-                if (row.startsWith('#EXTINF:')) {
-                    item.name = row.split(',')[1]?.trim() || "Live";
-                    item.group = (row.match(/group-title="([^"]+)"/) || [])[1] || "Others";
-                    item.logo = (row.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                    groups.add(item.group);
-                } else if (row.trim().startsWith('http')) {
-                    item.url = row.trim();
-                    list.push({...item});
-                    item = {};
-                }
-            });
-
-            masterData = list;
-            buildMenu(Array.from(groups));
-            drawGrid(masterData);
-        } catch (err) { console.error("Error loading TV data"); }
-    }
-
-    function buildMenu(groups) {
-        const menu = document.getElementById('category-list');
-        groups.forEach(g => {
-            const b = document.createElement('button');
-            b.className = 'cat-btn';
-            b.innerText = g;
-            b.onclick = () => filterData(g);
-            menu.appendChild(b);
+        lines.forEach(line => {
+            if (line.startsWith('#EXTINF:')) {
+                cur.name = line.split(',')[1]?.trim() || "Live Match";
+                cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "Live TV";
+                cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
+                cats.add(cur.group);
+            } else if (line.trim().startsWith('http')) {
+                cur.url = line.trim();
+                channels.push({...cur});
+                cur = {};
+            }
         });
+
+        dataStore = channels;
+        const catDiv = document.getElementById('cats');
+        cats.forEach(c => {
+            const div = document.createElement('div');
+            div.className = 'cat-chip';
+            div.innerText = c;
+            div.onclick = (e) => filter(c, e.target);
+            catDiv.appendChild(div);
+        });
+        render(dataStore);
     }
 
-    function drawGrid(items) {
-        const grid = document.getElementById('channel-grid');
-        grid.innerHTML = items.map(ch => `
-            <div class="channel-item" onclick="startPlay('${ch.url}')">
-                <img src="${ch.logo}" onerror="this.src='${fullLogo}'">
-                <span>${ch.name}</span>
+    function render(data) {
+        const list = document.getElementById('list');
+        list.innerHTML = data.map(ch => `
+            <div class="channel-item" onclick="play('${ch.url}')">
+                <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
+                <div class="channel-info">
+                    <h4>${ch.name}</h4>
+                    <p>${ch.group} • 1080p</p>
+                </div>
+                <div class="play-icon">▶</div>
             </div>
         `).join('');
     }
 
-    function startPlay(src) {
+    function play(url) {
         if (Hls.isSupported()) {
-            hlsInst.destroy();
-            hlsInst = new Hls();
-            hlsInst.loadSource(src);
-            hlsInst.attachMedia(videoElement);
-            hlsInst.on(Hls.Events.MANIFEST_PARSED, () => playerInst.play());
-        } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
-            videoElement.src = src;
-            playerInst.play();
+            hls.destroy();
+            hls = new Hls();
+            hls.loadSource(url);
+            hls.attachMedia(video);
+            hls.on(Hls.Events.MANIFEST_PARSED, () => player.play());
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = url;
+            player.play();
         }
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function filterData(group) {
-        drawGrid(group === 'All' ? masterData : masterData.filter(x => x.group === group));
+    function filter(c, el) {
+        document.querySelectorAll('.cat-chip').forEach(ch => ch.classList.remove('active'));
+        el.classList.add('active');
+        render(c === 'All' ? dataStore : dataStore.filter(x => x.group === c));
     }
 
-    function runSearch() {
-        const query = document.getElementById('searchBox').value.toLowerCase();
-        drawGrid(masterData.filter(x => x.name.toLowerCase().includes(query)));
+    function search() {
+        const q = document.getElementById('search').value.toLowerCase();
+        render(dataStore.filter(x => x.name.toLowerCase().includes(q)));
     }
 
-    loadApp();
+    init();
 </script>
 </body>
 </html>
