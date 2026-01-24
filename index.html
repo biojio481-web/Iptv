@@ -3,178 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium OTT Player</title>
+    <title>Pro Live TV Player</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --primary: #e50914; --bg: #0f0f0f; --card: #1f1f1f; --text: #ffffff; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding-bottom: 50px; }
-        
-        /* Redforce Style Header */
-        header { background: #000; padding: 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 1000; }
-        header img { height: 35px; }
-        .active-users { background: #28a745; color: white; padding: 4px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; }
+        :root { --accent: #00d2ff; --bg: #0f0f0f; --card-bg: #ffffff; }
+        body { background: var(--bg); color: #fff; font-family: 'Segoe UI', sans-serif; margin: 0; padding-bottom: 30px; }
+
+        /* S.S.Net Style Header */
+        header { background: #000; padding: 10px; display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--accent); }
+        header img { height: 30px; }
+        .live-badge { background: #28a745; color: #fff; padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: bold; }
 
         /* Video Section */
-        .video-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; border-radius: 12px; overflow: hidden; margin-top: 10px; }
-        .tv-logo { position: absolute; top: 15px; left: 15px; width: 50px; z-index: 10; opacity: 0.7; pointer-events: none; }
+        .player-container { width: 100%; max-width: 850px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
+        .overlay-logo { position: absolute; top: 12px; left: 12px; width: 50px; z-index: 10; opacity: 0.7; pointer-events: none; }
 
-        /* Redforce Style Category Tabs */
-        .nav-scroll { display: flex; overflow-x: auto; padding: 15px; gap: 15px; background: #111; scrollbar-width: none; border-bottom: 1px solid #222; justify-content: center; }
-        .nav-scroll::-webkit-scrollbar { display: none; }
-        .cat-btn { background: none; border: none; color: #ccc; cursor: pointer; font-size: 15px; font-weight: 500; transition: 0.3s; padding: 5px 10px; }
-        .cat-btn.active { color: #fff; border-bottom: 2px solid var(--primary); }
+        /* Horizontal Category Menu */
+        .cat-scroll { display: flex; overflow-x: auto; background: #1a1a1a; padding: 10px; gap: 8px; scrollbar-width: none; }
+        .cat-scroll::-webkit-scrollbar { display: none; }
+        .cat-btn { background: var(--accent); color: #000; border: none; padding: 6px 14px; border-radius: 3px; font-size: 11px; font-weight: bold; cursor: pointer; white-space: nowrap; text-transform: uppercase; }
 
-        /* Perfect Grid for Channel Logos */
-        .content-area { max-width: 1200px; margin: 0 auto; padding: 15px; }
-        .grid-container { 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); /* লোগো ছোট রাখার জন্য ফিক্সড সাইজ */
+        /* Search Bar */
+        .search-container { padding: 10px; max-width: 850px; margin: 0 auto; }
+        .search-bar { width: 100%; padding: 10px 15px; border-radius: 5px; border: 1px solid #333; background: #1c1c1c; color: #fff; box-sizing: border-box; }
+
+        /* Horizontal Channel List (Like Screenshot) */
+        .channel-horizontal { 
+            display: flex; 
+            overflow-x: auto; 
+            padding: 15px 10px; 
             gap: 12px; 
+            scrollbar-width: thin;
+            scrollbar-color: var(--accent) #000;
         }
-        
-        .channel-card { 
-            background: #fff; /* Redforce লোগোর ব্যাকগ্রাউন্ড সাদা থাকে */
-            border-radius: 8px; 
+        .channel-item { 
+            min-width: 95px; 
+            max-width: 95px; 
+            background: var(--card-bg); 
+            border-radius: 6px; 
+            padding: 6px; 
+            text-align: center; 
+            cursor: pointer;
+            transition: 0.2s;
+        }
+        .channel-item:hover { transform: scale(1.05); }
+        .channel-item img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 4px; }
+        .channel-item span { 
+            display: block; 
+            color: #000; 
+            font-size: 10px; 
+            font-weight: bold; 
+            margin-top: 5px; 
+            white-space: nowrap; 
             overflow: hidden; 
-            cursor: pointer; 
-            transition: 0.2s; 
-            border: 1px solid #ddd;
-            aspect-ratio: 1/1; /* স্কয়ার বক্স */
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 5px;
-        }
-        .channel-card:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
-        .channel-card img { 
-            width: 100%; 
-            height: 100%; 
-            object-fit: contain; /* লোগো যাতে ফেটে না যায় বা বড় না হয় */
+            text-overflow: ellipsis; 
         }
 
         /* Fullscreen Watermark Fix */
-        .plyr--fullscreen-fallback .tv-logo, .plyr--is-fullscreen .tv-logo { display: block !important; width: 45px; }
+        .plyr--is-fullscreen .overlay-logo { z-index: 2147483647; width: 45px; }
 
-        @media (max-width: 600px) {
-            .grid-container { grid-template-columns: repeat(3, 1fr); gap: 8px; } /* মোবাইলে এক সারিতে ৩টি লোগো */
-            .nav-scroll { justify-content: flex-start; }
+        @media (min-width: 900px) {
+            .channel-horizontal { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); overflow: visible; }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img id="main-logo" src="" alt="Brand">
-    <div class="active-users">● Active Users: 42</div>
+    <img id="top-logo" src="" alt="Brand">
+    <div class="live-badge">● LIVE TV</div>
 </header>
 
-<div class="video-container" id="vContainer">
-    <img id="player-logo" src="" class="tv-logo">
-    <video id="player" playsinline controls crossorigin></video>
+<div class="player-container" id="pWrap">
+    <img id="watermark" src="" class="overlay-logo">
+    <video id="player" playsinline controls crossorigin="anonymous"></video>
 </div>
 
-<div class="nav-scroll" id="cat-menu">
-    <button class="cat-btn active" onclick="filterByCat('All')">All</button>
+<div class="cat-scroll" id="category-list">
+    <button class="cat-btn" onclick="filterData('All')">All Channels</button>
 </div>
 
-<div class="content-area">
-    <div id="grid" class="grid-container">
-        <p style="grid-column: 1/-1; text-align: center;">চ্যানেল লোড হচ্ছে...</p>
-    </div>
+<div class="search-container">
+    <input type="text" id="searchBox" class="search-bar" placeholder="চ্যানেল খুঁজুন..." onkeyup="runSearch()">
+</div>
+
+<div class="channel-horizontal" id="channel-grid">
+    <p style="text-align: center; width: 100%;">চ্যানেল লোড হচ্ছে...</p>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
 <script>
-    const CONFIG = {
+    const config = {
         user: "biojio481-web",
         repo: "Iptv",
-        logo: "logo.png",
-        m3u: "playlist.m3u"
+        logoName: "logo.png",
+        m3uName: "playlist.m3u"
     };
 
-    const rawBase = `https://raw.githubusercontent.com/${CONFIG.user}/${CONFIG.repo}/main/`;
-    const finalLogo = rawBase + CONFIG.logo;
+    const baseUrl = `https://raw.githubusercontent.com/${config.user}/${config.repo}/main/`;
+    const fullLogo = baseUrl + config.logoName;
     
-    document.getElementById('main-logo').src = finalLogo;
-    document.getElementById('player-logo').src = finalLogo;
+    document.getElementById('top-logo').src = fullLogo;
+    document.getElementById('watermark').src = fullLogo;
 
-    const video = document.getElementById('player');
-    const player = new Plyr(video, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
-    let hls = new Hls();
-    let allData = [];
+    const videoElement = document.getElementById('player');
+    const playerInst = new Plyr(videoElement, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
+    let hlsInst = new Hls();
+    let masterData = [];
 
-    async function init() {
+    // Fullscreen logo persistent fix
+    playerInst.on('enterfullscreen', () => {
+        document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('watermark'));
+    });
+    playerInst.on('exitfullscreen', () => {
+        document.getElementById('pWrap').prepend(document.getElementById('watermark'));
+    });
+
+    async function loadApp() {
         try {
-            const res = await fetch(rawBase + CONFIG.m3u);
-            const text = await res.text();
-            const lines = text.split('\n');
-            let channels = [], cur = {}, cats = new Set();
+            const response = await fetch(baseUrl + config.m3uName);
+            const dataText = await response.text();
+            const rows = dataText.split('\n');
+            let list = [], item = {}, groups = new Set();
 
-            lines.forEach(line => {
-                if (line.startsWith('#EXTINF:')) {
-                    cur.name = line.split(',')[1]?.trim() || "Unknown";
-                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "Others";
-                    cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                    cats.add(cur.group);
-                } else if (line.trim().startsWith('http')) {
-                    cur.url = line.trim();
-                    channels.push({...cur});
-                    cur = {};
+            rows.forEach(row => {
+                if (row.startsWith('#EXTINF:')) {
+                    item.name = row.split(',')[1]?.trim() || "Live";
+                    item.group = (row.match(/group-title="([^"]+)"/) || [])[1] || "Others";
+                    item.logo = (row.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
+                    groups.add(item.group);
+                } else if (row.trim().startsWith('http')) {
+                    item.url = row.trim();
+                    list.push({...item});
+                    item = {};
                 }
             });
 
-            allData = channels;
-            setupMenu(Array.from(cats));
-            render(allData);
-        } catch (e) { console.error("Error loading playlist"); }
+            masterData = list;
+            buildMenu(Array.from(groups));
+            drawGrid(masterData);
+        } catch (err) { console.error("Error loading TV data"); }
     }
 
-    function setupMenu(cats) {
-        const menu = document.getElementById('cat-menu');
-        cats.forEach(cat => {
-            const btn = document.createElement('button');
-            btn.className = 'cat-btn';
-            btn.innerText = cat;
-            btn.onclick = (e) => {
-                document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-                e.target.classList.add('active');
-                filterByCat(cat);
-            };
-            menu.appendChild(btn);
+    function buildMenu(groups) {
+        const menu = document.getElementById('category-list');
+        groups.forEach(g => {
+            const b = document.createElement('button');
+            b.className = 'cat-btn';
+            b.innerText = g;
+            b.onclick = () => filterData(g);
+            menu.appendChild(b);
         });
     }
 
-    function render(data) {
-        const grid = document.getElementById('grid');
-        grid.innerHTML = data.map(ch => `
-            <div class="channel-card" onclick="playCh('${ch.url}')" title="${ch.name}">
-                <img src="${ch.logo}" onerror="this.src='${finalLogo}'">
+    function drawGrid(items) {
+        const grid = document.getElementById('channel-grid');
+        grid.innerHTML = items.map(ch => `
+            <div class="channel-item" onclick="startPlay('${ch.url}')">
+                <img src="${ch.logo}" onerror="this.src='${fullLogo}'">
+                <span>${ch.name}</span>
             </div>
         `).join('');
     }
 
-    function playCh(url) {
+    function startPlay(src) {
         if (Hls.isSupported()) {
-            hls.destroy();
-            hls = new Hls();
-            hls.loadSource(url);
-            hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => player.play());
-        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-            video.src = url;
-            player.play();
+            hlsInst.destroy();
+            hlsInst = new Hls();
+            hlsInst.loadSource(src);
+            hlsInst.attachMedia(videoElement);
+            hlsInst.on(Hls.Events.MANIFEST_PARSED, () => playerInst.play());
+        } else if (videoElement.canPlayType('application/vnd.apple.mpegurl')) {
+            videoElement.src = src;
+            playerInst.play();
         }
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function filterByCat(cat) {
-        const filtered = cat === 'All' ? allData : allData.filter(ch => ch.group === cat);
-        render(filtered);
+    function filterData(group) {
+        drawGrid(group === 'All' ? masterData : masterData.filter(x => x.group === group));
     }
 
-    init();
+    function runSearch() {
+        const query = document.getElementById('searchBox').value.toLowerCase();
+        drawGrid(masterData.filter(x => x.name.toLowerCase().includes(query)));
+    }
+
+    loadApp();
 </script>
 </body>
 </html>
