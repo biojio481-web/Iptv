@@ -3,61 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My IPTV Player</title>
+    <title>Pro OTT Player</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --plyr-color-main: #ffcc00; --bg-dark: #0a0a0a; --panel-bg: #161616; }
-        body { background: var(--bg-dark); color: white; font-family: sans-serif; margin: 0; }
-        header { width: 100%; padding: 15px; text-align: center; background: var(--panel-bg); border-bottom: 2px solid #333; }
-        header img { height: 60px; border-radius: 5px; }
-        .main-layout { display: flex; max-width: 1500px; margin: 20px auto; gap: 20px; padding: 0 15px; flex-wrap: wrap; }
-        .player-wrapper { position: relative; flex: 2.5; min-width: 350px; background: #000; border-radius: 12px; overflow: hidden; }
+        :root { --primary-color: #ffcc00; --bg-dark: #0f0f0f; --card-bg: #1a1a1a; }
+        body { background: var(--bg-dark); color: white; font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding-bottom: 50px; }
         
-        /* লোগো পজিশন ও সাইজ */
-        .tv-watermark { 
-            position: absolute; 
-            top: 25px; 
-            left: 25px; 
-            width: 140px; /* লোগোটি বড় করা হয়েছে */
-            z-index: 100; 
-            opacity: 0.9; 
-            pointer-events: none;
-            filter: drop-shadow(0 0 10px rgba(0,0,0,0.8));
-        }
+        /* Header & Main Logo */
+        header { width: 100%; padding: 15px 0; text-align: center; background: #000; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #333; }
+        header img { height: 50px; }
 
-        .playlist-container { flex: 1; min-width: 320px; background: var(--panel-bg); border-radius: 12px; height: 650px; border: 1px solid #333; display: flex; flex-direction: column; }
-        .search-area { padding: 15px; border-bottom: 1px solid #333; }
-        #search-input { width: 100%; padding: 12px; border-radius: 8px; border: none; background: #252525; color: white; outline: none; }
-        #channel-list { flex: 1; overflow-y: auto; padding: 10px; }
-        .category-header { background: #333; padding: 8px 15px; margin: 15px 0 8px 0; border-radius: 5px; color: var(--plyr-color-main); font-size: 13px; text-transform: uppercase; font-weight: bold; }
-        .channel-item { display: flex; align-items: center; padding: 12px; margin-bottom: 8px; background: #222; cursor: pointer; border-radius: 8px; transition: 0.2s; border-left: 4px solid transparent; }
-        .channel-item:hover { background: #333; border-left-color: var(--plyr-color-main); }
-        .channel-item img { width: 40px; height: 40px; margin-right: 15px; border-radius: 4px; object-fit: contain; background: #000; }
+        /* Video Section */
+        .video-section { width: 100%; max-width: 1000px; margin: 0 auto; background: #000; position: relative; }
+        .plyr { width: 100%; border-bottom: 2px solid var(--primary-color); }
+        .tv-watermark { position: absolute; top: 20px; left: 20px; width: 100px; z-index: 10; opacity: 0.8; pointer-events: none; }
+
+        /* Search & Filter Section */
+        .controls-container { max-width: 1200px; margin: 20px auto; padding: 0 15px; }
+        .search-box { width: 100%; padding: 15px; border-radius: 10px; border: 1px solid #333; background: var(--card-bg); color: white; font-size: 16px; outline: none; box-sizing: border-box; }
+        .search-box:focus { border-color: var(--primary-color); }
+
+        /* Grid Layout for Channels */
+        .category-title { margin: 25px 0 15px 0; font-size: 18px; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; border-left: 4px solid var(--primary-color); padding-left: 10px; }
+        .channel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 15px; }
         
-        @media (max-width: 768px) {
-            .main-layout { flex-direction: column; }
-            .tv-watermark { width: 100px; top: 15px; left: 15px; }
-            .playlist-container { height: 450px; }
+        .channel-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; cursor: pointer; transition: 0.3s; border: 1px solid transparent; text-align: center; padding: 10px; }
+        .channel-card:hover { transform: translateY(-5px); border-color: var(--primary-color); background: #252525; }
+        .channel-card img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 8px; background: #000; margin-bottom: 8px; }
+        .channel-card span { display: block; font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        @media (max-width: 600px) {
+            .channel-grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; }
+            .category-title { font-size: 16px; }
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png" alt="Logo">
+    <img id="main-logo" src="" alt="Brand Logo">
 </header>
 
-<div class="main-layout">
-    <div class="player-wrapper">
-        <img src="https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png" class="tv-watermark">
-        <video id="player" playsinline controls></video>
-    </div>
+<div class="video-section">
+    <img id="inner-logo" src="" class="tv-watermark">
+    <video id="player" playsinline controls></video>
+</div>
 
-    <div class="playlist-container">
-        <div class="search-area">
-            <input type="text" id="search-input" placeholder="Search Channels..." onkeyup="filterChannels()">
-        </div>
-        <div id="channel-list">Loading...</div>
+<div class="controls-container">
+    <input type="text" id="search-input" class="search-box" placeholder="সার্চ করুন আপনার প্রিয় চ্যানেল..." onkeyup="filterChannels()">
+    
+    <div id="dynamic-content">
+        <p style="text-align: center; margin-top: 50px;">চ্যানেল লোড হচ্ছে, দয়া করে অপেক্ষা করুন...</p>
     </div>
 </div>
 
@@ -65,83 +61,94 @@
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
 <script>
+    const user = "biojio481-web";
+    const repo = "Iptv";
+    const logoFileName = "logo.png";
+    const m3uFileName = "playlist.m3u";
+
+    const logoUrl = `https://raw.githubusercontent.com/${user}/${repo}/main/${logoFileName}`;
+    const m3uUrl = `https://raw.githubusercontent.com/${user}/${repo}/main/${m3uFileName}`;
+
+    document.getElementById('main-logo').src = logoUrl;
+    document.getElementById('inner-logo').src = logoUrl;
+
     const video = document.getElementById('player');
-    const m3uUrl = 'https://raw.githubusercontent.com/biojio481-web/Iptv/main/playlist.m3u';
     let allChannels = [];
     let hls = new Hls();
 
     const player = new Plyr(video, {
         controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
-        settings: ['quality', 'speed'],
-        quality: { default: 720, options: [1080, 720, 480, 360] }
+        settings: ['quality', 'speed']
     });
 
-    async function loadPlaylist() {
+    async function fetchPlaylist() {
         try {
             const response = await fetch(m3uUrl);
             const data = await response.text();
             const lines = data.split('\n');
-            let channelData = [];
+            let channels = [];
             let current = {};
 
             for (let i = 0; i < lines.length; i++) {
                 if (lines[i].startsWith('#EXTINF:')) {
                     const info = lines[i];
                     current.name = info.split(',')[1]?.trim() || "Unknown";
-                    current.group = (info.match(/group-title="([^"]+)"/) || [])[1] || "General";
+                    current.group = (info.match(/group-title="([^"]+)"/) || [])[1] || "Others";
                     current.logo = (info.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
                 } else if (lines[i].trim().startsWith('http')) {
                     current.url = lines[i].trim();
-                    channelData.push({...current});
+                    channels.push({...current});
                     current = {};
                 }
             }
-            allChannels = channelData;
-            renderChannels(allChannels);
-        } catch (e) { console.error(e); }
+            allChannels = channels;
+            displayGrid(allChannels);
+        } catch (e) {
+            document.getElementById('dynamic-content').innerHTML = "<p style='text-align:center;'>প্লেলিস্ট লোড করতে সমস্যা হয়েছে।</p>";
+        }
     }
 
-    function renderChannels(channels) {
-        const listContainer = document.getElementById('channel-list');
-        listContainer.innerHTML = '';
-        const grouped = channels.reduce((acc, ch) => {
+    function displayGrid(data) {
+        const container = document.getElementById('dynamic-content');
+        container.innerHTML = '';
+
+        const groups = data.reduce((acc, ch) => {
             acc[ch.group] = acc[ch.group] || [];
             acc[ch.group].push(ch);
             return acc;
         }, {});
 
-        for (const group in grouped) {
-            const header = document.createElement('div');
-            header.className = 'category-header';
-            header.innerText = group;
-            listContainer.appendChild(header);
+        for (const group in groups) {
+            const section = document.createElement('div');
+            section.innerHTML = `<div class="category-title">${group}</div>`;
+            const grid = document.createElement('div');
+            grid.className = 'channel-grid';
 
-            grouped[group].forEach(ch => {
-                const div = document.createElement('div');
-                div.className = 'channel-item';
-                div.innerHTML = `<img src="${ch.logo}" onerror="this.src='https://via.placeholder.com/40'"> <span>${ch.name}</span>`;
-                div.onclick = () => playStream(ch.url);
-                listContainer.appendChild(div);
+            groups[group].forEach(ch => {
+                const card = document.createElement('div');
+                card.className = 'channel-card';
+                card.innerHTML = `
+                    <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
+                    <span>${ch.name}</span>
+                `;
+                card.onclick = () => {
+                    playChannel(ch.url);
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                };
+                grid.appendChild(card);
             });
+            section.appendChild(grid);
+            container.appendChild(section);
         }
     }
 
-    function playStream(url) {
+    function playChannel(url) {
         if (Hls.isSupported()) {
             hls.destroy();
             hls = new Hls();
             hls.loadSource(url);
             hls.attachMedia(video);
-            hls.on(Hls.Events.MANIFEST_PARSED, () => {
-                const availableQualities = hls.levels.map((l) => l.height);
-                player.settings.quality = {
-                    default: availableQualities[0],
-                    options: availableQualities,
-                    forced: true,
-                    onChange: (q) => { hls.levels.forEach((l, idx) => { if (l.height === q) hls.currentLevel = idx; }); }
-                };
-                player.play();
-            });
+            hls.on(Hls.Events.MANIFEST_PARSED, () => player.play());
         } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
             video.src = url;
             player.play();
@@ -151,10 +158,10 @@
     function filterChannels() {
         const query = document.getElementById('search-input').value.toLowerCase();
         const filtered = allChannels.filter(ch => ch.name.toLowerCase().includes(query));
-        renderChannels(filtered);
+        displayGrid(filtered);
     }
 
-    loadPlaylist();
+    fetchPlaylist();
 </script>
 </body>
 </html>
