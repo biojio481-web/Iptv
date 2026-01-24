@@ -35,7 +35,7 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 
     # ২. ৫টি ভিন্ন প্লেলিস্টের লিঙ্ক
     playlists = [
-        {"folder": "BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
+        {"folder": "T20 World Cup 2026 BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
         {"folder": "Ontest Plus", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
         {"folder": "Mrgify BDIX", "url": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u"},
         {"folder": "Main Collection", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u"},
