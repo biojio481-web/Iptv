@@ -2,10 +2,10 @@ import requests
 import re
 
 def merge_playlists():
-    # আপনার দেওয়া লোগো লিঙ্কটি এখানে বসানো হয়েছে
-    STAR_LOGO = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_l9lfvxl9lfvxl9lf.png"
+    # আপনার পছন্দের নতুন লোগো লিঙ্কটি এখানে সেট করা হয়েছে
+    STAR_LOGO = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_36682y36682y3668.png"
 
-    # ১. আপনার নিজস্ব ১২টি চ্যানেল (সরাসরি আপনার দেওয়া লিঙ্কগুলো)
+    # ১. আপনার নিজস্ব চ্যানেলগুলো (নতুন লোগো ও হেডারসহ)
     my_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="MY BDIX",Live-1: T-Sports HD
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -30,10 +30,12 @@ http://172.16.29.34/live/ontest1/ontest1/330.m3u8
 #EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-11-Special
 https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
 #EXTINF:-1 tvg-logo="{STAR_LOGO}" group-title="SPECIAL",Live-12-Special
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+#EXTVLCOPT:http-referrer=https://ranapk.online/
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-    # ২. ৫টি ভিন্ন প্লেলিস্টের লিঙ্ক
+    # ২. আপনার ৫টি প্লেলিস্টের লিঙ্ক
     playlists = [
         {"folder": "T20 World Cup 2026 BDIX Special", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Specialbdix.m3u"},
         {"folder": "Ontest Plus", "url": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u"},
@@ -59,7 +61,7 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
                         else:
                             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 group-title="{pl["folder"]}"')
                         
-                        # আপনার লোগোটি প্রতিটি লাইনে ইনজেক্ট করা
+                        # আপনার নতুন লোগোটি প্রতিটি লাইনে ইনজেক্ট করা
                         if 'tvg-logo="' in line:
                             line = re.sub(r'tvg-logo="[^"]*"', f'tvg-logo="{STAR_LOGO}"', line)
                         else:
@@ -70,11 +72,11 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
         except:
             continue
 
-    # ৩. playlist.m3u ফাইলটি সেভ করা
+    # ৩. ফাইনাল ফাইল সেভ করা
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(combined_content.strip())
     
-    print("অভিনন্দন! লোগোসহ প্লেলিস্ট আপডেট হয়েছে।")
+    print(f"সফলভাবে নতুন লোগোসহ প্লেলিস্ট তৈরি হয়েছে।")
 
 if __name__ == "__main__":
     merge_playlists()
