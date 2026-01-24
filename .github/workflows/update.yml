@@ -1,25 +1,30 @@
 name: UpdatePlaylist
 on:
   schedule:
-    - cron: '0 */2 * * *' # প্রতি ২ ঘণ্টা পর অটো আপডেট হবে
-  workflow_dispatch: 
+    - cron: '0 */6 * * *' # Protidin raat 12ta, sokal 6ta, dupur 12ta ebong bikel 6ta-te update hobe
+  workflow_dispatch:      # Manual run korar option
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          
       - name: Install requests
         run: pip install requests
+        
       - name: Run scraper
         run: python scraper.py
+        
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add playlist.m3u
-          git commit -m "Playlist updated" || exit 0
+          git add .  # Eta sob folder-er file-ke GitHub-e upload korbe
+          git commit -m "Auto updated playlists via 6-hour cron" || exit 0
           git push
