@@ -6,29 +6,67 @@
     <title>Premium OTT Player</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --primary: #ffcc00; --bg: #0f0f0f; --card: #1a1a1a; --text: #ffffff; }
-        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; }
-        header { background: #000; padding: 10px; text-align: center; border-bottom: 1px solid #333; }
-        header img { height: 35px; border-radius: 5px; }
-        .video-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
-        .tv-logo { position: absolute; top: 15px; left: 15px; width: 60px; z-index: 10; opacity: 0.8; pointer-events: none; }
-        .nav-scroll { display: flex; overflow-x: auto; padding: 15px; gap: 10px; background: #111; border-bottom: 1px solid #222; scrollbar-width: none; }
+        :root { --primary: #e50914; --bg: #0f0f0f; --card: #1f1f1f; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding-bottom: 50px; }
+        
+        /* Redforce Style Header */
+        header { background: #000; padding: 12px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 1000; }
+        header img { height: 35px; }
+        .active-users { background: #28a745; color: white; padding: 4px 10px; border-radius: 5px; font-size: 12px; font-weight: bold; }
+
+        /* Video Section */
+        .video-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; border-radius: 12px; overflow: hidden; margin-top: 10px; }
+        .tv-logo { position: absolute; top: 15px; left: 15px; width: 50px; z-index: 10; opacity: 0.7; pointer-events: none; }
+
+        /* Redforce Style Category Tabs */
+        .nav-scroll { display: flex; overflow-x: auto; padding: 15px; gap: 15px; background: #111; scrollbar-width: none; border-bottom: 1px solid #222; justify-content: center; }
         .nav-scroll::-webkit-scrollbar { display: none; }
-        .category-btn { padding: 8px 18px; border-radius: 20px; background: #222; border: 1px solid #333; color: #ccc; cursor: pointer; white-space: nowrap; }
-        .category-btn.active { background: var(--primary); color: #000; font-weight: bold; }
-        .search-wrapper { padding: 15px; max-width: 900px; margin: 0 auto; }
-        .search-bar { width: 100%; padding: 12px 20px; border-radius: 25px; border: 1px solid #333; background: var(--card); color: #fff; outline: none; box-sizing: border-box; }
-        .grid-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; padding: 15px; max-width: 1000px; margin: 0 auto; }
-        .channel-card { background: var(--card); border-radius: 12px; padding: 10px; text-align: center; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
-        .channel-card:hover { transform: scale(1.05); border-color: var(--primary); }
-        .channel-card img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 8px; margin-bottom: 8px; background: #000; }
-        .channel-card span { display: block; font-size: 11px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        @media (min-width: 600px) { .grid-container { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); } }
+        .cat-btn { background: none; border: none; color: #ccc; cursor: pointer; font-size: 15px; font-weight: 500; transition: 0.3s; padding: 5px 10px; }
+        .cat-btn.active { color: #fff; border-bottom: 2px solid var(--primary); }
+
+        /* Perfect Grid for Channel Logos */
+        .content-area { max-width: 1200px; margin: 0 auto; padding: 15px; }
+        .grid-container { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(105px, 1fr)); /* লোগো ছোট রাখার জন্য ফিক্সড সাইজ */
+            gap: 12px; 
+        }
+        
+        .channel-card { 
+            background: #fff; /* Redforce লোগোর ব্যাকগ্রাউন্ড সাদা থাকে */
+            border-radius: 8px; 
+            overflow: hidden; 
+            cursor: pointer; 
+            transition: 0.2s; 
+            border: 1px solid #ddd;
+            aspect-ratio: 1/1; /* স্কয়ার বক্স */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+        .channel-card:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+        .channel-card img { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: contain; /* লোগো যাতে ফেটে না যায় বা বড় না হয় */
+        }
+
+        /* Fullscreen Watermark Fix */
+        .plyr--fullscreen-fallback .tv-logo, .plyr--is-fullscreen .tv-logo { display: block !important; width: 45px; }
+
+        @media (max-width: 600px) {
+            .grid-container { grid-template-columns: repeat(3, 1fr); gap: 8px; } /* মোবাইলে এক সারিতে ৩টি লোগো */
+            .nav-scroll { justify-content: flex-start; }
+        }
     </style>
 </head>
 <body>
 
-<header><img id="main-logo" src="" alt="Logo"></header>
+<header>
+    <img id="main-logo" src="" alt="Brand">
+    <div class="active-users">● Active Users: 42</div>
+</header>
 
 <div class="video-container" id="vContainer">
     <img id="player-logo" src="" class="tv-logo">
@@ -36,51 +74,48 @@
 </div>
 
 <div class="nav-scroll" id="cat-menu">
-    <button class="category-btn active" onclick="filterByCat('All')">All</button>
+    <button class="cat-btn active" onclick="filterByCat('All')">All</button>
 </div>
 
-<div class="search-wrapper">
-    <input type="text" id="search" class="search-bar" placeholder="Search channels..." onkeyup="searchChannels()">
-</div>
-
-<div id="grid" class="grid-container">
-    <p style="grid-column: 1/-1; text-align: center;">চ্যানেল লোড হচ্ছে...</p>
+<div class="content-area">
+    <div id="grid" class="grid-container">
+        <p style="grid-column: 1/-1; text-align: center;">চ্যানেল লোড হচ্ছে...</p>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
 <script>
-    // আপনার গিটহাবের সঠিক ইউজারনেম এবং রিপোজিটরি নাম
-    const USERNAME = "biojio481-web"; 
-    const REPO = "Iptv";
-    const RAW_URL = `https://raw.githubusercontent.com/${USERNAME}/${REPO}/main/`;
+    const CONFIG = {
+        user: "biojio481-web",
+        repo: "Iptv",
+        logo: "logo.png",
+        m3u: "playlist.m3u"
+    };
+
+    const rawBase = `https://raw.githubusercontent.com/${CONFIG.user}/${CONFIG.repo}/main/`;
+    const finalLogo = rawBase + CONFIG.logo;
+    
+    document.getElementById('main-logo').src = finalLogo;
+    document.getElementById('player-logo').src = finalLogo;
 
     const video = document.getElementById('player');
     const player = new Plyr(video, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
     let hls = new Hls();
     let allData = [];
-    let currentCat = 'All';
-
-    // লোগো সেট করা (সরাসরি লিঙ্ক)
-    const finalLogo = RAW_URL + "logo.png";
-    document.getElementById('main-logo').src = finalLogo;
-    document.getElementById('player-logo').src = finalLogo;
 
     async function init() {
         try {
-            // প্লেলিস্ট লোড করা
-            const res = await fetch(RAW_URL + "playlist.m3u");
-            if (!res.ok) throw new Error('Network error');
+            const res = await fetch(rawBase + CONFIG.m3u);
             const text = await res.text();
-            
             const lines = text.split('\n');
             let channels = [], cur = {}, cats = new Set();
 
             lines.forEach(line => {
                 if (line.startsWith('#EXTINF:')) {
                     cur.name = line.split(',')[1]?.trim() || "Unknown";
-                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
+                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "Others";
                     cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
                     cats.add(cur.group);
                 } else if (line.trim().startsWith('http')) {
@@ -93,19 +128,17 @@
             allData = channels;
             setupMenu(Array.from(cats));
             render(allData);
-        } catch (e) {
-            document.getElementById('grid').innerHTML = `<p style="grid-column: 1/-1; text-align: center; color: red;">প্লেলিস্ট পাওয়া যায়নি! দয়া করে আপনার ফাইলের নাম চেক করুন।</p>`;
-        }
+        } catch (e) { console.error("Error loading playlist"); }
     }
 
     function setupMenu(cats) {
         const menu = document.getElementById('cat-menu');
         cats.forEach(cat => {
             const btn = document.createElement('button');
-            btn.className = 'category-btn';
+            btn.className = 'cat-btn';
             btn.innerText = cat;
             btn.onclick = (e) => {
-                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
                 e.target.classList.add('active');
                 filterByCat(cat);
             };
@@ -115,14 +148,9 @@
 
     function render(data) {
         const grid = document.getElementById('grid');
-        if (data.length === 0) {
-            grid.innerHTML = `<p style="grid-column: 1/-1; text-align: center;">কোনো চ্যানেল পাওয়া যায়নি।</p>`;
-            return;
-        }
         grid.innerHTML = data.map(ch => `
-            <div class="channel-card" onclick="playCh('${ch.url}')">
+            <div class="channel-card" onclick="playCh('${ch.url}')" title="${ch.name}">
                 <img src="${ch.logo}" onerror="this.src='${finalLogo}'">
-                <span>${ch.name}</span>
             </div>
         `).join('');
     }
@@ -142,13 +170,8 @@
     }
 
     function filterByCat(cat) {
-        currentCat = cat;
-        render(cat === 'All' ? allData : allData.filter(ch => ch.group === cat));
-    }
-
-    function searchChannels() {
-        const q = document.getElementById('search').value.toLowerCase();
-        render(allData.filter(ch => ch.name.toLowerCase().includes(q)));
+        const filtered = cat === 'All' ? allData : allData.filter(ch => ch.group === cat);
+        render(filtered);
     }
 
     init();
