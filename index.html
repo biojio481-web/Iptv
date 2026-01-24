@@ -3,57 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pro OTT Player</title>
+    <title>Premium OTT Player</title>
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <style>
-        :root { --primary-color: #ffcc00; --bg-dark: #0f0f0f; --card-bg: #1a1a1a; }
-        body { background: var(--bg-dark); color: white; font-family: 'Segoe UI', Roboto, sans-serif; margin: 0; padding-bottom: 50px; }
+        :root { --primary: #ffcc00; --bg: #0f0f0f; --card: #1a1a1a; --text: #ffffff; }
+        body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', sans-serif; margin: 0; overflow-x: hidden; }
         
-        /* Header & Main Logo */
-        header { width: 100%; padding: 15px 0; text-align: center; background: #000; position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #333; }
-        header img { height: 50px; }
+        /* Header */
+        header { background: #000; padding: 10px; text-align: center; border-bottom: 1px solid #333; position: sticky; top: 0; z-index: 1000; }
+        header img { height: 35px; }
 
         /* Video Section */
-        .video-section { width: 100%; max-width: 1000px; margin: 0 auto; background: #000; position: relative; }
-        .plyr { width: 100%; border-bottom: 2px solid var(--primary-color); }
-        .tv-watermark { position: absolute; top: 20px; left: 20px; width: 100px; z-index: 10; opacity: 0.8; pointer-events: none; }
+        .video-container { width: 100%; max-width: 900px; margin: 0 auto; background: #000; position: relative; aspect-ratio: 16/9; }
+        .tv-logo { position: absolute; top: 15px; left: 15px; width: 60px; z-index: 10; opacity: 0.8; pointer-events: none; }
 
-        /* Search & Filter Section */
-        .controls-container { max-width: 1200px; margin: 20px auto; padding: 0 15px; }
-        .search-box { width: 100%; padding: 15px; border-radius: 10px; border: 1px solid #333; background: var(--card-bg); color: white; font-size: 16px; outline: none; box-sizing: border-box; }
-        .search-box:focus { border-color: var(--primary-color); }
+        /* Category Menu */
+        .nav-scroll { display: flex; overflow-x: auto; padding: 15px; gap: 10px; white-space: nowrap; scrollbar-width: none; background: #111; border-bottom: 1px solid #222; }
+        .nav-scroll::-webkit-scrollbar { display: none; }
+        .category-btn { padding: 8px 18px; border-radius: 20px; background: #222; border: 1px solid #333; color: #ccc; cursor: pointer; font-size: 14px; transition: 0.3s; }
+        .category-btn.active { background: var(--primary); color: #000; border-color: var(--primary); font-weight: bold; }
 
-        /* Grid Layout for Channels */
-        .category-title { margin: 25px 0 15px 0; font-size: 18px; color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px; border-left: 4px solid var(--primary-color); padding-left: 10px; }
-        .channel-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 15px; }
+        /* Search Box */
+        .search-wrapper { padding: 15px; max-width: 900px; margin: 0 auto; }
+        .search-bar { width: 100%; padding: 12px 20px; border-radius: 25px; border: 1px solid #333; background: var(--card); color: #fff; font-size: 14px; outline: none; }
+        .search-bar:focus { border-color: var(--primary); }
+
+        /* Channel Grid */
+        .content-area { max-width: 1000px; margin: 0 auto; padding: 10px; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 12px; }
         
-        .channel-card { background: var(--card-bg); border-radius: 12px; overflow: hidden; cursor: pointer; transition: 0.3s; border: 1px solid transparent; text-align: center; padding: 10px; }
-        .channel-card:hover { transform: translateY(-5px); border-color: var(--primary-color); background: #252525; }
-        .channel-card img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 8px; background: #000; margin-bottom: 8px; }
-        .channel-card span { display: block; font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .channel-card { background: var(--card); border-radius: 12px; padding: 10px; text-align: center; cursor: pointer; transition: 0.2s; border: 1px solid transparent; }
+        .channel-card:hover { transform: scale(1.05); border-color: var(--primary); }
+        .channel-card img { width: 100%; aspect-ratio: 1/1; object-fit: contain; border-radius: 8px; margin-bottom: 8px; background: #000; }
+        .channel-card span { display: block; font-size: 11px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        /* Fullscreen Watermark Fix */
+        .plyr--fullscreen-fallback .tv-logo, .plyr--is-fullscreen .tv-logo { display: block !important; width: 50px; opacity: 0.6; }
 
         @media (max-width: 600px) {
-            .channel-grid { grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 10px; }
-            .category-title { font-size: 16px; }
+            .grid-container { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+            .category-btn { padding: 6px 14px; font-size: 12px; }
         }
     </style>
 </head>
 <body>
 
-<header>
-    <img id="main-logo" src="" alt="Brand Logo">
-</header>
+<header><img id="main-logo" src="" alt="Brand"></header>
 
-<div class="video-section">
-    <img id="inner-logo" src="" class="tv-watermark">
-    <video id="player" playsinline controls></video>
+<div class="video-container" id="vContainer">
+    <img id="player-logo" src="" class="tv-logo">
+    <video id="player" playsinline controls crossorigin></video>
 </div>
 
-<div class="controls-container">
-    <input type="text" id="search-input" class="search-box" placeholder="সার্চ করুন আপনার প্রিয় চ্যানেল..." onkeyup="filterChannels()">
-    
-    <div id="dynamic-content">
-        <p style="text-align: center; margin-top: 50px;">চ্যানেল লোড হচ্ছে, দয়া করে অপেক্ষা করুন...</p>
+<div class="nav-scroll" id="cat-menu">
+    <button class="category-btn active" onclick="filterByCat('All')">All</button>
+</div>
+
+<div class="search-wrapper">
+    <input type="text" id="search" class="search-bar" placeholder="Search your favorite channel..." onkeyup="searchChannels()">
+</div>
+
+<div class="content-area">
+    <div id="grid" class="grid-container">
+        <p style="grid-column: 1/-1; text-align: center; opacity: 0.5;">Loading channels...</p>
     </div>
 </div>
 
@@ -61,88 +73,79 @@
 <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
 <script>
-    const user = "biojio481-web";
-    const repo = "Iptv";
-    const logoFileName = "logo.png";
-    const m3uFileName = "playlist.m3u";
+    const CONFIG = {
+        user: "biojio481-web",
+        repo: "Iptv",
+        logo: "logo.png",
+        m3u: "playlist.m3u"
+    };
 
-    const logoUrl = `https://raw.githubusercontent.com/${user}/${repo}/main/${logoFileName}`;
-    const m3uUrl = `https://raw.githubusercontent.com/${user}/${repo}/main/${m3uFileName}`;
-
-    document.getElementById('main-logo').src = logoUrl;
-    document.getElementById('inner-logo').src = logoUrl;
+    const rawBase = `https://raw.githubusercontent.com/${CONFIG.user}/${CONFIG.repo}/main/`;
+    document.getElementById('main-logo').src = rawBase + CONFIG.logo;
+    document.getElementById('player-logo').src = rawBase + CONFIG.logo;
 
     const video = document.getElementById('player');
-    let allChannels = [];
+    const player = new Plyr(video, { controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'] });
     let hls = new Hls();
+    let allData = [];
+    let currentCat = 'All';
 
-    const player = new Plyr(video, {
-        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'settings', 'fullscreen'],
-        settings: ['quality', 'speed']
-    });
+    // Fix Logo in Fullscreen
+    player.on('enterfullscreen', () => document.querySelector('.plyr__video-wrapper').appendChild(document.getElementById('player-logo')));
+    player.on('exitfullscreen', () => document.getElementById('vContainer').prepend(document.getElementById('player-logo')));
 
-    async function fetchPlaylist() {
+    async function init() {
         try {
-            const response = await fetch(m3uUrl);
-            const data = await response.text();
-            const lines = data.split('\n');
-            let channels = [];
-            let current = {};
+            const res = await fetch(rawBase + CONFIG.m3u);
+            const text = await res.text();
+            const lines = text.split('\n');
+            let channels = [], cur = {}, cats = new Set();
 
-            for (let i = 0; i < lines.length; i++) {
-                if (lines[i].startsWith('#EXTINF:')) {
-                    const info = lines[i];
-                    current.name = info.split(',')[1]?.trim() || "Unknown";
-                    current.group = (info.match(/group-title="([^"]+)"/) || [])[1] || "Others";
-                    current.logo = (info.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
-                } else if (lines[i].trim().startsWith('http')) {
-                    current.url = lines[i].trim();
-                    channels.push({...current});
-                    current = {};
+            lines.forEach(line => {
+                if (line.startsWith('#EXTINF:')) {
+                    cur.name = line.split(',')[1]?.trim() || "Unknown";
+                    cur.group = (line.match(/group-title="([^"]+)"/) || [])[1] || "General";
+                    cur.logo = (line.match(/tvg-logo="([^"]+)"/) || [])[1] || "";
+                    cats.add(cur.group);
+                } else if (line.trim().startsWith('http')) {
+                    cur.url = line.trim();
+                    channels.push({...cur});
+                    cur = {};
                 }
-            }
-            allChannels = channels;
-            displayGrid(allChannels);
-        } catch (e) {
-            document.getElementById('dynamic-content').innerHTML = "<p style='text-align:center;'>প্লেলিস্ট লোড করতে সমস্যা হয়েছে।</p>";
-        }
-    }
-
-    function displayGrid(data) {
-        const container = document.getElementById('dynamic-content');
-        container.innerHTML = '';
-
-        const groups = data.reduce((acc, ch) => {
-            acc[ch.group] = acc[ch.group] || [];
-            acc[ch.group].push(ch);
-            return acc;
-        }, {});
-
-        for (const group in groups) {
-            const section = document.createElement('div');
-            section.innerHTML = `<div class="category-title">${group}</div>`;
-            const grid = document.createElement('div');
-            grid.className = 'channel-grid';
-
-            groups[group].forEach(ch => {
-                const card = document.createElement('div');
-                card.className = 'channel-card';
-                card.innerHTML = `
-                    <img src="${ch.logo}" onerror="this.src='${logoUrl}'">
-                    <span>${ch.name}</span>
-                `;
-                card.onclick = () => {
-                    playChannel(ch.url);
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                };
-                grid.appendChild(card);
             });
-            section.appendChild(grid);
-            container.appendChild(section);
-        }
+
+            allData = channels;
+            setupMenu(Array.from(cats));
+            render(allData);
+        } catch (e) { console.error("Load Error"); }
     }
 
-    function playChannel(url) {
+    function setupMenu(cats) {
+        const menu = document.getElementById('cat-menu');
+        cats.forEach(cat => {
+            const btn = document.createElement('button');
+            btn.className = 'category-btn';
+            btn.innerText = cat;
+            btn.onclick = (e) => {
+                document.querySelectorAll('.category-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                filterByCat(cat);
+            };
+            menu.appendChild(btn);
+        });
+    }
+
+    function render(data) {
+        const grid = document.getElementById('grid');
+        grid.innerHTML = data.map(ch => `
+            <div class="channel-card" onclick="playCh('${ch.url}')">
+                <img src="${ch.logo}" onerror="this.src='${rawBase + CONFIG.logo}'">
+                <span>${ch.name}</span>
+            </div>
+        `).join('');
+    }
+
+    function playCh(url) {
         if (Hls.isSupported()) {
             hls.destroy();
             hls = new Hls();
@@ -153,15 +156,21 @@
             video.src = url;
             player.play();
         }
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }
 
-    function filterChannels() {
-        const query = document.getElementById('search-input').value.toLowerCase();
-        const filtered = allChannels.filter(ch => ch.name.toLowerCase().includes(query));
-        displayGrid(filtered);
+    function filterByCat(cat) {
+        currentCat = cat;
+        const filtered = cat === 'All' ? allData : allData.filter(ch => ch.group === cat);
+        render(filtered);
     }
 
-    fetchPlaylist();
-</script>
-</body>
-</html>
+    function searchChannels() {
+        const q = document.getElementById('search').value.toLowerCase();
+        const filtered = allData.filter(ch => 
+            ch.name.toLowerCase().includes(q) && (currentCat === 'All' || ch.group === currentCat)
+        );
+        render(filtered);
+    }
+
+    init();
