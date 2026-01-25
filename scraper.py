@@ -42,7 +42,7 @@ external_playlists = {
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "New-Playlist-1": "",
+    "Test1": "https://is.gd/8gptOc.m3u",
     "New-Playlist-2": "",
     "New-Playlist-3": ""
 }
