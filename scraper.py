@@ -41,7 +41,7 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
-YOUR_URL_HERE
+https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
 YOUR_URL_HERE
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-4
