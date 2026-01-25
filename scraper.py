@@ -7,6 +7,7 @@ LOGO_URL = "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main
 
 # 2. Group Names
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
+ENTERTAINMENT_GROUP = "Entertainment"
 
 # 3. Special 12 Channels Data
 special_channels_content = f"""#EXTM3U
@@ -36,7 +37,18 @@ http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-# 4. External Playlists
+# 4. New 4 Channels (Entertainment Group)
+entertainment_channels = f"""#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
+#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
+YOUR_URL_HERE
+#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
+YOUR_URL_HERE
+#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-4
+YOUR_URL_HERE
+"""
+
+# 5. External Playlists
 external_playlists = {
     "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
@@ -67,7 +79,7 @@ def clean_and_group(content, group_name):
     return "\n".join(cleaned)
 
 def run_scraper():
-    final_data = special_channels_content
+    final_data = special_channels_content + entertainment_channels
     for name, url in external_playlists.items():
         if url.startswith("http"):
             try:
