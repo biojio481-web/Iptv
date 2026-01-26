@@ -14,7 +14,7 @@ special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2
-http://172.16.29.34/live/ontest1/ontest1/252.m3u8
+http://30.30.30.30:8088/101/index.m3u8?token=9b9a5c6dae6851f8da3d7d817417bd3c5e3ebb0d-e8ee13fe456593685a17721b2b6f21eb-1769449109-1769445509
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4
