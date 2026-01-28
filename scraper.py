@@ -10,7 +10,7 @@ GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png"
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. স্পেশাল ১২টি চ্যানেল (১২ নম্বর চ্যানেলটি আপডেট করা হয়েছে)
+# ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -24,25 +24,17 @@ http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 http://172.16.29.34/live/ontest1/ontest1/349.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
 http://172.16.29.34/live/ontest1/ontest1/443.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-7
-http://172.16.29.34/live/ontest1/ontest1/328.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-8
-http://172.16.29.34/live/ontest1/ontest1/375.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-9
-http://172.16.29.34/live/ontest1/ontest1/480.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-10
-http://172.16.29.34/live/ontest1/ontest1/330.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-11-Special
-http://172.16.29.34/live/ontest1/ontest1/480.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-12-Special-Ind VS Nz
-https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167583
 """
 
-# ৪. এন্টারটেইনমেন্ট
+# ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
 https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
+#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
+#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-4
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 """
 
 # ৫. বাহ্যিক প্লেলিস্ট
@@ -51,7 +43,7 @@ external_playlists = {
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "Roar Zone Tv": "https://da.gd/raqHNg"
+    "Test": "https://da.gd/sdKRf"
 }
 
 def clean_and_group(content, group_name):
@@ -80,7 +72,7 @@ def run_scraper():
             
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(final_data)
-    print("Playlist Updated: Live-12 Name and Link changed!")
+    print("Playlist Updated: Entertainment 3 & 4 added!")
 
 if __name__ == "__main__":
     run_scraper()
