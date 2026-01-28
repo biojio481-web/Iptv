@@ -22,8 +22,8 @@ http://172.16.29.2:8090/hls/ASportsHD.m3u8
 http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5
 http://172.16.29.34/live/ontest1/ontest1/349.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
-http://172.16.29.34/live/ontest1/ontest1/443.m3u8
+#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6-IND VS NZ
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109987
 """
 
 # ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
