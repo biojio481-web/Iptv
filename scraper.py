@@ -2,14 +2,14 @@ import os
 import requests
 import re
 
-# ১. লোগো লিঙ্ক (একদম ফ্রেশ সরাসরি লিঙ্ক)
+# ১. আপনার নতুন ৪ডি লোগো লিঙ্ক (পারফেক্টলি সেট করা)
 LOGO_URL = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png"
 
 # ২. গ্রুপ নেমস
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. আপনার অরিজিনাল ১২টি স্পেশাল চ্যানেল
+# ৩. আপনার অরিজিনাল স্পেশাল চ্যানেলগুলো
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -44,13 +44,13 @@ https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
 """
 
-# ৫. এক্সটারনাল প্লেলিস্ট (সব লিঙ্ক আপডেট করা)
+# ৫. আপনার অরিজিনাল প্লেলিস্ট লিঙ্কগুলো
 external_playlists = {
-    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/main/playlist_ontest1_plus%20(1).m3u",
+    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-    "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/main/main.m3u",
+    "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "Roar Zone Tv": "https://raw.githubusercontent.com/MoOn-BoY-07/MoOn-BoY-07/main/RoarZone.m3u"
+    "Roar Zone Tv": "https://da.gd/raqHNg"
 }
 
 def clean_and_group(content, group_name):
@@ -59,9 +59,9 @@ def clean_and_group(content, group_name):
     for line in lines:
         if line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF:"):
+            # সব লোগো ট্যাগ রিমুভ করে নতুন করে বসানো
             line = re.sub(r'tvg-logo=".*?"', '', line)
             line = re.sub(r'logo=".*?"', '', line)
-            line = re.sub(r'group-title=".*?"', '', line)
             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{group_name}"')
         cleaned.append(line)
     return "\n".join(cleaned)
@@ -70,7 +70,7 @@ def run_scraper():
     final_data = special_channels_content + entertainment_channels
     for name, url in external_playlists.items():
         try:
-            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=20)
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
             if r.status_code == 200:
                 final_data += "\n" + clean_and_group(r.text, name)
         except:
