@@ -2,14 +2,14 @@ import os
 import requests
 import re
 
-# ১. আপনার নতুন লোগো লিঙ্ক (Star TV HD)
+# Final Logo URL
 LOGO_URL = "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png"
 
-# ২. গ্রুপ নামগুলো
+# Group Names
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. স্পেশাল চ্যানেল ডেটা
+# Content Sections
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -37,14 +37,12 @@ http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-# ৪. এন্টারটেইনমেন্ট চ্যানেল ডেটা
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
 https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
 """
 
-# ৫. এক্সটারনাল প্লেলিস্ট
 external_playlists = {
     "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
@@ -59,34 +57,25 @@ def clean_and_group(content, group_name):
     for line in lines:
         if line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF:"):
-            # আগের সব লোগো এবং গ্রুপ ট্যাগ ক্লিন করা হচ্ছে
             line = re.sub(r'tvg-logo=".*?"', '', line)
             line = re.sub(r'logo=".*?"', '', line)
             line = re.sub(r'group-title=".*?"', '', line)
-            
-            # নতুন লোগো এবং গ্রুপ ইনসার্ট করা হচ্ছে (Universal Compatibility)
             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{LOGO_URL}" group-title="{group_name}"')
-            
-            # অতিরিক্ত কমা বা স্পেস থাকলে তা ঠিক করা
-            line = re.sub(r' ,', ',', line) 
-            
         cleaned.append(line)
     return "\n".join(cleaned)
 
 def run_scraper():
     final_data = special_channels_content + entertainment_channels
     for name, url in external_playlists.items():
-        if url.startswith("http"):
-            try:
-                headers = {'User-Agent': 'Mozilla/5.0'}
-                r = requests.get(url, headers=headers, timeout=15)
-                if r.status_code == 200:
-                    final_data += "\n" + clean_and_group(r.text, name)
-            except Exception as e:
-                print(f"Error fetching {name}: {e}")
+        try:
+            r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=15)
+            if r.status_code == 200:
+                final_data += "\n" + clean_and_group(r.text, name)
+        except:
+            pass
             
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(final_data)
-    print("🚀 Star TV HD Playlist Generated Successfully!")
 
-if __name__ ==
+if __name__ == "__main__":
+    run_scraper()
