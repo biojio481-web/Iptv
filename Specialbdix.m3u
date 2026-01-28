@@ -6,7 +6,7 @@ http://30.30.30.30:8088/101/index.m3u8?token=9b9a5c6dae6851f8da3d7d817417bd3c5e3
 #EXTINF:-1 ,Live-3
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 ,Live-4
-http://172.16.29.34/live/ontest1/ontest1/347.m3u8
+http://172.16.29.34/live/ontest1/ontest1/347.ts
 #EXTINF:-1 ,Live-5
 http://172.16.29.34/live/ontest1/ontest1/349.m3u8
 #EXTINF:-1 ,Live-6
