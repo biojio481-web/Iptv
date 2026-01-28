@@ -54,7 +54,7 @@ external_playlists = {
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "Tata Play": "https://da.gd/GXn1"
+    "Roar Zone Tv": "https://da.gd/raqHNg"
 }
 
 def clean_and_group(content, group_name):
