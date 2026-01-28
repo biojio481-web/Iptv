@@ -3,14 +3,14 @@ import requests
 import re
 
 # ১. লোগো লিঙ্কসমূহ
-SPECIAL_LOGO_URL = "https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" # ওয়ার্ল্ড কাপ চ্যানেলের জন্য
-GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" # অন্য সব চ্যানেলের জন্য
+SPECIAL_LOGO_URL = "https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" 
+GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" 
 
 # ২. গ্রুপ নেমস
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. স্পেশাল ১২টি চ্যানেল (নতুন স্পেশাল লোগো সহ)
+# ৩. স্পেশাল ১২টি চ্যানেল (১২ নম্বর চ্যানেলটি আপডেট করা হয়েছে)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -38,14 +38,14 @@ http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167583
 """
 
-# ৪. এন্টারটেইনমেন্ট (সাধারণ লোগো)
+# ৪. এন্টারটেইনমেন্ট
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
 https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
 """
 
-# ৫. বাহ্যিক প্লেলিস্ট লিঙ্কসমূহ
+# ৫. বাহ্যিক প্লেলিস্ট
 external_playlists = {
     "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
@@ -55,31 +55,32 @@ external_playlists = {
 }
 
 def clean_and_group(content, group_name):
-    """বাহ্যিক চ্যানেলের আগের লোগো সরিয়ে জেনারেল লোগো বসাবে"""
     lines = content.splitlines()
     cleaned = []
     for line in lines:
         if line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF:"):
-            # পুরাতন tvg-logo, logo এবং group-title মুছে ফেলা হচ্ছে
-            line = re.sub(r'tvg-logo=".*?"', '', line)
-            line = re.sub(r'logo=".*?"', '', line)
-            line = re.sub(r'group-title=".*?"', '', line)
-            # নতুন করে জেনারেল লোগো এবং গ্রুপ নাম বসানো হচ্ছে
-            line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{group_name}"')
-            # অতিরিক্ত কমা বা স্পেস থাকলে তা ঠিক করা
-            line = re.sub(r',\s*,', ',', line) 
-        cleaned.append(line)
+            parts = line.split(',', 1)
+            channel_name = parts[1] if len(parts) > 1 else "Unknown Channel"
+            new_line = f'#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{group_name}",{channel_name}'
+            cleaned.append(new_line)
+        elif line.strip():
+            cleaned.append(line)
     return "\n".join(cleaned)
 
 def run_scraper():
-    # শুরুতে স্পেশাল এবং এন্টারটেইনমেন্ট ডাটা
-    final_data = special_channels_content + entertainment_channels
-    
-    # এক্সটার্নাল প্লেলিস্টগুলো প্রসেস করা
+    final_data = special_channels_content + "\n" + entertainment_channels
     for name, url in external_playlists.items():
         try:
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
             if r.status_code == 200:
                 final_data += "\n" + clean_and_group(r.text, name)
-        except
+        except:
+            pass
+            
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
+        f.write(final_data)
+    print("Playlist Updated: Live-12 Name and Link changed!")
+
+if __name__ == "__main__":
+    run_scraper()
