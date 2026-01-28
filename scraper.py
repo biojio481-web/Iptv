@@ -2,14 +2,14 @@ import os
 import requests
 import re
 
-# ১. আপনার নতুন ৪ডি লোগো লিঙ্ক (পারফেক্টলি সেট করা)
-LOGO_URL = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png"
+# ১. আপনার দেওয়া নতুন লোগো লিঙ্ক
+LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png"
 
 # ২. গ্রুপ নেমস
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. আপনার অরিজিনাল স্পেশাল চ্যানেলগুলো
+# ৩. আপনার অরিজিনাল ১২টি স্পেশাল চ্যানেল
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -59,7 +59,7 @@ def clean_and_group(content, group_name):
     for line in lines:
         if line.startswith("#EXTM3U"): continue
         if line.startswith("#EXTINF:"):
-            # সব লোগো ট্যাগ রিমুভ করে নতুন করে বসানো
+            # শুধু লোগো ট্যাগ আপডেট করা হচ্ছে
             line = re.sub(r'tvg-logo=".*?"', '', line)
             line = re.sub(r'logo=".*?"', '', line)
             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{group_name}"')
