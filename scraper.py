@@ -2,14 +2,14 @@ import os
 import requests
 import re
 
-# ১. লোগো লিঙ্কটি আপডেট করা হয়েছে (সরাসরি ইমেজ লিঙ্ক)
+# ১. লোগো লিঙ্ক (একদম ফ্রেশ সরাসরি লিঙ্ক)
 LOGO_URL = "https://raw.githubusercontent.com/biojio481-web/Iptv/main/Gemini_Generated_Image_md4brsmd4brsmd4b.png"
 
 # ২. গ্রুপ নেমস
 SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
 ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. স্পেশাল চ্যানেল ডাটা
+# ৩. আপনার অরিজিনাল ১২টি স্পেশাল চ্যানেল
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
@@ -37,20 +37,20 @@ http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
 """
 
-# ৪. এন্টারটেইনমেন্ট সেকশন
+# ৪. এন্টারটেইনমেন্ট
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
 https://bcdnxw.hakunaymatata.com/bt/8fbd6fad607047812f489c3cf9ae183b.mp4?sign=6a04579222235fe1702c9245fbbebfaf&t=1769373466
 """
 
-# ৫. সব এক্সটারনাল প্লেলিস্ট (আপনার অরিজিনাল লিস্ট)
+# ৫. এক্সটারনাল প্লেলিস্ট (সব লিঙ্ক আপডেট করা)
 external_playlists = {
-    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
+    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-    "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
+    "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "Roar Zone Tv": "https://da.gd/raqHNg"
+    "Roar Zone Tv": "https://raw.githubusercontent.com/MoOn-BoY-07/MoOn-BoY-07/main/RoarZone.m3u"
 }
 
 def clean_and_group(content, group_name):
@@ -62,7 +62,6 @@ def clean_and_group(content, group_name):
             line = re.sub(r'tvg-logo=".*?"', '', line)
             line = re.sub(r'logo=".*?"', '', line)
             line = re.sub(r'group-title=".*?"', '', line)
-            # Universal Logo Support
             line = line.replace("#EXTINF:-1", f'#EXTINF:-1 tvg-logo="{LOGO_URL}" logo="{LOGO_URL}" group-title="{group_name}"')
         cleaned.append(line)
     return "\n".join(cleaned)
@@ -79,7 +78,6 @@ def run_scraper():
             
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(final_data)
-    print("🚀 All Done! Logo Updated Successfully.")
 
 if __name__ == "__main__":
     run_scraper()
