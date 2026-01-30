@@ -28,7 +28,7 @@ https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109987
 
 # ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
-https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109947
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
 https://ranapk.online/RANAPK33x/TVD/play.php?id=372986
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
