@@ -1,30 +1,29 @@
 #EXTM3U
+
 #EXTINF:-1 ,Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
+
 #EXTINF:-1 ,Live-2
 http://30.30.30.30:8088/101/index.m3u8?token=9b9a5c6dae6851f8da3d7d817417bd3c5e3ebb0d-e8ee13fe456593685a17721b2b6f21eb-1769449109-1769445509
+
 #EXTINF:-1 ,Live-3
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
+
 #EXTINF:-1 ,Live-4
 http://172.16.29.34/live/ontest1/ontest1/347.ts
-#EXTINF:-1 ,Live-5
-http://172.16.29.34/live/ontest1/ontest1/349.m3u8
-#EXTINF:-1 ,Live-6
-http://172.16.29.34/live/ontest1/ontest1/443.m3u8
-#EXTINF:-1 ,Live-7
-http://172.16.29.34/live/ontest1/ontest1/328.m3u8
-#EXTINF:-1 ,Live-8
-http://172.16.29.34/live/ontest1/ontest1/375.m3u8
+
 #EXTINF:-1 ,Live-9
 http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 
-#EXTINF:-1 ,Live-10 (MPD Stream)
+#EXTINF:-1 ,Live-10 (MPD - Sports)
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://priolive.cricrex.live/
+#EXTVLCOPT:http-origin=https://priolive.cricrex.live
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd
 
 #EXTINF:-1 ,Live-11-Special
 http://172.16.29.34/live/ontest1/ontest1/480.m3u8
+
 #EXTINF:-1 ,Live-12-Special
 https://ranapk.online/RANAPK33x/TVD/play.php?id=809386
