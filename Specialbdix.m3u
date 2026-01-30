@@ -17,8 +17,13 @@ http://172.16.29.34/live/ontest1/ontest1/328.m3u8
 http://172.16.29.34/live/ontest1/ontest1/375.m3u8
 #EXTINF:-1 ,Live-9
 http://172.16.29.34/live/ontest1/ontest1/480.m3u8
-#EXTINF:-1 ,Live-10
-http://172.16.29.34/live/ontest1/ontest1/330.m3u8
+
+#EXTINF:-1 ,Live-10 (MPD Stream)
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://priolive.cricrex.live/
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/dash/enc/rlisfyx9vd/out/v1/61b8f61b22ac469297cbd4f1224f0ec8/cenc.mpd
+
 #EXTINF:-1 ,Live-11-Special
 http://172.16.29.34/live/ontest1/ontest1/480.m3u8
 #EXTINF:-1 ,Live-12-Special
