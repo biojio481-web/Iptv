@@ -6,7 +6,7 @@ http://30.30.30.30:8088/101/index.m3u8?token=9b9a5c6dae6851f8da3d7d817417bd3c5e3
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-3
 http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-4
-http://172.16.29.34/live/ontest1/ontest1/347.m3u8
+http://172.19.178.29:18190/AO-E01-02/index.fmp4.m3u8?token=de18e27b1878c23d34e39342faeb10bba0442f36-e1ef3636255334f198d4c91cbbe18143-1769953778-1769942978
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-5
 http://172.16.29.34/live/ontest1/ontest1/349.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-6-IND VS NZ
