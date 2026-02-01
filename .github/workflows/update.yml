@@ -2,14 +2,15 @@ name: UpdatePlaylist
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Protì 6 ghonta por por auto update hobe
-  workflow_dispatch:        # Manual run button thakbe
+    # বাংলাদেশ সময় দুপুর ১২টা (UTC 6:00 AM) এবং রাত ১২টা (UTC 6:00 PM)
+    - cron: '0 6,18 * * *'
+  workflow_dispatch:        # এর মাধ্যমে আপনি ম্যানুয়ালি রান করতে পারবেন
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # File push korar permission nishchit kora holo
+      contents: write       
     steps:
       - uses: actions/checkout@v3
       
