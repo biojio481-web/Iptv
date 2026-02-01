@@ -34,7 +34,7 @@ https://ranapk.online/RANAPK33x/TVD/play.php?id=372986
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
 https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",THE-50
-https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109947
+https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
 """
 
 # ৫. বাহ্যিক প্লেলিস্ট
