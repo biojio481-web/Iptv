@@ -21,7 +21,7 @@ http://172.16.29.2:8090/hls/ASportsHD.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4
 http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5
-http://172.16.29.34/live/ontest1/ontest1/349.m3u8
+https://ranapk.online/OPPLEX/RANAPK8/play.php?id=167583
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
 https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109987
 """
