@@ -43,7 +43,7 @@ external_playlists = {
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
     "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
-    "Test": "https://da.gd/sdKRf"
+    "Test": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u"
 }
 
 def clean_and_group(content, group_name):
