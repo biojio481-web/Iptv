@@ -42,7 +42,7 @@ external_playlists = {
     "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Main-IPTV": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/main.m3u",
-    "CricHD": "https://iptv-scraper-zilla.pages.dev/CricHD.m3u",
+    "New Bdix": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u",
     "Test": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u"
 }
 
