@@ -23,7 +23,7 @@ http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5
 https://ranapk.online/OPPLEX/RANAPK8/play.php?id=167594
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
-https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109987
+https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 """
 
 # ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
