@@ -4,7 +4,7 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-2
 http://30.30.30.30:8088/110/index.m3u8?token=2057b0d0758dbd40522cecd5c68ef66bc6a50c8b-e49de3276d778b87b692635cacf64bfb-1770292417-1770288817
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-3
-http://172.16.29.2:8090/hls/StarSports1HD.m3u8
+https://shotner.u0k.workers.dev/WC-English.mpd|User-Agent=Denver1769&drmScheme=clearkey&drmLicense=ae7076b647133606b704d33e4cef5134:810251515584cf71216d9a2d1ebf04bb
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-4
 http://172.16.29.34/live/ontest1/ontest1/347.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-5
