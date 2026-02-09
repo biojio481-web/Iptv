@@ -1,23 +1,23 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-1-Unix Tv
-http://30.30.30.30:8088/101/tracks-v1a1/mono.m3u8?token=8d764b1c9e5a770db752527c7f9f250b4ce6841a-729c346bf78e436b19b5c78fd85d32e7-1770670965-1770667365
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-2-Unix Tv
-http://30.30.30.30:8088/115/tracks-v1a1/mono.m3u8?token=3b9524d043ec2e46fbf4e1ee2f0d3fd018aa12a7-bd508ef1c36b41a1f94467a68b2ae1ad-1770670833-1770667233
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-3-Free Tv
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-1
 http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-4-Free Tv
-http://172.16.29.2:8090/hls/StarSports2HD.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Opplex
-https://ranapk.online/RANAPK33x/TVDx/play.php?id=809398
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-2
+http://30.30.30.30:8088/110/index.m3u8?token=2057b0d0758dbd40522cecd5c68ef66bc6a50c8b-e49de3276d778b87b692635cacf64bfb-1770292417-1770288817
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-3
+http://172.16.29.2:8090/hls/StarSports1HD.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-4
+http://172.16.29.34/live/ontest1/ontest1/347.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-5
+https://ranapk.online/OPPLEX/RANAPK8/play.php?id=167594
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-6
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-1
-https://ranapk.online/RANAPK33x/TVDx/play.php?id=944612
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109947
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-2
-http://30.30.30.30:8088/405/index.m3u8?token=b58262b8931d8acf0dc76b9c575b2638f49d1e8d-edd8f5652d37efb85d244d616de7c9b8-1770671571-1770667971
+https://ranapk.online/RANAPK33x/TVD/play.php?id=372986
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-3
-https://ranapk.online/RANAPK33x/TVDx/play.php?id=372986
+https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",THE-50
 https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
 
