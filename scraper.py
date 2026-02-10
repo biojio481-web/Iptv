@@ -13,15 +13,15 @@ ENTERTAINMENT_GROUP = "Entertainment"
 # ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Unix Tv
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+http://30.30.30.30:8088/101/tracks-v1a1/mono.m3u8?token=c9181c447046a49af80484ae7649d1cdc34fa5c4-e6c3c641cb77332ac5267407e7c3ae7c-1770744248-1770740648
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Unix Tv
-http://30.30.30.30:8088/110/index.m3u8?token=2057b0d0758dbd40522cecd5c68ef66bc6a50c8b-e49de3276d778b87b692635cacf64bfb-1770292417-1770288817
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3
-http://172.16.29.2:8090/hls/StarSports1HD.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4
-http://172.16.29.34/live/ontest1/ontest1/347.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5
-https://ranapk.online/OPPLEX/RANAPK8/play.php?id=167594
+http://30.30.30.30:8088/115/tracks-v1a1/mono.m3u8?token=f87e8f1921082b8998b4d41d96458f583ebc4760-d411dd989ae18460ecdac5043a4e1a4b-1770744157-1770740557
+#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Free Tv
+http://172.16.29.2:8090/hls/tsportshd.m3u8
+#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4-Free Tv
+http://172.16.29.2:8090/hls/StarSports2HD.m3u8
+#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5-Opplex Tv
+https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109987
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 """
