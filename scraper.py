@@ -21,18 +21,18 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4-Free Tv
 http://172.16.29.2:8090/hls/StarSports2HD.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5-Opplex Tv
-https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109987
+https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 """
 
 # ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
 entertainment_channels = f"""#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
-https://ranapk.online/OPPLEX/RANAPK1/play.php?id=109947
+http://30.30.30.30:8088/405/tracks-v1a1/mono.m3u8?token=afdb742562f7b2838e88c7554f6ed01b278423de-52cde21afba1bd0d09ac51ad0e7f941f-1770745481-1770741881
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
-https://ranapk.online/RANAPK33x/TVD/play.php?id=372986
+http://172.16.29.2:8090/hls/ColorsHD.m3u8
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
-https://ranapk.online/OPPLEX/RANAPK1/play.php?id=167551
+https://ranapk.online/RANAPK33x/TVDx/play.php?id=944612
 #EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",THE-50
 https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
 """
