@@ -10,8 +10,7 @@ http://172.16.29.2:8090/hls/StarSports2HD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Opplex Tv
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=809383
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" logo="https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" group-title="T20 World Cup 2026 Bdix Special",Live-6
-http://redforce.live:8082/PTV-SPORTS-HD/index.m3u8?token=5c8bbd9f24c00605267b1ceb724ab368d0114e7e-fd1a12198621bfafbbbf607205c2bd7d-1755444439-1755433639&remote=no_check_ip
-
+http://redforce.live:8082/PTV-SPORTS-HD/tracks-v1a1/mono.m3u8?token=64134ed6c28760009321fcdc5afcd827d3c00ce4-7320a2c4781a31f0aa7275fe697c2206-1755452215-1755441415
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-1
 http://30.30.30.30:8088/405/tracks-v1a1/mono.m3u8?token=afdb742562f7b2838e88c7554f6ed01b278423de-52cde21afba1bd0d09ac51ad0e7f941f-1770745481-1770741881
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-2
