@@ -19,7 +19,7 @@ http://172.16.29.2:8090/hls/ColorsHD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-3
 https://ranapk.online/RANAPK33x/TVDx/play.php?id=944612
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",THE-50
-https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
+http://redforce.live:8082/PTV-SPORTS-HD/tracks-v1a1/mono.m3u8?token=b10f3229c765483d53b293c867ad7ec218d643fb-9cecba0be51044fa2383879b2258e13c-1755442081-1755431281
 
 #EXT-X-SESSION-DATA:DATA-ID="com.xui.1_5_5r2"
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Ontest-Plus",BTV NATIONAL HD
