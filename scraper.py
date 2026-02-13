@@ -3,7 +3,7 @@ import requests
 import re
 
 # ১. লোগো লিঙ্কসমূহ
-SPECIAL_LOGO_URL = "https://i.postimg.cc/mrmyjYhy/IMG-20260128-195914.png" 
+SPECIAL_LOGO_URL = "https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" 
 GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" 
 
 # ২. গ্রুপ নেমস
@@ -13,7 +13,7 @@ ENTERTAINMENT_GROUP = "Entertainment"
 # ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Unix Tv
-http://30.30.30.30:8088/101/tracks-v1a1/mono.m3u8?token=c9181c447046a49af80484ae7649d1cdc34fa5c4-e6c3c641cb77332ac5267407e7c3ae7c-1770744248-1770740648
+https://xfireflix.my.id/Op.m3u8/?id=167567&e=.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Unix Tv
 http://30.30.30.30:8088/115/tracks-v1a1/mono.m3u8?token=f87e8f1921082b8998b4d41d96458f583ebc4760-d411dd989ae18460ecdac5043a4e1a4b-1770744157-1770740557
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Free Tv
