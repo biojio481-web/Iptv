@@ -13,7 +13,7 @@ ENTERTAINMENT_GROUP = "Entertainment"
 # ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Unix Tv
-https://sonamul3535.vercel.app/T-sport.m3u8
+http://198.195.239.50:8095/nagorik/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Unix Tv
 http://30.30.30.30:8088/115/tracks-v1a1/mono.m3u8?token=f87e8f1921082b8998b4d41d96458f583ebc4760-d411dd989ae18460ecdac5043a4e1a4b-1770744157-1770740557
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Free Tv
