@@ -10,8 +10,7 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Free Tv-Isp
 http://172.16.29.2:8090/hls/StarSports1HD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-6-Cloud Tv-Isp
-https://backend.plusbox.tv/StarSports1HD/index.fmp4.m3u8?token=daacd458cbf7b6e72594a5c339829fcc65cad47c-e0b0ffc885e0c963ff9c9368ba08cdf3-1771195278-1771184478
-
+http://103.89.248.26:8082/STAR-SPORTS-1/index.fmp4.m3u8?token=0b97dc4a5f34497e2a62d0df2f1bf28831186b80-1a6cb89ce6b72e14a40e8059ec291a5f-1771350371-1771339571
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-1
 http://30.30.30.30:8088/405/tracks-v1a1/mono.m3u8?token=afdb742562f7b2838e88c7554f6ed01b278423de-52cde21afba1bd0d09ac51ad0e7f941f-1770745481-1770741881
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-2
