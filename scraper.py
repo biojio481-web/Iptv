@@ -41,7 +41,7 @@ https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
 external_playlists = {
     "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
-    "Ayna-IPTV": "https://is.gd/ogCZTd.m3u",
+    "Falcon Tv": "https://sm-live-tv-auto-update-playlist.pages.dev/Combined_Live_TV.m3u",
     "New Bdix": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u",
     "Dish Tv": "https://raw.githubusercontent.com/mdarif2743/Sky-dish/refs/heads/main/README.md"
 }
