@@ -43,7 +43,7 @@ external_playlists = {
     "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u",
     "Ayna-IPTV": "https://is.gd/ogCZTd.m3u",
     "New Bdix": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u",
-    "Test": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u"
+    "Dish Tv": "https://raw.githubusercontent.com/mdarif2743/Sky-dish/refs/heads/main/README.md"
 }
 
 def clean_and_group(content, group_name):
