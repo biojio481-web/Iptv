@@ -1863,8 +1863,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-209593/tracks-v1a1/mono.ts.m3u8
 #=================================
 # 🖥️ Developed by: Monirul Islam
 # 🔗 Telegram: https://t.me/monirul_Islam_SM
-# 🕒 Last Updated: 2026-03-19 23:34:06 (BD Time)
-# 📺 Channels Count: 760
+# 🕒 Last Updated: 2026-03-20 12:52:59 (BD Time)
+# 📺 Channels Count: 749
 # 🔒 Usage: Personal / Educational
 #=================================
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Drama 24
@@ -1955,216 +1955,194 @@ https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3
 http://103.182.170.32:8888/play/a046
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",T Sports HD
 http://198.195.239.50:8095/Tsports/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/NZ_SA_Web_1080_x_810.jpg" group-title="Fancode",South Africa vs New Zealand (South Africa tour of New Zealand, 2026)
+https://sonypartnersdaimenew.akamaized.net/hls/live/2037141/DAI21SAVSZM/hdntl=exp=1774072695~acl=%2f*~id=b2d3677f-ab0e-4387-be59-9515906cfe12~data=hdntl~hmac=69b1e14a6105d8f7350d60237570aea5997e6532901958446560877f39590d8b/master_4500.m3u8?aka_me_session_id=AAAAAAAAAAB3M75pAAAAAAu2seyYMK4KqeMZjR8581qRHOLCQI70baQBrvvMff%2fvBysaKT4ukrwp6xhBljg89yJprVo4jIkc&aka_media_format_type=hls
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Manorama Marvels vs Saryu Smashers (Ayodhya Premier League)
+https://bd-mc-flive.fancode.com/mumbai/141372_english_hls_fd06e5dad796563_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774063160~_GO=Generated~acl=/mumbai/141372_english_hls_fd06e5dad796563_1ta-di_h264/*~Signature=AYUBS8rJZ5mKuDDFwMwHDAdA3ZtFgJlo1DAMOl17T4t0vOywxeY9ZcsVCaO3DGeSWHyJ3AzHl6Rmqwqq7uEEfhq-Ha4D
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ATN BANGLA
-http://103.144.89.251:8082/ATN.BANGLA.HD/index.m3u8?token=198e666b827ba9f1dd920ff00f115b581ec3f531-4ed434a5cbe94be624e960504aad3fdc-1773949308-1773938508&remote=no_check_ip
+http://103.144.89.251:8082/ATN.BANGLA.HD/index.m3u8?token=2dff019e022666d4855b4026b0b6658e19e6b456-c7caa732225d1b48b50773a707fbe318-1773999421-1773988621&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ATN NEWS
-http://103.144.89.251:8082/ATN.NEWS.HD/index.m3u8?token=11ec21bb51aa4086360bf48d119cafec3151b4eb-d760149fdd6e601b19cf93e0dd0258fa-1773949309-1773938509&remote=no_check_ip
+http://103.144.89.251:8082/ATN.NEWS.HD/index.m3u8?token=b46aecfb84b39793b54355e8e892f53e67a92777-402c63994ddaf08693c456b1514ee946-1773999422-1773988622&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",CHANNEL 24
-http://103.144.89.251:8082/CHANNEL.24.HD/index.m3u8?token=035f5eb50d8f093ab60ddef8e88b32b2f7d55e0b-285509473e0ffe1952607b31e7479206-1773949309-1773938509&remote=no_check_ip
+http://103.144.89.251:8082/CHANNEL.24.HD/index.m3u8?token=aac3986afe183d48efbb8919dc1445c8a191154a-85ba8c97969cc9cce9126f66793834dd-1773999422-1773988622&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",CHANNEL I
-http://103.144.89.251:8082/CHANNEL.I.HD/index.m3u8?token=b5d5eef08685651ea304d529f46992c53ae35ac2-a6b71d8ba2ad0e10b408207a8bea0bae-1773949310-1773938510&remote=no_check_ip
+http://103.144.89.251:8082/CHANNEL.I.HD/index.m3u8?token=fee34a38b3e039b6f7d6d3e95d3af365fdf153f4-6cb06f3192e6c086ac951ffffd9e29a0-1773999423-1773988623&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",COLORS BANGLA CINEMA
-http://103.144.89.251:8082/COLORS.BANGLA.CINEMA/index.m3u8?token=69c2d69d72963acc603eb58e88b90483479f50dc-e9fc5646376489907e247ca70f79276b-1773949310-1773938510&remote=no_check_ip
+http://103.144.89.251:8082/COLORS.BANGLA.CINEMA/index.m3u8?token=8f83276c48dcd7eff8737bb0a691871a76860999-04773f9fde61510d396634b70a9759ec-1773999423-1773988623&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",COLORS BANGLA HD
-http://103.144.89.251:8082/COLORS.BANGLA.HD/index.m3u8?token=4602a2d78aefdee144bb6f7749423b30f65f0961-08cd380cc6a4fc26f65792bf512d8c1e-1773949311-1773938511&remote=no_check_ip
+http://103.144.89.251:8082/COLORS.BANGLA.HD/index.m3u8?token=74cd7edf19d2b7443bd0ecec8a7e5f423a5c5776-9dcb194481d2788f1e3625672a01b576-1773999424-1773988624&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ENTERR 10
-http://103.144.89.251:8082/ENTER10.BANGLA/index.m3u8?token=d0d6a9b5ffb19bdfc1583c1dc603bf106f6defdc-e29bb6f078d829b9badf936afb8f86ab-1773949311-1773938511&remote=no_check_ip
+http://103.144.89.251:8082/ENTER10.BANGLA/index.m3u8?token=f6b09d2d29cf6279b7dbf53c2ec33d6a8ed2890b-a0bf1dd8a76c0ec25ddef29ccecd01fb-1773999424-1773988624&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",GTV
-http://103.144.89.251:8082/GAZI.TV.HD/index.m3u8?token=43c4976847b39d6c5b59facc2062e057c86f79cc-097fdab164dd1f0293179b8107a4c2be-1773949312-1773938512&remote=no_check_ip
+http://103.144.89.251:8082/GAZI.TV.HD/index.m3u8?token=dccf783f96f229f545f1cf4effc1ec3f4a8569f8-c04212693980f869e24a55282079d172-1773999425-1773988625&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",INDEPENDENT TV
-http://103.144.89.251:8082/INDEPENDENT.TV/index.m3u8?token=e17ddbc886fa3383d40f0eca2c3d96007b53aa99-087290b490c42187a0171a38ab549ac5-1773949312-1773938512&remote=no_check_ip
+http://103.144.89.251:8082/INDEPENDENT.TV/index.m3u8?token=f19252268ae1d6ef2d961527c8b1012021ea903d-497ef9253adccf1fa44f081d38d1ebe4-1773999425-1773988625&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",JALSHA MOVIES HD
-http://103.144.89.251:8082/JALSHA.MOVIES.HD/index.m3u8?token=c7c3322340c30745ec53db68bf059f0d01b5223a-864765ca81ef7bfba674b20a942820bc-1773949313-1773938513&remote=no_check_ip
+http://103.144.89.251:8082/JALSHA.MOVIES.HD/index.m3u8?token=fdd335ba266e0637f61827309900a41f36973ae9-52b44adfd88c2e1d355caf7e492023cc-1773999426-1773988626&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",JAMUNA TV
-http://103.144.89.251:8082/JAMUNA.TV/index.m3u8?token=c71602aa1531bae93792e8108f012ce80c6a04e4-aaf76503011170239397b8b6caabde19-1773949313-1773938513&remote=no_check_ip
+http://103.144.89.251:8082/JAMUNA.TV/index.m3u8?token=e2f9f077eb957e061e02bceb521be653a0ec7c20-3ccec9ff27f27077ee5421c316d189d2-1773999426-1773988626&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",MAASRANGA HD
-http://103.144.89.251:8082/MASRANGA.TV.HD/index.m3u8?token=669f21b929a8def167c826b2bef9a4f7f614e7d4-280f7b62e0b6306010de832ab142b3fb-1773949314-1773938514&remote=no_check_ip
+http://103.144.89.251:8082/MASRANGA.TV.HD/index.m3u8?token=50492368626a21e6899591d08606a80851d3a934-6b6528d21a097171941e73596b8d78c5-1773999427-1773988627&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",NAGORIK
-http://103.144.89.251:8082/NAGORIK.TV.HD/index.m3u8?token=f95532a4eda3856531b61b1eddfef3d5b518173f-972764ec873e36c6bd3aca69297e980c-1773949314-1773938514&remote=no_check_ip
+http://103.144.89.251:8082/NAGORIK.TV.HD/index.m3u8?token=9a417212a362039d28dd56aa245b012776231b41-e2e363a0ec5fb359014bb615ff6eb6e2-1773999427-1773988627&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SOMOY TV
-http://103.144.89.251:8082/SOMOY.TV.HD/index.m3u8?token=28f54313a4b67368bf51df961029783dc90be562-cbb93b9d6cef148afbfa5bc3693af267-1773949315-1773938515&remote=no_check_ip
+http://103.144.89.251:8082/SOMOY.TV.HD/index.m3u8?token=ba1e82d502cab2485dddc7d7d35e4d352c8e8aae-4d04b7ca9c2a88980f8ffa808a109506-1773999428-1773988628&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY AAT
-http://103.144.89.251:8082/SONY.AAT/index.m3u8?token=81e6827d8a3cb2bc76691ecb3bffb6cad7fc7329-637ecf3806a8964f3dd0c825c4b6401b-1773949315-1773938515&remote=no_check_ip
+http://103.144.89.251:8082/SONY.AAT/index.m3u8?token=8829f19d7f94d741a1e99a0d6b48034a727e058c-e3fe00bde4c55009f4aca3356495ff0e-1773999428-1773988628&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR JALSHA HD
-http://103.144.89.251:8082/STAR.JALSHA.HD/index.m3u8?token=6276c4d62c82041f8388141a4f9cc3fbe70e5add-49c8f701b8c7582c73cbbcd6c736c635-1773949316-1773938516&remote=no_check_ip
+http://103.144.89.251:8082/STAR.JALSHA.HD/index.m3u8?token=68afde0682eddcb6fa1fba6213609d932275d03b-5fb8df0432b76c5d96c23fa60f86c8c6-1773999429-1773988629&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SUN BANGLA HD
-http://103.144.89.251:8082/SUN.BANGLA.HD/index.m3u8?token=69b30fc9c98558f1c197648c21f88806f1bc1e8a-ea25b8200670304f9a02dc9c2050699c-1773949317-1773938517&remote=no_check_ip
+http://103.144.89.251:8082/SUN.BANGLA.HD/index.m3u8?token=28edf0a76f7dc8ce45ac8a1948b49df66c9e5a90-732487d38a27aaa3836dbc6a2a7c43f9-1773999429-1773988629&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZEE BANGLA CINEMA
-http://103.144.89.251:8082/ZEE.BANGLA.CINEMA/index.m3u8?token=6da4499e0f217d0e5eb07196fab14e38ddbfc46c-d5dc4e8af7b93872926e21ea798b7259-1773949317-1773938517&remote=no_check_ip
+http://103.144.89.251:8082/ZEE.BANGLA.CINEMA/index.m3u8?token=6ee4f3dedac5df1f0d09e37c314b8e934323614a-319c0f6e68eeb82b6819fd84a2a348fa-1773999430-1773988630&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZEE BANGLA HD
-http://103.144.89.251:8082/ZEE.BANGLA.HD/index.m3u8?token=14ea86c50aa8c230f3d801fd977a45b4430b939b-052882c8c154d53d8ec4dc4b99181273-1773949318-1773938518&remote=no_check_ip
+http://103.144.89.251:8082/ZEE.BANGLA.HD/index.m3u8?token=e2e585e41d515dc0aaeef6c9c533ff615763e523-2058a6dacc4ec4839a19d915c0bdf3cd-1773999430-1773988630&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",A SPORTS HD
-http://103.144.89.251:8082/A.SPORTS.HD/index.m3u8?token=f0feb695558389144024f54a41a73bd9c0785b43-d8d30866d6d51e59b6718e9422c16ea8-1773949318-1773938518&remote=no_check_ip
+http://103.144.89.251:8082/A.SPORTS.HD/index.m3u8?token=f50d6d1f9e06b980385387e6eb3c5d35b0e5a4cc-c06348689b30cde1af8f99b9aefe3a4d-1773999431-1773988631&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ALJAZEETA HD
-http://103.144.89.251:8082/ALJAZEERA.HD/index.m3u8?token=2e22cebcd8c9d975417acb22e4528828ed44e62d-3054c0c38f3876976ab130aa472e4ad1-1773949319-1773938519&remote=no_check_ip
+http://103.144.89.251:8082/ALJAZEERA.HD/index.m3u8?token=32ac89617d000663ed2bf937d6818f05d91bdd10-a67640e048e4c68a9e4b0f4f78466dbc-1773999431-1773988631&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",AND FLIX HD
-http://103.144.89.251:8082/AND.FLIX.HD/index.m3u8?token=d3b39e68c662595e7299b6e21a458f53b963affd-a191639919bb70c1e688516169d00750-1773949319-1773938519&remote=no_check_ip
+http://103.144.89.251:8082/AND.FLIX.HD/index.m3u8?token=d10035aa430b6e2d79194c7ee931c402b7d050e1-c7356743c69a287a2dae8fba4eb86d58-1773999432-1773988632&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",AND PICTURS HD
-http://103.144.89.251:8082/ANT.PICTURS.HD/index.m3u8?token=e52686d022618c2924c9aa08075b13796234bbb7-4190112aae1c188a2735d38fa1760f37-1773949320-1773938520&remote=no_check_ip
+http://103.144.89.251:8082/ANT.PICTURS.HD/index.m3u8?token=eff55f2039ff3704341e42ab436aa5393ab92569-8873c0e5c10eaffd9bf83fa2dba1f086-1773999432-1773988632&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",AND PRIVE HD
-http://103.144.89.251:8082/AND.PRIVE.HD/index.m3u8?token=9913104e33668cee90390747fe4806150544ffad-b883857d4232991e8a3da48d69193210-1773949320-1773938520&remote=no_check_ip
+http://103.144.89.251:8082/AND.PRIVE.HD/index.m3u8?token=27d6986ddc5f26ce9dd83fd31585b59aadb09a5b-2889547b9ab318d19a6a503f32a17582-1773999433-1773988633&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",AND XPLORE
-http://103.144.89.251:8082/XPLOR.HD/index.m3u8?token=f128ce459f58048de4601a62e8005f00e512583a-5d0714ed99622767f5378f8375ded988-1773949321-1773938521&remote=no_check_ip
+http://103.144.89.251:8082/XPLOR.HD/index.m3u8?token=e7f47db15de1104ca162b48871f121f2a5c6e562-9a0037f0e04a425b94881386f238fde2-1773999433-1773988633&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ANIMAL PLANET HD
-http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=eff5d3b5986225bde4f2449115604d2d2748db40-c02b2ebf890994c4bb785295b839bf58-1773949321-1773938521&remote=no_check_ip
+http://103.144.89.251:8082/ANIMAL.PLANET.HD/index.m3u8?token=d5a6de4905f18a9354cf3c39199c07c2007a0924-68e59cb11017883c4a3a4380bded2214-1773999434-1773988634&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",AXN HD
-http://103.144.89.251:8082/AXN.HD/index.m3u8?token=91a0b81483ff13e5ea7fecb551b4b2fcc6808a03-1a8cbab71fe822efe966e814dc069642-1773949322-1773938522&remote=no_check_ip
+http://103.144.89.251:8082/AXN.HD/index.m3u8?token=54d6981ebde29a73eb6718860bd37079db17d59d-19b0fdcd8b9b0c1803c8e3d25ffc3b6b-1773999434-1773988634&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",BAL BHARAT
-http://103.144.89.251:8082/ETV.BAL.BHARAT/index.m3u8?token=d7255ab58ecb1743eca15fce4d77c70f505b21f2-7a0478ade7996f3470ef32186d2e015e-1773949322-1773938522&remote=no_check_ip
+http://103.144.89.251:8082/ETV.BAL.BHARAT/index.m3u8?token=43f3af2d26e7fc1fe5fe0294666a1a1d2e16f7ee-a5f7925f8af71bb61372484f84bfc506-1773999435-1773988635&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",BBC EARTH HD
-http://103.144.89.251:8082/BBC.Earth.HD/index.m3u8?token=573263ef87a76d30c72556528dfce5e55fc66418-d723e4600d0ada1e57919cf4862abdfc-1773949323-1773938523&remote=no_check_ip
+http://103.144.89.251:8082/BBC.Earth.HD/index.m3u8?token=39e0c08e851d6adf9a11485fd956febcd61c4291-e264e4d0529b3c4666012a7964e23785-1773999435-1773988635&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",BBC NEWS
-http://103.144.89.251:8082/BBC.NEWS/index.m3u8?token=8aba13cfb15079dc015d9279e17438a7d2a0730d-762d0f51ab0a0829fc3b12022f306e27-1773949323-1773938523&remote=no_check_ip
+http://103.144.89.251:8082/BBC.NEWS/index.m3u8?token=32e423fd9f9e665142b3aa412ae040519f02f8ba-6f092db76f27f593710f477644ba75da-1773999436-1773988636&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",CARTOON NETWORK
-http://103.144.89.251:8082/CARTON.NETWORK.HD/index.m3u8?token=69988c322eb9caaff8a33c9b20cabc3885a6cf63-8b3f32fd8a4939b5ad6f2692818bc7b0-1773949324-1773938524&remote=no_check_ip
+http://103.144.89.251:8082/CARTON.NETWORK.HD/index.m3u8?token=50db91ba094c59b1d3e361ba564ac3ea9e142b8a-fe77d0108d0e18ec55904abf2c01fc6b-1773999436-1773988636&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",COLORS CINEPLEX HD
-http://103.144.89.251:8082/COLORS.CINEPLEX.HD/index.m3u8?token=4ab4ed99e779971de3d2beaaa13e7b89f6ed8d70-a9cb739e0644850d6121f410c682517b-1773949324-1773938524&remote=no_check_ip
+http://103.144.89.251:8082/COLORS.CINEPLEX.HD/index.m3u8?token=2ad7a39a6afb696a73d477defb5e21392dc6b8cb-411387619d62104e6311d198fe27a573-1773999437-1773988637&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",COLORS HD
-http://103.144.89.251:8082/COLORS.HD/index.m3u8?token=6825088f3dee0d58b0288c51a37ac2b151e00d9d-888293590e8aaea58187c98974bef567-1773949325-1773938525&remote=no_check_ip
+http://103.144.89.251:8082/COLORS.HD/index.m3u8?token=ef683a55cc996f3f38000ba91ac99aa08b5e25d3-650188b750bce370a43dfce18df4ddd0-1773999437-1773988637&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",DISCOVERY HD
-http://103.144.89.251:8082/DISCOVERY.HD/index.m3u8?token=238e539f407279a18dbf4b56512fdcdce28a7d6d-19bf72f44d1558c2cde5ab13d0e73880-1773949325-1773938525&remote=no_check_ip
+http://103.144.89.251:8082/DISCOVERY.HD/index.m3u8?token=81fa6a238068bd223d72f8e46539ebc66c7f6471-cf45176567436e717b03f03ecc020087-1773999438-1773988638&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",DURANTA TV
-http://103.144.89.251:8082/DURANTA.TV.HD/index.m3u8?token=98d13cec9ef05c0e4626135986cbaaee97975010-e744a703ab9b1ba7c483f57ea9d29fa4-1773949326-1773938526&remote=no_check_ip
+http://103.144.89.251:8082/DURANTA.TV.HD/index.m3u8?token=a9aa15def262c11dbc1c0c1584422060f4053624-6e7b953a08ae89e16618fd0cdd346ff1-1773999438-1773988638&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",EUROSPORTS HD
-http://103.144.89.251:8082/EUROSPORTS.HD/index.m3u8?token=dcddfbe54b0c5ef54a6d09b3028bfac8d7eec949-68f10a9cb1d2363e0bbf0078d3cd190f-1773949326-1773938526&remote=no_check_ip
+http://103.144.89.251:8082/EUROSPORTS.HD/index.m3u8?token=0c7372bb2603a731550217c2d008e5fc895c1636-b00ecb5a9160aea2deb07b34abc1ba9e-1773999439-1773988639&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",FAST SPORTS HD
-http://103.144.89.251:8082/FAST.SPORTS.HD/index.m3u8?token=eb56864c0cc0a8ff36e955cbea285779bb9816ec-1d091de0d7a14beece3aed4b3dab5508-1773949327-1773938527&remote=no_check_ip
+http://103.144.89.251:8082/FAST.SPORTS.HD/index.m3u8?token=d55cc9f4f420810b6121c0f900f367042ec49e63-4f6e6cf389893ad58698359097c07067-1773999439-1773988639&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",GEO NEWS HD
-http://103.144.89.251:8082/GEO.NEWS.HD/index.m3u8?token=45fc4f823bf015c705f543270f8f6eb2c72b8b0f-d578cd69767664dc748102d4f12961a5-1773949327-1773938527&remote=no_check_ip
+http://103.144.89.251:8082/GEO.NEWS.HD/index.m3u8?token=4e56290d11537ef3ed92f7f7b5fb83b22f4bf1b1-639da9b7e4e1b05e72e07e80c4b66c1d-1773999440-1773988640&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",GOLF SPORTS
-http://103.144.89.251:8082/GOLF.SPORTS/index.m3u8?token=2075b2253de66f6e8543800601a74df024f243cb-55ecbdd72e87564b123d41ac96854256-1773949328-1773938528&remote=no_check_ip
+http://103.144.89.251:8082/GOLF.SPORTS/index.m3u8?token=c2991e0f63c8e3b7c8d72a083d33391b10243462-45f60c7d85b51a942592dfa97c38562f-1773999440-1773988640&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",HBO HD
-http://103.144.89.251:8082/HBO.HD/index.m3u8?token=1435a793f0fbe06eb25b3e38653930cafe9c6a76-1bed5fe3c09250310b15f8fbd53f2187-1773949328-1773938528&remote=no_check_ip
+http://103.144.89.251:8082/HBO.HD/index.m3u8?token=ff8849e296cb0d2869793748e4de113a449f604d-18fce66b7c032b94725f3b7b7066ac8f-1773999441-1773988641&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",HISTORY TV HD
-http://103.144.89.251:8082/HISTORY.TV.18.HD/index.m3u8?token=df8483fad25cfdbae83da5cd399e740de6756fa2-0d32d036b58b34f7cd575fdc3ef5aeae-1773949329-1773938529&remote=no_check_ip
+http://103.144.89.251:8082/HISTORY.TV.18.HD/index.m3u8?token=302ff75136e1c076dc986443cee7a87073faab13-0de3b7c97f7fe61ad9f7a9d32dc18231-1773999441-1773988641&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",HITZ MUSIC
-http://103.144.89.251:8082/HITS.MUSIC.HD/index.m3u8?token=58fcba813ee777afacb11eeb7ca0bef58f66d5e3-f9bca6c9dcc89536c9737f3b198e43ed-1773949329-1773938529&remote=no_check_ip
+http://103.144.89.251:8082/HITS.MUSIC.HD/index.m3u8?token=3c9d921d2d0cb04190417443f0fbcda213d1fa33-b406289492bd09e5160ec8c5c81f7ade-1773999442-1773988642&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",HUM TV
-http://103.144.89.251:8082/HUM.MASALA.TV/index.m3u8?token=b87833037aea3982647630bb09fa53787c0b547c-9965be576f99de36b7a71e60725f1dfb-1773949330-1773938530&remote=no_check_ip
+http://103.144.89.251:8082/HUM.MASALA.TV/index.m3u8?token=73753c65115db3a62e25b4ccc3bfe8e7abcd0a78-11d7ffccffc79172d46825d5ce1956c4-1773999442-1773988642&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",HUNGAMA
-http://103.144.89.251:8082/HUNGAMA/index.m3u8?token=bf5b997bccba35e2a7908480ac75a64e394ea566-86889d9b211970aac808a008c6c1edd9-1773949330-1773938530&remote=no_check_ip
+http://103.144.89.251:8082/HUNGAMA/index.m3u8?token=c75a164a3198262d43009a0a190eee098dc6f9c0-b4a47eb70ea36720f890a4d921f7e0ce-1773999443-1773988643&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",LOTUS TV
-http://103.144.89.251:8082/Lotus.TV.HD/index.m3u8?token=f6b2f46dc683097ef9de3239967ee3e3e1a26965-204dad60f0df190ce213817a9c05702e-1773949331-1773938531&remote=no_check_ip
+http://103.144.89.251:8082/Lotus.TV.HD/index.m3u8?token=6ccdf63c99b28d57883c6377c3251566bc177f6f-79411426e7f5a07f42c4db96e21eb68a-1773999443-1773988643&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",LOVE NATURE
-http://103.144.89.251:8082/LOVE.NATURE.HD/index.m3u8?token=ba67c1cceb48116bba56bf67e4719661e87a42d4-add6cc06de4540fc3afd3dcc39149e86-1773949331-1773938531&remote=no_check_ip
+http://103.144.89.251:8082/LOVE.NATURE.HD/index.m3u8?token=b0a7299024c0aa80abf0b0dbfa909cc4fbcf9d26-d74e744875e1cc96fff87c74781909d9-1773999444-1773988644&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",MADANI TV HD
-http://103.144.89.251:8082/MADANI.TV.HD/index.m3u8?token=06ced53080b265bf9d8f40419948705e8b49eebc-2254f8da860fd3d3b2a4100a2ec7aa6c-1773949332-1773938532&remote=no_check_ip
+http://103.144.89.251:8082/MADANI.TV.HD/index.m3u8?token=f7b526ca927024e21a6a95c8347ea7340a1a8c19-a54fde40e9bb8e8ff3897d95e13d8f53-1773999444-1773988644&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",MN PLUS
-http://103.144.89.251:8082/MN.PLUS.HD/index.m3u8?token=e65732c0669d02d7f6e70869962ff422e3dc54ad-ddb287e84a194526af0b2388ea521555-1773949332-1773938532&remote=no_check_ip
+http://103.144.89.251:8082/MN.PLUS.HD/index.m3u8?token=6c14da281f9c15c30670af6f0f9ead1ffb065a05-eeb05b23964169e926c505d5559cea64-1773999445-1773988645&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",MNX HD
-http://103.144.89.251:8082/MNX.HD/index.m3u8?token=a155c7a8c1b6fbc4ce6caac13df37d6d956cbe27-19b1618913ac57d00e1be3edad4be15b-1773949333-1773938533&remote=no_check_ip
+http://103.144.89.251:8082/MNX.HD/index.m3u8?token=df437eae0bc8f9b7e7c508355df79c797b252e14-d1b6a18bc67971156411058e603a0e7f-1773999445-1773988645&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",MOVIES NOW HD
-http://103.144.89.251:8082/MOVIES.NOW.HD/index.m3u8?token=1a03def8e0e276ffe3d8e6b3452a6b3e6ce80330-dc91d4ab2a8af6609aec0baee1147a2b-1773949333-1773938533&remote=no_check_ip
+http://103.144.89.251:8082/MOVIES.NOW.HD/index.m3u8?token=2466d4a817ee2df399775cf95a6318a88dde9146-ae7cc581e9a65f5aa12a9fd979a67dcd-1773999446-1773988646&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",NATGEO HD
-http://103.144.89.251:8082/NATGEO.HD/index.m3u8?token=53fabc15323b9f03a695e991cbb0517ff443f0d6-e9e6f8f10ce31055fcd11da1a4ed6c03-1773949334-1773938534&remote=no_check_ip
+http://103.144.89.251:8082/NATGEO.HD/index.m3u8?token=4a1dd0e98db916549e16165148ee8c6a769db4ce-8e4c0513bbb6f708b84703d6983c79cd-1773999446-1773988646&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",NATGEO WILD HD
-http://103.144.89.251:8082/NATGEO.WILD.HD/index.m3u8?token=13f8e2e95a3f16f4b7d15b7bbdc082f695ad933d-e8e100fbd1c72a3f66b2aaa50b26072c-1773949334-1773938534&remote=no_check_ip
+http://103.144.89.251:8082/NATGEO.WILD.HD/index.m3u8?token=bfb1058834214edf816b06cc7edbb0a6938ebc10-b0a3a2e3f8f69aeff664447910965a34-1773999447-1773988647&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",NICK
-http://103.144.89.251:8082/NICK/index.m3u8?token=d5d3f8e2c5aedfab943c4c93fbd447edf5c9cf58-017c48bcff7222b101d02e10b6699fef-1773949335-1773938535&remote=no_check_ip
+http://103.144.89.251:8082/NICK/index.m3u8?token=d12ca64d8e44ab1994f664a2192f525bfe649238-a2d6437ed43b8bb9be80d78b684eb20f-1773999447-1773988647&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",NICK JR
-http://103.144.89.251:8082/NICK.JR/index.m3u8?token=103b26f4ef391a5154811c3df8235978bfc3fca7-229a68b7a3890d75685eec1f2394d2a2-1773949335-1773938535&remote=no_check_ip
+http://103.144.89.251:8082/NICK.JR/index.m3u8?token=e2285f2947bbd947a8b6de343107707eab23abd4-0a635e77dc066001d8115a7e66654c23-1773999448-1773988648&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",PEACE TV BANGLA
-http://103.144.89.251:8082/PEACE.TV.BANGLA.HD/index.m3u8?token=5c7f70feeaca9b405fb8e8d56fad870278e9e5e0-e1a8c8b50a99b0f21f8e762fa669e047-1773949336-1773938536&remote=no_check_ip
+http://103.144.89.251:8082/PEACE.TV.BANGLA.HD/index.m3u8?token=c13d76140ffb881a214fd117a826884867301699-2b0dba7ecd081ca14b972e7cca3acc9b-1773999448-1773988648&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",POGO
-http://103.144.89.251:8082/POGO/index.m3u8?token=f7629fd631ac13ab335b738c30017c7c2557b34b-834eed81090ea1dff2954bf02af98846-1773949336-1773938536&remote=no_check_ip
+http://103.144.89.251:8082/POGO/index.m3u8?token=e40bcf743c9b205afd4d8aa6c466942d7fb203e2-73bd680d7ab51b5a2f75baa28db69860-1773999449-1773988649&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",PTV SPORTS HD
-http://103.144.89.251:8082/PTV-SPORTS-HD/index.m3u8?token=2cf0e5fe3371f8e1dbe28d925ef0991e1b2df44b-cc7a6a40b4646f911ab5a904d64c842d-1773949337-1773938537&remote=no_check_ip
+http://103.144.89.251:8082/PTV-SPORTS-HD/index.m3u8?token=6b75d3d19474bc2ddd32d4fb510e259a736619c1-df836f1acb703f9ff9bf88fc72f50479-1773999449-1773988649&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ROMEDY NOW
-http://103.144.89.251:8082/ROMEDY.NOW/index.m3u8?token=7c16d65b78eb551f522594df834ff067fd711a0f-87d6dd9a4684184ba0deb1e0b7d65ef1-1773949337-1773938537&remote=no_check_ip
+http://103.144.89.251:8082/ROMEDY.NOW/index.m3u8?token=79d874feecc66c8a6614568352c34eafde7f09fb-ee494cf4d8125da1c8d1d016efad37e6-1773999450-1773988650&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONIC
-http://103.144.89.251:8082/SONIC/index.m3u8?token=913c580094799ba368abd09e138c068badae9c8c-c1155b419852ac38b55e51969857e457-1773949338-1773938538&remote=no_check_ip
+http://103.144.89.251:8082/SONIC/index.m3u8?token=add7035bc31739a0216c23b301b19215d07a8ec3-33e8f1c0e7ddae49cf954b2fde69774e-1773999450-1773988650&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY BBC EARTH HD
-http://103.144.89.251:8082/SONY.BBC.EARTH.HD/index.m3u8?token=6f33f19bfb0cd7707532f3218daaffc8f661b89b-ff2fb6c5ddb3b53c98b7e087e3f512a9-1773949338-1773938538&remote=no_check_ip
+http://103.144.89.251:8082/SONY.BBC.EARTH.HD/index.m3u8?token=665bf0aeaafd5640af5ba65049206c0989e97fc5-e30a9b20369080488198b53d8e5ee15d-1773999451-1773988651&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY ENT HD
-http://103.144.89.251:8082/SONY.ENT.HD/index.m3u8?token=4281a495dceb535a866a227d5d8fdb5eaa3c38b7-1d0464cc6b95eb04a066119c003fc5fe-1773949339-1773938539&remote=no_check_ip
+http://103.144.89.251:8082/SONY.ENT.HD/index.m3u8?token=292fdeb8265918abd1d4c44ad670102747b34477-bffeb0735a1a873c7eb257d20d2af37e-1773999451-1773988651&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY MAX HD
-http://103.144.89.251:8082/SONY.MAX.HD/index.m3u8?token=c4ec8bf2edc10c3d7fe2dd2507f00b340124b278-688a7f0dc4d0ae96b403b43115a465c7-1773949339-1773938539&remote=no_check_ip
+http://103.144.89.251:8082/SONY.MAX.HD/index.m3u8?token=5572e64cb09540849e77dd7eceaafa203e02ffd3-6e19c031cacb82afbce3a585369203f9-1773999452-1773988652&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY PIX HD
-http://103.144.89.251:8082/SONY.PIX.HD/index.m3u8?token=85a829b142f7d66cffc269e32234608167bb45ae-85a76b268e57abfc46eebd8bd7aa57af-1773949340-1773938540&remote=no_check_ip
+http://103.144.89.251:8082/SONY.PIX.HD/index.m3u8?token=ba22f39a01799b278787d7dfaa78553d41a19ea7-030912b9000424f0e6837c8c3fec99db-1773999452-1773988652&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY SPORTS 1 HD
-http://103.144.89.251:8082/SONY.SPORTS.1HD/index.m3u8?token=458f3fb7da307ef37187633fb5e1b45fb8871941-ec8c90eae9149d11f6d9bf1b6506596b-1773949340-1773938540&remote=no_check_ip
+http://103.144.89.251:8082/SONY.SPORTS.1HD/index.m3u8?token=dc79ec23455e4b4ba18376e3918d208127b2dda0-fdac9f73bc610f3940a787d2e0339364-1773999453-1773988653&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY SPORTS 2 HD
-http://103.144.89.251:8082/SONY.SPORTS2.HD/index.m3u8?token=87251c503b589e65da92d729f7f007eb962a0deb-14ef7be1d8bb7815d7285cde8e67640d-1773949341-1773938541&remote=no_check_ip
+http://103.144.89.251:8082/SONY.SPORTS2.HD/index.m3u8?token=f2f120d68f07795f7bce5629341abae825ce68fa-1017236a67d3738da6bcc3655121848d-1773999453-1773988653&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY SPORTS 3
-http://103.144.89.251:8082/SONY.SPORTS.3/index.m3u8?token=f2efc8d5cb8746fe472c052bbd0a0cbdbdc64eaf-bba8efdd8fe5cfb96c96c64f52f125cd-1773949341-1773938541&remote=no_check_ip
+http://103.144.89.251:8082/SONY.SPORTS.3/index.m3u8?token=b06904b75174d589b08339f2c90864c08a94404c-5a74157225ae0c7c724d07b6bf9c6695-1773999454-1773988654&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY SPORTS 4
-http://103.144.89.251:8082/SONY.SPORTS.4/index.m3u8?token=9ab8e2ad3955341ccb9bc691e35aeaf616e0e394-1bf09ef40c23b7c638515a0ed6727567-1773949342-1773938542&remote=no_check_ip
+http://103.144.89.251:8082/SONY.SPORTS.4/index.m3u8?token=41d525eb2ca2bc559717477527de97ddad95afe6-d201a37b0ccbb6de04241f4a55a87c8c-1773999454-1773988654&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY SPORTS 5 HD
-http://103.144.89.251:8082/SONY-SPORTS.5HD/index.m3u8?token=c09ebfedc29cdc120e19163a0704305f60ef7249-b65c9c03f0f68cc48246ceedd95b80d9-1773949342-1773938542&remote=no_check_ip
+http://103.144.89.251:8082/SONY-SPORTS.5HD/index.m3u8?token=05ec12ae7f5c17a82db389038137a308d340a6d3-a7d9772d233e5a3374fef3d4d3b9bda3-1773999455-1773988655&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SONY YAY
-http://103.144.89.251:8082/SONY.YAY/index.m3u8?token=81027d821bdd48f646e3defc9ad17c9cfff45882-c124b2690afd1a6eb025694530692f3a-1773949343-1773938543&remote=no_check_ip
+http://103.144.89.251:8082/SONY.YAY/index.m3u8?token=488bc2bb2ca824c292e52114799aee99620be960-aee9a13377f633e21c44a2dd5d30fc77-1773999455-1773988655&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SSC SPORTS
-http://103.144.89.251:8082/SSC.SPORTS.1.HD/index.m3u8?token=9fc802b71fc1ef6046e6a8205803f76cead2c5e0-930ac90e0a4e93fcb1620ed306ce2e64-1773949343-1773938543&remote=no_check_ip
+http://103.144.89.251:8082/SSC.SPORTS.1.HD/index.m3u8?token=1982ea280d395551d4f3fda4ee5b751061562681-72786c0b1d8145de69ece61bd19aff65-1773999456-1773988656&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SSC SPORTS 5 HD
-http://103.144.89.251:8082/SSC.SPORTS.5.HD/index.m3u8?token=364759e7bc1e2158afe6fa074b2b969b4d8ca3c6-b8dc3d581c7a03b21e6f9de612f216f8-1773949344-1773938544&remote=no_check_ip
+http://103.144.89.251:8082/SSC.SPORTS.5.HD/index.m3u8?token=4ec7ca33b600d073ff6716b827dfc271b525590c-bbf0ad32a6d2511bf1d4cb0596d6de0e-1773999456-1773988656&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR BHARAT HD
-http://103.144.89.251:8082/STAR.BHARAT.HD/index.m3u8?token=2acad628853b44b7576fa6312cbbf0f9d2f9f74d-1a4fe202eed855efb9805e463fd23154-1773949344-1773938544&remote=no_check_ip
+http://103.144.89.251:8082/STAR.BHARAT.HD/index.m3u8?token=d206754436f1aef5749739a014e0651c915bc1cb-a067b52626d4069248f8e3768fa2a43f-1773999457-1773988657&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR GOLD 2 HD
-http://103.144.89.251:8082/STAR.GOLD2.HD/index.m3u8?token=233c20de4bf0a31ec766fe5b71751e7ffbd980d1-6a8f19a16c62848e5b331b52e816e772-1773949345-1773938545&remote=no_check_ip
+http://103.144.89.251:8082/STAR.GOLD2.HD/index.m3u8?token=b30426e0fb9d2f66082c1b6ccdb263d38e18a762-80b057a06bc384007caf4da748e7e946-1773999457-1773988657&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR GOLD HD
-http://103.144.89.251:8082/STAR.GOLD.HD/index.m3u8?token=535e5b2e486e2d11745febd6b6628e9096db3e3a-ce6021610dfd9bd428f14127fac20cfc-1773949345-1773938545&remote=no_check_ip
+http://103.144.89.251:8082/STAR.GOLD.HD/index.m3u8?token=302c5d81b20a7185d9b8f2bd90c5586c6f0f02c0-10e3c1244a86aad1839e0e2338dc37b4-1773999458-1773988658&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR GOLD SELECT HD
-http://103.144.89.251:8082/STAR.GOLD.SEL.HD/index.m3u8?token=284587819c45e90de5a5d1708f67b011e13f0880-d25f2c0c66f2a6c9303fdb39e15988be-1773949346-1773938546&remote=no_check_ip
+http://103.144.89.251:8082/STAR.GOLD.SEL.HD/index.m3u8?token=7b6a3a2ad5c1a967e05bd1ed074a64b0afea14ab-064483605cd11a451e9ce704def1f56b-1773999458-1773988658&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR MOVIES HD
-http://103.144.89.251:8082/STAR.MOVIES.HD/index.m3u8?token=05a5cdda8285ec04a83ea123428f3a4bd8544f7b-77b16c3a4eef6396cd5f050ed85da1ce-1773949346-1773938546&remote=no_check_ip
+http://103.144.89.251:8082/STAR.MOVIES.HD/index.m3u8?token=9f1223080a092c9d0c9dac47856a0906ccfbd2ea-76c79156ff821b9160bb17e9d9fe175b-1773999459-1773988659&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR MOVIES SELECT HD
-http://103.144.89.251:8082/STAR.MOVIES.SEL.HD/index.m3u8?token=1bcb59104b3c2e8d217c962d72835f2408f74f17-35b7cd3026bc44270c50699b1298a33a-1773949347-1773938547&remote=no_check_ip
+http://103.144.89.251:8082/STAR.MOVIES.SEL.HD/index.m3u8?token=76c45bd3686336d1e41d7df1438f4307630a86a8-405468d1252cfd5d88cfe3a64456323a-1773999459-1773988659&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR PLUS HD
-http://103.144.89.251:8082/STAR.PLUS.HD/index.m3u8?token=63012a0d27c91d3cf2313e64c41f7c8fa4004fb7-a84e9984dc384aae23875dcd8ffb2ff2-1773949347-1773938547&remote=no_check_ip
+http://103.144.89.251:8082/STAR.PLUS.HD/index.m3u8?token=7ccb9ba91557249dd0697bd760fbcc48bc60e5dc-3d26e46fa10eefdadc93b252120b9845-1773999460-1773988660&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR SELECT 1 HD
-http://103.144.89.251:8082/STAR.SPORTS-SEL1.HD/index.m3u8?token=634c7f9c43f2afaee7378f7c4ba4e54cabd6615a-ebbb5a4bec82f6adaae0c305490ff96e-1773949348-1773938548&remote=no_check_ip
+http://103.144.89.251:8082/STAR.SPORTS-SEL1.HD/index.m3u8?token=8e199100faec7702def9536291e02cd0d543797c-48ca905ab3b3d60d6c00d2e35b0a18cc-1773999460-1773988660&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR SPORTS 1 HD
-http://103.144.89.251:8082/STAR.SPORTS1.HD/index.m3u8?token=847b414c236acc490b96066d926d3125d01a0444-cbb7a967e704f2ab3e33b0605150d982-1773949348-1773938548&remote=no_check_ip
+http://103.144.89.251:8082/STAR.SPORTS1.HD/index.m3u8?token=c6a07e7e4ed855cb073bee331cb39845881435b0-1700babe246c76db0b96021186970b7d-1773999461-1773988661&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR SPORTS 2 HD
-http://103.144.89.251:8082/STAR.SPORTS2.HD/index.m3u8?token=3b9254d916801ba2c57ae996db348c19b24b7e24-effbe7958f3322b82d21c86b481dc10e-1773949349-1773938549&remote=no_check_ip
+http://103.144.89.251:8082/STAR.SPORTS2.HD/index.m3u8?token=9593ac579ff2a966036b1ea0cea0723f1ccdea43-8361d1892f38064d2a3702a621e578df-1773999461-1773988661&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR SPORTS 3
-http://103.144.89.251:8082/STAR-SPORTS.3/index.m3u8?token=e09a7cffbd88a765db37fb821bb918e1093da224-b17a50f52a59cd708196bd6abb55f3ec-1773949349-1773938549&remote=no_check_ip
+http://103.144.89.251:8082/STAR-SPORTS.3/index.m3u8?token=fe6e7e086e36b335d74cd0d6fc9d3b04c282ee22-6b55533b9fda0457bdc5d1cc300a7367-1773999462-1773988662&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",STAR SPORTS SELECT 2 HD
-http://103.144.89.251:8082/STAR.SPORTS.SEL.2.HD/index.m3u8?token=eb383ce612c8af75fe454f19a21882ae8ebe07cd-301828a0403b1f4b83560302814a17f1-1773949350-1773938550&remote=no_check_ip
+http://103.144.89.251:8082/STAR.SPORTS.SEL.2.HD/index.m3u8?token=be2e827411d01ab6011f6495ff061ed29c851cba-b94a166cb3ae7e49be6510c685a0b759-1773999462-1773988662&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",SUPER HUNGAMA
-http://103.144.89.251:8082/SUPER.HUNGAMA/index.m3u8?token=49c45765e7153899d53fb6b1a84e9e63819c3f8f-b19d34202021b0b879ae5ac292806f54-1773949350-1773938550&remote=no_check_ip
+http://103.144.89.251:8082/SUPER.HUNGAMA/index.m3u8?token=63b6c096bc6a1c326cfec3a73339ba37af3944ff-2ef789fa7ec675e6060809465482d702-1773999463-1773988663&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",T SPORTS
-http://103.144.89.251:8082/T-SPORTS-HD/index.m3u8?token=8437363e2923e25d4b2f3d6e76477b3487653356-3805c196ed09b439c1631dfd6622d186-1773949351-1773938551&remote=no_check_ip
+http://103.144.89.251:8082/T-SPORTS-HD/index.m3u8?token=4cdc956830431464b85cf943053ce11fc66f047f-cf75963ac30d0a9ffbae571924b5b2bc-1773999463-1773988663&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TLC HD
-http://103.144.89.251:8082/TLC.HD/index.m3u8?token=4504ecaa87778771245c72ca3f478dfbb7f54867-961a464bfd3f46e5e93fb6bf10bf5d38-1773949351-1773938551&remote=no_check_ip
+http://103.144.89.251:8082/TLC.HD/index.m3u8?token=da7ad15b0d4b22818249e7c43be5c4bd0d5e8e36-e754e9c001ad25374083765be2ec2e82-1773999464-1773988664&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TRAVEL XP
-http://103.144.89.251:8082/TRAVELXP.HD/index.m3u8?token=629f1aef740263283a5a37d1dfd7640acfcdfde4-f6d2a17375677d938fd9ce725e285f31-1773949352-1773938552&remote=no_check_ip
+http://103.144.89.251:8082/TRAVELXP.HD/index.m3u8?token=faabf3a6378a8060a0b7515ea2e2316790e2a9c1-4ea17d932d514177dbc55da375a92f34-1773999465-1773988665&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZEE CAFE HD
-http://103.144.89.251:8082/ZEE.CAFE.HD/index.m3u8?token=25e45bf1f4e02a82789258de0a87cac1ac938f6a-c0a36d5ac35fc792db6478e5e805ae17-1773949352-1773938552&remote=no_check_ip
+http://103.144.89.251:8082/ZEE.CAFE.HD/index.m3u8?token=26c8aaa966b08f2c925c69919495e7357255dfea-eaca11fd741b3d11559cb232aeb04911-1773999465-1773988665&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZEE CINEMA HD
-http://103.144.89.251:8082/ZEE.CINEMA.HD/index.m3u8?token=756bc2e2348a0517d97dac161c6e9f5e465752c8-336b222daf945355c869363b7d12756f-1773949353-1773938553&remote=no_check_ip
+http://103.144.89.251:8082/ZEE.CINEMA.HD/index.m3u8?token=2aa012b6302dd08720133874128182f05d66a9d3-ea4534d96a34ea19fd9c021a6a2e7197-1773999466-1773988666&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZEE TV HD
-http://103.144.89.251:8082/ZEE.TV.HD/index.m3u8?token=286a785683e9e87588389f05838b1c3ad6ffb4c8-8e36c8b5cf1e720a1990e80f86423913-1773949353-1773938553&remote=no_check_ip
+http://103.144.89.251:8082/ZEE.TV.HD/index.m3u8?token=0b280b600ef8fdcc337eaef3dbaf1600688c2b9e-fc778310732836b2836313ec2f84e6ab-1773999466-1773988666&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZING
-http://103.144.89.251:8082/ZING.MUSIC/index.m3u8?token=f3a5bd4af962fb5b70692afb54eeddb5086eb365-b77aca379d53e054fc96e91618a6c106-1773949354-1773938554&remote=no_check_ip
+http://103.144.89.251:8082/ZING.MUSIC/index.m3u8?token=4a66a249d5c452887dfa076e82cdcd71bc86a008-c0690a7f5c374c2b227d030ebcd29e6c-1773999467-1773988667&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ZOOM
-http://103.144.89.251:8082/ZOOM.MUSIC/index.m3u8?token=5993fce28466a19fb935d3a2f43b4d48e68cb1bc-6127bb83e3e6534d274f01ca50b10683-1773949354-1773938554&remote=no_check_ip
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/141319_6002_MSP_RRP_FC-Web_1773487500782.jpg" group-title="Fancode",Mumbai Spartans vs Royal Riders Punjab (Legends League Cricket, 2026)
-https://bd-mc-flive.fancode.com/mumbai/141314_english_hls_0284bafa6d41839_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774013166~_GO=Generated~acl=/mumbai/141314_english_hls_0284bafa6d41839_1ta-di_h264/*~Signature=AYUBS8qTQ3tIX6pIreTkZzLBtx6CWrkh9QJqLmChUBoPcupOgdMMnZ-Q2WaiGBCMu0ydOxnCJJLAtjyPj8_oy4YF0zIA
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Florida (Valspar Championship 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="Fancode",Marquee Feed - Day 1	 vs Palm Harbor, Florida (Valspar Championship 2026)
-https://bd-mc-flive.fancode.com/mumbai/141389_english_hls_47996f64b322088_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774021868~_GO=Generated~acl=/mumbai/141389_english_hls_47996f64b322088_1ta-di_h264/*~Signature=AYUBS8qZHRDna06E0gKKwJQnnsHepeoDZhqAqCacW0pUOHbsHei6RhyevusFTzkZ1fRRaDSn0MG3q1I_ASbNPV56pWcJ
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Florida (Valspar Championship 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="Fancode",Featured Holes - Day 1	 vs Palm Harbor, Florida (Valspar Championship 2026)
-https://bd-mc-flive.fancode.com/mumbai/141387_english_hls_aa3bd463cb91759_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774023968~_GO=Generated~acl=/mumbai/141387_english_hls_aa3bd463cb91759_1ta-di_h264/*~Signature=AYUBS8rL-TtTOBUSIGHPbJdt6t9ib-vUu0UIvmJg6jBcMikBJrTnO3NjUevCB8MeLDxynyuMnqt_QnB5iYJ2-7hLu2MM
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Florida (Valspar Championship 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="Fancode",Main Feed - Day 1	 vs Palm Harbor, Florida (Valspar Championship 2026)
-https://bd-mc-flive.fancode.com/mumbai/141386_english_hls_96a88521ef25824_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774023970~_GO=Generated~acl=/mumbai/141386_english_hls_96a88521ef25824_1ta-di_h264/*~Signature=AYUBS8ptMfXOFLRrqylVPMmY5-ui7fDvZXKNWBJHgLXtCmpBpnj0fE6q1NRylBolxiYW6NsO-GdiN-ICFDvCv132NJoM
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Florida (Valspar Championship 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Valspar-Championship_fc-web.jpg" group-title="Fancode",Featured Groups - Day 1	 vs Palm Harbor, Florida (Valspar Championship 2026)
-https://bd-mc-flive.fancode.com/mumbai/141388_english_hls_134d64510780120_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774026728~_GO=Generated~acl=/mumbai/141388_english_hls_134d64510780120_1ta-di_h264/*~Signature=AYUBS8rbcB84rfKtQJCdiffD9C3OYvsg72c1J4o4HRj3Tx9ZBA9xHhm49BENKZ9Id80BEODUOi7N9n3DRt0sSTkwYqoC
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",E Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141459_english_hls_707f4ace7d95144_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774014254~_GO=Generated~acl=/mumbai/141459_english_hls_707f4ace7d95144_1ta-di_h264/*~Signature=AYUBS8qGbyRuRjfYKHiPdcfqmV796kxUk_y-EfBsgOwWGc8RrTpCXG-247MIbSjyXoQPJ1x1nK5m-eMbv_p-St-n9s4P
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",H Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141457_english_hls_0ee39fbd6048699_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774014257~_GO=Generated~acl=/mumbai/141457_english_hls_0ee39fbd6048699_1ta-di_h264/*~Signature=AYUBS8p0MnCwYLxGiLkI8S1MbK1g5aRmGVqHaosZabl9p9MEC0DcwumawNoYCyn0K0OP0ICo6b4uPdkWZ2y8fiOiLe4N
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",I Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/s3/591f711f-d93f-49b3-82ab-effb4b65a0c4/index_216p.m3u8?hdntl=Expires=1774016770~_GO=Generated~acl=/s3/591f711f-d93f-49b3-82ab-effb4b65a0c4/*~Signature=AYUBS8povgHpewtCcTbxOB6kn8z6Bayi2Xcgo6MTZq5-F3JJJGMd8gaj79dp8VuZ7cp9a-QSMNrWxdAASe6QXgxC8CQM
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",World Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141036_english_hls_95023780a875735_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774017848~_GO=Generated~acl=/mumbai/141036_english_hls_95023780a875735_1ta-di_h264/*~Signature=AYUBS8qnR2JuFnY-Mf79Pjq5-3T1cjlEnTf9GDe6XN06-3FymcuYNJVQ-d_aK2Hc1T0yHdFZlp-oM3MqhsUm9FYIrpsK
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",D Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141458_english_hls_0dadd57a7817212_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774017851~_GO=Generated~acl=/mumbai/141458_english_hls_0dadd57a7817212_1ta-di_h264/*~Signature=AYUBS8oqC19TZUKELUUCuV4qmNU2EvWR1Sm9dycgEY0D9pNL_eqYIhaT0VqFanyEbF4Q213xZJvuFZ7hdw1l7zVdSTcG
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",C Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141456_english_hls_baf8eb19e314300_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774017856~_GO=Generated~acl=/mumbai/141456_english_hls_baf8eb19e314300_1ta-di_h264/*~Signature=AYUBS8rlgQpTMzBAlrVjtccEhiaA2ZxZxXAUJFoEAJZ9G4nsdQFIBbGXpnWkiTVKRy4zrDMT3Ilzf_NdZK71hXVXv7EE
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",B Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141460_english_hls_79a331273e17009_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774021870~_GO=Generated~acl=/mumbai/141460_english_hls_79a331273e17009_1ta-di_h264/*~Signature=AYUBS8rkdVGnGSaOBIHbSxPxTMLYOTNYcvy4WQ0odRVdQ3z9ukpwmDV-adaZHcTq9WSwid3T8QOgvWpTFZ8NC5xXzisP
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", United States (ATP Masters Miami Open 2026)" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Miami_open_ATP_1000_FC-WEB.jpg" group-title="Fancode",A Court Feed vs Miami, United States (ATP Masters Miami Open 2026)
-https://bd-mc-flive.fancode.com/mumbai/141037_english_hls_9cf7a3e95657721_1ta-di_h264/1080p.m3u8?hdntl=Expires=1774025046~_GO=Generated~acl=/mumbai/141037_english_hls_9cf7a3e95657721_1ta-di_h264/*~Signature=AYUBS8oM_qU1h39ZT9Oa3cJd3mzu0f0HBrXB_m97jqhVhZD1YP9ucfL6rqAIBsV1IEW_6DXPbkQpH4NcvcdlbfRhb28N
+http://103.144.89.251:8082/ZOOM.MUSIC/index.m3u8?token=423e60f75b4b27239bf943d9af98cd68cb499862-f217ecaf30d3953b89e1eb3c8a83ccce-1773999467-1773988667&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",T Sports
 http://sm-monirul.top/RoarZone/play.php?id=ZWRnZTIvdHNwb3J0cw==&e=.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Star Sports 1
@@ -3064,171 +3042,171 @@ https://sm-monirul.top/Toffee/live.php?id=1d8f06362c1e&e=.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Star Sports 1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n1.sanwalyaarpya.com:1686/hls/star1in.m3u8?md5=KLmH70eMZ9-B6xu_eM4V4A&expires=1773944936
+https://n1.sanwalyaarpya.com:1686/hls/star1in.m3u8?md5=cGpcf7FY-zaPvOAhL1zfug&expires=1773992020
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Star Sports 1 Hindi
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n3.sanwalyaarpya.com:1686/hls/starhindi.m3u8?md5=ZMyUyquaMRrMaNnT1siDzQ&expires=1773944936
+https://n5.sanwalyaarpya.com:1686/hls/starhindi.m3u8?md5=wDpXVFi1ThR5vzieV9nNdQ&expires=1773992020
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",PTV Sports
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n4.sanwalyaarpya.com:1686/hls/ptvpk.m3u8?md5=YY2ThK2EG8WcR58UI6FFNg&expires=1773944936
+https://n6.sanwalyaarpya.com:1686/hls/ptvpk.m3u8?md5=Kt2xFSNkGtl6L9eRHzBSag&expires=1773992020
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Willow HD
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/willowusa.m3u8?md5=ZghTf-ta6acbiwpvA3rMtQ&expires=1773944936
+https://n5.sanwalyaarpya.com:1686/hls/willowusa.m3u8?md5=Gi5C5P2XgNfpVZoi_0EH8Q&expires=1773992020
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Willow HD 2
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/willowextra.m3u8?md5=EQDh9uvcoqKEVxL_yob8LA&expires=1773944936
+https://n2.sanwalyaarpya.com:1686/hls/willowextra.m3u8?md5=vw3G1vJYGf383bTYSPVxfg&expires=1773992020
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Ten Sports
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n8.sanwalyaarpya.com:1686/hls/tenspk.m3u8?md5=aFV54nzhelbttE4Pm5D_GQ&expires=1773944936
+https://n1.sanwalyaarpya.com:1686/hls/tenspk.m3u8?md5=mmT1yqPBL1tcpbt7NdEYKw&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",A Sports HD
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/asportshd.m3u8?md5=8T7ct1vXDD23iLsOwZpKzA&expires=1773944936
+https://n6.sanwalyaarpya.com:1686/hls/asportshd.m3u8?md5=rH2jiJt-RkzUV44hsF8O3g&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Cricket
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/skyscric.m3u8?md5=EwiAsL6Rd3APTbsPISqqMw&expires=1773944937
+https://n4.sanwalyaarpya.com:1686/hls/skyscric.m3u8?md5=F_8SUIemeBSfOOppeJ21vA&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Main Event
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/skysme.m3u8?md5=gWkfSuVlHpkKZ0_JFDdmiA&expires=1773944937
+https://n6.sanwalyaarpya.com:1686/hls/skysme.m3u8?md5=wug3OD8vqaDbuUGuIDiS5Q&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TNT 1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/bbtsp1.m3u8?md5=lqSfyLOgc9y62g9vZFCQug&expires=1773944937
+https://n4.sanwalyaarpya.com:1686/hls/bbtsp1.m3u8?md5=-_L57g3wnGychbe8vFcC7Q&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TNT 2
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n6.sanwalyaarpya.com:1686/hls/bbtsp2.m3u8?md5=FXZiQUt3Ek29dY78QsSsCA&expires=1773944937
+https://n6.sanwalyaarpya.com:1686/hls/bbtsp2.m3u8?md5=FMv4yQQh208UcPES7vVFEw&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TNT 3
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n1.sanwalyaarpya.com:1686/hls/bbtsp3.m3u8?md5=kNc5N8tWyEfl4jIu9aoTbg&expires=1773944937
+https://n4.sanwalyaarpya.com:1686/hls/bbtsp3.m3u8?md5=xU5AbnG8sJbfeDe08WbZrg&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",TNT 4
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n3.sanwalyaarpya.com:1686/hls/bbtespn.m3u8?md5=EViGC5gabE43XH8CWpGwZg&expires=1773944937
+https://n8.sanwalyaarpya.com:1686/hls/bbtespn.m3u8?md5=T9WxkR203nRs8YVAkXajxw&expires=1773992021
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n2.sanwalyaarpya.com:1686/hls/sky1nz.m3u8?md5=7fgBKMNc7GBuhNVuDJF-0g&expires=1773944937
+https://n9.sanwalyaarpya.com:1686/hls/sky1nz.m3u8?md5=J5LbbX3EoyuUjzOQiaRCZA&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 2
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n4.sanwalyaarpya.com:1686/hls/sky2nz.m3u8?md5=8OEg4j1SNG2-zDwz2Bg_Cg&expires=1773944937
+https://n4.sanwalyaarpya.com:1686/hls/sky2nz.m3u8?md5=foI8K4Oukx_IGIEbOHMBnA&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 3
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n5.sanwalyaarpya.com:1686/hls/sky3nz.m3u8?md5=XWwjlGuLjvIeRWuhlm_lBg&expires=1773944937
+https://n7.sanwalyaarpya.com:1686/hls/sky3nz.m3u8?md5=eGYh8QFJOg_XHrGtnFXF0A&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 4
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n6.sanwalyaarpya.com:1686/hls/sky4nz.m3u8?md5=a-qDTK5rdM3tFN0Ij6TpoQ&expires=1773944938
+https://n1.sanwalyaarpya.com:1686/hls/sky4nz.m3u8?md5=ylfJsvHuYY5RoefUL9Ydxg&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 5
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n9.sanwalyaarpya.com:1686/hls/sky5nz.m3u8?md5=A_zKyb2yp3qNWxDyp8fh_A&expires=1773944938
+https://n1.sanwalyaarpya.com:1686/hls/sky5nz.m3u8?md5=wZZrYXzKIMKThS1AulNPlw&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport 6 Nz
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n7.sanwalyaarpya.com:1686/hls/sky6nz.m3u8?md5=XPZUClQalkrSDk7kPfMHwg&expires=1773944938
+https://n7.sanwalyaarpya.com:1686/hls/sky6nz.m3u8?md5=kavF2sknXwIQDIAtwtcaog&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 7
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/sky7nz.m3u8?md5=maF5KjrM_LGofox9w7dM2A&expires=1773944938
+https://n3.sanwalyaarpya.com:1686/hls/sky7nz.m3u8?md5=PRORSxMPJ2rpW1MXhg0c0A&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 8
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/sky8nz.m3u8?md5=fTYn-S0okgs6VV71gaQ80w&expires=1773944938
+https://n3.sanwalyaarpya.com:1686/hls/sky8nz.m3u8?md5=V_8M54WDkBmNVS53yI3NhA&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sport Nz 9
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n8.sanwalyaarpya.com:1686/hls/sky9nz.m3u8?md5=_TLfrcyOmObVEwUFMnOp0w&expires=1773944938
+https://n5.sanwalyaarpya.com:1686/hls/sky9nz.m3u8?md5=T5TXoXeJ5QlMjUVpheaJxA&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Cinema
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n9.sanwalyaarpya.com:1686/hls/skysme.m3u8?md5=URhp-6nmnS00Ot_caqSHSw&expires=1773944938
+https://n5.sanwalyaarpya.com:1686/hls/skysme.m3u8?md5=N_-K7FGQ-Cc9a4hgPym5cg&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Action
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n4.sanwalyaarpya.com:1686/hls/skysact.m3u8?md5=kBx3nO9YsNMM-OOi7iyRmw&expires=1773944938
+https://n1.sanwalyaarpya.com:1686/hls/skysact.m3u8?md5=YSm5KaTHvVv2NIZuFOmUbA&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Golf
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n4.sanwalyaarpya.com:1686/hls/skysgol.m3u8?md5=BHlZnLnz3Q0Je2DfIyYxDg&expires=1773944939
+https://n8.sanwalyaarpya.com:1686/hls/skysgol.m3u8?md5=qKP9Ck23G7AxWfh0AEWhww&expires=1773992022
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Premier League
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n9.sanwalyaarpya.com:1686/hls/skysprem.m3u8?md5=JX29BuNYByeraFSCVW79UA&expires=1773944939
+https://n5.sanwalyaarpya.com:1686/hls/skysprem.m3u8?md5=6UCymBA4dx84inopDHj2Kw&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Football
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n1.sanwalyaarpya.com:1686/hls/skysfott.m3u8?md5=5ZVRWuM2V_mPW9obCMMVxw&expires=1773944939
+https://n3.sanwalyaarpya.com:1686/hls/skysfott.m3u8?md5=VZBhVDv3Tldabxf8B4JhYA&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Plus
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/skysare.m3u8?md5=kTimZgixHE8n0Pkt1wiTkg&expires=1773944939
+https://n3.sanwalyaarpya.com:1686/hls/skysare.m3u8?md5=vhwQkTh4yMC_lFQ-gucY6g&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports F1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n5.sanwalyaarpya.com:1686/hls/skysfor1.m3u8?md5=daCJKNACjSlyKwq3MvQG2A&expires=1773944939
+https://n14.sanwalyaarpya.com:1686/hls/skysfor1.m3u8?md5=0WbxF-ktwNO3PNR7vDDMPQ&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",LaLiGA
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n5.sanwalyaarpya.com:1686/hls/laligauk.m3u8?md5=ylu8t40xC1CYkAPKN2RgSw&expires=1773944939
+https://n5.sanwalyaarpya.com:1686/hls/laligauk.m3u8?md5=z20blb5nwMLOu5wmT_LBsg&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Premier Sports 1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n6.sanwalyaarpya.com:1686/hls/premieruk.m3u8?md5=2EgjQR2i-AdMa_lF1veFIQ&expires=1773944939
+https://n14.sanwalyaarpya.com:1686/hls/premieruk.m3u8?md5=YHRdEcrrzsQrV9gu-4qYng&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Premier Sports 2
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n4.sanwalyaarpya.com:1686/hls/hdchnl2.m3u8?md5=OQ6-hAYUiCUiZG-F2ZF44g&expires=1773944939
+https://n1.sanwalyaarpya.com:1686/hls/hdchnl2.m3u8?md5=zHC0wKroJpDkKHHWJBGKFQ&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Super Football
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n1.sanwalyaarpya.com:1686/hls/superfotball.m3u8?md5=3kCprKI08Jvx7gtBrRWjZQ&expires=1773944939
+https://n14.sanwalyaarpya.com:1686/hls/superfotball.m3u8?md5=_kU-UuQsJGt4qxEinKdEwA&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Super Premier League
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n2.sanwalyaarpya.com:1686/hls/superpremier.m3u8?md5=F4uv-g0jnJlbz--9wiLlWA&expires=1773944939
+https://n1.sanwalyaarpya.com:1686/hls/superpremier.m3u8?md5=RAcMvSE48uhJa7SnpU5HwQ&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Astro Cricket
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/fox501.m3u8?md5=F4eJmEixhtISxf_imcsAPA&expires=1773944940
+https://n1.sanwalyaarpya.com:1686/hls/fox501.m3u8?md5=FFyX2b3_RgEMY4tRXR3cpA&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ESPN 1
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/espnusa.m3u8?md5=e3NaolmHjXrMOkOO-U0dyw&expires=1773944940
+https://n4.sanwalyaarpya.com:1686/hls/espnusa.m3u8?md5=Ze6wqrBM_qZu5st0NlJlEQ&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",ESPN 2
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n7.sanwalyaarpya.com:1686/hls/espn2.m3u8?md5=P1xoBLR8cuBPYwtQE8rMIA&expires=1773944940
+https://n1.sanwalyaarpya.com:1686/hls/espn2.m3u8?md5=rYZz6nLMlSPMKznQtxVAUw&expires=1773992023
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Arena
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n14.sanwalyaarpya.com:1686/hls/skysare.m3u8?md5=A7ZBK2YiYXDoq3VT_wMjeg&expires=1773944940
+https://n5.sanwalyaarpya.com:1686/hls/skysare.m3u8?md5=mnAQyUPfeX09PvfeN0BN9Q&expires=1773992024
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Mix
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n1.sanwalyaarpya.com:1686/hls/skysmixx.m3u8?md5=0W7opx4aPLvxTIDfMRu8nA&expires=1773944940
+https://n14.sanwalyaarpya.com:1686/hls/skysmixx.m3u8?md5=sg4oPQo8jzpAVf2C2Amq9g&expires=1773992024
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sky Sports Tennis
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n9.sanwalyaarpya.com:1686/hls/skystennis.m3u8?md5=-TS8AOECeKQPIHap-y-B4g&expires=1773944940
+https://n5.sanwalyaarpya.com:1686/hls/skystennis.m3u8?md5=Iuj19sW93GBv_RxTR_6Q1g&expires=1773992024
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Fox Cricket 501 HD
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n8.sanwalyaarpya.com:1686/hls/fox501.m3u8?md5=F4eJmEixhtISxf_imcsAPA&expires=1773944940
+https://n4.sanwalyaarpya.com:1686/hls/fox501.m3u8?md5=M_2smGhuNTiTN8iOjwxPAQ&expires=1773992024
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv",Sony Sports3
 #EXTVLCOPT:http-referrer=https://profamouslife.com/
 #EXTVLCOPT:http-origin=https://profamouslife.com
-https://n7.sanwalyaarpya.com:1686/hls/ten1hd.m3u8?md5=qgoiONWZCxLEmeviudsREg&expires=1773944940
+https://n3.sanwalyaarpya.com:1686/hls/ten1hd.m3u8?md5=xTy0_ePLFoFHy59ptAiLQg&expires=1773992024
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Gopal Bhar
 https://cloudfrontnet.vercel.app/tplay/playout/209611/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Falcon Tv", Moto Patlu
