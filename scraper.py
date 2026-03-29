@@ -3,7 +3,7 @@ import requests
 import re
 
 # ১. লোগো লিঙ্কসমূহ
-SPECIAL_LOGO_URL = "https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" 
+SPECIAL_LOGO_URL = "https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" 
 GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" 
 
 # ২. গ্রুপ নেমস
