@@ -7,8 +7,8 @@ http://30.30.30.30:8088/102/index.m3u8?token=d46a2e934191b183ba2eaefb1bbe9c81d75
 http://30.30.30.30:8088/115/index.m3u8?token=6096fdf2281883e467cd8eaf87639b5b88cde369-a19692c2d4e9dd12b0832110b1a5d756-1771187805-1771184205
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-4-Free Tv-Isp
 http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Free Tv-Isp
-http://172.16.29.2:8090/hls/StarSports1HD.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Free Tv-Test
+http://10.99.99.99:8082/STAR.SPORTS1.HD/index.m3u8?token=912d8029fc119b4266b9d00a4076d1556774b07a-cd86f4503ceea37a6dccc2d04d06cc42-1774808957-1774798157&remote=no_check_ip
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" logo="https://i.postimg.cc/9fv12GK5/2026-Mens-T20-World-Cup.png" group-title="T20 World Cup 2026 Bdix Special",Live-6-Cloud Tv-Isp
 http://103.89.248.30:8082/Star-sport-3/index.fmp4.m3u8?token=602b90f3fc2d1778394fe02501c4def891f7ddb5-8dcbc44b037811b8ce0dc4c97f838c04-1774808017-1774797217
 
