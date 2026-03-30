@@ -13,7 +13,7 @@ ENTERTAINMENT_GROUP = "Entertainment"
 # ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Unix Tv-Isp
-https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/tracks-v1a1/mono.ts.m3u8?e=1774864774&token=40e6bf0440d97f2f356512d640777a5c&u=ee5437a7-c16b-4700-b317-a41b77d5cba9
+https://playztv-apps.pages.dev/star-sports/index.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Unix Tv-Isp
 http://30.30.30.30:8088/102/index.m3u8?token=d46a2e934191b183ba2eaefb1bbe9c81d759c570-bdb46eeeb67341758d157434872e8048-1771187762-1771184162
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Unix Tv-Isp
