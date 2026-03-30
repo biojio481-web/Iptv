@@ -7,7 +7,7 @@ SPECIAL_LOGO_URL = "https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1s
 GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" 
 
 # ২. গ্রুপ নেমস
-SPECIAL_GROUP = "T20 World Cup 2026 Bdix Special"
+SPECIAL_GROUP = "IPL 2026"
 ENTERTAINMENT_GROUP = "Entertainment"
 
 # ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
