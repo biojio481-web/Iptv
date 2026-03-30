@@ -1,15 +1,15 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-1-Unix Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-1-Unix Tv-Isp
 https://tvsen5.aynascope.net/c9EpzZ6fQBJ3/tracks-v1a1/mono.ts.m3u8?e=1774864774&token=40e6bf0440d97f2f356512d640777a5c&u=ee5437a7-c16b-4700-b317-a41b77d5cba9
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-2-Unix Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-2-Unix Tv-Isp
 http://30.30.30.30:8088/102/index.m3u8?token=d46a2e934191b183ba2eaefb1bbe9c81d759c570-bdb46eeeb67341758d157434872e8048-1771187762-1771184162
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-3-Unix Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-3-Unix Tv-Isp
 http://30.30.30.30:8088/115/index.m3u8?token=6096fdf2281883e467cd8eaf87639b5b88cde369-a19692c2d4e9dd12b0832110b1a5d756-1771187805-1771184205
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-4-Free Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-4-Free Tv-Isp
 http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-5-Free Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-5-Free Tv-Isp
 http://172.16.29.2:8090/hls/StarSports1HD.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="T20 World Cup 2026 Bdix Special",Live-6-Cloud Tv-Isp
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-6-Cloud Tv-Isp
 https://backend.plusbox.tv/StarSports1HD/index.fmp4.m3u8?token=daacd458cbf7b6e72594a5c339829fcc65cad47c-e0b0ffc885e0c963ff9c9368ba08cdf3-1771195278-1771184478
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-1
