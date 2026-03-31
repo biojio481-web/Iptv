@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-1-Unix Tv-Isp
-https://playztv-apps.pages.dev/star-sports/index.m3u8
+http://172.19.178.29:18190/CD-E01-01/index.fmp4.m3u8?token=d83950db9f0e512ab8813e7370fce167b819b4ed-f709df4d081d7b15b12ea3483f091567-1774980558-1774969458
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-2-Unix Tv-Isp
 http://30.30.30.30:8088/102/index.m3u8?token=d46a2e934191b183ba2eaefb1bbe9c81d759c570-bdb46eeeb67341758d157434872e8048-1771187762-1771184162
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-3-Unix Tv-Isp
