@@ -10,7 +10,7 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-5-Free Tv-Isp
 http://172.16.29.2:8090/hls/StarSports1HD.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-6-Cloud Tv-Isp
-https://backend.plusbox.tv/StarSports1HD/index.fmp4.m3u8?token=daacd458cbf7b6e72594a5c339829fcc65cad47c-e0b0ffc885e0c963ff9c9368ba08cdf3-1771195278-1771184478
+https://server3.offlineripon.workers.dev/?url=https%3A%2F%2Fn1.zohanayaan.com%3A1686%2Fhls%2Fstar1in.m3u8%3Fmd5%3DZNe3uVW-jUFfPh2b_5Njgw%26expires%3D1774975676&headers=%7B%22referer%22%3A%22https%3A%2F%2Fprofamouslife.com%2Fpremium.php%3Fplayer%3Ddesktop%26live%3Dstar1in%22%2C%22origin%22%3A%22https%3A%2F%2Fprofamouslife.com%22%2C%22user-agent%22%3A%22Mozilla%2F5.0+%28Windows+NT+10.0%3B+Win64%3B+x64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F124.0.0.0+Safari%2F537.36%22%7D
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Entertainment",Entertainment-1
 http://30.30.30.30:8088/405/tracks-v1a1/mono.m3u8?token=afdb742562f7b2838e88c7554f6ed01b278423de-52cde21afba1bd0d09ac51ad0e7f941f-1770745481-1770741881
