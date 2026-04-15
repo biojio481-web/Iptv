@@ -23,7 +23,7 @@ http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5-Free Tv-Isp
 http://172.16.29.2:8090/hls/StarSports1HD.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6-Cloud Tv-Isp
-https://backend.plusbox.tv/StarSports1HD/index.fmp4.m3u8?token=daacd458cbf7b6e72594a5c339829fcc65cad47c-e0b0ffc885e0c963ff9c9368ba08cdf3-1771195278-1771184478
+https://bdixgen.site/MAC/VOTIPTV/play.php?id=83454
 """
 
 # ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
