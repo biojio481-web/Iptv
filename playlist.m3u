@@ -2,7 +2,7 @@
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-1-Noor Isp
 http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-2-Noor Isp
-http://172.16.29.2:8090/hls/tsportshd.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-3-Unix Tv-Isp
 http://30.30.30.30:8088/115/index.m3u8?token=6096fdf2281883e467cd8eaf87639b5b88cde369-a19692c2d4e9dd12b0832110b1a5d756-1771187805-1771184205
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-4-Free Tv-Isp
