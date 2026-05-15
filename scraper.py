@@ -8,9 +8,8 @@ GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png"
 
 # ২. গ্রুপ নেমস
 SPECIAL_GROUP = "IPL 2026"
-ENTERTAINMENT_GROUP = "Entertainment"
 
-# ৩. স্পেশাল চ্যানেল (Live-1 থেকে Live-6)
+# ৩. স্পেশাল চ্যানেল (আপনার নির্দেশমত প্রথম ৩টি রাখা হয়েছে)
 special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Noor Isp
 http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
@@ -18,32 +17,14 @@ http://198.195.239.50:8095/SonyTenSports5/tracks-v1a1/mono.m3u8
 http://172.16.29.2:8090/hls/tsportshd.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Unix Tv-Isp
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-4-Free Tv-Isp
-http://172.16.29.2:8090/hls/tsportshd.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-5-Free Tv-Isp
-http://172.16.29.2:8090/hls/StarSports1HD.m3u8
-#EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-6-Cloud Tv-Isp
-http://premimum.online/live/jen12345/jen54321/702533.ts
 """
 
-# ৪. এন্টারটেইনমেন্ট (নতুন ২টি চ্যানেল যোগ করা হয়েছে)
-entertainment_channels = f"""#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-1
-http://30.30.30.30:8088/405/tracks-v1a1/mono.m3u8?token=afdb742562f7b2838e88c7554f6ed01b278423de-52cde21afba1bd0d09ac51ad0e7f941f-1770745481-1770741881
-#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-2
-http://172.16.29.2:8090/hls/ColorsHD.m3u8
-#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",Entertainment-3
-https://ranapk.online/RANAPK33x/TVDx/play.php?id=944612
-#EXTINF:-1 tvg-logo="{GENERAL_LOGO_URL}" logo="{GENERAL_LOGO_URL}" group-title="{ENTERTAINMENT_GROUP}",THE-50
-https://ranapk.online/OPPLEX/RANAPK8/play.php?id=109947
-"""
+# ৪. এন্টারটেইনমেন্ট সেকশন এবং চ্যানেলসমূহ আপনার অনুরোধ অনুযায়ী সম্পূর্ণ মুছে ফেলা হয়েছে।
 
-# ৫. বাহ্যিক প্লেলিস্ট
+# ৫. বাহ্যিক প্লেলিস্ট (শুধুমাত্র উপরের ২টি রাখা হয়েছে)
 external_playlists = {
-    "Ontest-Plus": "https://go.skym3u.top/69di.m3u",
-    "BDIX-IPTV": "https://go.skym3u.top/g5cm.m3u",
-    "Falcon Tv": "https://sm-live-tv-auto-update-playlist.pages.dev/Combined_Live_TV.m3u",
-    "New Bdix": "https://jmrj02jibon02khan.vercel.app/all/playlists.m3u",
-    "Dish Tv": "https://raw.githubusercontent.com/mdarif2743/Sky-dish/refs/heads/main/README.md"
+    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
+    "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u"
 }
 
 def clean_and_group(content, group_name):
@@ -61,7 +42,8 @@ def clean_and_group(content, group_name):
     return "\n".join(cleaned)
 
 def run_scraper():
-    final_data = special_channels_content + "\n" + entertainment_channels
+    # এন্টারটেইনমেন্ট ডাটা বাদ দিয়ে সরাসরি স্পেশাল চ্যানেল দিয়ে শুরু
+    final_data = special_channels_content
     for name, url in external_playlists.items():
         try:
             r = requests.get(url, headers={'User-Agent': 'Mozilla/5.0'}, timeout=30)
@@ -72,7 +54,7 @@ def run_scraper():
             
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(final_data)
-    print("Playlist Updated: Entertainment 3 & 4 added!")
+    print("Playlist Updated: Only 3 Special Channels & 2 External Playlists kept!")
 
 if __name__ == "__main__":
     run_scraper()
