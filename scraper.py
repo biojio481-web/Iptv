@@ -23,8 +23,8 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
 # ৫. বাহ্যিক প্লেলিস্ট (শুধুমাত্র উপরের ২টি রাখা হয়েছে)
 external_playlists = {
-    "Ontest-Plus": "https://raw.githubusercontent.com/biojio481-web/Iptv/refs/heads/main/playlist_ontest1_plus%20(1).m3u",
-    "BDIX-IPTV": "https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u"
+    "Ontest-Plus": "https://go.skym3u.top/69di.m3u",
+    "BDIX-IPTV": ""
 }
 
 def clean_and_group(content, group_name):
