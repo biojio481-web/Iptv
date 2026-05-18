@@ -1,10 +1,10 @@
 #EXTM3U
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-1-Noor Isp
-http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/69590.m3u8
+http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/276730.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-2-Noor Isp
 https://tvsen5.aynaott.com/PtvSports/index.m3u8?e=1778909347&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=371271a3b47d2422c1dd29f1d10e9af9
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" logo="https://i.postimg.cc/50qZxPkn/Gemini-Generated-Image-sumbp1sumbp1sumb.png" group-title="IPL 2026",Live-3-Unix Tv-Isp
-https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
+http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/277002.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",SKY LIFE BD BANGLA MUSIC
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",Willow SPORTS
@@ -129,12 +129,10 @@ http://103.59.176.72:8083/rtv/tracks-v1a1/mono.m3u8?token=123
 http://premimum.online/live/jen12345/jen54321/401.ts
 http://116.204.149.16/rtvhd/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",ATN Bangla
+https://tvsen5.aynaott.com/atnbangla/index.m3u8
 https://in1.sunilprasad.com.np/wodgoLive/atn-bangla/master.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/tracks-v1a1/mono.m3u8
 https://mflixott.com/tv/plusbox/live/ATNBangla/index.m3u8
-#http://stvlive.net:8080/atnbangla/index.m3u8
-#http://103.161.153.165:8000/play/atnbd/index.m3u8
-http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/431.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",Maasranga TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/1036.ts
@@ -156,8 +154,8 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-vid
 #http://stvlive.net:8080/deepto/index.m3u8
 http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/1331.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",ETV
+https://tvsen6.aynaott.com/etv/index.m3u8
 http://103.59.176.72:8083/ekushey_tv/tracks-v1a1/mono.m3u8?token=123
-http://premimum.online/live/jen12345/jen54321/3813.ts
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",Somoy News TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/tracks-v1a1/mono.m3u8
@@ -220,6 +218,7 @@ https://tvsen1.aynaott.com/Ravc7gPCZpxk/tracks-v1a1/mono.ts.m3u8
 https://in1.sunilprasad.com.np/wodgoLive/ananda-bangla/master.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/anandatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",Boishakhi tv
+https://tvsen6.aynaott.com/boishakhitv/index.m3u8
 http://103.59.176.72:8083/boishakhi_tv/tracks-v1a1/mono.m3u8?token=123
 https://in1.sunilprasad.com.np/wodgoLive/boishaki-tv/master.m3u8
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" logo="https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png" group-title="Live",Jamuna TV
