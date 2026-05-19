@@ -13,7 +13,7 @@ special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Noor Isp
 http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/276730.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Noor Isp
-https://tvsen5.aynaott.com/PtvSports/index.m3u8?e=1778909347&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=371271a3b47d2422c1dd29f1d10e9af9
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Unix Tv-Isp
 http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/277002.m3u8
 """
