@@ -15,7 +15,7 @@ https://tvsen7.aynaott.com/sspts1/index.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Noor Isp
 https://tvsen7.aynaott.com/tsports-hd/index.m3u8
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Unix Tv-Isp
-https://bdix.spidy.online/MAC/SBHGOLD/play.m3u8?id=281356
+https://sflex07.fun/Sflex-Artl/STAR_SPORTS_1_HD.m3u8
 """
 
 # ৪. নতুন বাহ্যিক প্লেলিস্ট (GitHub লিঙ্কটি এখানে বসানো হয়েছে)
