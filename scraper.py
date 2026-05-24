@@ -15,20 +15,17 @@ GENERAL_LOGO_URL = "https://i.postimg.cc/htPYZxk7/IMG-20260128-153357.png"
 SPECIAL_GROUP = "IPL 2026"
 
 # ==========================================
-# ২. স্পেশাল লাইভ চ্যানেল আপডেট (এখানে লিংক পরিবর্তন করবেন)
+# ২. স্পেশাল লাইভ চ্যানেল আপডেট
 # ==========================================
-# ১ নম্বর এবং ২ নম্বর চ্যানেলের লিংক নিচে দেওয়া আছে। যখনই লিংক পরিবর্তন করতে চান, 
-# শুধু "https://..." অংশটি মুছে আপনার নতুন লিংকটি বসিয়ে দিবেন।
-LIVE_CHANNEL_1_URL = "https://tvsen7.aynaott.com/sspts1/index.m3u8" # ১ নম্বর চ্যানেলের লিংক
-LIVE_CHANNEL_2_URL = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8" # ২ নম্বর চ্যানেলের লিংক
+LIVE_CHANNEL_1_URL = "https://tvsen7.aynaott.com/sspts1/index.m3u8"
+LIVE_CHANNEL_2_URL = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8"
 
 # ==========================================
-# ৩. ডোরেমন ২৪/৭ পর্বের তালিকা (এখানে আপনার ২০টি পর্বের জায়গা রয়েছে)
+# ৩. ডোরেমন ২৪/৭ পর্বের তালিকা (২০টি জায়গা)
 # ==========================================
-# আপনার দেওয়া ১ম লিংকটি নিচে বসানো আছে। বাকি খালি জায়গাগুলোতে পরে নতুন লিংক বসাবেন।
 doraemon_episodes = [
     "https://hcdn3.hakunaymatata.com/resource/57088eff1fe9c788414dd59ca06eb898.mp4?sign=9d3699cf0cd3d59ecca25d1f762d5358&t=1779603649", # এপিসোড ১
-    "", # এপিসোড ২ (এখানে নতুন লিংক বসাবেন)
+    "", # এপিসোড ২
     "", # এপিসোড ৩
     "", # এপিসোড ৪
     "", # এপিসোড ৫
@@ -50,12 +47,12 @@ doraemon_episodes = [
 ]
 
 # ==========================================
-# ৪. FFmpeg এর জন্য প্লেলিস্ট ফাইল তৈরি করার ফাংশন
+# ৪. FFmpeg এর জন্য প্লেলিস্ট ফাইল তৈরি করা
 # ==========================================
 def generate_ffmpeg_playlist():
     valid_eps = [ep for ep in doraemon_episodes if ep.strip()]
     if not valid_eps:
-        print("Error: কোনো ডোরেমন লিংক খুঁজে পাওয়া যায়নি! দয়া করে অন্তত ১টি লিংক রাখুন।")
+        print("Error: কোনো ডোরেমন লিংক খুঁজে পাওয়া যায়নি!")
         return False
         
     with open("ffmpeg_list.txt", "w", encoding="utf-8") as f:
@@ -64,34 +61,36 @@ def generate_ffmpeg_playlist():
     return True
 
 # ==========================================
-# ৫. লাইভ স্ট্রিমিং রুট (যা আসল টিভির মতো ডাটা স্ট্রিম করবে)
+# ৫. আপডেটেড লাইভ স্ট্রিমিং রুট (ব্লক লস মুক্ত)
 # ==========================================
-@app.route('/doraemon_live.mp4')
+@app.route('/doraemon_live.ts') # .mp4 থেকে .ts (MPEG-TS) করা হয়েছে লাইভ স্ট্রিমিং স্মুথ করার জন্য
 def doraemon_live():
     valid_eps = [ep for ep in doraemon_episodes if ep.strip()]
     if not valid_eps:
         return "No episodes configured", 404
 
-    # FFmpeg কমান্ড: রিয়েল-টাইমে নিরবচ্ছিন্ন লুপ লাইভ স্ট্রিম তৈরি করার জন্য
+    # অপ্টিমাইজড FFmpeg কমান্ড (অনলাইন লিংকের বাফারিং ও ব্লক লস ফিক্সড)
     ffmpeg_cmd = [
         'ffmpeg',
-        '-re',                             # রিয়াল-টাইম স্পিডে রিড করবে (লাইভ টিভি মোড)
-        '-f', 'concat',                    # সব ভিডিও একসাথে জোড়া দেবে
+        '-f', 'concat',
         '-safe', '0',
         '-protocol_whitelist', 'file,http,https,tcp,tls',
-        '-loop', '1',                      # পুরো লিস্টের শেষ পর্ব শেষ হলে আবার ১ম পর্ব থেকে লুপ করবে
+        '-loop', '1',                      # লুপ চালু থাকবে
+        '-probesize', '32k',               # দ্রুত স্টার্ট হওয়ার জন্য প্রোব সাইজ কমানো হয়েছে
+        '-max_delay', '500000',            # বাফার লাইভ ডিলে ম্যানেজমেন্ট
         '-i', 'ffmpeg_list.txt',
-        '-c', 'copy',                      # সোর্স ফরম্যাট ডিরেক্ট কপি করবে
-        '-f', 'mp4',                       # আউটপুট ভিডিও ফরম্যাট
-        '-movflags', 'frag_keyframe+empty_moov', # লাইভ স্ট্রিম সচল রাখার জন্য জরুরি ফ্ল্যাগ
-        'pipe:1'                           # আউটপুট সরাসরি পাইথন সার্ভারে পাঠাবে
+        '-c:v', 'copy',                    # ভিডিও নো-এনকোড কপি
+        '-c:a', 'copy',                    # অডিও নো-এনকোড কপি
+        '-f', 'mpegts',                    # লাইভ টিভির জন্য সবচেয়ে স্টেবল ফরম্যাট
+        'pipe:1'
     ]
     
     def generate_stream():
-        process = subprocess.Popen(ffmpeg_cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        # বড় বাফার সাইজ (bufsize) দিয়ে প্রসেস ওপেন করা যাতে ব্লক লস না হয়
+        process = subprocess.Popen(ffmpeg_cmd, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, bufsize=10**6)
         try:
             while True:
-                data = process.stdout.read(4096)
+                data = process.stdout.read(8192) #Chunk সাইজ ৪১৮২ থেকে ৮১৯২ করা হয়েছে
                 if not data:
                     break
                 yield data
@@ -100,7 +99,8 @@ def doraemon_live():
         finally:
             process.kill()
 
-    return Response(generate_stream(), mimetype='video/mp4')
+    # মিম-টাইপ mpegts দেওয়া হয়েছে যাতে প্লেয়ার বাফারিং না করে সরাসরি লাইভ ট্রিট করে
+    return Response(generate_stream(), mimetype='video/mpegts')
 
 # ==========================================
 # ৬. বাহ্যিক প্লেলিস্ট এবং M3U জেনারেটর
@@ -128,14 +128,13 @@ def clean_and_group(content, group_name):
 def create_playlist():
     print("M3U Playlist ফাইল তৈরি হচ্ছে...")
     
-    # ডাইনামিক লিংক ব্যবহার করে ১ ও ২ নম্বর চ্যানেল জেনারেট করা
     special_channels_content = f"""#EXTM3U
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-1-Noor Isp
 {LIVE_CHANNEL_1_URL}
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-2-Noor Isp
 {LIVE_CHANNEL_2_URL}
 #EXTINF:-1 tvg-logo="{SPECIAL_LOGO_URL}" logo="{SPECIAL_LOGO_URL}" group-title="{SPECIAL_GROUP}",Live-3-Doraemon 24/7 (Live TV Mode)
-http://localhost:5000/doraemon_live.mp4
+http://localhost:5000/doraemon_live.ts
 """
     final_data = special_channels_content
     
@@ -159,6 +158,6 @@ http://localhost:5000/doraemon_live.mp4
 if __name__ == "__main__":
     if generate_ffmpeg_playlist():
         create_playlist()
-        print("\n📺 আসল লাইভ টিভি মোডে ডোরেমন চ্যানেল ব্যাকগ্রাউন্ডে চালু হচ্ছে...")
-        print("আপনার টিভিতে বা প্লেয়ারে ৩ নম্বর চ্যানেলটি অন করুন।")
+        print("\n📺 ফিক্সড লাইভ টিভি মোডে ডোরেমন চ্যানেল ব্যাকগ্রাউন্ডে চালু হচ্ছে...")
+        print("আপনার প্লেয়ার বা টিভিতে ৩ নম্বর চ্যানেলটি চালু করে টেস্ট করুন।")
         app.run(host='0.0.0.0', port=5000, debug=False, threaded=True)
