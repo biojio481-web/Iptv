@@ -1,6 +1,5 @@
 import requests
 from datetime import datetime
-import pytz
 
 # কনফিগারেশন
 LIVE_1_LINK = "https://tvsen5.aynaott.com/willowhd/index.m3u8"
@@ -11,12 +10,16 @@ LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.
 EXTERNAL_PLAYLIST_URL = "https://raw.githubusercontent.com/mdarif2743/Cmcl-digital-mpd/refs/heads/main/README.m3u"
 
 def get_channel_3_link():
-    # বাংলাদেশ সময় অনুযায়ী বর্তমান ঘণ্টা বের করা
-    bd_tz = pytz.timezone("Asia/Dhaka")
-    current_hour = datetime.now(bd_tz).hour
+    # UTC থেকে বাংলাদেশ সময় পেতে ৬ ঘণ্টা যোগ করতে হয়
+    # রাত ৮টা (২০:০০) = UTC ১৪:০০
+    # রাত ১টা (০১:০০) = UTC ১৯:০০
+    # দুপুর ১২টা (১২:০০) = UTC ০৬:০০
     
-    # রাত ৮টা (২০) থেকে রাত ১২:৫৯ (০) পর্যন্ত SPORTS
-    if current_hour >= 20 or current_hour < 1:
+    current_hour_utc = datetime.utcnow().hour
+    # বাংলাদেশ সময় = (current_hour_utc + 6) % 24
+    current_hour_bd = (current_hour_utc + 6) % 24
+    
+    if current_hour_bd >= 20 or current_hour_bd < 1:
         return SPORTS_LINK
     else:
         return CARTOON_LINK
