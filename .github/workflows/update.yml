@@ -1,34 +1,31 @@
-name: UpdatePlaylist
+name: Auto Update Playlist
 
 on:
   schedule:
-    # বাংলাদেশ সময় দুপুর ১২টা (UTC 6:00 AM) এবং রাত ১২টা (UTC 6:00 PM)
-    - cron: '0 6,18 * * *'
-  workflow_dispatch:        # এর মাধ্যমে আপনি ম্যানুয়ালি রান করতে পারবেন
+    # বাংলাদেশ সময় দুপুর ১২টা = UTC ০৬:০০
+    - cron: "0 6 * * *"
+    # বাংলাদেশ সময় রাত ৮টা = UTC ১৪:০০
+    - cron: "0 14 * * *"
+    # বাংলাদেশ সময় রাত ১টা = UTC ১৯:০০
+    - cron: "0 19 * * *"
+  workflow_dispatch:
 
 jobs:
-  build:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       
+      contents: write
     steps:
       - uses: actions/checkout@v3
-      
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v4
-        with:
-          python-version: '3.9'
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Run scraper
-        run: python scraper.py
-
-      - name: Commit and push
+        with: {python-version: '3.9'}
+      - run: pip install requests
+      - run: python main.py
+      - name: Commit and Push
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
           git add playlist.m3u
-          git commit -m "IPTV Playlist Fresh Update - $(date)" || exit 0
+          git commit -m "Auto Update Playlist" || exit 0
           git push
