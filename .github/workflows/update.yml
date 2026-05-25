@@ -2,9 +2,11 @@ name: Auto Update Playlist
 
 on:
   schedule:
-    - cron: "34 20 * * *"
-    - cron: "30 13 * * *"
-    - cron: "30 18 * * *"
+    # রাত ৮টা (২০:০০) - স্পোর্টস শুরু হওয়ার ঠিক আগে
+    - cron: "0 14 * * *"
+    # রাত ১টা (০১:০০) - কার্টুন শুরু হওয়ার ঠিক আগে
+    - cron: "0 19 * * *"
+    # অন্যান্য সময়গুলো ৪ ঘণ্টা পরপর আপডেট (যাতে প্লেলিস্ট সবসময় সতেজ থাকে)
     - cron: "0 0 * * *"
     - cron: "0 4 * * *"
     - cron: "0 8 * * *"
@@ -17,13 +19,20 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - run: pip install requests
-      - run: python scraper.py
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Scraper
+        run: python scraper.py
+
       - name: Commit and Push
         run: |
           git config user.name "GitHub Action"
