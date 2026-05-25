@@ -19,9 +19,11 @@ jobs:
       - uses: actions/checkout@v3
       - name: Setup Python
         uses: actions/setup-python@v4
-        with: {python-version: '3.9'}
+        with:
+          python-version: '3.9'
       - run: pip install requests
-      - run: python main.py
+      # এখানে scraper.py ফাইলটি রান হবে
+      - run: python scraper.py
       - name: Commit and Push
         run: |
           git config user.name "GitHub Action"
