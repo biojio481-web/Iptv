@@ -1,9 +1,8 @@
+name: Auto Update Playlist
+
 on:
   schedule:
-    # টেস্টের জন্য: বাংলাদেশ সময় রাত ২:৩৪ (UTC ২০:৩৪)
     - cron: "34 20 * * *"
-    
-    # বাকি আগের সিডিউলগুলো
     - cron: "30 13 * * *"
     - cron: "30 18 * * *"
     - cron: "0 0 * * *"
@@ -11,3 +10,24 @@ on:
     - cron: "0 8 * * *"
     - cron: "0 12 * * *"
   workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install requests
+      - run: python scraper.py
+      - name: Commit and Push
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add playlist.m3u
+          git commit -m "Auto Update Playlist" || exit 0
+          git push
