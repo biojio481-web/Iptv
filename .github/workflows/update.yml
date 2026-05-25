@@ -2,11 +2,11 @@ name: Auto Update Playlist
 
 on:
   schedule:
-    # বাংলাদেশ সময় দুপুর ১২টা = UTC ০৬:০০
+    # দুপুর ১২টা (বাংলাদেশ সময়) = UTC ০৬:০০
     - cron: "0 6 * * *"
-    # বাংলাদেশ সময় রাত ৮টা = UTC ১৪:০০
+    # রাত ৮টা (বাংলাদেশ সময়) = UTC ১৪:০০
     - cron: "0 14 * * *"
-    # বাংলাদেশ সময় রাত ১টা = UTC ১৯:০০
+    # রাত ১টা (বাংলাদেশ সময়) = UTC ১৯:০০
     - cron: "0 19 * * *"
   workflow_dispatch:
 
@@ -22,7 +22,6 @@ jobs:
         with:
           python-version: '3.9'
       - run: pip install requests
-      # এখানে scraper.py ফাইলটি রান হবে
       - run: python scraper.py
       - name: Commit and Push
         run: |
