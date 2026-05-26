@@ -4,7 +4,7 @@ from datetime import datetime
 # কনফিগারেশন
 LIVE_1_LINK = "https://tvsen5.aynaott.com/willowhd/index.m3u8"
 LIVE_2_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8"
-CARTOON_LINK = "https://ranapkbd.site/RANAPK33p/TVD/play.php?id=372986" 
+CARTOON_LINK = "https://ranapkbd.site/RANAPK33p/TVD/play.php?id=734320" 
 SPORTS_LINK = "https://ranapkbd.site/RANAPK33p/TVD/play.php?id=809382"    
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
 EXTERNAL_PLAYLIST_URL = "https://raw.githubusercontent.com/mdarif2743/Cmcl-digital-mpd/refs/heads/main/README.m3u"
