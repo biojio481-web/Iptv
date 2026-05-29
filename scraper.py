@@ -12,7 +12,7 @@ LIVE_3_LINK = "https://airtel-07.wasmer.app//play.php?id=114&uid=999&pass=999"
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
 
 # আপনার বাহ্যিক (External) গিটহাব প্লেলিস্ট লিংক
-EXTERNAL_PLAYLIST_URL = "https://raw.githubusercontent.com/mdarif2743/sky-life/refs/heads/main/Arif.m3u"
+EXTERNAL_PLAYLIST_URL = "https://raw.githubusercontent.com/mdarif2743/Cmcl-digital-mpd/refs/heads/main/README.m3u"
 
 # =================================================================
 #  🚫 নিচের কোডটিতে কোনো পরিবর্তন করার প্রয়োজন নেই (Core Logic)
