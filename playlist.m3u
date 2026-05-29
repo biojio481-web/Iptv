@@ -8,7 +8,7 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8
 https://tvsen7.aynaott.com/tsports-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://172.19.178.49:18190/star_sports_1_hd/index.fmp4.m3u8?token=009b4f2ea86e82a56d1a619a4cdbb4cac1cc0452-28136cb4fd71757befb1146cd2aaa196-1780060207-1780049107
+http://zflixbd.com:8083/StarSports1HD/index.m3u8?token=38f3276f58647e6446e61707b4099ae2f1973f82-48219d3143a49949bb8b9b632e834ea4-1780064006-1780053206
 
 #EXTINF:-1 tvg-logo="https://ottking.top/app/uploads/tv_image/1live.png" group-title="BDIX TV",LIVE
 http://103.112.62.111:80/play/n5so6d1haGfCinuCaFUXHmgSiT8v2PQQqUTUSCWavCI/m3u8
