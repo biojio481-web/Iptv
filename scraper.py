@@ -6,7 +6,7 @@ import requests
 
 LIVE_1_LINK = "https://tvsen5.aynaott.com/willowhd/index.m3u8"
 LIVE_2_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8"
-LIVE_3_LINK = "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8"
+LIVE_3_LINK = "https://airtel-07.wasmer.app//play.php?id=114&uid=999&pass=999"
 
 # ৩টি চ্যানেলের জন্য কমন লোগো লিংক
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
