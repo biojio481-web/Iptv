@@ -8,7 +8,7 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8
 https://tvsen7.aynaott.com/tsports-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-https://airtel-07.wasmer.app//play.php?id=114&uid=999&pass=999
+http://172.19.178.49:18190/ptv_sports_hd/index.fmp4.m3u8?token=ab34df8eac7cdd681b3deb40d30e6bf1bded210a-dfca7881d277ce5855533c33aa755b85-1780151544-1780140444
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
