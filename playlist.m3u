@@ -5,10 +5,10 @@
 https://tvsen5.aynaott.com/willowhd/index.m3u8
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
-http://zflixbd.com:8083/StarSports1HD/index.m3u8?token=e4d85f63a6822f5a1a20922bb936c5aa21dbcd8a-2d9e7392d0d650db21b0501f81d95f1d-1780147145-1780136345
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://basic.nvisionbd.net:80/live/anthonytusher339u/Brazil07/945.m3u8
+https://airtel-07.wasmer.app//play.php?id=114&uid=999&pass=999
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
