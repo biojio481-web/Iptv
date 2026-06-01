@@ -1,4 +1,20 @@
+import os
 import requests
+
+# =================================================================
+#  ⚙️ SOCKS5 প্রক্সি কনফিগারেশন (গিটহাব অ্যাকশন থেকে লোড হবে)
+# =================================================================
+proxy_url = os.getenv('MY_SOCKS5_PROXY')
+
+if proxy_url:
+    print("SOCKS5 প্রক্সি সাকসেসফুলি লোড হয়েছে...")
+    proxies = {
+        'http': proxy_url,
+        'https': proxy_url
+    }
+else:
+    print("সতর্কতা: কোনো প্রক্সি পাওয়া যায়নি! নরমাল ইন্টারনেটে রান হচ্ছে...")
+    proxies = None
 
 # =================================================================
 #  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
@@ -30,13 +46,16 @@ def generate_playlist():
     m3u_content += f'#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="{LOGO_URL}" group-title="My Live",Live 2\n'
     m3u_content += f"{LIVE_2_LINK}\n\n"
     
-    # ্ম চ্যানেল ৩ জেনারেট
+    # চ্যানেল ৩ জেনারেট
     m3u_content += f'#EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="{LOGO_URL}" group-title="My Live",Live 3\n'
     m3u_content += f"{LIVE_3_LINK}\n\n"
     
     # বাহ্যিক প্লেলিস্ট থেকে ডাটা রিড করা
     try:
-        response = requests.get(EXTERNAL_PLAYLIST_URL, timeout=10)
+        print("SOCKS5 প্রক্সি ব্যবহার করে বাহ্যিক প্লেলিস্ট লোড করা হচ্ছে...")
+        # এখানে proxies=proxies যুক্ত করা হয়েছে, যার ফলে এই রিকোয়েস্টটি আপনার প্রক্সি দিয়ে যাবে
+        response = requests.get(EXTERNAL_PLAYLIST_URL, proxies=proxies, timeout=15)
+        
         if response.status_code == 200:
             external_data = response.text
             for line in external_data.splitlines():
