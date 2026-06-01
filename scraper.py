@@ -1,7 +1,7 @@
 import requests
 
 # =================================================================
-#  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
+#  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
 # =================================================================
 
 LIVE_1_LINK = "https://tvsen5.aynaott.com/willowhd/index.m3u8"
@@ -15,7 +15,7 @@ LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.
 EXTERNAL_PLAYLIST_URL = "https://raw.githubusercontent.com/mdarif2743/Cmcl-digital-mpd/refs/heads/main/README.m3u"
 
 # =================================================================
-#  🚫 নিচের কোডটিতে কোনো পরিবর্তন করার প্রয়োজন নেই (Core Logic)
+#  🚫 নিচের কোডটিতে কোনো পরিবর্তন করার প্রয়োজন নেই (Core Logic)
 # =================================================================
 
 def generate_playlist():
@@ -30,7 +30,7 @@ def generate_playlist():
     m3u_content += f'#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="{LOGO_URL}" group-title="My Live",Live 2\n'
     m3u_content += f"{LIVE_2_LINK}\n\n"
     
-    # ্ম চ্যানেল ৩ জেনারেট
+    # চ্যানেল ৩ জেনারেট
     m3u_content += f'#EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="{LOGO_URL}" group-title="My Live",Live 3\n'
     m3u_content += f"{LIVE_3_LINK}\n\n"
     
@@ -40,7 +40,7 @@ def generate_playlist():
         if response.status_code == 200:
             external_data = response.text
             for line in external_data.splitlines():
-                # ডুপ্লিকেট #EXTM3U ট্যাগ বাদ দিয়ে বাকি চ্যানেলগুলো যুক্ত করা
+                # ডুপ্লিকেট #EXTM3U ট্যাগ বাদ দিয়ে বাকি চ্যানেলগুলো যুক্ত করা
                 if line.strip() and not line.startswith("#EXTM3U"):
                     m3u_content += line + "\n"
         else:
@@ -48,8 +48,10 @@ def generate_playlist():
     except Exception as e:
         print(f"Error fetching external playlist: {e}")
         
-    # ফাইনাল আউটপুট ফাইল তৈরি
-    with open("playlist.m3u", "w", encoding="utf-8") as f:
+    # =================================================================
+    # ⚠️ এই লাইনে আপনার নতুন ফাইলের নামটি হুবহু বসিয়ে দেওয়া হয়েছে
+    # =================================================================
+    with open("mysecret778899.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
         
     print("Playlist updated and generated successfully!")
