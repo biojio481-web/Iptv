@@ -30,7 +30,7 @@ def generate_playlist():
     m3u_content += f'#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="{LOGO_URL}" group-title="My Live",Live 2\n'
     m3u_content += f"{LIVE_2_LINK}\n\n"
     
-    # চ্যানেল ৩ জেনারেট
+    # ্ম চ্যানেল ৩ জেনারেট
     m3u_content += f'#EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="{LOGO_URL}" group-title="My Live",Live 3\n'
     m3u_content += f"{LIVE_3_LINK}\n\n"
     
@@ -48,10 +48,8 @@ def generate_playlist():
     except Exception as e:
         print(f"Error fetching external playlist: {e}")
         
-    # =================================================================
-    # ✅ আপনার নতুন ফাইলের নাম এখানে আপডেট করে দেওয়া হয়েছে
-    # =================================================================
-    with open("Mysecret778899.m3u", "w", encoding="utf-8") as f:
+    # ফাইনাল আউটপুট ফাইল তৈরি
+    with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
         
     print("Playlist updated and generated successfully!")
