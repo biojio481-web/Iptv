@@ -49,9 +49,9 @@ def generate_playlist():
         print(f"Error fetching external playlist: {e}")
         
     # =================================================================
-    # ⚠️ এই লাইনে আপনার নতুন ফাইলের নামটি হুবহু বসিয়ে দেওয়া হয়েছে
+    # ✅ আপনার নতুন ফাইলের নাম এখানে আপডেট করে দেওয়া হয়েছে
     # =================================================================
-    with open("mysecret778899.m3u", "w", encoding="utf-8") as f:
+    with open("Mysecret778899.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
         
     print("Playlist updated and generated successfully!")
