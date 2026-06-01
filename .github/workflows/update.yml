@@ -2,7 +2,7 @@ name: Auto Update Playlist
 
 on:
   schedule:
-    # প্রতিদিন বাংলাদেশ সময় বিকেল ৩:০০ টায় (UTC 09:00) একবার রান হবে
+    # প্রতিদিন বাংলাদেশ সময় বিকেল ৩:০০ টায় (UTC 09:00) একবার রান হবে
     - cron: "0 9 * * *"
   workflow_dispatch:
 
@@ -21,13 +21,9 @@ jobs:
           python-version: '3.9'
 
       - name: Install dependencies
-        # এখানে প্রক্সি সাপোর্ট করার জন্য requests[socks] যুক্ত করা হয়েছে
-        run: pip install requests[socks]
+        run: pip install requests
 
       - name: Run Scraper
-        # এখানে আপনার দেওয়া SOCKS5 প্রক্সির আইপি, পোর্ট ও ইউজার-পাসওয়ার্ড সেট করা হয়েছে
-        env:
-          MY_SOCKS5_PROXY: "socks5://Jee3:Jee4@202.125.108.233:9169"
         run: python scraper.py
 
       - name: Commit and Push
