@@ -8,7 +8,7 @@ https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8
 http://30.30.30.30:8088/128/tracks-v1a1/mono.m3u8?token=eb44405d74ef42a8ed6424f60ca4092202290fea-d83431e6d2549303438d012714d5b4e7-1780430881-1780427281
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/277002.m3u8
+http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/277002.ts
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
