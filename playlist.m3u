@@ -2,19 +2,21 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://30.30.30.30:8088/128/tracks-v1a1/mono.m3u8?token=eb44405d74ef42a8ed6424f60ca4092202290fea-d83431e6d2549303438d012714d5b4e7-1780430881-1780427281
-
-#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8
 
+#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
+http://30.30.30.30:8088/128/tracks-v1a1/mono.m3u8?token=eb44405d74ef42a8ed6424f60ca4092202290fea-d83431e6d2549303438d012714d5b4e7-1780430881-1780427281
+
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://12k-service.org/live/msv9xmi1cx/dy8jf9iwh1/277002.m3u8
+https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
 #EXTINF:-1, HAJJ LIVE 2026
+http://103.204.43.87:8080/live/1/1/264.m3u8
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
 #EXTINF:-1,FIFA WORLD 🌎 CUP 2026
+http://103.204.43.87:8080/live/1/1/266.m3u8
 http://66.102.126.10:8000/play/a076/index.m3u8
 #EXTINF:-1,FIFA WORLD 🌎 CUP 2026
 http://66.102.126.10:8000/play/a022/index.m3u8
@@ -495,15 +497,18 @@ http://103.175.73.12:8080/live/21/21_0.m3u8
 https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 #EXTINF:-1, ZEE CAFE HD
 http://103.159.180.34:5001/live/1319.m3u8
-#EXTINF:-1,&EXPLOR HD
+#EXTINF:-1, SONIC BANGLA
+http://103.204.43.87:8080/live/1/1/274.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Enterr10_Bangla.jpeg/200px-Enterr10_Bangla.jpeg" group-title="Indian-Bangla",TARA BANGLA CINEMA
 https://in1.sunilprasad.com.np/wodgoLive/tara-bangla-cinema/master.m3u8
 #EXTINF:-1 tvg-logo="https://wallpapers.com/images/high/colors-tv-logo-7meur4bah5m7mm8i.webp" group-title="AynaOTT - Indian ENT",Colors HD
+http://103.204.43.87:8080/live/1/1/231.m3u8
 http://103.157.248.140:8000/play/a007/index.m3u8
 https://sflex07.fun/Sflex-Artl/COLORS_HD.m3u8
 #https://ranapkbd.site/RANAPK33y/TVD/play.php?id=944612
 https://airtel.rkdyiptv.workers.dev/live/415.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d7/StarPlus_Logo.png" group-title="AynaOTT - Indian ENT",StarPlus HD
+http://103.204.43.87:8080/live/1/1/250.m3u8
 https://tvsen7.aynaott.com/sphdbd/index.m3u8
 http://103.157.248.140:8000/play/a005/index.m3u8
 https://airtel.rkdyiptv.workers.dev/live/409.m3u8
@@ -528,6 +533,7 @@ https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
 #KODIPROP:inputstream.adaptive.license_key=747bbd76538e54aba7b84da4d5dc5aba:bd594239af2c1befc5d117cc72c83f33
 https://login.bheem.tv/bpk-tv/22603/output/index.mpd
 #EXTINF:-1,ETV BAL BHARAT
+http://103.204.43.87:8080/live/1/1/279.m3u8
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_CARTOON_NETWORK_HDSYMPLUS/images/LOGO_HD/image.png" group-title="watcho",CN HD+
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9452bb588219504397cc7dfc407356b5:1b3fc29b2616b147ebe119f2c6f9a02a
@@ -535,6 +541,7 @@ https://login.bheem.tv/bpk-tv/22096/output/index.mpd
 #EXTINF:-1,DURONTO TV
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/duronto.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/History_TV18_HD.png" group-title="Documentary",History TV18 HD HINDI
+http://103.204.43.87:8080/live/1/1/242.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/HistoryTV18HD.m3u8
 #EXTINF:-1 tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/AnimalPlanetHD_Transparent_d36c0ee3-3e3f-4e0c-b3b2-23bfb3c3c2b0.png" group-title="watcho",Animal Planet HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -548,10 +555,12 @@ https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8S
 #KODIPROP:inputstream.adaptive.license_key=30da751b70f05b5297d18d0c33c29f0c:86796e309d13495992282149f0957f74
 https://login.bheem.tv/bpk-tv/22076/output/index.mpd
 #EXTINF:-1,NET GEO WILD
+http://103.204.43.87:8080/live/1/1/249.m3u8
 #EXTINF:-1,DW NEWS
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
 #EXTINF:-1,CGTN
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/Nat_Geo_HD.png" group-title="Documentary",National Geographic HD বাংলা
+http://103.204.43.87:8080/live/1/1/251.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206285
 #EXTINF:-1 tvg-id="484" tvg-logo="https://live.dinesh29.com.np/logos/tataplay/travelxphd.png" group-title="Lifestyle",Travelxp HD বাংলা
 http://103.159.180.34:5001/live/562.m3u8
@@ -594,6 +603,7 @@ https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://pl
 #EXTINF:-1,SONY MAX SD
 https://edge2.roarzone.net:8447/roarzone/edge3/sony_max/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2102fac092ee28f75652131b19d74260.png" group-title="MOVIES",MAX 1
+http://live.balajibroadband.com:3500/live/3418.m3u8
 http://103.180.212.191:3500/live/3418.m3u8
 #EXTINF:-1 tvg-id="sony-wah" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies",Sony WAH
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
@@ -789,27 +799,27 @@ http://103.157.248.140:8000/play/a00e/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/star_gold_select_hd.png" group-title="HINDI",Star Gold Select HD
 http://103.157.248.140:8000/play/a01c/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/star_gold_logo.png" group-title="HINDI",Star Gold HD
+http://103.204.43.87:8080/live/1/1/246.m3u8
 http://103.99.249.139/stargold/index.m3u8
-https://ranapkbd.site/RANAPK33y/TVD/play.php?id=737323
 https://airtel.rkdyiptv.workers.dev/live/390.m3u8
 http://103.157.248.140:8000/play/a00d/index.m3u8
-https://mflixott.com/tv/plusbox/live/StarGoldHD/index.m3u8
-#http://stvlive.net:8080/stargold/index.m3u8
-#http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/194.ts
-http://103.175.242.10:8080/stargold/index.m3u8
 #EXTINF:-1, STAR GOLD SD
 #EXTINF:-1,STAR UTSAV MOVIES
 #EXTINF:-1 tvg-logo="https://smartads.in/resources/assets/uploads/product_group/television/star--bharat-hd.jpg" group-title="HINDI",Star Bharat HD
+http://103.204.43.87:8080/live/1/1/319.m3u8
 http://119.156.228.231:9983/stream/channelid/2119636855?ticket=D8ABDAB7FB615619FCCB42A4D4EDDFE9740C3083&profile=pass
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/star_movies_hd.png" group-title="ENGLISH",Star Movies HD
+http://103.204.43.87:8080/live/1/1/267.m3u8
 https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8SFgEEB0k8BB4XK1R5EmFUPw45TXlVdVsuHV9QQUxOSXFLbEBxUX0RY1U_DjlFdlp4UWJYERUGBwIA.ts
 http://103.157.248.140:8000/play/a01t/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/vijay-iptv/logos/refs/heads/main/Star_Movies_Select_HD.png" group-title="Airtel | Tamil",Star Movies Select HD
+http://103.204.43.87:8080/live/1/1/253.m3u8
 http://103.157.248.140:8000/play/a01s/index.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Colors_Rishtey_logo.png/1200px-Colors_Rishtey_logo.png" group-title="HINDI", COLORS RISHTEY
 http://103.159.180.34:5001/live/279.m3u8
 http://czrb8vng.ottclub.xyz/iptv/AHMQNVLWUTM5PW/6586/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/h7T6MCW/20240803-110652.png" group-title="HINDI", COLORS CINEPLEX HD
+http://103.204.43.87:8080/live/1/1/237.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206310
 #EXTINF:-1, Kantipur piracy HD
 http://103.213.31.109:90/KantipurPiracyHD/playlist.m3u8
@@ -843,8 +853,8 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/in
 ==========================================================================================================================================
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RLRS.png?lock=720x540" group-title="Entertainment",&TV HD
 http://103.159.180.34:5001/live/472.m3u8
-http://stb-air.wasmer.app//play.php?id=40&uid=999&pass=999
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Movies",&pictures HD
+http://103.204.43.87:8080/live/1/1/232.m3u8
 http://103.159.180.34:5001/live/185.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png" group-title="Music",9X Jalwa
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -924,18 +934,17 @@ http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_ZEE_BOLLYWOOD&uid=99
 http://103.213.31.111/ZeeBusiness/index.m3u8
 https://zee5.cr7x.workers.dev/live/gana-sunega/krish-ka/0-9-zeebusiness/master.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="watcho",Zee Cinema HD
+http://103.204.43.87:8080/live/1/1/240.m3u8
 http://103.159.180.34:5001/live/165.m3u8
-http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_ZEE_CINEMA_HD&uid=999&pass=999
-https://ranapkbd.site/RANAPK33y/TVD/play.php?id=735399
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Entertainment",Zee TV HD
+http://103.204.43.87:8080/live/1/1/234.m3u8
 http://103.159.180.34:5001/live/167.m3u8
-http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_ZEE_TV_HD&uid=999&pass=999
-https://zee5.cr7x.workers.dev/live/gana-sunega/krish-ka/0-9-zeetvhd/master.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
-http://i2col4q6.russtv.net/iptv/GFETD2V4GYT5Q449F9XNUYDZ/6576/index.m3u8
 #EXTINF:-1 tvg-id="585" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Music",Zing
+http://103.204.43.87:8080/live/1/1/281.m3u8
 http://103.159.180.34:5001/live/585.m3u8
 https://ranapkbd.site/RANAPK33y/TVD/play.php?id=737321
 #EXTINF:-1 tvg-id="592" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" group-title="Music",ZOOM
+http://103.204.43.87:8080/live/1/1/271.m3u8
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
 #EXTINF:-1,ZEE ZEST HD
 http://103.159.180.34:5001/live/2757.m3u8
