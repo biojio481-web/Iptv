@@ -8,7 +8,7 @@ https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8
 http://10.99.99.99:8082/ATN.BANGLA.HD/index.m3u8?token=c7449f6e7043a40b47c7c839e4ad67fccf49fe78-adc338e463af24d7f8a9f7d1c511a548-1780529643-1780518843&remote=no_check_ip
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://10.99.99.99:8082/ATN.BANGLA.HD/index.m3u8?token=c7449f6e7043a40b47c7c839e4ad67fccf49fe78-adc338e463af24d7f8a9f7d1c511a548-1780529643-1780518843&remote=no_check_ip
+http://10.99.99.99:8082/T-SPORTS-HD/tracks-v1a1/mono.m3u8?token=e15061a511f655e54e6e4d9fb101a0a356005df8-8caa2494f2cab6246e06622454e6bc83-1780529899-1780519099
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
