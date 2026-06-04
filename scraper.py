@@ -5,7 +5,7 @@ import requests
 # =================================================================
 
 LIVE_1_LINK = "http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsportshd.m3u8"
-LIVE_2_LINK = "http://30.30.30.138:8088/102/index.m3u8?token=ff39c5fe43e3f2ac8b365a28bfccdc16bdf085c8-b6fcfa1ec958e51b85e996a8e5fa3dba-1780561967-1780558367"
+LIVE_2_LINK = "http://30.30.30.138:8088/102/index.m3u8?token=53a05277f785fd998011ada76318c0b4e806ab06-8cfcb88442d215344253225cdff098f7-1780567100-1780563500"
 LIVE_3_LINK = "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
 
 # ৩টি চ্যানেলের জন্য কমন লোগো লিংক
