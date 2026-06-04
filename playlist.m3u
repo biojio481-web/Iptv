@@ -8,7 +8,7 @@ http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsp
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://172.19.178.29:18190/CD-E02-01/index.fmp4.m3u8?token=8dd0e4046efe6cf8ab0e07630f2baf9a2a4c6ef7-7dd0572e45beb2731980334a6685feb8-1780598755-1780587655
+http://100.100.100.14/feed_sportv/index.fmp4.m3u8?token=3fc3b188dc264624acea81a61f3ea5e2e2c18722-fec5fbc919b70b0f1d3a7e93d41dcaa4-1780613675-1780602575
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
