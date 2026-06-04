@@ -4,7 +4,7 @@ import requests
 #  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
 # =================================================================
 
-LIVE_1_LINK = "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8"
+LIVE_1_LINK = "http://172.20.21.22/live/skyfeed1005/index.m3u8"
 LIVE_2_LINK = "http://30.30.30.30:8088/128/tracks-v1a1/mono.m3u8?token=eb44405d74ef42a8ed6424f60ca4092202290fea-d83431e6d2549303438d012714d5b4e7-1780430881-1780427281"
 LIVE_3_LINK = "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
 
