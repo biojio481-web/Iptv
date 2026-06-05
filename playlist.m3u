@@ -8,12 +8,34 @@ http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsp
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-https://ranapkbd.site/RANAPK33p/TVD/play.php?id=809398
+https://s2.itcnbd.live/ptv-sports-hd/index.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
 #EXTINF:-1, HAJJ LIVE 2026
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
+#EXTINF:-1 tvg-id="1090533667" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018899/1780191604262918_INT_Friendlies26_Spain_vs_Iraq_31may_landscape_thumb.jpg" tvg-language="English" group-title="Football",ENG | Spain vs Iraq - 4 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000377/UEFA_Spa0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
+#EXTINF:-1 tvg-id="1090533835" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018955/1780278755832461_INT_Friendlies26_France_vs_Cote_dIvoire_1jun_landscape_thumb.jpg" tvg-language="English" group-title="Football",ENG | France vs Côte d'Ivoire - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/UEFA_Fra0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
+#EXTINF:-1 tvg-id="1090533649" tvg-name="Vitality Blast 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019101/1780454020742287_VitalityBlast26_Mens_Somerset_vs_Glamorgan_3jun_landscape_thumb.jpg" tvg-language="English" group-title="Cricket",ENG | Somerset vs Glamorgan - 4 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000389/Vitality0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
+#EXTINF:-1,SONY LIV
+http://live.balajibroadband.com:3500/live/514.m3u8
+http://live.balajibroadband.com:3500/live/524.m3u8
+#EXTINF:-1,SONY LIV
+http://live.balajibroadband.com:3500/live/891.m3u8
+http://live.balajibroadband.com:3500/live/155.m3u8
+#EXTINF:-1,SONY LIV
+http://live.balajibroadband.com:3500/live/525.m3u8
+#EXTINF:-1, SONY LIV
+http://live.balajibroadband.com:3500/live/162.m3u8
+#EXTINF:-1,SONY LIV
+http://live.balajibroadband.com:3500/live/892.m3u8
+#EXTINF:-1, SKY SPORTS 4K
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581307.ts
+#EXTINF:-1, SKY SPORTS MAIN EVENT 4K
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581305.ts
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (T SPORTS)
 http://103.204.43.87:8080/live/1/1/284.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026
@@ -212,7 +234,7 @@ https://owrcovcrpy.gpcdn.net/bpk-tv/1711/output/1711-audio_113412_eng=113200-vid
 #http://stvlive.net:8080/deepto/index.m3u8
 http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/1331.ts
 #EXTINF:-1 tvg-id="b3f0df76-15ba-4ede-a7de-bbaaf23a630e" tvg-name="ETV" tvg-logo="https://s3.aynaott.com/storage/d805cf57543080b49de8a2621cd54da4" group-title="Channels",ETV
-https://ekusheyserver.com/etvlivesn.m3u8
+#https://ekusheyserver.com/etvlivesn.m3u8
 https://tvsen6.aynaott.com/etv/index.m3u8
 #EXTINF:-1 tvg-id="27ec4394-7640-4dab-abf8-6a48893dfdfe" tvg-name="Somoy News TV" tvg-logo="https://s3.aynaott.com/storage/cbadf009eebf7506c7633b3a98a2f042" group-title="Channels",Somoy News TV
 https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
@@ -283,6 +305,7 @@ http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/421.ts
 https://tvsen6.aynaott.com/mohonatv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="e64e1c11-1167-43a1-9e0f-995cbf6f7ff9" tvg-name="NEXUS TV" tvg-logo="https://s3.aynaott.com/storage/db85422953e3a1652e26b0a14eed92a9" group-title="Channels",NEXUS TV
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/nexustv.stream/tracks-v1a1/mono.m3u8
 https://tvsen6.aynaott.com/nexustv/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://akashgo-mediaready.videoready.tv/akashgo/image/fetch/f_auto,fl_lossy,q_auto,w_180,h_180/https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189845719.png",Star News
 https://owrcovcrpy.gpcdn.net/bpk-tv/1710/output/index.m3u8
@@ -444,7 +467,7 @@ http://live.balajibroadband.com:3500/live/756.m3u8
 https://yupptv.rkdyiptv.workers.dev/live/1509.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/NF5M3vk/20240803-164348.png" group-title="KOLKATA",Colors Bangla Cinema
 http://103.204.43.87:8080/live/1/1/276.m3u8
-https://yupptv.rkdyiptv.workers.dev/live/3492.m3u8
+http://live.balajibroadband.com:3500/live/1657.m3u8
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies (beckup)
 #EXTINF:-1 tvg-id="tara-bangla-cinema" tvg-name="tara-bangla-cinema" tvg-language="ENG" tvg-chno="327" tvg-logo="https://nitv-saas-media-prod.s3.ap-southeast-1.amazonaws.com/worldtv/images/channels/square/1c99317f-5712-4611-a6a5-671966faf131.png" group-title="Bengali", Tara Bangla Cinema
 #KODIPROP:inputstream=inputstream.adaptive
