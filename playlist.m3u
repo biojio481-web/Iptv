@@ -8,18 +8,24 @@ http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsp
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-https://funtime.itcnbd.live/7654321/1234567/250.m3u8
+https://s2.itcnbd.live/ptv-sports-hd/index.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
 #EXTINF:-1, HAJJ LIVE 2026
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
-#EXTINF:-1 tvg-id="1090533667" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018899/1780191604262918_INT_Friendlies26_Spain_vs_Iraq_31may_landscape_thumb.jpg" tvg-language="English" group-title="Football",ENG | Spain vs Iraq - 4 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000377/UEFA_Spa0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
-#EXTINF:-1 tvg-id="1090533835" tvg-name="UEFA International Friendlies" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018955/1780278755832461_INT_Friendlies26_France_vs_Cote_dIvoire_1jun_landscape_thumb.jpg" tvg-language="English" group-title="Football",ENG | France vs Côte d'Ivoire - 5 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/UEFA_Fra0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
-#EXTINF:-1 tvg-id="1090533649" tvg-name="Vitality Blast 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019101/1780454020742287_VitalityBlast26_Mens_Somerset_vs_Glamorgan_3jun_landscape_thumb.jpg" tvg-language="English" group-title="Cricket",ENG | Somerset vs Glamorgan - 4 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000389/Vitality0406/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=84d3baf428d07951ab894e5ed69c0756-1780600200131
+#EXTINF:-1 tvg-id="1090529785" tvg-name="Roland-Garros 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019246/1780622178796673_RG26_SF_Philippe_Chatrier_court_landscape_thumb_SP_rev.jpg" tvg-language="English" group-title="Tennis",ENG | Philippe Chatrier - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/RG_Day130506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
+#EXTINF:-1 tvg-id="1090529787" tvg-name="Roland-Garros 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019246/1780622234464673_RG26_SF_Simonne_Mathieu_court_landscape_thumb_SP_rev.jpg" tvg-language="English" group-title="Tennis",ENG | Simonne Mathieu - 05 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/RG_SM_050506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
+#EXTINF:-1 tvg-id="1090533894" tvg-name="Chhattisgarh Cricket Premier League 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019248/1780629496866886_CCPL26_Surguja_Tigers_vs_Raipur_Rhinos_4jun_landscape_thumb.jpg" tvg-language="Hindi" group-title="Cricket",HIN | Surguja Tigers vs Raipur Rhinos - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/Cricket_0506/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
+EXTINF:-1 tvg-id="1090533893" tvg-name="DP World Tour" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018951/1780271746291861_DP_World_Tour_KLM_Open_day2_landscape_thumb.jpg" tvg-language="English" group-title="Golf",ENG | KLM Open - Day 2 - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/Golf_DP_0506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
+#EXTINF:-1 tvg-id="1090533873" tvg-name="LIV Golf" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019175/1780573350180650_LIV_Golf_Andalucia_Day2_landscape_thumb.jpg" tvg-language="English" group-title="Golf",ENG | Andalucia - Day 2 - 5 Jun 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000293/LIV_Golf0506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
+#EXTINF:-1 group-title="LIVE SPORTS" tvg-logo="https://i.postimg.cc/CxHgpZXW/images.jpg",BANGLADESH VS SAN MARINO HD
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/138713.ts
 #EXTINF:-1,SONY LIV
 http://live.balajibroadband.com:3500/live/514.m3u8
 http://live.balajibroadband.com:3500/live/524.m3u8
@@ -37,6 +43,7 @@ https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581307.ts
 #EXTINF:-1, SKY SPORTS MAIN EVENT 4K
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581305.ts
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (T SPORTS)
+http://103.158.133.62:8080/live/index.m3u8
 http://103.204.43.87:8080/live/1/1/284.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026
 http://103.204.43.87:8080/live/1/1/266.m3u8
@@ -48,6 +55,8 @@ http://103.204.43.87:8080/live/1/1/264.m3u8
 http://66.102.126.10:8000/play/a022/index.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (BTV NATIONAL)
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (SOMOY TV)
+https://livecdn-bostahls.global.ssl.fastly.net/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-chno="500" tvg-id="213212" tvg-name="KANTIPUR MAX  HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel_212_1742546009_thumb.png",KANTIPUR MAX  HD
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/638057.ts
 #EXTINF:-1 tvg-chno="501" tvg-id="504" tvg-name="KANTIPUR MAX 2 HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel-logo-C190-1763958788.png",KANTIPUR MAX 2 HD
@@ -288,6 +297,7 @@ http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/420.ts
 https://tvsen6.aynaott.com/ekhontv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/globaltv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Bijoy TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Bijoytv.jpg?raw=true" group-title="All-In-One~ENT🧩",Bijoy TV
+http://103.158.133.62:8080/bijoytv/index.m3u8
 https://stream.ottplus.live/live/bijoy_tv_abr/live/bijoy_tv_480/chunks.m3u8
 #EXTINF:-1 tvg-name="G TV" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/GTV.jpg?raw=true" group-title="All-In-One~ENT🧩",G TV
 https://tvsen5.aynaott.com/Ravc7gPCZpxk/index.m3u8
@@ -305,6 +315,7 @@ http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/421.ts
 https://tvsen6.aynaott.com/mohonatv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mohonatv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="e64e1c11-1167-43a1-9e0f-995cbf6f7ff9" tvg-name="NEXUS TV" tvg-logo="https://s3.aynaott.com/storage/db85422953e3a1652e26b0a14eed92a9" group-title="Channels",NEXUS TV
+http://103.158.133.62:8080/nexustv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/nexustv.stream/tracks-v1a1/mono.m3u8
 https://tvsen6.aynaott.com/nexustv/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://akashgo-mediaready.videoready.tv/akashgo/image/fetch/f_auto,fl_lossy,q_auto,w_180,h_180/https://tstatic.akash-go.com/cms-ui/images/custom-content/1770189845719.png",Star News
@@ -597,41 +608,51 @@ http://103.157.248.140:8000/play/a01n/index.m3u8
 -------------------------------SONY----------------------------------
 #EXTINF:-1 tvg-id="107" tvg-chno="205" tvg-name="sony-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/85d3f1fa-393e-49ff-ab83-edcafa600727.jpg" group-title="Entertainment", Sony HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009246|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009246
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009246|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009246
+https://b4uplay.com/sliv/stream.m3u8?id=1000009246|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="117" tvg-chno="206" tvg-name="sab-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/ea93cb6a-cb48-4841-99d2-8d2cfd835b63.jpg" group-title="All Channels", SAB HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009248
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009248
+https://b4uplay.com/sliv/stream.m3u8?id=1000009248|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="sony-pal" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment",Sony Pal
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009273
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009273
+https://b4uplay.com/sliv/stream.m3u8?id=1000009273|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="sony-aath" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Entertainment",Sony Aath
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009255|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009255
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009255|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009255
+https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/
 #EXTINF:-1,SONY KAL
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
+https://b4uplay.com/sliv/stream.m3u8?id=1000001971|referer=https://b4uplay.com/
 #EXTINF:-1,SONY MAX SD
-https://edge2.roarzone.net:8447/roarzone/edge3/sony_max/index.m3u8
+http://103.158.133.62:8080/sonymax/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2102fac092ee28f75652131b19d74260.png" group-title="MOVIES",MAX 1
 http://live.balajibroadband.com:3500/live/3418.m3u8
 http://103.180.212.191:3500/live/3418.m3u8
 #EXTINF:-1 tvg-id="sony-wah" tvg-logo="https://sonypicturesnetworks.com/images/logos/Sony_WAH.png" group-title="Movies",Sony WAH
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253|referer=https://dongobd247.worker.dev/stream.m3u8?id=1000009253
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253|referer=https://dongobd247.worker.dev/stream.m3u8?id=1000009253
+https://b4uplay.com/sliv/stream.m3u8?id=1000009253|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="sony-pix-hd" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies",Sony PIX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009258|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009258
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009258|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009258
+https://b4uplay.com/sliv/stream.m3u8?id=1000009258|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="1252" tvg-chno="405" tvg-name="bbc-earth" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/90e71128-272c-4a02-b786-6322848bde60.jpg" group-title="All Channels", BBC Earth
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009252|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009252
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009252|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009252
+https://b4uplay.com/sliv/stream.m3u8?id=1000009252|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="173" tvg-chno="511" tvg-name="sony-max-2" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/7103d43e-d203-4e02-a110-a30f16906633.jpg" group-title="Movies", Sony Max 2
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000044878|referer=https://playyonogames.in/sliv/stream.m3u8?id=100044878
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000044878|referer=https://playyonogames.in/sliv/stream.m3u8?id=100044878
+https://b4uplay.com/sliv/stream.m3u8?id=1000044878|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="167" tvg-chno="503" tvg-name="sony-max-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/1de4d782-0e8d-4ae5-a9d0-3581aa177e79.jpg" group-title="All Channels", Sony MAX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009247
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009247
+https://b4uplay.com/sliv/stream.m3u8?id=1000009247|referer=https://b4uplay.com/
 #EXTINF:-1, tvg-logo="https://akamaividz2.zee5.com/image/upload/w_720,h_405,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/list/1920x1080list60cd7fc8b57c4e1baf1cd4f603413540.jpg" group-title="sports", UNITE8 SPORTS 1 HD
 http://103.159.180.34:5001/live/1319.m3u8
 #EXTINF:-1, tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgSwPU75bk_YAiFI9IjYyJJ0Yts2Ieyh6igxJEPLhNeNyVIHba", UNITE8 SPORTS 2 HD
@@ -702,49 +723,21 @@ https://ottlive.dishhome.com.np/protected/IwT6vpkB0RDJ74RypSmE/dash/manifest.mpd
 #EXTVLCOPT:http-referrer=https://dishhomego.com.np/
 https://ottlive.dishhome.com.np/protected/7QTOzZkB0RDJ74Ryniqo/dash/manifest.mpd
 #EXTINF:-1 tvg-id="231" tvg-chno="605" tvg-name="sony-sports-1-hd" tvg-language="ENG" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/09265de4-13e1-4ffe-b0fd-cd8556822c74.jpg" group-title="Sports", Sony Sports 1 HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"D++7o05ASXySh2MRV+h34Q","k":"p6s3V2Hrnkd3wcrZTwQS2Q"},{"kty":"oct","kid":"lojeDn0fQEeuBFnusUnM4A","k":"WXlBGqlHyhEElV4OBjA8IQ"},{"kty":"oct","kid":"YnR/UuwAStGRfKC/xqyiJw","k":"e2RQaEI9/4kNrPuJ0UeVnw"},{"kty":"oct","kid":"9Wnfx7coT1mZiw3aYDNr2A","k":"FeZ9ZbTMdnBHHm5K7b4bNQ"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-#https://ottlive.dishhome.com.np/protected/hgTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009276|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009276
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009276|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009276
+https://b4uplay.com/sliv/stream.m3u8?id=1000009276|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="1338" tvg-chno="606" tvg-name="sony-sports-2-hd" tvg-language="ENG" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/ec239486-80f0-4a82-ae8e-cb416019f649.jpg" group-title="Sports", Sony Sports 2 HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"S5eJYQWoQ5aNQj0ZrOGhaA","k":"1dwjKBbAaqMW0eXzqWsQQw"},{"kty":"oct","kid":"ZLymYfdTRtW5nVpRbpmt+Q","k":"FB+LEshBSusoZNjfLFGQmA"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-#https://ottlive.dishhome.com.np/protected/hwTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009277|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009277
+https://b4uplay.com/sliv/stream.m3u8?id=1000009277|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="1339" tvg-chno="607" tvg-name="sony-sports-3-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/a3ef2413-3c9f-40a7-84a0-38a8dbe17469.jpg" group-title="Sports", Sony Sports 3 HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"04OhJ6D9SyOobd+mWcQk1g","k":"aYQpmpyt1xOGa1JGtR36wA"},{"kty":"oct","kid":"tEVnrV2cSvm/BWzUS9XOxA","k":"e3EqCP8pCmvjFO9mLfOqsQ"},{"kty":"oct","kid":"cjTBjMd0URitsY++a9fzbg","k":"fcy6WVPCKyijGasu2gW2BQ"},{"kty":"oct","kid":"97pgGk7kSAajOtuWjmXkXw","k":"P4x6u4oA/3wxmWr1bdl34Q"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-#https://ottlive.dishhome.com.np/protected/iATOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009278|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009278
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009278|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009278
+https://b4uplay.com/sliv/stream.m3u8?id=1000009278|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="237" tvg-chno="608" tvg-name="sony-sports-5-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/90c7b1fd-2cdc-431b-abc2-ca6775eaa85f.jpg" group-title="All Channels", Sony Sports 5 HD
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"eAzjlAaRTLa/BJZVKE0/vQ","k":"+Z3/4HW8FEbcp4bEhJ0uyw"},{"kty":"oct","kid":"amxUKckzRDu+CGI+DXVZxA","k":"muBzQFg73bm3LOyshau11Q"},{"kty":"oct","kid":"7xc2uz5PR0GmYF+s+y7PMg","k":"K5ilW6qQaiTHady3PgMm0w"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-#https://ottlive.dishhome.com.np/protected/iQTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009275|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009275
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009275|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009275
+https://b4uplay.com/sliv/stream.m3u8?id=1000009275|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="100" tvg-chno="611" tvg-name="dd-sports-1-0" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/44c5d57c-c3bd-4ea6-a367-52c4388e5287.jpg" group-title="Sports", DD Sports 1.0
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -1028,9 +1021,11 @@ http://103.175.73.12:8080/live/52/52_0.m3u8
 #EXTINF:-1 tvg-id="1f8a84b3-8079-4c29-9e73-f219664e9d4d" tvg-name="Goldmines Movies" tvg-logo="https://s3.aynaott.com/storage/26c1570891267164e40563806b25ccdb" group-title="Hindi",Goldmines Movies
 http://103.175.73.12:8080/live/51/51_0.m3u8
 #EXTINF:-1 tvg-id="Default" tvg-logo="http://tv.fusion4k.cc/stalker_portal/misc/logos/320/5546.png" tvg-name="HUM WORLD" group-title="URDU | TV",HUM WORLD
-https://edge2.roarzone.net:8447/roarzone/edge3/hum_sitaray/index.m3u8
+http://103.158.133.62:8080/hum-tv/index.m3u8
 #EXTINF:-1,HUM MASALA
-https://edge2.roarzone.net:8447/roarzone/edge3/hum_masala/index.m3u8
+http://103.158.133.62:8080/hum-masala/index.m3u8
+#EXTINF:-1,HUM SITERY world
+http://103.158.133.62:8080/hum-sitary/index.m3u8
 #EXTINF:-1,HUM SITERY
 https://jxc.cr7x.workers.dev/live/999/999/hum_sitaray/master.m3u8
 http://ytoxw6un.ottclub.xyz/iptv/VSQZTL9D68WBD9/6731/index.m3u8
@@ -1342,8 +1337,7 @@ https://dash2.antik.sk/live/sporty_tv/index.m3u8
 #EXTINF:-1,TEN SPORTS
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/98.ts
 #EXTINF:-1,TEN CRICKET 
-https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/index.m3u8
-https://ottbanglaplatform.com/tv/toffee/live.php?id=ten_cricket&e=.m3u8
+http://103.158.133.62:8080/tencricket/index.m3u8
 #EXTINF:-1, DD SPORTS 
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8
 #EXTINF:-1,LA LIGA LIVE(DAZAN)
