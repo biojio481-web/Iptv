@@ -6,7 +6,7 @@ import requests
 
 LIVE_1_LINK = "http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsportshd.m3u8"
 LIVE_2_LINK = "http://172.16.29.3:8090/hls/ptvsportshd.m3u8"
-LIVE_3_LINK = "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8"
+LIVE_3_LINK = "https://s2.itcnbd.live/ptv-sports-hd/index.m3u8"
 
 # ৩টি চ্যানেলের জন্য কমন লোগো লিংক
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
