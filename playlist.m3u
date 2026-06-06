@@ -5,27 +5,17 @@
 http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
-http://97.74.103.44:8089/amrbd/SOMOY-NEWS/playlist.m3u8
+http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-https://saseries.akamaized.net/hls/live/2110097/ICCt20-tapmad/hdntl=exp=1780809720~acl=%2f*~data=hdntl~hmac=a2d507de769ce68dc5fb265d05225ec9b4f68187a2136da533ac8955089da1ed/level_1.m3u8
+https://s2.itcnbd.live/ptv-sports-hd/index.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
 #EXTINF:-1, HAJJ LIVE 2026
 https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
-#EXTINF:-1 tvg-id="1090529785" tvg-name="Roland-Garros 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019246/1780622178796673_RG26_SF_Philippe_Chatrier_court_landscape_thumb_SP_rev.jpg" tvg-language="English" group-title="Tennis",ENG | Philippe Chatrier - 5 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094589/RG_Day130506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
-#EXTINF:-1 tvg-id="1090529787" tvg-name="Roland-Garros 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019246/1780622234464673_RG26_SF_Simonne_Mathieu_court_landscape_thumb_SP_rev.jpg" tvg-language="English" group-title="Tennis",ENG | Simonne Mathieu - 05 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2094588/RG_SM_050506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
-#EXTINF:-1 tvg-id="1090533894" tvg-name="Chhattisgarh Cricket Premier League 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019248/1780629496866886_CCPL26_Surguja_Tigers_vs_Raipur_Rhinos_4jun_landscape_thumb.jpg" tvg-language="Hindi" group-title="Cricket",HIN | Surguja Tigers vs Raipur Rhinos - 5 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/2005444/Cricket_0506/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
-EXTINF:-1 tvg-id="1090533893" tvg-name="DP World Tour" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000018951/1780271746291861_DP_World_Tour_KLM_Open_day2_landscape_thumb.jpg" tvg-language="English" group-title="Golf",ENG | KLM Open - Day 2 - 5 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000292/Golf_DP_0506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
-#EXTINF:-1 tvg-id="1090533873" tvg-name="LIV Golf" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019175/1780573350180650_LIV_Golf_Andalucia_Day2_landscape_thumb.jpg" tvg-language="English" group-title="Golf",ENG | Andalucia - Day 2 - 5 Jun 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000293/LIV_Golf0506/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=13da5e50bb7d191ef12c633aaf3e2a51-1780661400127
-#EXTINF:-1 group-title="LIVE SPORTS" tvg-logo="https://i.postimg.cc/CxHgpZXW/images.jpg",BANGLADESH VS SAN MARINO HD
-https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/138713.ts
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (BEIN SPORTS)
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/652310.ts
 #EXTINF:-1,SONY LIV
 http://live.balajibroadband.com:3500/live/514.m3u8
 http://live.balajibroadband.com:3500/live/524.m3u8
@@ -214,7 +204,6 @@ https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8S
 https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8SFgEEB0k8BB4XK1R5EmFUPw45R3hVPRUuFVBYTkwDBnhKYEJ1UX0RLxk_Q3JDeFVxUGBQFxMCBQ.ts
 https://tvsen6.aynaott.com/mytv/index.m3u8
 #EXTINF:-1, RAJDHANI TV
-https://edge2.roarzone.net:8447/roarzone/edge3/rajdhani_tv/index.m3u8
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 #EXTINF:-1 tvg-chno="117" tvg-id="21e75798-3b6a-4214-9d93-b3fecaa4e700" tvg-name="Bangla Vision" tvg-logo="https://s3.aynaott.com/storage/e86c14566b4d5b6dd68ac37dce4f6043" group-title="Recorded TV",Bangla Vision
 https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
@@ -471,21 +460,16 @@ https://tvsen3.aynascope.net/n64PH4YL/index.m3u8
 http://live.balajibroadband.com:3500/live/1369.m3u8
 https://yupptv.rkdyiptv.workers.dev/live/825.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Colors_Bangla.png" group-title="AynaOTT - IN Bangla",Colors Bangla HD
-http://103.204.43.87:8080/live/1/1/239.m3u8
-https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/98882.ts
-https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
+#http://103.204.43.87:8080/live/1/1/239.m3u8
+#https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/98882.ts
+#https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
 http://live.balajibroadband.com:3500/live/756.m3u8
 https://yupptv.rkdyiptv.workers.dev/live/1509.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/NF5M3vk/20240803-164348.png" group-title="KOLKATA",Colors Bangla Cinema
-http://103.204.43.87:8080/live/1/1/276.m3u8
+#http://103.204.43.87:8080/live/1/1/276.m3u8
 http://live.balajibroadband.com:3500/live/1657.m3u8
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies (beckup)
 #EXTINF:-1 tvg-id="tara-bangla-cinema" tvg-name="tara-bangla-cinema" tvg-language="ENG" tvg-chno="327" tvg-logo="https://nitv-saas-media-prod.s3.ap-southeast-1.amazonaws.com/worldtv/images/channels/square/1c99317f-5712-4611-a6a5-671966faf131.png" group-title="Bengali", Tara Bangla Cinema
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 16; CRT-NX1 Build/HONORCRT-N31)
-#EXTVLCOPT:http-origin=https://worldtvgo.com
-#EXTVLCOPT:http-referrer=https://worldtvgo.com/
 https://in1.sunilprasad.com.np/wodgoLive/tara-bangla-cinema/master.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqiOBYecrK6JrYC4gq5t-ISoacG6TC15kxA&s" group-title="KOLKATA", Jalsha Movies HD
 http://103.204.43.87:8080/live/1/1/245.m3u8
@@ -534,8 +518,6 @@ http://103.175.73.12:8080/live/21/21_0.m3u8
 https://amg00864-shemarooenterta-shemabollywood-ono-nlwbw.amagi.tv/playlist/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
 #EXTINF:-1, SONIC BANGLA
 http://103.204.43.87:8080/live/1/1/274.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/Enterr10_Bangla.jpeg/200px-Enterr10_Bangla.jpeg" group-title="Indian-Bangla",TARA BANGLA CINEMA
-https://in1.sunilprasad.com.np/wodgoLive/tara-bangla-cinema/master.m3u8
 #EXTINF:-1 tvg-logo="https://wallpapers.com/images/high/colors-tv-logo-7meur4bah5m7mm8i.webp" group-title="AynaOTT - Indian ENT",Colors HD
 http://103.204.43.87:8080/live/1/1/231.m3u8
 http://103.157.248.140:8000/play/a007/index.m3u8
@@ -682,14 +664,6 @@ https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/148801.ts
 #EXTINF:-1, STAR SPORTS KHEL
 http://103.175.73.12:8080/live/151/151_0.m3u8
 #EXTINF:-1 tvg-id="3175" tvg-chno="610" tvg-name="a-sports" tvg-language="ENG" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/4442d302-99bd-4ed1-89ab-0194ce4ef719.jpg" group-title="All Channels", A Sports
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"cBYRnuLZTYGaA07+9uKySQ","k":"ijlFHw+279X2IRZ7JuqRWQ"},{"kty":"oct","kid":"mQowyP8NSmm3ZTfkwsrXkw","k":"HhFuV2XqJWRqMGWTC8EqbA"},{"kty":"oct","kid":"2XZvE7ZyS8GKKjW7gWjXug","k":"MFSdrNgyvTWE7cwuvQ6WXg"},{"kty":"oct","kid":"J85DSWCHQMW0DXGVNVrM8Q","k":"OKXfUmNR5Olq/GWI0+XqdQ"},{"kty":"oct","kid":"ys2xVK5OTYGmoVlTPzS2WQ","k":"OIp05i+x5mDBu+DmSMI4Gg"},{"kty":"oct","kid":"HTWUVlI6S4W/6WbErwjtTg","k":"3pZ0dyHQd/iWyx1R6YyITg"},{"kty":"oct","kid":"HbF//Bz3Sdaimasgf8XW7w","k":"56FOyvMoR9/BGJvhVtL8uA"},{"kty":"oct","kid":"6FjJLjFPRUafoWZBFvCiVA","k":"ZI3NUSq0xnKD5BvZmrdL6w"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-https://ottlive.dishhome.com.np/protected/iwTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTINF:-1 tvg-id="89" tvg-chno="143" tvg-name="himalayan-premium-hd" tvg-language="NEP" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/becf6176-e7a4-4123-9f59-aa541b1cb2f9.jpg" group-title="Nepali", Himalayan Premium HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
@@ -700,28 +674,8 @@ https://ottlive.dishhome.com.np/protected/iwTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTVLCOPT:http-referrer=https://dishhomego.com.np/
 https://ottlive.dishhome.com.np/protected/GgTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/20-by-xfireflix.png" group-title="Sports", PTV Sports
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=a7712196dbee413ab510c825e5c4d3f0:1ade126fa6a9162ba34bd5de5b1427ca
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-https://ottlive.dishhome.com.np/protected/jQTOzZkB0RDJ74Ryniuo/dash/manifest.mpd
 #EXTINF:-1 tvg-id="6" tvg-chno="105" tvg-name="action-sports-hd-1" tvg-language="NEP" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/eabe701c-d2e5-4c98-bd0c-6f06e8537103.jpg" group-title="DH Exclusive", Action Sports HD 1
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"pJEqbSjhSDixX6TFf01CrA","k":"CdKn8m2U27nf3C8tK7x88A"},{"kty":"oct","kid":"k9LDH6oFSc26s+4wQ093cA","k":"+uParCVsifvoyxHxvq++fQ"},{"kty":"oct","kid":"bBB2lnbrSvaBbNWas03pUA","k":"kQKZ/xdBX+ks6z2IkkcluA"},{"kty":"oct","kid":"OuOJJ/OdRq69UbEzNMBVmw","k":"MeVC6m2Bf9e4NxwqLSm5Ig"},{"kty":"oct","kid":"oioLpr8YRca/zr83vcq0kQ","k":"fGj18f/f7fUCJaGkvnkeWA"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-https://ottlive.dishhome.com.np/protected/IwT6vpkB0RDJ74RypSmE/dash/manifest.mpd
 #EXTINF:-1 tvg-id="17" tvg-chno="106" tvg-name="action-sports-hd-2" tvg-language="NEP" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/3db6653d-d30e-465c-8ba5-ac5a5cb84b51.jpg" group-title="All Channels", Action Sports HD 2
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={"keys":[{"kty":"oct","kid":"twhBBLxJQ9u7ak1xm7G2Wg","k":"Hx7km62sq5xEwXDx+qOfJw"},{"kty":"oct","kid":"8tH9WhQeTOONJhhnDUEazQ","k":"sOHSXV8XwPPEp0SNzk8fGQ"}],"type":"temporary"}
-#EXTHTTP:{"cookie":"defaultLanguage=eng; defaultDirection=ltr"}
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 12; SM-A546E Build/9624a8d.0)
-#EXTVLCOPT:http-origin=https://dishhomego.com.np
-#EXTVLCOPT:http-referrer=https://dishhomego.com.np/
-https://ottlive.dishhome.com.np/protected/7QTOzZkB0RDJ74Ryniqo/dash/manifest.mpd
 #EXTINF:-1 tvg-id="231" tvg-chno="605" tvg-name="sony-sports-1-hd" tvg-language="ENG" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/09265de4-13e1-4ffe-b0fd-cd8556822c74.jpg" group-title="Sports", Sony Sports 1 HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009276|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009276
@@ -810,10 +764,10 @@ http://103.157.248.140:8000/play/a01s/index.m3u8
 http://103.159.180.34:5001/live/279.m3u8
 http://czrb8vng.ottclub.xyz/iptv/AHMQNVLWUTM5PW/6586/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/h7T6MCW/20240803-110652.png" group-title="HINDI", COLORS CINEPLEX HD
+http://live.balajibroadband.com:3500/live/1477.m3u8
 http://103.204.43.87:8080/live/1/1/237.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206310
 #EXTINF:-1, Kantipur piracy HD
-http://103.213.31.109:90/KantipurPiracyHD/playlist.m3u8
 #EXTINF:-1,MBC BOLLYWOOD
 http://93.184.10.248/MBCBollywood/index.m3u8
 #EXTINF:-1,DD NATIONAL HD
@@ -821,8 +775,7 @@ http://103.175.73.12:8080/live/15/15_0.m3u8
 #EXTINF:-1, DANGAL 2
 http://103.175.73.12:8080/live/18/18_0.m3u8
 #EXTINF:-1 tvg-id="colorscineplexbollywood" tvg-logo="https://live.dinesh29.com.np/logos/jiotvplus/colorscineplexbollywood.png" group-title="Movies",Colors Cineplex Bollywood
-#EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://djplabon.aminmuaz636.workers.dev/live.php?id=1763
+http://live.balajibroadband.com:3500/live/1763.m3u8
 #EXTINF:-1 tvg-id="colors-cineplex-superhit" tvg-name="Colors Cineplex Superhit" tvg-logo="https://otapp.store/uploads/tv_image/colors-cineplex-superhit.png" group-title="BDIX 1",Colors Cineplex Superhit
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 https://djplabon.aminmuaz636.workers.dev/live.php?id=1450
@@ -839,10 +792,11 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/ceda14583477426aa162a65392d8ea07/in
 ==========================================================================================================================================
 ==========================================================================================================================================
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RLRS.png?lock=720x540" group-title="Entertainment",&TV HD
-http://103.159.180.34:5001/live/472.m3u8
+#http://103.159.180.34:5001/live/472.m3u8
+http://live.balajibroadband.com:3500/live/472.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022J67R.png?lock=720x540" group-title="Movies",&pictures HD
+http://live.balajibroadband.com:3500/live/185.m3u8
 http://103.204.43.87:8080/live/1/1/232.m3u8
-http://103.159.180.34:5001/live/185.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9X_Jalwa.png" group-title="Music",9X Jalwa
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0538cf4c5ed546a9956aadab2fdf3366:b0af534e1a5f459f9c751a0cb9d12d4c
@@ -909,27 +863,26 @@ https://d2lk5u59tns74c.cloudfront.net/out/v1/fff8f20221d5456e8922e689d71dedc3/in
 https://d2lk5u59tns74c.cloudfront.net/out/v1/e4182054dce340da9e0ff38b6b3658a4/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/lcMc75Xr.png" group-title="Movies",ShortsTV Active
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022K5ZV.png?lock=720x540" group-title="Movies",Zee Action
-http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_ACTION_CINEMA&uid=999&pass=999
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230QBL.png?lock=720x540" group-title="News",Zee Bharat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=10616d7c4bee41f1825bd805c6295172:dc85f2112f63477fb39fc149493c49be
 #https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeehindustan/default/manifest.mpd
 https://dt3lrqnyx3dks.cloudfront.net/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DM.png?lock=720x540" group-title="Movies",Zee Bollywood
-http://stb-air.wasmer.app//play.php?id=LIVETV_LIVETVCHANNEL_ZEE_BOLLYWOOD&uid=999&pass=999
 #EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230YYJ.png?lock=720x540" group-title="News",Zee Business
 http://103.213.31.111/ZeeBusiness/index.m3u8
-https://zee5.cr7x.workers.dev/live/gana-sunega/krish-ka/0-9-zeebusiness/master.m3u8|User-Agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zee_Cinema_HD.png" group-title="watcho",Zee Cinema HD
+http://live.balajibroadband.com:3500/live/165.m3u8
 http://103.204.43.87:8080/live/1/1/240.m3u8
 http://103.159.180.34:5001/live/165.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002FYLVC.png?lock=720x540" group-title="Entertainment",Zee TV HD
+http://live.balajibroadband.com:3500/live/167.m3u8
 http://103.204.43.87:8080/live/1/1/234.m3u8
 http://103.159.180.34:5001/live/167.m3u8
 #EXTINF:-1 tvg-id="585" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0025L26R.png?lock=720x540" group-title="Music",Zing
+http://live.balajibroadband.com:3500/live/585.m3u8
 http://103.204.43.87:8080/live/1/1/281.m3u8
 http://103.159.180.34:5001/live/585.m3u8
-https://ranapkbd.site/RANAPK33y/TVD/play.php?id=737321
 #EXTINF:-1 tvg-id="592" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Zoom.png" group-title="Music",ZOOM
 http://103.204.43.87:8080/live/1/1/271.m3u8
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
