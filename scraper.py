@@ -4,7 +4,7 @@ import requests
 #  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
 # =================================================================
 
-LIVE_1_LINK = "http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsportshd.m3u8"
+LIVE_1_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88"
 LIVE_2_LINK = "http://172.16.29.3:8090/hls/ptvsportshd.m3u8"
 LIVE_3_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
 LIVE_4_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
