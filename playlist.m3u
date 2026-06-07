@@ -2,13 +2,13 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://cdn.moviemazic.xyz:8083/TSportsHD/index.m3u8?token=f8562e31a82f1b86f7fc2ed97959c6b91dd7ea52-3e194b6c654198e8a4b804ae1f9833ba-1780819111-1780808311
+http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.138%3A8090%2Fhls%2Ftsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
-http://100.100.100.14/feed_premiersports2/index.fmp4.m3u8?token=fdee04bc2aae04158afe8e44df6921816512a45a-92085ad2eda84f37d90fcd0fb04cfee4-1780784302-1780773202
+http://198.195.239.50:8095/Tsports/index.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
