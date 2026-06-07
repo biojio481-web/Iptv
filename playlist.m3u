@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://103.204.43.87:8080/live/1/1/266.m3u8
+http://redforce.live:8082/T-SPORTS-HD/index.m3u8?token=2083090886d8fd8675308122c129a2d78139ff7f-80f2bf28716de0cfb8630e5b097e32b0-1752457441-1752446641&remote=no_check_ip
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
