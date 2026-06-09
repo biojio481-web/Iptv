@@ -10,8 +10,8 @@ LIVE_3_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
 
 # ⚽ FIFA World Cup 2026 চ্যানেলগুলোর লিংক (এখানে আপনার লিংক বসিয়ে দিন)
 FIFA_1_LINK = "http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.2%3A8090%2Fhls%2Fsomoytv.m3u8"
-FIFA_2_LINK = "https://example.com/fifa2/index.m3u8"
-FIFA_3_LINK = "https://example.com/fifa3/index.m3u8"
+FIFA_2_LINK = "http://97.74.103.44:8089/amrbd/T-SPORTS/playlist.m3u8"
+FIFA_3_LINK = "http://10.10.10.2/live/fnf006/index.m3u8"
 
 # সব চ্যানেলের জন্য কমন লোগো লিংক
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
