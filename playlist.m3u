@@ -14,10 +14,10 @@ http://198.195.239.50:8095/Tsports/index.m3u8
 http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.2%3A8090%2Fhls%2Fsomoytv.m3u8
 
 #EXTINF:-1 tvg-id="fifa2" tvg-name="FIFA World Cup 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 2
-https://example.com/fifa2/index.m3u8
+http://97.74.103.44:8089/amrbd/T-SPORTS/playlist.m3u8
 
 #EXTINF:-1 tvg-id="fifa3" tvg-name="FIFA World Cup 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 3
-https://example.com/fifa3/index.m3u8
+http://10.10.10.2/live/fnf006/index.m3u8
 
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
