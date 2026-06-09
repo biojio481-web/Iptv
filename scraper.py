@@ -7,8 +7,13 @@ import requests
 LIVE_1_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88"
 LIVE_2_LINK = "http://172.16.29.3:8090/hls/ptvsportshd.m3u8"
 LIVE_3_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
-LIVE_4_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
-# ৩টি চ্যানেলের জন্য কমন লোগো লিংক
+
+# ⚽ FIFA World Cup 2026 চ্যানেলগুলোর লিংক (এখানে আপনার লিংক বসিয়ে দিন)
+FIFA_1_LINK = "https://example.com/fifa1/index.m3u8"
+FIFA_2_LINK = "https://example.com/fifa2/index.m3u8"
+FIFA_3_LINK = "https://example.com/fifa3/index.m3u8"
+
+# সব চ্যানেলের জন্য কমন লোগো লিংক
 LOGO_URL = "https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png"
 
 # আপনার বাহ্যিক (External) গিটহাব প্লেলিস্ট লিংক
@@ -30,9 +35,21 @@ def generate_playlist():
     m3u_content += f'#EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="{LOGO_URL}" group-title="My Live",Live 2\n'
     m3u_content += f"{LIVE_2_LINK}\n\n"
     
-    # ্ম চ্যানেল ৩ জেনারেট
+    # চ্যানেল ৩ জেনারেট
     m3u_content += f'#EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="{LOGO_URL}" group-title="My Live",Live 3\n'
     m3u_content += f"{LIVE_3_LINK}\n\n"
+    
+    # ⚽ FIFA World Cup 1 জেনারেট
+    m3u_content += f'#EXTINF:-1 tvg-id="fifa1" tvg-name="FIFA World Cup 1" tvg-logo="{LOGO_URL}" group-title="FIFA World Cup 2026",FIFA World Cup 1\n'
+    m3u_content += f"{FIFA_1_LINK}\n\n"
+    
+    # ⚽ FIFA World Cup 2 জেনারেট
+    m3u_content += f'#EXTINF:-1 tvg-id="fifa2" tvg-name="FIFA World Cup 2" tvg-logo="{LOGO_URL}" group-title="FIFA World Cup 2026",FIFA World Cup 2\n'
+    m3u_content += f"{FIFA_2_LINK}\n\n"
+    
+    # ⚽ FIFA World Cup 3 জেনারেট
+    m3u_content += f'#EXTINF:-1 tvg-id="fifa3" tvg-name="FIFA World Cup 3" tvg-logo="{LOGO_URL}" group-title="FIFA World Cup 2026",FIFA World Cup 3\n'
+    m3u_content += f"{FIFA_3_LINK}\n\n"
     
     # বাহ্যিক প্লেলিস্ট থেকে ডাটা রিড করা
     try:
@@ -40,7 +57,6 @@ def generate_playlist():
         if response.status_code == 200:
             external_data = response.text
             for line in external_data.splitlines():
-                # ডুপ্লিকেট #EXTM3U ট্যাগ বাদ দিয়ে বাকি চ্যানেলগুলো যুক্ত করা
                 if line.strip() and not line.startswith("#EXTM3U"):
                     m3u_content += line + "\n"
         else:
@@ -52,7 +68,7 @@ def generate_playlist():
     with open("playlist.m3u", "w", encoding="utf-8") as f:
         f.write(m3u_content)
         
-    print("Playlist updated and generated successfully!")
+    print("Playlist updated and generated successfully with FIFA World Cup channels!")
 
 if __name__ == "__main__":
     generate_playlist()
