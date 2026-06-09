@@ -10,6 +10,15 @@ http://172.16.29.3:8090/hls/ptvsportshd.m3u8
 #EXTINF:-1 tvg-id="live3" tvg-name="Live 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 3
 http://198.195.239.50:8095/Tsports/index.m3u8
 
+#EXTINF:-1 tvg-id="fifa1" tvg-name="FIFA World Cup 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 1
+http://10.0.0.10/api/hls-proxy?url=http%3A%2F%2F172.16.29.2%3A8090%2Fhls%2Fsomoytv.m3u8
+
+#EXTINF:-1 tvg-id="fifa2" tvg-name="FIFA World Cup 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 2
+https://example.com/fifa2/index.m3u8
+
+#EXTINF:-1 tvg-id="fifa3" tvg-name="FIFA World Cup 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 3
+https://example.com/fifa3/index.m3u8
+
 #EXTINF:-1, FGN
 http://103.175.73.12:8080/live/856/856_0.m3u8
 #EXTINF:-1, HAJJ LIVE 2026
@@ -52,6 +61,8 @@ http://66.102.126.10:8000/play/a022/index.m3u8
 https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (SOMOY TV)
 https://livecdn-bostahls.global.ssl.fastly.net/rongo/rongo-somoy/index.m3u8
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026
+https://live.elheddaftv.com:8081/elheddaf/index.mpd
 #EXTINF:-1 tvg-chno="500" tvg-id="213212" tvg-name="KANTIPUR MAX  HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel_212_1742546009_thumb.png",KANTIPUR MAX  HD
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/638057.ts
 #EXTINF:-1 tvg-chno="501" tvg-id="504" tvg-name="KANTIPUR MAX 2 HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel-logo-C190-1763958788.png",KANTIPUR MAX 2 HD
