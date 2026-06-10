@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://103.89.248.10:8082/FIFA-World-Cup-Live-2/index.fmp4.m3u8?token=a8388bfbb37d3ac8af2e83f6eb003d90b8598aaf-8ff5bf8c0dd16bd09d404d46029c6872-1781105879-1781095079
+http://172.20.5.1/webplayer/webplayer/370.m3u8
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
