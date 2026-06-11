@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://murgi.live:8083/TSportsHD/index.m3u8?token=a1ec2739bc6230a59f2da37e161268369d121fe9-74736a130487fe62e78027901b205fbe-1781205984-1781195184
+http://172.19.178.29:18190/SN-E01-01/index.fmp4.m3u8?token=3f9b341d96ead3aaa494b2009a52b7ee3d3c683c-9c8db9150ae86827e5e111847ac2f3bf-1781209300-1781198200
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
