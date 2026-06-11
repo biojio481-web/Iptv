@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://172.20.5.1/webplayer/webplayer/370.m3u8
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 http://172.16.29.3:8090/hls/ptvsportshd.m3u8
@@ -31,7 +31,7 @@ http://live.balajibroadband.com:3500/live/524.m3u8
 http://live.balajibroadband.com:3500/live/891.m3u8
 http://live.balajibroadband.com:3500/live/155.m3u8
 #EXTINF:-1,SONY LIV
-http://live.balajibroadband.com:3500/live/525.m3u8
+http://live.balajibroadband.com:3500/live/155.m3u8
 #EXTINF:-1, SONY LIV
 http://live.balajibroadband.com:3500/live/162.m3u8
 #EXTINF:-1,SONY LIV
@@ -40,6 +40,18 @@ http://live.balajibroadband.com:3500/live/892.m3u8
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581307.ts
 #EXTINF:-1, SKY SPORTS MAIN EVENT 4K
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/581305.ts
+#EXTINF:-1 tvg-id="B0H17GTBTP" tvg-name="Tri Nation A Series in Sri Lanka 2026 - 2nd Match - India A vs Afghanistan A" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.a4afcf57-237c-495c-b043-5e332554c096/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Live Sports Cricket",Tri Nation A Series in Sri Lanka 2026 - 2nd Match - India A vs Afghanistan A
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5be21df3f18ef64aaaaa30cbdaf128ed:7fac12f58b756a1a52d3150c7d3b0304
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ehfibbt64r/out/v1/242699d5a0484c3b8868d40d763d75cd/cenc.mpd
+#EXTINF:-1 tvg-id="B0GXRWWRY1" tvg-name="Australia tour of Bangladesh 2026 - 2nd ODI - Bangladesh vs Australia" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1991c3cc-82e2-4b36-8a89-287bbb78abb2/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Live Sports Cricket",Australia tour of Bangladesh 2026 - 2nd ODI - Bangladesh vs Australia
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=a2b04e262f023cf59a2226dff375b3be:5455b5b5f804c34e2324a1bed24f9da0
+https://a57live-pv-ta-amazon.akamaized.net/iad-nitro/live/clients/dash/enc/jpt6zpxrd8/out/v1/2a70f9d752d245849a8492ad81a8bf3c/cenc.mpd
 #EXTINF:-1,ICC WOMEN WORLD CUP
 http://103.204.43.87:8080/live/1/1/313.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (T SPORTS)
@@ -58,9 +70,10 @@ https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8
 http://103.204.43.87:8080/live/1/1/264.m3u8
 http://66.102.126.10:8000/play/a022/index.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (BTV NATIONAL)
-https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (SOMOY TV)
-https://livecdn-bostahls.global.ssl.fastly.net/rongo/rongo-somoy/index.m3u8
+#https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/422.ts
+#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (4K)
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/688290.ts
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026
 https://live.elheddaftv.com:8081/elheddaf/index.mpd
 #EXTINF:-1 tvg-chno="500" tvg-id="213212" tvg-name="KANTIPUR MAX  HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel_212_1742546009_thumb.png",KANTIPUR MAX  HD
@@ -155,12 +168,14 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3b7qwiqzk3/
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01c9bbf8137e58378a5ead514998a7b4:fb01e61809e80e5e93a889cd31daab22
 #https://dck1-fs-live.dtcdn.dazn.com/out/v1/814bffb9b389f652/d65feac5647949e6b45b2674d4715398/index.mpd
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/197185.m3u8
+#http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/197185.m3u8
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/4748.ts
 #EXTINF:-1 tvg-chno="410" tvg-id="Fox.501.uk" tvg-logo="http://greenpa1.com/fox.png" group-title="Sports",Fox Sports 501 HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01c9bbf8137e58378a5ead514998a7b4:fb01e61809e80e5e93a889cd31daab22
 #https://dck1-fs-live.dtcdn.dazn.com/out/v1/814bffb9b389f652/d65feac5647949e6b45b2674d4715398/index.mpd
-http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/197185.m3u8
+#http://tv-premium-pro.com/live/wezqqszfr2/i7481xvrdf/197185.m3u8
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/4748.ts
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZcJANelaW8aBRREj0hAfcWIjvYWJdJ_Epg&usqp=CAU",Willow Cricket
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZcJANelaW8aBRREj0hAfcWIjvYWJdJ_Epg&usqp=CAU",Willow Cricket
 #http://cdn.tv-rds.workers.dev/WillowCricket.m3u8
@@ -249,7 +264,7 @@ http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/1331.ts
 #https://ekusheyserver.com/etvlivesn.m3u8
 https://tvsen6.aynaott.com/etv/index.m3u8
 #EXTINF:-1 tvg-id="27ec4394-7640-4dab-abf8-6a48893dfdfe" tvg-name="Somoy News TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png" group-title="Channels",Somoy News TV
-https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
+#https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/tracks-v1a1/mono.m3u8
 https://livecdn-bostahls.global.ssl.fastly.net/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-id="dd8c50e9-5dad-4cb9-9df8-5763e95281ad" tvg-name="Desh TV" tvg-logo="https://s3.aynaott.com/storage/9ef657aca7c0009e4f0675af3b5190d8" group-title="Channels",Desh TV
@@ -327,7 +342,6 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 http://116.204.149.16/globaltv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://nagorik.com/wp-content/uploads/2024/04/Logo.png" group-title="BANGLADESH", নাগরিক টিভি
-http://103.204.43.87:8080/live/1/1/282.m3u8
 https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8SFgEEB0k8BB4XK1R5EmFUPw45R3ldcxUuHVdXTkxOBHNAZkZ1UX0RYxk_DnRDdlR5WWtTEhAFAAc.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 NEWS
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
@@ -454,7 +468,6 @@ http://103.204.43.87:8080/live/1/1/244.m3u8
 http://103.159.180.34:5001/live/1669.m3u8
 #EXTINF:-1 tvg-logo="http://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="AynaOTT - IN Bangla",Star Jalsha
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
-http://103.204.43.87:8080/live/1/1/261.m3u8
 https://tvsen3.aynascope.net/n64PH4YL/index.m3u8
 #EXTINF:-1, COLORS BANGLA SD
 http://live.balajibroadband.com:3500/live/1369.m3u8
@@ -472,7 +485,6 @@ http://live.balajibroadband.com:3500/live/1657.m3u8
 #EXTINF:-1 tvg-id="tara-bangla-cinema" tvg-name="tara-bangla-cinema" tvg-language="ENG" tvg-chno="327" tvg-logo="https://nitv-saas-media-prod.s3.ap-southeast-1.amazonaws.com/worldtv/images/channels/square/1c99317f-5712-4611-a6a5-671966faf131.png" group-title="Bengali", Tara Bangla Cinema
 https://in1.sunilprasad.com.np/wodgoLive/tara-bangla-cinema/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
-http://103.204.43.87:8080/live/1/1/245.m3u8
 https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8SFgEEB0k8BB4XK1R5EmFUPw45TXlVeV0uHV9QQUxOSXFLbEBxUX0RY1U_DjlFdlp4UWJYERUGBwIA.ts
 https://yupptv.rkdyiptv.workers.dev/live/1523.m3u8
 #EXTINF:-1,ETV BANGLA CINEMA
@@ -543,8 +555,9 @@ http://103.204.43.87:8080/live/1/1/278.m3u8
 #EXTINF:-1 tvg-id="superhungama" tvg-logo="https://live.dinesh29.com.np/logos/jiotvplus/superhungama.png" group-title="Kids",Super Hungama
 http://103.204.43.87:8080/live/1/1/296.m3u8
 #EXTINF:-1 tvg-id="disney-channel" tvg-logo="https://live.dinesh29.com.np/logos/disney-channel.png" group-title="Kids",Disney Channel
-http://66.102.126.10:8000/play/a070/index.m3u8
+http://119.156.228.231:9983/stream/channelid/1324398660?ticket=7C95F3E4488C36F06FC0D96EDED00B3813CA10A9&profile=pass
 #EXTINF:-1 tvg-id="disney-channel" tvg-logo="https://live.dinesh29.com.np/logos/disney-channel.png" group-title="Kids",Disney Channel HD
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts
 #EXTINF:-1 tvg-id="" tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/CN.jpg?raw=true" group-title="All-In-One~ENT🧩",CARTOON NETWORK
 https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/s143663_ld_h15_aa.png" group-title="watcho",Pogo
@@ -567,23 +580,19 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #KODIPROP:inputstream.adaptive.license_key=8aaf27b53099505a8307b7df2f61b46c:83692149a2e59a8aae8e39ed6a1f6325
 https://login.bheem.tv/bpk-tv/22052/output/index.mpd
 #EXTINF:-1 tvg-logo="https://i.ibb.co/m61hzPR/20240803-101724.png" group-title="DOCUMENTORY", DISCOVERY বাংলা
-http://103.204.43.87:8080/live/1/1/248.m3u8
-https://xtrax5.amaira.workers.dev/s/KRk1GWhODEJTQ0ZGKBkmF3RPLk4-X3tCfUQ9ET0jNw8SFgEEB0k8BB4XK1R5EmFUPw45TXlVdlsuHV9QQUxOSXFLbEBxUX0RY1U_DjlFdlp4UWJYERUGBwIA.ts
+https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/406.ts
 #EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_INVESTIGATION_DISCOVERY_HD/images/LOGO_HD/image.png" group-title="watcho",Discovery ID HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=30da751b70f05b5297d18d0c33c29f0c:86796e309d13495992282149f0957f74
 https://login.bheem.tv/bpk-tv/22076/output/index.mpd
 #EXTINF:-1,NET GEO WILD
-http://103.204.43.87:8080/live/1/1/249.m3u8
 #EXTINF:-1,DW NEWS
 #EXTINF:-1,CGTN
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/Nat_Geo_HD.png" group-title="Documentary",National Geographic HD বাংলা
-http://103.204.43.87:8080/live/1/1/251.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206285
 #EXTINF:-1 tvg-id="484" tvg-logo="https://live.dinesh29.com.np/logos/tataplay/travelxphd.png" group-title="Lifestyle",Travelxp HD বাংলা
 http://103.159.180.34:5001/live/562.m3u8
 #EXTINF:-1 tvg-chno="212" tvg-logo="https://raw.githubusercontent.com/Shakil1294/pcv/main/logo/Nick.png" group-title="Cartoon",Nick বাংলা
-http://103.204.43.87:8080/live/1/1/275.m3u8
 http://103.157.248.140:8000/play/a01n/index.m3u8
 ---------------------------------------------------------------------
 -------------------------------SONY----------------------------------
