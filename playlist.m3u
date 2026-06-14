@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://zflixbd.com:8083/TSportsHD/index.m3u8?token=df79e6ae991aa961c5496a4273f06e7eeb144b5c-e211623c2d116f0c1a6fac502aa00bd9-1781464882-1781454082
+http://zflixbd.com:8083/Feedget/ptv_pk/index.m3u8?token=98bb4570ba2ccf979a041c350b43630b1c6b9993-9974da49c2fc5f6cfd61e96b309d51b8-1781467356-1781456556
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
