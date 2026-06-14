@@ -5,7 +5,7 @@ import requests
 # =================================================================
 
 LIVE_1_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88"
-LIVE_2_LINK = "http://172.16.29.3:8090/hls/ptvsportshd.m3u8"
+LIVE_2_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398"
 LIVE_3_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
 
 # ⚽ FIFA World Cup 2026 চ্যানেলগুলোর লিংক (এখানে আপনার লিংক বসিয়ে দিন)
