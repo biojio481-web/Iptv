@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://zflixbd.com:8083/SomoyTv/index.m3u8?token=6331cc62c43f145967878769e00dba65567cc2a6-a8bcc01463a3572dd8b12dbd5d59e40a-1781549906-1781539106
+http://redforce.live/proxy/BTV.HD/video.m3u8?session=4159714cec8b4a9d8e02c6719c4894c9.1781555813.4ea157e237b7592b1751d630
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
