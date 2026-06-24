@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://172.19.178.149:18190/fifa_tsnsports4aq/index.fmp4.m3u8?token=6b244a71b293adeeaa9c94317fa7d55b38dc1846-f4c5f72883672f5b3f18d7e9536d6559-1782339898-1782328798
+http://172.19.178.149:18190/fifa_tsnsports4aq/index.fmp4.m3u8?token=5db47ac92ecc4d958e22cb5ef476609d78bd84fd-26e5724cbe7187d491f3021f4a14bd90-1782348994-1782337894
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
