@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://103.89.248.58:8082/1LIVE/index.fmp4.m3u8?token=80a99ce7857fa46670c8d01ebe34b6563d6d458c-eee59655459d7b15e093437ee545b9fd-1782349576-1782338776
+https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
@@ -75,7 +75,7 @@ https://otte-qw.live.pv-cdn.net/lhr-nitro/live/clients/dash/enc/72sjo8hygl/out/v
 https://live-aburayhan1103.telewebion.ir/ek/faratar/live/playlist.m3u8?isp=NA&city=NA
 #EXTINF:-1,ICC WOMEN WORLD CUP
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026", Unite8 Sports 1 FHD
-https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/ptv/tracks-v1a1/mono.m3u8
+https://yowaimo.in/Sflex-ArtlPVT0719/ZEE_CAFE_HD.m3u8
 https://xfireflix.my.id/mac.php?id=373312.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206315&format=.m3u8
 https://ads-27727.icu/un.php?id=2|User-Agent=andriod
@@ -665,6 +665,7 @@ http://103.175.73.12:8080/live/29/29_0.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="HUNGAMA HINDI" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hungama.png" group-title="KIDS CHANNELS", HUNGAMA HINDI
 #EXTINF:-1 tvg-id="superhungama" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Super_Hungama.png" group-title="Kids",Super Hungama
 #EXTINF:-1 tvg-id="disney-channel" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png" group-title="Kids",Disney Channel
+https://yowaimo.in/Sflex-ArtlPVT0719/DISNEY_CHANNEL.m3u8
 http://119.156.228.231:9983/stream/channelid/1324398660?ticket=7C95F3E4488C36F06FC0D96EDED00B3813CA10A9&profile=pass
 #EXTINF:-1 tvg-id="disney-channel" tvg-logo="https://live.dinesh29.com.np/logos/disney-channel.png" group-title="Kids",Disney Channel HD
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/19741.ts
@@ -708,27 +709,32 @@ http://live.balajibroadband.com:3500/live/1341.m3u8
 ---------------------------------------------------------------------
 -------------------------------SONY----------------------------------
 #EXTINF:-1 tvg-id="107" tvg-chno="205" tvg-name="sony-hd" tvg-language="HIN" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-entertainment-television-hd-in.png" group-title="Entertainment", Sony HD
+https://yowaimo.in/Sflex-ArtlPVT0719/SET_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009246|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009246
 https://b4uplay.com/sliv/stream.m3u8?id=1000009246|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="117" tvg-chno="206" tvg-name="sab-hd" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/ea93cb6a-cb48-4841-99d2-8d2cfd835b63.jpg" group-title="All Channels", SAB HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009248|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009248
-https://b4uplay.com/sliv/stream.m3u8?id=1000009248|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009248|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/471.m3u8
 #EXTINF:-1 tvg-id="sony-pal" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment",Sony Pal
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009273
-https://b4uplay.com/sliv/stream.m3u8?id=1000009273|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009273|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/474.m3u8
 #EXTINF:-1 tvg-id="sony-aath" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Entertainment",Sony Aath
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009255|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009255
-https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/697.m3u8
 #EXTINF:-1,SONY KAL
 https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/spt_sonykal_1/lg_us/latest/main/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
-https://b4uplay.com/sliv/stream.m3u8?id=1000001971|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000001971|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/872.m3u8
 #EXTINF:-1,SONY MAX SD
 http://103.158.133.62:8080/sonymax/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2102fac092ee28f75652131b19d74260.png" group-title="MOVIES",MAX 1
@@ -737,23 +743,28 @@ http://103.180.212.191:3500/live/3418.m3u8
 #EXTINF:-1 tvg-id="sony-wah" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyWAH.png" group-title="Movies",Sony WAH
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253|referer=https://dongobd247.worker.dev/stream.m3u8?id=1000009253
-https://b4uplay.com/sliv/stream.m3u8?id=1000009253|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009253|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/1393.m3u8
 #EXTINF:-1 tvg-id="sony-pix-hd" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies",Sony PIX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009258|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009258
-https://b4uplay.com/sliv/stream.m3u8?id=1000009258|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009258|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/762.m3u8
 #EXTINF:-1 tvg-id="1252" tvg-chno="405" tvg-name="bbc-earth" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/90e71128-272c-4a02-b786-6322848bde60.jpg" group-title="All Channels", BBC Earth
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009252|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009252
-https://b4uplay.com/sliv/stream.m3u8?id=1000009252|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009252|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/821.m3u8
 #EXTINF:-1 tvg-id="173" tvg-chno="511" tvg-name="sony-max-2" tvg-language="HIN" tvg-logo="https://static.epg.best/in/SonyMax2.in.png" group-title="Movies", Sony Max 2
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000044878|referer=https://playyonogames.in/sliv/stream.m3u8?id=100044878
-https://b4uplay.com/sliv/stream.m3u8?id=1000044878|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000044878|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/483.m3u8
 #EXTINF:-1 tvg-id="167" tvg-chno="503" tvg-name="sony-max-hd" tvg-language="HIN" tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-MAX-HD-New-Logo.png" group-title="All Channels", Sony MAX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009247
-https://b4uplay.com/sliv/stream.m3u8?id=1000009247|referer=https://b4uplay.com/
+#https://b4uplay.com/sliv/stream.m3u8?id=1000009247|referer=https://b4uplay.com/
+http://live.balajibroadband.com:3500/live/476.m3u8
 #EXTINF:-1, tvg-logo="https://akamaividz2.zee5.com/image/upload/w_720,h_405,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/list/1920x1080list60cd7fc8b57c4e1baf1cd4f603413540.jpg" group-title="sports", UNITE8 SPORTS 1 HD
 http://103.159.180.34:5001/live/1319.m3u8
 #EXTINF:-1, tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgSwPU75bk_YAiFI9IjYyJJ0Yts2Ieyh6igxJEPLhNeNyVIHba", UNITE8 SPORTS 2 HD
@@ -767,19 +778,24 @@ http://103.157.248.140:8000/play/a01m/index.m3u8
 http://103.180.212.191:3500/live/1984.m3u8
 #http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/213049.ts
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1.png" group-title="AynaOTT - Sports",Star Sports 1 HD
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_1_HD.m3u8
 http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
 http://stalker.hakunamata.workers.dev/play/1088/index.m3u8
 https://tvsen7.aynaott.com/sspts1/index.m3u8
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD2.png" group-title="AynaOTT - Sports",Star Sports 2 hd
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_2_HD.m3u8
 http://stalker.hakunamata.workers.dev/play/1446/index.m3u8
 https://tvsen7.aynaott.com/ssport2hd/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_3.png" group-title="Xfireflix",Star Sports 3
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_3.m3u8
 http://103.157.248.140:8000/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="87" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_1.png",Star Sports Select 1 HD 
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_SELECT_1_HD.m3u8
 http://103.157.248.140:8000/play/a00o/index.m3u8
 http://ytoxw6un.ottclub.xyz/iptv/4Y6LU8DSU8G6ZLB5PXKD5HRC/2508/index.m3u8
 #EXTINF:-1 tvg-id="87" group-title="Sports" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735043602147.png",Star Sports Select 1 SD 
 #EXTINF:-1 tvg-id="89" group-title="Sports" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_Select_HD_2.png",Star Sports Select 2 HD 
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_SELECT_2_HD.m3u8
 https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/148801.ts
 #EXTINF:-1 tvg-id="89" group-title="Sports" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735045174734.png",Star Sports Select 2 SD
 #EXTINF:-1,  tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_Khel.png", STAR SPORTS KHEL
@@ -809,18 +825,22 @@ http://stalker.hakunamata.workers.dev/play/1099/index.m3u8
 #EXTINF:-1 tvg-id="6" tvg-chno="105" tvg-name="action-sports-hd-1" tvg-language="NEP" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/eabe701c-d2e5-4c98-bd0c-6f06e8537103.jpg" group-title="DH Exclusive", Action Sports HD 1
 #EXTINF:-1 tvg-id="17" tvg-chno="106" tvg-name="action-sports-hd-2" tvg-language="NEP" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/3db6653d-d30e-465c-8ba5-ac5a5cb84b51.jpg" group-title="All Channels", Action Sports HD 2
 #EXTINF:-1 tvg-id="231" tvg-chno="605" tvg-name="sony-sports-1-hd" tvg-language="ENG" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-1-hd-in.png" group-title="Sports", Sony Sports 1 HD
+https://yowaimo.in/Sflex-ArtlPVT0719/SONY_SPORTS_TEN_1_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009276|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009276
 https://b4uplay.com/sliv/stream.m3u8?id=1000009276|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="1338" tvg-chno="606" tvg-name="sony-sports-2-hd" tvg-language="ENG" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-2-hd-in.png" group-title="Sports", Sony Sports 2 HD
+https://yowaimo.in/Sflex-ArtlPVT0719/SONY_SPORTS_TEN_2_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009277|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009277
 https://b4uplay.com/sliv/stream.m3u8?id=1000009277|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="1339" tvg-chno="607" tvg-name="sony-sports-3-hd" tvg-language="HIN" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-3-hd-in.png" group-title="Sports", Sony Sports 3 HD
+https://yowaimo.in/Sflex-ArtlPVT0719/SONY_SPORTS_TEN_3_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009278|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009278
 https://b4uplay.com/sliv/stream.m3u8?id=1000009278|referer=https://b4uplay.com/
 #EXTINF:-1 tvg-id="237" tvg-chno="608" tvg-name="sony-sports-5-hd" tvg-language="HIN" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/sony-ten-5-hd-in.png" group-title="All Channels", Sony Sports 5 HD
+https://yowaimo.in/Sflex-ArtlPVT0719/SONY_SPORTS_TEN_5_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009275|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009275
 https://b4uplay.com/sliv/stream.m3u8?id=1000009275|referer=https://b4uplay.com/
@@ -881,6 +901,7 @@ https://airtel.rkdyiptv.workers.dev/live/390.m3u8
 http://103.157.248.140:8000/play/a00d/index.m3u8
 #EXTINF:-1, STAR GOLD SD
 #EXTINF:-1, tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Utsav_Movies.png" STAR UTSAV MOVIES
+https://yowaimo.in/Sflex-ArtlPVT0719/STAR_UTSAV_MOVIES.m3u8
 #EXTINF:-1 tvg-logo="https://smartads.in/resources/assets/uploads/product_group/television/star--bharat-hd.jpg" group-title="HINDI",Star Bharat HD
 http://66.102.126.10:8000/play/a022/index.m3u8
 http://119.156.228.231:9983/stream/channelid/2119636855?ticket=D8ABDAB7FB615619FCCB42A4D4EDDFE9740C3083&profile=pass
