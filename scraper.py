@@ -4,7 +4,7 @@ import requests
 #  ⚙️ শুধুমাত্র এই নিচের লিংকগুলো আপনার প্রয়োজন মতো পরিবর্তন করবেন ⚙️
 # =================================================================
 
-LIVE_1_LINK = "https://tvsen7.aynaott.com/tsports-hd/index.m3u8?e=1779178079&u=617d0e90-2bc6-4dc5-8897-f5638f8fd01a&token=d3b6774fbd416803ca328adea837af88"
+LIVE_1_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=661053"
 LIVE_2_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398"
 LIVE_3_LINK = "http://198.195.239.50:8095/Tsports/index.m3u8"
 
