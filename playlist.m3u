@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://cdn.moviemazic.xyz:8083/Feedget/ptv_pk/index.m3u8?token=8986306c61111e40550f683d404c1ba72fdb32fe-ea05669f228b958c0e701a2023b4f98f-1783194624-1783183824
+https://ranapkbd.site/RANAPK33g/TVD/play.php?id=661053
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
@@ -323,8 +323,9 @@ http://m.live.net.sa:1935/live/quran/playlist.m3u8
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 tvg-chno="111" tvg-id="a0e6e9b6-b20b-4f54-82d6-881bef762cfd" tvg-name="BTV NATIONAL HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/btv-hd-bd.png" group-title="Channels", বিটিভি
-http://103.114.11.37:8081/BTV/video.m3u8?token=LcfvVCNp3LLVz0
-#https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
+https://tv.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//BTV/index.m3u8
+#http://103.114.11.37:8081/BTV/video.m3u8?token=LcfvVCNp3LLVz0
+https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
 #https://tv.beyondtaxconsultants.com/api/btv/btv.m3u8
 #https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
 http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1
@@ -351,7 +352,7 @@ http://fastshare1.com:8080//live/25711345/late8airline/426.ts
 #http://103.158.133.62:8080/banglavision/index.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 tvg-chno="118" tvg-id="70e97db9-5a9e-4642-874e-af3d30ba9925" tvg-name="RTV" tvg-logo="https://s3.aynaott.com/storage/fd634ca672c8294f109225ca42d20991" group-title="Recorded TV",RTV
-#http://techtalks.uk:80/live/FbCjAetheb/jovial4construction/401.ts?RKDYIPTV&token=rkdyiptv
+https://tv.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//RTV/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/tracks-v1a1/mono.m3u8
 http://116.204.149.16/rtvhd/index.m3u8
 #EXTINF:-1 tvg-chno="115" tvg-id="9046949b-9847-4b5d-96c1-e82b0734444b" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-bangla-hd-bd.png" group-title="Recorded TV",ATN Bangla
@@ -519,6 +520,7 @@ https://stream.ottplus.live/live/global_tv_abr/index.m3u8
 #http://116.204.149.16/globaltv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/Global-tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://nagorik.com/wp-content/uploads/2024/04/Logo.png" group-title="BANGLADESH", নাগরিক টিভি
+https://tv.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//Nagorik-TV/index.m3u8
 http://fastshare1.com:8080//live/25711345/late8airline/3802.ts
 #EXTINF:-1 tvg-id="ext" tvg-name="Channel 1 TV" tvg-logo="https://i.ibb.co.com/N6HbH5rH/Channel-One-TV.png" group-title="",Channel 1 NEWS
 https://stream.ottplus.live/live/channel_1_hd_abr/index.m3u8
