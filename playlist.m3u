@@ -2,7 +2,7 @@
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 
 #EXTINF:-1 tvg-id="live1" tvg-name="Live 1" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 1
-http://180.94.28.28:8097/Fifa-2026/index.fmp4.m3u8?token=f55e6f0e8a8dcdabfbe6bf74124a81b35c85c064-94a6d28f35eb494e0dd7f25e2be693fc-1783365018-1783361418
+http://180.94.28.28:8097/Fox/index.fmp4.m3u8?token=b60fb7063eaecf2837cfee56ce083eaed967d6f8-3874181680622801be260bfe39b36f19-1783368449-1783364849
 
 #EXTINF:-1 tvg-id="live2" tvg-name="Live 2" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="My Live",Live 2
 https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398
