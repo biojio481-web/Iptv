@@ -19,6 +19,10 @@ http://97.74.103.44:8089/amrbd/T-SPORTS/playlist.m3u8
 #EXTINF:-1 tvg-id="fifa3" tvg-name="FIFA World Cup 3" tvg-logo="https://i.postimg.cc/2jczw2z4/file-000000009b507209933f01562a8e146a.png" group-title="FIFA World Cup 2026",FIFA World Cup 3
 http://10.10.10.2/live/fnf006/index.m3u8
 
+#EXTINF:-1 tvg-id="1090536447" tvg-name="India Women's Tour of England 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000020438/1783630240589637_Eng_W_vs_Ind_W_2026_one_off_test_day3_landscape_thumb.jpg" tvg-language="English" group-title="Cricket",ENG | Day 3 - One-Off Test - 12 Jul 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000299/cricodi1207/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=99448b3f12d8d42600e71c3bff9d1f34-1783867800147
+#EXTINF:-1 tvg-id="1090536448" tvg-name="DP World Tour" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000019906/1782290162466701_DP_World_Tour_GENESIS_SCOTTISH_Open_day4_24jun_landscape_thumb.jpg" tvg-language="English" group-title="Golf",ENG | Genesis Scottish Open - Day 4 - 12 Jul 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000295/Golf_DpW1207/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:152.0) Gecko/20100101 Firefox/152.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=99448b3f12d8d42600e71c3bff9d1f34-1783867800147
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 fast 
 https://live.inplyr.com/room/168740.m3u8
 #EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 Hindi 
@@ -33,8 +37,7 @@ https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1c6bfd8d1cdd4df69ea5fc4dd2f025bb:b6fd90027dac7a94a9461f8b2638cbb4
-https://dmbgaz4xf6jyh.cloudfront.net/live-stream-dai/69690cfcce0dc031830e7c1a/123a264b71764485bd49eca2d552cf33/d97743de3620a865848fff7a9de14dda1bf2409d/manifest.mpd?aid=688aae6d61c87d6274c05065&dnt=true&access_token=63ey9SOpQeHBRfWJYQLXQjelQc0QM1HXmlHp4iZrH8UCOCM8QtGIGg1sEEPJH0R0yXktUEXdLeB&uid=Knx65GY6UbaWSADZybEvf6m5MvqNIuNs&sid=bwRy9BgSc4RFeVhYh52hVIY8uPsJ4v4d&pid=A0xT1VnepBvKKqyeyRNtNkZBmHBrNNZM&ref=ditu.caracoltv.com&ext_pb=0&es=dmbgaz4xf6jyh.cloudfront.net&proto=https&pz=us&xr=us-east-2&manifestfilter=video_height:480-1080
+#KODIPROP:inputstream.adaptive.license_key=
 #EXTINF:-1 tvg-id="usavsbelgium0100rtesportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup",BRAZIL VS NORWAY (RTE SPORTS FHD)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d816287e21496989eae1312925a423c5:00da00f13180e7e6cd5ce87d1c974e8d
@@ -60,7 +63,6 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b788
 #KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 #EXTINF:-1 tvg-id="australiavsegypt1900tsn4sportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup", FAST SERVER 
-https://a3285273028-s80718.cdn.ngenix.net/hls/CH_FAST_SPORTSHD/video_1920x1080_avc1/playlist.m3u8?profile=web_auto
 #EXTINF:-1 tvg-id="fissbal1" tvg-logo="https://img.bolatv.my.id/group/fussball.jpg" group-logo="https://image-fifa.bolatv.my.id/magenta.webp" group-title="Magenta FIFA WC 2026",Fussball TV 1 HEVC H.265 dvhe 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0
 #KODIPROP:inputstreamclass=inputstream.adaptive
@@ -87,11 +89,10 @@ http://114.130.57.233:8080/LIVE-Sports/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan
 http://114.130.57.233:8080/T-Sports-KOS/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
 http://103.158.133.62:8080/live/index.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/w91OYEI.png",Bioscopeᵇᵈᶦˣ
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/8/82/Bioscope%2B.png" ,Bioscope+
 https://fifa-stream-01.bioscopelive.com/out/v1/60e7608404004b1186261497b404630b/index.m3u8 |x-authorization=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyMzI0NTg2MTU0MzM5NjE0NzIiLCJhdWQiOlsiMSJdLCJleHAiOjE4MTM4NTQ4NjgsIm5iZiI6MTc4MjMxODg2OCwiaWF0IjoxNzgyMzE4ODY4LCJqdGkiOiIwMmY3Y2Y2M2I5OTFiMjY0Mzk0YmU2MjE0ZDJhNzI4MWYzZTExNWFkMGE4OGJhZTBmYTcyZjkwMTJmOTJmNGU1ZTA1N2Y3NGMxOGViODQzYyIsInNjb3BlcyI6WyJtYW5hZ2VfcHJvZmlsZXMiXSwicGlkIjoiMjMyNDU4Njc1MjYyMDA1MjQ4In0.kr0qIPfh66MktNCEAW_AcqFPzzX58VdP2JkVNzOjiOaig25qi9H6rttTcnKzJZoHD0Urj6YEom2S3Z_VujPXSugq9UXPFrzFbBA9zD-nMDgsNQrBr15K2uTAweqTClFduLPLyi-JvZWXpq8UbHybjhoen-Q3nRyHzOsQakQp8nRhR2yUYCiDBjwDPzF56WCVUWAYr1M19xRyiGJTqLmDI1KrT8CXwVdZFBZWqAptUnFMI6TEcoFSsRSMhN9_8KZCXbezExsToFIPbnIxp7ZPDD-qGT-KZ4GfPWrBUS93fiR4p8UzHn9Q3Bwba_mTxq3Fy8OhHilKCefoVTmyngBHwodjTOw8D9JkYc5-16QmYS6tBGbdgPRHKklTgkNYDlrQHCSQuNLTI_pRskw5oygUXkudpiPcUM9IFz8ud-rbbxVii-0ISXtwUIaEv_HBf_aA9cCGttN7ZdEquMTxbIhR27EMTwj5RdgE-i64iH__Xv3Ua4A5tzJjA5XR9Cqrsa3k84uCJlk74Z-8KBpvTcbMjAOhtqZOfimw736vSBgV9Xdk4dsoxpIfg90g38tfvCgYSwDgq5ulxTl3ygq7kS6BY1kT2m_R1T2Xdorm-75kbJ9iTn9IGa9PruwtmrtLlbuT2uivaw3E05U_UCrMwqeFZslbGtjAij95j083wmxXqUQ
 #EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/fifa-world-cup-2026-zaship1gb25v.png" group-title="OTAPP",FIFA World Cup 2026
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://cdn.dlhub4u.top/vids/bioscope.php?id=60e7608404004b1186261497b404630b
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026", FOX 4K
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -662,11 +663,9 @@ http://103.159.180.34:5001/live/698.m3u8
 #EXTINF:-1 tvg-logo="http://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="AynaOTT - IN Bangla",Star Jalsha BD IP
 http://103.151.60.162:2121/play/a00w/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
-#http://103.158.133.62:8080/star_jalsha_hd/tracks-v1a1/mono.m3u8
-https://xfireflix.my.id/mac.php?id=908682.m3u8
-https://tvsen3.aynascope.net/n64PH4YL/index.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155770.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png" group-title="AynaOTT - IN Bangla",Zee Bangla HD
-https://xfireflix.my.id/mac.php?id=908680.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1531202.m3u8
 http://103.158.133.62:8080/zee_bangla_hd/tracks-v1a1/mono.m3u8
 http://starshare.cx:80/PeH5kPWFfG/infamous7funny/435
 #https://tvsen6.aynaott.com/ZeeBangla/index.m3u8
@@ -680,14 +679,9 @@ https://madanitv.assadikb.workers.dev/live.php?id=1369&e=.m3u8
 #http://live.balajibroadband.com:3500/live/1369.m3u8
 http://tv.indigotv.me:80/live.ts?channelId=92&uid=7245&deviceMac=00:1A:79:4A:02:91
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Colors_Bangla.png" group-title="AynaOTT - IN Bangla",Colors Bangla HD
-https://xfireflix.my.id/mac.php?id=908654.m3u8
-#https://rgkkw.live:443/live/1Aoen7elp5/IgMJ60tmAa/98882.ts
-#https://tvsen6.aynaott.com/ColorsBangla/index.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/282063.m3u8
 http://live.balajibroadband.com:3500/live/756.m3u8
-https://yupptv.rkdyiptv.workers.dev/live/1509.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png"group-title="Kolkata Bangla" group-title="",Sun Bangla HD
-https://xfireflix.my.id/mac.php?id=908685.m3u8
-http://103.59.176.72:8083/sun_bangla/video.m3u8?token=123
 http://103.159.180.34:5001/live/1669.m3u8
 #EXTINF:-1 group-title="INDIAN BANGLA" tvg-logo="https://i.ibb.co/bRLY1vBC/ENTER10-BANGLA.png",ENTER10 BANGLA
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
@@ -750,9 +744,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies SD(BD IP)
 http://103.151.60.162:2121/play/a00x/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
-https://xfireflix.my.id/mac.php?id=908656.m3u8
-http://103.158.133.62:8080/jalsha_movies_hd/tracks-v1a1/mono.m3u8
-https://yupptv.rkdyiptv.workers.dev/live/1523.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155771.m3u8
 #EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBanglaSonar.png" group-title="Bengali",Zee Bangla Sonar
 https://stream.ottplus.live/live/zee_bangla_cinema_abr/live/zee_bangla_cinema_720/chunks.m3u8
 http://103.159.180.34:5001/live/3476.m3u8
@@ -957,11 +949,11 @@ http://live.balajibroadband.com:3500/live/471.m3u8
 #EXTINF:-1 tvg-id="sony-pal" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20PAL.png" group-title="Entertainment",Sony Pal
 #https://yowaimo.in/Sflex-ArtlPVT0719/SONY_PAL.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009273
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009273|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009273
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009273|referer=https://b4uplay.com/
 http://live.balajibroadband.com:3500/live/474.m3u8
 #EXTINF:-1 tvg-id="sony-aath" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Entertainment",Sony Aath
-https://yowaimo.in/Sflex-ArtlPVT0719/SONY_8.m3u8
+#https://yowaimo.in/Sflex-ArtlPVT0719/SONY_8.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009255|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009255
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/
@@ -971,9 +963,9 @@ https://wurlsonypicturestv.global.transmit.live/hls/68deeb1c0238cda82df543dd/v1/
 #EXTINF:-1 tvg-id="sony-yay" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20YAY.png" group-title="Kids",Sony Yay
 #https://yowaimo.in/Sflex-ArtlPVT0719/SONY_yay.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000001971|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000001971
 #https://b4uplay.com/sliv/stream.m3u8?id=1000001971|referer=https://b4uplay.com/
-#http://live.balajibroadband.com:3500/live/872.m3u8
+http://live.balajibroadband.com:3500/live/872.m3u8
 #EXTINF:-1,SONY MAX SD
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2102fac092ee28f75652131b19d74260.png" group-title="MOVIES",MAX 1
 http://live.balajibroadband.com:3500/live/3418.m3u8
@@ -981,11 +973,11 @@ http://103.180.212.191:3500/live/3418.m3u8
 #EXTINF:-1 tvg-id="sony-wah" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyWAH.png" group-title="Movies",Sony WAH
 #https://yowaimo.in/Sflex-ArtlPVT0719/SONY_wah.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253|referer=https://dongobd247.worker.dev/stream.m3u8?id=1000009253
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009253|referer=https://dongobd247.worker.dev/stream.m3u8?id=1000009253
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009253|referer=https://b4uplay.com/
 http://live.balajibroadband.com:3500/live/1393.m3u8
 #EXTINF:-1 tvg-id="sony-pix-hd" tvg-logo="https://sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" group-title="Movies",Sony PIX HD
-https://yowaimo.in/Sflex-ArtlPVT0719/SONY_PIX_HD.m3u8
+#https://yowaimo.in/Sflex-ArtlPVT0719/SONY_PIX_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
 #https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009258|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009258
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009258|referer=https://b4uplay.com/
@@ -993,20 +985,20 @@ http://live.balajibroadband.com:3500/live/762.m3u8
 #EXTINF:-1 tvg-id="1252" tvg-chno="405" tvg-name="bbc-earth" tvg-language="HIN" tvg-logo="https://assets.dishhomego.com.np/f_webp,q_85,w_250/dhome/posters/90e71128-272c-4a02-b786-6322848bde60.jpg" group-title="All Channels", BBC Earth
 #https://yowaimo.in/Sflex-ArtlPVT0719/SONY_BBC_EARTH_HD.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009252|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009252
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009252|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009252
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009252|referer=https://b4uplay.com/
 http://live.balajibroadband.com:3500/live/821.m3u8
 #EXTINF:-1 tvg-id="173" tvg-chno="511" tvg-name="sony-max-2" tvg-language="HIN" tvg-logo="https://static.epg.best/in/SonyMax2.in.png" group-title="Movies", Sony Max 2
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000044878|referer=https://playyonogames.in/sliv/stream.m3u8?id=100044878
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000044878|referer=https://playyonogames.in/sliv/stream.m3u8?id=100044878
 #https://b4uplay.com/sliv/stream.m3u8?id=1000044878|referer=https://b4uplay.com/
-#http://live.balajibroadband.com:3500/live/483.m3u8
+http://live.balajibroadband.com:3500/live/483.m3u8
 #EXTINF:-1 tvg-id="167" tvg-chno="503" tvg-name="sony-max-hd" tvg-language="HIN" tvg-logo="https://www.indiantvinfo.com/media/2022/10/Sony-MAX-HD-New-Logo.png" group-title="All Channels", Sony MAX HD
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 16) ExoPlayerLib/2.14.1
-https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009247
+#https://sony.dongobd247.workers.dev/stream.m3u8?id=1000009247|referer=https://playyonogames.in/sliv/stream.m3u8?id=1000009247
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009247|referer=https://b4uplay.com/
 #https://yowaimo.in/Sflex-ArtlPVT0719/SONY_MAX_HD.m3u8
-#http://live.balajibroadband.com:3500/live/476.m3u8
+http://live.balajibroadband.com:3500/live/476.m3u8
 #EXTINF:-1, tvg-logo="https://akamaividz2.zee5.com/image/upload/w_720,h_405,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/list/1920x1080list60cd7fc8b57c4e1baf1cd4f603413540.jpg" group-title="sports", UNITE8 SPORTS 1 HD
 http://103.159.180.34:5001/live/1319.m3u8
 #EXTINF:-1, tvg-logo="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQgSwPU75bk_YAiFI9IjYyJJ0Yts2Ieyh6igxJEPLhNeNyVIHba", UNITE8 SPORTS 2 HD
@@ -1016,9 +1008,7 @@ http://103.161.153.165:8000/play/a01z/index.m3u8
 http://41.205.93.154/STARSPORTS1/index.m3u8
 http://103.157.248.140:8000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="1033" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sports18_1_HD.png" group-title="Sports",Star Sports 2 Hindi HD
-http://103.157.248.140:8000/play/a01m/index.m3u8
 http://103.180.212.191:3500/live/1984.m3u8
-#http://Rochdi@starshare.net:80/live/Suryaaa/SURYAAAA/213049.ts
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Sports_HD1.png" group-title="AynaOTT - Sports",Star Sports 1 HD
 https://yowaimo.in/Sflex-ArtlPVT0719/STAR_SPORTS_1_HD.m3u8
 http://114.130.57.233:8080/StarSports1/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
