@@ -78,6 +78,7 @@ https://svc.flyins.my.id/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
 #EXTINF:-1  tvg-logo="https://i.imgur.com/53aSeDH.png", TOFFEE-🇧🇩-5ᶠᴴᴰ
 #EXTINF:-1  tvg-logo="https://i.imgur.com/53aSeDH.png", TOFFEE-🇧🇩-6ᶠᴴᴰ
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png" group-title="AynaOTT - Sports",T Sports
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/tsports.m3u8?token=03095b642b509a93a474b67e2589c70f&time=1784139157
 https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/index.m3u8
 http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33
 http://103.114.11.37:8081/T-Sports-HD/video.m3u8?token=LcfvVCNp3LLVz0
@@ -100,7 +101,7 @@ https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/lsilniwjf7/out/v1/fc40f22f10374517a2784e1d97cb23f4/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xperu6ixu9/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026",TSN SPORTS - AQ
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -343,6 +344,7 @@ http://m.live.net.sa:1935/live/quran/playlist.m3u8
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 tvg-chno="111" tvg-id="a0e6e9b6-b20b-4f54-82d6-881bef762cfd" tvg-name="BTV NATIONAL HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/btv-hd-bd.png" group-title="Channels", বিটিভি
+#https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-9afa.up.railway.app%2Fbtv%2Ftracks-v1a1%2Fmono.m3u8
 http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//BTV/index.m3u8
 #http://103.114.11.37:8081/BTV/video.m3u8?token=LcfvVCNp3LLVz0
@@ -383,6 +385,7 @@ https://mtv.sunplex.live/MAASRANGA/index.m3u8
 #http://103.158.133.62:8080/atnbangla/index.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1722/output/index.m3u8
 #EXTINF:-1 tvg-chno="116" tvg-id="20714fd4-dc3c-46d6-924f-3038d61f027c" tvg-name="Channel I" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/channel-i-hd-bd.png" group-title="Recorded TV",Channel I
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/channeli.m3u8?token=5d03af6c83ca76c5ba6e278b5e8a0156&time=1784126816
 https://ftp.assadikb.workers.dev/stream.m3u8?id=/channel_i
 https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
 #EXTINF:-1 tvg-id="1a2c8ec3-61d5-4355-80e2-fc3c9b178a0d" tvg-name="NTV" tvg-logo="https://s3.aynaott.com/storage/73c39182782a201338070c2f4429e449" group-title="Recorded TV",NTV
@@ -454,7 +457,7 @@ http://103.158.133.62:8080/independent/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/independent-8-org.stream/tracks-v1a1/mono.m3u8
 http://103.175.242.10:8080/independent/index.m3u8
 #EXTINF:-1 tvg-id="d07563b0-7580-4cbd-a7c9-e67535c0164a" tvg-name="SA TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/SATV.png" group-title="Channels",SA TV
-http://fastshare1.com:8080//live/25711345/late8airline/3814.ts
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/sa-tv.m3u8?token=7961c09378f5b1a81e2d3514bcbc35c5&time=1784126447
 http://tv.indigotv.me:80/live.ts?channelId=114&uid=7245&deviceMac=00:1A:79:4A:02:91
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/satvoff5666.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="2b1a4340-2557-4d57-b77c-657bb30ce0c8" tvg-name="News 24 BD" tvg-logo="https://www.bashundharagroup.com/assets/upload/wallpaper/wallpaper_1525683191.png" group-title="Channels",News 24 BD
@@ -654,11 +657,13 @@ http://live-stream.amarbanglatv.in:8080/hls/sanandatv/index.m3u8
 #EXTINF:-1, tvg-logo=" ",AKASH AATH IN
 http://103.159.180.34:5001/live/698.m3u8
 #EXTINF:-1 tvg-logo="http://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="AynaOTT - IN Bangla",Star Jalsha BD IP
-http://103.151.60.162:2121/play/a00w/index.m3u8?hls
+#http://103.151.60.162:2121/play/a00w/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
+#https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-9afa.up.railway.app%2Fstar-jalsha%2Ftracks-v1a1%2Fmono.m3u8
 https://live.shamim-iptv.workers.dev/STARJOLSHAHD.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155770.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png" group-title="AynaOTT - IN Bangla",Zee Bangla HD
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-cf5b.up.railway.app%2Fzee-bangla%2Ftracks-v1a1%2Fmono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1531202.m3u8
 http://103.158.133.62:8080/zee_bangla_hd/tracks-v1a1/mono.m3u8
 http://starshare.cx:80/PeH5kPWFfG/infamous7funny/435
@@ -736,7 +741,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=ed197e7253c04946903f03bad9afac91:99ebb8683ea74b70a9fda1cbdc2cc1b4
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies SD(BD IP)
-http://103.151.60.162:2121/play/a00x/index.m3u8?hls
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-cf5b.up.railway.app%2Fjalsha-movies%2Ftracks-v1a1%2Fmono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155771.m3u8
 #EXTINF:-1 tvg-id="zee-anoml-cinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeBanglaSonar.png" group-title="Bengali",Zee Bangla Sonar
@@ -755,7 +760,7 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1557
 http://103.182.83.246/hls/snbcinema.m3u8
 #EXTINF:1 tvg-logo="https://github.com/sonamul4545/Channel_logo-s/blob/main/Semaroo%20Bollywood.jpg?raw=true" tvg-name="Shemaroo Bollywood" group-title="India🇮🇳",Shemaroo Bollywood
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold.png" group-title="HINDI",Star Gold BD IP
-http://103.151.60.162:2121/play/a01n/index.m3u8?hls
+#http://103.151.60.162:2121/play/a01n/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_HD.png" group-title="HINDI",Star Gold HD
 http://66.102.126.10:8000/play/a00f/index.m3u8
 http://103.99.249.139/stargold/index.m3u8
@@ -1027,6 +1032,7 @@ http://103.175.73.12:8080/live/151/151_0.m3u8
 #EXTINF:-1 tvg-id="" group-title="Cricket" tvg-logo="http://image.5gtv.online/logo/sports/willowxtra.png", Willow 2
 https://xfireflix.my.id/mac.php?id=809387.m3u8
 #EXTINF:-1 tvg-logo="https://ethnicchannels.com/images/channeldetail/ten-cricket/ten-ckt-logo.png" group-title="Sports" tvg-server="Server 1",055. Ten Cricket
+https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/Ten_Cricket_HD.m3u8?token=aa47fb902757165d9b49ee7700f998e2&time=1784126556
 #EXTINF:-1 tvg-logo="https://iconape.com/wp-content/files/da/323865/png/323865.png" group-title="Sports" tvg-server="Server 1",056. Ten Sports
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1106878.m3u8
 #EXTINF:-1 tvg-id="3175" tvg-chno="610" tvg-name="a-sports" tvg-language="ENG" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/A%20Sports.png" group-title="All Channels", A Sports
