@@ -25,57 +25,17 @@ http://10.10.10.2/live/fnf006/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 https://otte.live.fly.ww.aiv-cdn.net/fra-nitro/live/clients/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
- #EXTINF:-1 tvg-id="norwayvsengland2200itvsportsfhd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c2/Serie_A.png" group-title="Fifa world cup",fifa semifinal 2026(ITV SPORTS FHD)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=30089c52924f037b225b82c616fee2a5:f55dc8b66ed4fc6753d6035ae7e17144
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/0eiyyz8qzm/out/v1/dd17af8835fe4bd087d1a4e359b635d7/cenc.mpd
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 fast 
+#EXTINF:-1 tvg-logo="https://lh5.googleusercontent.com/proxy/llgd0Pi2DmMqsfDpq3Ut_LxYQKjPIe4CccguV0GNzC7DjM5oje2Na-r1g6XTy8xpaIoO3xHL8i3_oeZnGejcpOiIGmaAXd_unuiEZHNZ"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 fast 
 https://live.inplyr.com/room/168740.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 fast 
+#EXTINF:-1 tvg-logo="https://lh5.googleusercontent.com/proxy/llgd0Pi2DmMqsfDpq3Ut_LxYQKjPIe4CccguV0GNzC7DjM5oje2Na-r1g6XTy8xpaIoO3xHL8i3_oeZnGejcpOiIGmaAXd_unuiEZHNZ"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 fast 
 https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index_6.m3u8
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 Hindi 
-https://bdixserver.tvhunter.top/ant1002/tracks-v1a1/index.m3u8
-http://103.165.93.31:8095/unt-s/tracks-v1a1/mono.m3u8
-http://103.155.18.186:8000/play/a125/index.m3u8
-#EXTINF:-1 tvg-id="TVP Sport.cz" tvg-name="" tvg-logo="https://iptvboss.xyz/logos/Poland/TVPSport.pl.png" group-title="WorldCup 2026",TVP Sport
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
-https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
 #EXTINF:-1 tvg-id="0-1-6z5974915" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1013,h_570,c_scale,f_webp,q_auto:eco/resources/0-1-6z5974915/list/1920x1080list4db7b3a731ea4b2c98b5ef2d007d95eed6fc8f01c3be480c8add30c394d64f0b" group-title="FIFA 2026 - All in one reborn 1", GOLTV VIVO
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=
-#EXTINF:-1 tvg-id="wwe0100tsnsports" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Wwe",WWE 01:00 (TSN SPORTS)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
-#EXTINF:-1 tvg-id="cfl0030tsnsportsfhd" tvg-logo="https://i.postimg.cc/d3Bxy9ss/sportzx-football-live-tv-hd-logo-removebg-preview.png" group-title="Cfl",CFL 00:30 (TSN SPORTS FHD)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
-#EXTINF:-1 tvg-id="brazilvsnorway2100tsnsportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup",Brazil vs Norway 21:00 (TSN SPORTS FHD)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
-#EXTINF:-1 tvg-id="argentinavscaboverde2300foxoneaq" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup",Argentina vs Cabo Verde 23:00 (FOX ONE - AQ)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/enc/ajfoeddkbz/out/v1/b78800b9b2304879b15843f455836829/cenc.mpd
-#EXTINF:-1 tvg-id="australiavsegypt1900tsn4sportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup",Australia vs Egypt 19:00 (TSN4 SPORTS FHD)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 #EXTINF:-1 tvg-id="australiavsegypt1900tsn4sportsfhd" tvg-logo="https://i.postimg.cc/xdhSY2xq/does-anyone-have-transparent-sportzx-icons-they-can-share-v0-wyufeqaxobff1.png" group-title="Fifa world cup", RUSH SPORTS 
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/cha-spr7/809405.m3u8
-#EXTINF:-1 tvg-id="fissbal1" tvg-logo="https://img.bolatv.my.id/group/fussball.jpg" group-logo="https://image-fifa.bolatv.my.id/magenta.webp" group-title="Magenta FIFA WC 2026",Fussball TV 1 HEVC H.265 dvhe 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0
-#KODIPROP:inputstreamclass=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1f09d5788fbbb03a053d03cc731f31a9:d493d5a70c793362324638f61d1726ac
-https://svc.flyins.my.id/bpk-tv/KID01037_FUSSBALLTV1_uhd/DASH/index.mpd
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png" group-title="AynaOTT - Sports",T Sports
 http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
 https://bdixserver.tvhunter.top/ant1009/tracks-v1a1/index.m3u8
@@ -87,47 +47,19 @@ http://114.130.57.233:8080/TsportHD/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
 http://114.130.57.233:8080/T-Sports/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
 https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/tsports/tracks-v1/mono.m3u8
 http://114.130.57.233:8080/LIVE-Sports/video.m3u8?token=SkQuhAXZxgBan1
-#EXTINF:-1  tvg-logo="https://i.imgur.com/UspLV8i.png", BD V AUS 🇧🇩ᶠᴴᴰ
-http://114.130.57.233:8080/LIVE-Sports/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
-http://114.130.57.233:8080/T-Sports-KOS/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
-http://103.158.133.62:8080/live/index.m3u8
-https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/tsports/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://otapp.store/uploads/tv_image/sm/fifa-world-cup-2026-zaship1gb25v.png" group-title="OTAPP",FIFA World Cup 2026
-https://live05.miekgo.app/live/78905744.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026", FOX 4K
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1f68713028d439ec03be07f56c1d6213:20093db6455160fffed4c394def3193d
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/enc/xperu6ixu9/out/v1/31d30c91fc65458789b84209d3fa22e4/cenc.mpd
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026",TSN SPORTS - AQ
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
-https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-logo="https://shorturl.at/NPoFh" ,CTV
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d185684e2330de5bea436daa094a5e86:014f0116154f5bf0050e03a6b0a23157
-https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd
-#EXTINF:-1,ICC WOMEN WORLD CUP
+#EXTINF:-1, tvg-logo="https://icon2.cleanpng.com/20180805/awa/e4f03ff870a6707a729b06c7134bf872.webp", PTV SPORTS
 http://103.165.93.31:8095/ptv/tracks-v1a1/mono.m3u8
 https://xfireflix.my.id/mac.php?id=809398.m3u8
 http://103.114.11.37:8081/PTV/video.m3u8?token=LcfvVCNp3LLVz0
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/0NYVSnkr/Gemini-Generated-Image-ykkw2cykkw2cykkw.png" group-title="FIFA WC 2026", Unite8 Sports 2 FHD
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/28/Screenshot_2026-06-09_233511.png/revision/latest?cb=20260609181015"group-title="LIVE SPORTS" group-title="", UNITE8 SPORTS 1 HD
+https://bdixserver.tvhunter.top/ant1002/tracks-v1a1/index.m3u8
+http://103.165.93.31:8095/unt-s/tracks-v1a1/mono.m3u8
+http://103.155.18.186:8000/play/a125/index.m3u8
+#EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1284,h_723,c_scale,f_webp,q_auto:eco/resources/0-9-channel_2105335046/list/1920x1080list88f79d7c74df4d998da1bbd448f465ff.jpg" group-title="live sports", Unite8 Sports 2 FHD
 https://bdixserver.tvhunter.top/ant1001/tracks-v1a1/index.m3u8
 https://yowaimo.in/Sflex-ArtlPVT0719/ZEE_CAFE_HD.m3u8
 https://restream-bay.vercel.app/chuchhi?id=206315&format=.m3u8
 https://ads-27727.icu/un.php?id=2|User-Agent=andriod
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 Sky
-http://nocable.cc:8080/PAb8uc/162765/326237
-#EXTINF:-1 tvg-logo="https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg"group-title="Football World Cup 2026" group-title="",Football World Cup 2026 (UNITE8 SPORTS 2 HD)
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=
 #EXTINF:-1 tvg-chno="500" tvg-id="213212" tvg-name="KANTIPUR MAX  HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel_212_1742546009_thumb.png",KANTIPUR MAX  HD
 https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8
 #EXTINF:-1 tvg-chno="501" tvg-id="504" tvg-name="KANTIPUR MAX 2 HD" tvg-logo="http://ottcasomsapi.maxdigitaltv.com/uploads/channels/channel-logo-C190-1763958788.png",KANTIPUR MAX 2 HD
@@ -149,12 +81,6 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1106
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLNzYmE3iWoT0RIUPh5dPx392smbo8bbbTfkUy2nWw&s=10" group-title="PSL + IPL",IPL 2026 2
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLNzYmE3iWoT0RIUPh5dPx392smbo8bbbTfkUy2nWw&s=10" group-title="PSL + IPL",IPL 2026
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkLNzYmE3iWoT0RIUPh5dPx392smbo8bbbTfkUy2nWw&s=10" group-title="PSL + IPL",IPL 2026 AD FREE LIVE ENGLISH
-#EXTINF:-1 tvg-logo="" group-title="LPL2026", LPL 2026
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=298a4628daaba71f86b9060520700539:ffccd30926b91d75e4a3aab097c64653
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/y87fzxvvvh/out/v1/ae2a7936a2d342b8913cc63b8781cab6/cenc.mpd
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png", SONY LIV 5
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=155&e=.m3u8
@@ -303,22 +229,14 @@ http://m.live.net.sa:1935/live/quran/playlist.m3u8
 https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/SaudiSunnah-141/playlist.m3u8
 http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1
 #EXTINF:-1 tvg-chno="111" tvg-id="a0e6e9b6-b20b-4f54-82d6-881bef762cfd" tvg-name="BTV NATIONAL HD" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/btv-hd-bd.png" group-title="Channels", বিটিভি
-http://103.151.60.204:881/BTV/tracks-v1a1/mono.m3u8
 http://103.165.93.31:8095/btv/tracks-v1a1/mono.m3u8
-https://tv.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//BTV/index.m3u8
-#http://103.114.11.37:8081/BTV/video.m3u8?token=LcfvVCNp3LLVz0
-https://tv.beyondtaxconsultants.com/api/robi/lps/http://198.195.239.50:8095/btv/tracks-v1a1/mono.m3u8
-#https://tv.beyondtaxconsultants.com/api/btv/btv.m3u8
-#https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
-http://114.130.57.233:8080/BTV/video.m3u8?token=SkQuhAXZxgBan1
 #EXTINF:-1 tvg-chno="112" tvg-id="7c5fee98-96e2-43df-95f4-ae8ded8e9efe" tvg-name="BTV CTG" tvg-logo="https://s3.aynaott.com/storage/20e835171a2d078ca6c678fc95bd4bbd" group-title="Bangla",বিটিভি চট্টগ্রাম
 https://tv.beyondtaxconsultants.com/api/btv/btv.m3u8?channel=btvCtg
 #EXTINF:-1 tvg-chno="113" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/1/15/BTV_News_Logo.svg/1280px-BTV_News_Logo.svg.png" group-title="BANGLADESH", বিটিভি নিউজ
 #EXTINF:-1 tvg-chno="114" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/sangsad-television-bd.png" group-title="BANGLADESH", সংসদ বাংলাদেশ
 #http://stvlive.net:8080/btv/index.m3u8
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/index.m3u8
+https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://owrcovcrpy.gpcdn.net/bpk-tv/1709/output/1709-audio_113392_eng=113200-video=1998800.m3u8
 #EXTINF:-1 tvg-chno="119" tvg-logo="https://i.imgur.com/bahWhBG.png" group-title="BANGLADESH",মাই টিভি
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http://monirul.bro.bd/sm/live.php?id=my_tv&e=.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/mytv-up-off.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1, RAJDHANI TV
 https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
@@ -328,16 +246,10 @@ http://103.165.93.31:8095/banglaVision/tracks-v1a1/mono.m3u8
 #http://stvlive.net:8080/banglavision/index.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1715/output/index.m3u8
 #EXTINF:-1 tvg-chno="118" tvg-id="70e97db9-5a9e-4642-874e-af3d30ba9925" tvg-name="RTV" tvg-logo="https://s3.aynaott.com/storage/fd634ca672c8294f109225ca42d20991" group-title="Recorded TV",RTV
-https://live.beyondtaxconsultants.com/api/robi/lps/http://180.94.28.28:8097//RTV/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/rtv-sg.stream/playlist.m3u8
 #EXTINF:-1 tvg-chno="115" tvg-id="9046949b-9847-4b5d-96c1-e82b0734444b" tvg-name="ATN Bangla" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/atn-bangla-hd-bd.png" group-title="Recorded TV",ATN Bangla
-https://live.bdixbd.net/api/proxy/stream.m3u8?url=http://monirul.bro.bd/sm/live.php?id=atn_bangla&e=.m3u8
-https://iptv.aboxbdix.workers.dev/live/atn-bangla.m3u8?token=1b5c8731ce16448481d1644655cd7c9a&time=1784283644&link_index=0
-#https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8
-#http://fastshare1.com:8080//live/25711345/late8airline/431.ts
+https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/atnbd-8-org.stream/playlist.m3u8
 http://tv.indigotv.me:80/live.ts?channelId=81&uid=7245&deviceMac=00:1A:79:4A:02:91
-https://in1.sunilprasad.com.np/wodgoLive/atn-bangla/master.m3u8
-#https://tvsen5.aynaott.com/atnbangla/index.m3u8
 #EXTINF:-1 tvg-chno="120" tvg-id="9a94b22f-c4a4-4150-8eb9-129d0ddeb934" tvg-name="Maasranga TV" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Maasranga%20TV.png" group-title="Recorded TV",Maasranga TV
 https://live.bdixbd.net/api/proxy/stream.m3u8?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1722%2Foutput%2F1722-audio_113522_eng%3D113200-video%3D2202800.m3u8
 https://mtv.sunplex.live/MAASRANGA/index.m3u8
@@ -362,6 +274,7 @@ https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF9
 http://103.158.133.62:8080/etv/index.m3u8
 #https://ekusheyserver.com/etvlivesn.m3u8
 #EXTINF:-1 tvg-id="27ec4394-7640-4dab-abf8-6a48893dfdfe" tvg-name="Somoy News TV" tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/Bangladesh/somoy-bd.png" group-title="Channels",Somoy News TV
+https://bdixserver.tvhunter.top/ant1003/tracks-v1a1/index.m3u8
 http://103.165.93.31:8095/somoyTv/tracks-v1a1/mono.m3u8
 #http://fastshare1.com:8080//live/25711345/late8airline/422.ts
 #https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1702/output/index.m3u8
@@ -370,11 +283,9 @@ http://114.130.57.224:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBa
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/somoyt000011226615544544.stream/tracks-v1a1/mono.m3u8
 https://livecdn-bostahls.global.ssl.fastly.net/rongo/rongo-somoy/index.m3u8
 #EXTINF:-1 tvg-id="dd8c50e9-5dad-4cb9-9df8-5763e95281ad" tvg-name="Desh TV" tvg-logo="https://s3.aynaott.com/storage/9ef657aca7c0009e4f0675af3b5190d8" group-title="Channels",Desh TV
+https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 https://stream.ottplus.live/live/desh_tv_abr/index.m3u8
 https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1724/output/index.m3u8
-https://bozztv.com/rongo/rongo-DeshTV/index.m3u8
-#https://sm-monirul.top/toffee/play/desh_tv.m3u8
-#https://tvsen6.aynaott.com/deshtv/index.m3u8
 https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/deshtv.stream/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="56f7abf3-1586-4f6d-9df2-1726ccb43779" tvg-name="Channel 9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/500px-Channel9_bd.svg.png" group-title="Channels",Channel 9
 https://live.bdixbd.net/api/proxy/stream.m3u8?url=https%3A%2F%2Fowrcovcrpy.gpcdn.net%2Fbpk-tv%2F1729%2Foutput%2F1729-audio_113592_eng%3D113200-video%3D2202800.m3u8
@@ -421,8 +332,8 @@ https://stream.ottplus.live/live/ekattor_tv_abr/index.m3u8
 #https://tv.beyondtaxconsultants.com/api/robi/lps/https://owrcovcrpy.gpcdn.net/bpk-tv/1705/output/index.m3u8
 #https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ekattor.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="DBC News" tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/DBC%20News.png" group-title="All-In-One~ENT🧩",DBC News
-https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/master.m3u8
+#https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/dbcnews.stream/playlist.m3u8
+https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://owrcovcrpy.gpcdn.net/bpk-tv/1728/output/1728-audio_113582_eng=113200-video=2407200.m3u8
 #EXTINF:-1 tvg-name="Ekhon Tv" tvg-logo="https://i.postimg.cc/SNnz9nWH/Ekhon-Logo.png" group-title="All-In-One~ENT🧩",Ekhon Tv
 https://stream.ottplus.live/live/ekhon_tv_abr/index.m3u8
 #https://trs1.aynaott.com/ekhontv/index.m3u8
@@ -605,14 +516,14 @@ http://103.159.180.34:5001/live/698.m3u8
 #EXTINF:-1 tvg-logo="http://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="AynaOTT - IN Bangla",Star Jalsha BD IP
 #http://103.151.60.162:2121/play/a00w/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
-#https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-9afa.up.railway.app%2Fstar-jalsha%2Ftracks-v1a1%2Fmono.m3u8
-https://live.shamim-iptv.workers.dev/STARJOLSHAHD.m3u8
+https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://myco-channels.nurmd2006-official.workers.dev/Star_Jalsha/tracks-v1a1/mono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155770.m3u8
+https://live.shamim-iptv.workers.dev/STARJOLSHAHD.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png" group-title="AynaOTT - IN Bangla",Zee Bangla HD
 #https://aboxbdix-main-server.mdabdullahsheikh017-924.workers.dev/live/nested?url=https%3A%2F%2Flinux-desktop-production-cf5b.up.railway.app%2Fzee-bangla%2Ftracks-v1a1%2Fmono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1531202.m3u8
 #EXTINF:-1, tvg-logo="", ZEE BANGLA
-https://stream.ottplus.bd/live/zee_bangla_abr/index.m3u8
+#https://stream.ottplus.bd/live/zee_bangla_abr/index.m3u8
 http://103.159.180.34:5001/live/625.m3u8
 #EXTINF:-1 tvg-id="sony-aath" tvg-logo="https://sonypicturesnetworks.com/images/logos/SONY%20AATH.png" group-title="Entertainment",Sony Aath
 https://yowaimo.in/Sflex-ArtlPVT0719/SONY_8.m3u8
@@ -630,7 +541,7 @@ http://tv.indigotv.me:80/live.ts?channelId=92&uid=7245&deviceMac=00:1A:79:4A:02:
 #https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/282063.m3u8
 http://live.balajibroadband.com:3500/live/756.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Sun%20Bangla.png"group-title="Kolkata Bangla" group-title="",Sun Bangla HD
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http://monirul.bro.bd/sm/live.php?id=sun_bangla_hd&e=.m3u8
+https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://myco-channels.nurmd2006-official.workers.dev/SUN_BANGLA/tracks-v1a1/mono.m3u8
 http://103.159.180.34:5001/live/1669.m3u8
 #EXTINF:-1 group-title="INDIAN BANGLA" tvg-logo="https://i.ibb.co/bRLY1vBC/ENTER10-BANGLA.png",ENTER10 BANGLA
 https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8
@@ -844,6 +755,12 @@ https://ythls.armelin.one/channel/UCbf0XHULBkTfv2hBjaaDw9Q.m3u8
 https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8
 #EXTINF:-1 group-title="Indian News 🇮🇳📡🌐" tvg-logo="https://static.wikia.nocookie.net/etv-gspn-bangla/images/4/49/RPlus_24x7_News_logo_%282016%29.png/revision/latest?cb=20211209093649",R Plus News
 https://thelegitpro.in/pntv/rplusnews24x7/index.m3u8
+#EXTINF:-1 tvg-logo="https://logowik.com/content/uploads/images/ctv-television-network2497.jpg" ,CTV
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d185684e2330de5bea436daa094a5e86:014f0116154f5bf0050e03a6b0a23157
+https://otte-qw.live.pv-cdn.net/bom-nitro/live/clients/dash/enc/72sjo8hygl/out/v1/3079be34d72a4985852d299a02406a0c/cenc.mpd
 #EXTINF:-1 group-title="International News🌍⏳📊" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/81/CGTN.svg/revision/latest/scale-to-width-down/284?cb=20170101174915",CGTN News
 https://english-livebkali.cgtn.com/live/encgtn_1.m3u8
 https://0472.org/hls/cgtn.m3u8
@@ -918,7 +835,7 @@ https://xfireflix.my.id/mac.php?id=908684.m3u8
 https://login.bheem.tv/bpk-tv/22076/output/index.mpd
 #EXTINF:-1, tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png"  NET GEO WILD
 #EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png" group-title="Documentary",National Geographic HD বাংলা
-https://tv.bdixbd.net/api/proxy/stream.m3u8?url=http://monirul.bro.bd/sm/live.php?id=natgeo_bangla_hd&e=.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155772.m3u8
 #EXTINF:-1 tvg-id="484" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="Lifestyle",Travelxp HD বাংলা
 #http://103.159.180.34:5001/live/562.m3u8
 http://fastshare1.com:8080//live/25711345/late8airline/20622.ts
@@ -1285,9 +1202,23 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/chsp6/131272
 #KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/85dt2d9J/ezgif-1e230f661bf35e.png",TSN 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/9QTTgmvz/ezgif-16da96bd391506.png",TSN 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0
+https://otte-qw.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/Y0J1n7Yr/ezgif-6f2b538b75a1ba.png",TSN 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/k4kbqD60/ezgif-135a045b526fbf.png",TSN 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/yNQnmwQd/ezgif-6c15321cb1fede.png",TSN 5
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/HV2c1Cc/ziggosport.png" group-title="☆SPORT+☆", ZIGGO SPORT 1
 http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2560/index.m3u8
@@ -1534,3 +1465,8 @@ https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/4yiko4it
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3
 https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd
+#EXTINF:-1 tvg-id="TVP Sport.cz" tvg-name="" tvg-logo="https://iptvboss.xyz/logos/Poland/TVPSport.pl.png" group-title="WorldCup 2026",TVP Sport
+#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
+#KODIPROP:inputstream.adaptive.license_key=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:151.0) Gecko/20100101 Firefox/151.0
+https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/.mpd
