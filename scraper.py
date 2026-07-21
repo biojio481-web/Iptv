@@ -6,7 +6,7 @@ import requests
 
 LIVE_1_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=661053"
 LIVE_2_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=809398"
-Disney = "https://ranapkz.site/RANAPK33k/TVD/play.php?id=372986"
+LIVE_3_LINK = "https://ranapkz.site/RANAPK33k/TVD/play.php?id=372986"
 
 # ⚽ FIFA World Cup 2026 চ্যানেলগুলোর লিংক (এখানে আপনার লিংক বসিয়ে দিন)
 FIFA_1_LINK = "https://ranapkbd.site/RANAPK33g/TVD/play.php?id=372986"
