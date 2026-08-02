@@ -469,8 +469,7 @@ http://103.151.61.12/Star_Jalsha/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155770.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png" group-title="AynaOTT - IN Bangla",Zee Bangla HD
-http://103.191.99.248:5550/301/tracks-v1a1/mono.m3u8
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1531202.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/225796.m3u8
 #EXTINF:-1, tvg-logo="", ZEE BANGLA
 #https://stream.ottplus.bd/live/zee_bangla_abr/index.m3u8
 http://103.159.180.34:5001/live/625.m3u8
@@ -481,6 +480,7 @@ https://yowaimo.in/Sflex-ArtlPVT0719/SONY_8.m3u8
 #https://b4uplay.com/sliv/stream.m3u8?id=1000009255|referer=https://b4uplay.com/
 http://live.balajibroadband.com:3500/live/697.m3u8
 #EXTINF:-1,  tvg-logo="",COLORS BANGLA SD
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/225712.m3u8
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
 https://madanitv.assadikb.workers.dev/live.php?id=1369&e=.m3u8
 #http://live.balajibroadband.com:3500/live/1369.m3u8
