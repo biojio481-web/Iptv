@@ -45,6 +45,7 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/cha-spr7/809
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/T_Sports_logo.svg/500px-T_Sports_logo.svg.png" group-title="AynaOTT - Sports",T Sports
 #https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/IPTV/SS-TSports1.m3u8
 #https://bdixserver.tvhunter.top/ant1007/tracks-v1a1/index.m3u8
+http://103.185.24.134:3001/TSportsHD/index.m3u8
 http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33
 http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
 #EXTINF:-1, tvg-logo="https://icon2.cleanpng.com/20180805/awa/e4f03ff870a6707a729b06c7134bf872.webp", PTV SPORTS
@@ -67,32 +68,32 @@ https://webott.viatv.com.np/v0t1/CineplexHD.stream/chunks.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/1106886.m3u8
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png", SONY LIV 5
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://madanitv.assadikb.workers.dev/live.php?id=155&e=.m3u8
+#https://madanitv.assadikb.workers.dev/live.php?id=155&e=.m3u8
 http://live.balajibroadband.com:3500/live/155.m3u8
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_5.png", SONY LIV 5
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://madanitv.assadikb.workers.dev/live.php?id=155&e=.m3u8
+#https://madanitv.assadikb.workers.dev/live.php?id=155&e=.m3u8
 http://live.balajibroadband.com:3500/live/155.m3u8
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_1.png", SONY LIV 1
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://madanitv.assadikb.workers.dev/live.php?id=162&e=.m3u8
+#https://madanitv.assadikb.workers.dev/live.php?id=162&e=.m3u8
 http://live.balajibroadband.com:3500/live/162.m3u8
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_2.png", SONY LIV 2
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://madanitv.assadikb.workers.dev/live.php?id=891&e=.m3u8
+#https://madanitv.assadikb.workers.dev/live.php?id=891&e=.m3u8
 http://live.balajibroadband.com:3500/live/891.m3u8
 #EXTINF:-1, tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyLIV_Sports_3.png", SONY LIV 3
 #EXTVLCOPT:http-user-agent=oxoo/1.3.9.d (Linux;Android 7.1.2) ExoPlayerLib/2.14.1
-https://madanitv.assadikb.workers.dev/live.php?id=892&e=.m3u8
+#https://madanitv.assadikb.workers.dev/live.php?id=892&e=.m3u8
 http://live.balajibroadband.com:3500/live/892.m3u8
 #EXTINF:-1,tvg-logo="https://pbs.twimg.com/media/GJNFbwFXIAAk_C_.jpg", 4K CRICKET LIVE
-http://premiumtvs.space/1Aoen7elp5/IgMJ60tmAa/333368
+http://mysave23.com/PeH5kPWFfG/infamous7funny/333368
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Sky_Sport_UHD_DE_Logo_09_2020.png", SKY SPORT UHD
-http://premiumtvs.space/1Aoen7elp5/IgMJ60tmAa/384222
+http://mysave23.com/PeH5kPWFfG/infamous7funny/581307
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sky_Sport_UHD_logo.svg/960px-Sky_Sport_UHD_logo.svg.png", SKY SPORTS F1 UHD
-http://premiumtvs.space/1Aoen7elp5/IgMJ60tmAa/384213
+http://mysave23.com/PeH5kPWFfG/infamous7funny/581306
 #EXTINF:-1, tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7d/Sky_Sports_Main_Event_UHD_logo.jpg", SKY SPORT MAIN EVENT UHD
-http://premiumtvs.space/1Aoen7elp5/IgMJ60tmAa/384215
+http://mysave23.com/PeH5kPWFfG/infamous7funny/581305
 #EXTINF:-1, tvg-logo="https://net4me.info/wp-content/uploads/2020/07/elevensports1_4k_1-632x221-1.png", ELEVEN SPORTS 1 UHD
 #EXTINF:-1 tvg-logo="https://img.sofascore.com/api/v1/unique-tournament/20583/image" group-title="Major League Cricket", Major League Cricket (SKY CRICKET - AQ)
 https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=uiXES2ePt7xTpQnbJxn7Dg&e=2074684474&scheme=https|user-agent=Mozilla
