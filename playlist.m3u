@@ -32,6 +32,8 @@ https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/281153.
 https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/football1208/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=581850ab020be2de16f0d3e1fada3bfe-1786559404367
 #EXTINF:-1 tvg-id="1090539087" tvg-name="UEFA Super Cup 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022040/1786442722992390_UEFA_Super_CUP_26_PSG_vs_Aston_Villa_live_landscape_thumb.jpg" tvg-language="Hindi" group-title="Football",HIN | PSG vs Aston Villa - 13 Aug 2026
 https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/football1208/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=581850ab020be2de16f0d3e1fada3bfe-1786559404367
+#EXTINF:-1 tvg-id="Si Solo Calcio.it" tvg-logo="https://i.ibb.co.com/7Q5vVhy/sportitaliaplus.png" group-title="SPORTS" , SOLOCALCIO ITALIA
+https://italiansport-solocalcio-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://placehold.co/800x450/0f172a/ffffff.png?text=Fox+Deportes&font=Oswald" group-title="Sports", Fox Deportes
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -579,7 +581,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 http://103.151.61.12/Jalsha_Movie/tracks-v1a1/mono.m3u8
 https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://kamrul-mc-ar-baki-bc-toder-baper-stream-monekore-user-kor.nurmd2006-official.workers.dev/Jalsha_Movie/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/225776.m3u8
+http://103.165.93.31:8095/jalshaMovies/tracks-v1a1/mono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155771.m3u8
 #EXTINF:-1 tvg-chno="1433" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bengali",Zee Bangla Sonar
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8
