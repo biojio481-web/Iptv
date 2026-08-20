@@ -28,10 +28,10 @@ https://flussonic.defineatoz.com/Starsports1/tracks-v1a1/mono.m3u8?
 http://tvsen7.aynascope.net/sspts1/index.m3u8
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfuWqU0Dvt9BsOvdSe0aWvtjtK5Cq70vr2D1MZWhytGmgRFUORDOysyrOy&s=10" group-title="live sports", BAN VS AUS TEST MATCH
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/281153.m3u8
-#EXTINF:-1 tvg-id="1090539087" tvg-name="UEFA Super Cup 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022040/1786442722992390_UEFA_Super_CUP_26_PSG_vs_Aston_Villa_live_landscape_thumb.jpg" tvg-language="English" group-title="Football",ENG | PSG vs Aston Villa - 13 Aug 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/football1208/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=581850ab020be2de16f0d3e1fada3bfe-1786559404367
-#EXTINF:-1 tvg-id="1090539087" tvg-name="UEFA Super Cup 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022040/1786442722992390_UEFA_Super_CUP_26_PSG_vs_Aston_Villa_live_landscape_thumb.jpg" tvg-language="Hindi" group-title="Football",HIN | PSG vs Aston Villa - 13 Aug 2026
-https://sonymtmnew-akamaized.pages.dev/hls/live/20000291/football1208/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=581850ab020be2de16f0d3e1fada3bfe-1786559404367
+#EXTINF:-1 tvg-id="1090539718" tvg-name="Pakistan Tour of England 2026" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022501/1787127640143272_eng_vs_pak_live_1Test_day1_landscape_thumb.jpg" tvg-language="English" group-title="Cricket",ENG | Day 1 - 1st Test - 19 Aug 2026
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000376/criclive1908/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=b833af802b4e2632218f7eb3635f962e-1787148605025
+#EXTINF:-1 tvg-logo="http://api.sofascore.com/api/v1/unique-tournament/18833/image/dark" group-title="England vs Pakistan", England vs Pakistan (TAMASHA - AQ)
+https://cdn06khi-n.tamashaweb.com:8087/jazzauth/PAKvsEng-Test-SVOD-abr/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xOS8yMDI2IDk6NDQ6NDcgQU0maGFzaF92YWx1ZT1VVmp4c1lmVFhEQ3hPNklqNDRUalV3PT0mdmFsaWRtaW51dGVzPTYw
 #EXTINF:-1 tvg-id="Si Solo Calcio.it" tvg-logo="https://i.ibb.co.com/7Q5vVhy/sportitaliaplus.png" group-title="SPORTS" , SOLOCALCIO ITALIA
 https://italiansport-solocalcio-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://placehold.co/800x450/0f172a/ffffff.png?text=Fox+Deportes&font=Oswald" group-title="Sports", Fox Deportes
@@ -80,6 +80,16 @@ http://103.185.24.134:3001/TSportsHD/index.m3u8
 http://103.13.193.194:8082/T-SPORTS-HD/video.m3u8?token=RusriRM-L73G33
 http://103.165.93.31:8095/tsports/tracks-v1a1a2/mono.m3u8
 #EXTINF:-1, tvg-logo="https://icon2.cleanpng.com/20180805/awa/e4f03ff870a6707a729b06c7134bf872.webp", PTV SPORTS
+#EXTINF:-1 tvg-id="fancode1" tvg-name="FANCODE 1" tvg-logo="https://i.ibb.co/jvS7zkgW/images.png" group-title="Sports",FANCODE 1
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd
+#EXTINF:-1 tvg-id="fancode2" tvg-name="FANCODE 2" tvg-logo="https://i.ibb.co/jvS7zkgW/images.png" group-title="Sports",FANCODE 2
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd
 #EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/w_720,h_405,c_scale,f_webp,q_auto:eco/resources/0-9-zeecafehd/list/1920x1080list60cd7fc8b57c4e1baf1cd4f603413540.jpg"group-title="LIVE SPORTS" group-title="", UNITE8 SPORTS 1 HD
 https://raw.githubusercontent.com/stablesports711-hue/stable-sports-movie/refs/heads/main/IPTV/SS-Unite8S1.m3u8
 #EXTINF:-1 tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1284,h_723,c_scale,f_webp,q_auto:eco/resources/0-9-channel_2105335046/list/1920x1080list88f79d7c74df4d998da1bbd448f465ff.jpg" group-title="live sports", Unite8 Sports 2 FHD
@@ -579,8 +589,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Shortstv2/default/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=ed197e7253c04946903f03bad9afac91:99ebb8683ea74b70a9fda1cbdc2cc1b4
 https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies SD(BD IP)
-http://103.151.61.12/Jalsha_Movie/tracks-v1a1/mono.m3u8
-https://live.bdixbd.net/api/proxy/stream.m3u8?url=https://kamrul-mc-ar-baki-bc-toder-baper-stream-monekore-user-kor.nurmd2006-official.workers.dev/Jalsha_Movie/tracks-v1a1/mono.m3u8
+https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
 http://103.165.93.31:8095/jalshaMovies/tracks-v1a1/mono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155771.m3u8
@@ -1046,37 +1055,30 @@ http://103.175.73.12:8080/live/51/51_0.m3u8
 http://38.101.217.46/HumMasala/index.m3u8
 #EXTINF:-1,HUM SITERY world
 http://38.101.217.46/HumSitaray/index.m3u8
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=d14658a0ede94debcb4013b2056ba6d1:60838a3176127fed0eaf038a5575de11
-#EXTINF:-1 tvg-id="TNTSports1.uk" tvg-name="TNT Sports 1" group-title="HD SPORTS" group-logo="https://telegra.ph/file/ed0787b99b8153874c7e1.png" tvg-logo="https://iili.io/3DPQBC7.png",TNT Sports 1
-#https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vaplpo3app/out/v1/49b4d538ec854efa90d45084866cf7f9/cenc.mpd
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2505/index.m3u8
-#KODIPROP:inputstreamaddon=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b59ce06de74ed84f2eda5e81dadba13:48e4ba4ad6c2a60d2bda5d71a0050844
-#EXTINF:-1 tvg-id="TNTSports2.uk" tvg-name="TNT Sports 2" group-title="HD SPORTS" group-logo="https://telegra.ph/file/ed0787b99b8153874c7e1.png" tvg-logo="https://iili.io/3OKhGKg.png",TNT Sports 2
-#https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/3j04z3pbit/out/v1/042ee0757ed348bf8c26f75895cae871/cenc.mpd
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/2506/index.m3u8
+#EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/YqqL69rF/20250120_193708.png",TNT 1
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=12413e2c2855cfc59ce0fe6b20cc71ca:08d55a8f5fc93a9375f9b0cb2e1739ca
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="TNTSports3.uk" tvg-logo="https://iili.io/3DPQCG9.png" group-title="HD SPORTS",TNT Sports 3
-#https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/2szrn2y3ep/out/v1/eacd8a4207dc4f0d9661a4b085b8fdd9/cenc.mpd
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/chsp6/1311901.m3u8
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/6564/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd
+#EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/X7HGQbqz/20250120_193645.png",TNT 2
 #KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=192b1115da041585c77200128549efa1:634e10efe4abbb14be400a3ccbac0258
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTINF:-1 tvg-id="TNTSports4.uk" tvg-logo="https://iili.io/3DPQfQS.png" group-title="HD SPORTS",TNT Sports 4
-#https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/pnu10tp36z/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd
-#http://tv.indigotv.me:80/live.ts?channelId=270&uid=7245&deviceMac=00:1A:79:4A:02:91
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/chsp6/1311902.m3u8
-http://6zirt9yx.otttv.pw/iptv/HEGN4VXXQQSYCA/19054/index.m3u8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd
+#EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/nhXsWPQc/20250120_193614.png",TNT 3
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd
+#EXTINF:-1 group-title="𝐒𝐩𝐨𝐫𝐭𝐬" tvg-logo="https://i.postimg.cc/59p62VB2/20250120_193532.png",TNT 4
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd
 #EXTINF:-1 tvg-id="ap1sr" tvg-name="Premier Sports" tvg-logo="http://103.127.132.205/wiki/wikipedia/commons/8/8c/PS_Logo_STACKED_4.png" group-title="⚽ SPORTS",Premier Sports 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
