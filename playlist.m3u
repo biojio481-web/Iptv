@@ -522,10 +522,12 @@ http://103.159.180.34:5001/live/698.m3u8
 #EXTINF:-1 tvg-logo="http://upload.wikimedia.org/wikipedia/commons/e/ef/Star_Jalsha_logo_2023.png" group-title="AynaOTT - IN Bangla",Star Jalsha BD IP
 http://103.151.60.162:2122/play/a00w/index.m3u8?hls
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/star-jalsha-hd-in.png" group-title="AynaOTT - IN Bangla",Star Jalsha HD
+http://103.165.93.31:8095/starJalsha/index.m3u8
 https://flussonic.defineatoz.com/StarjalshaHD/tracks-v1a1/mono.m3u8
 http://103.114.11.37:8081/Star-Jalsha/index.m3u8?token=dsgdfgsdfgasf
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/225805.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co.com/9HM31yqc/ZEE-BANGLA-HD.png" group-title="AynaOTT - IN Bangla",Zee Bangla HD
+http://103.165.93.31:8095/zeeBangla/index.m3u8
 https://flussonic.defineatoz.com/zeebangla/tracks-v1a1/mono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/225786.m3u8
 #EXTINF:-1, tvg-logo="", ZEE BANGLA
@@ -544,6 +546,7 @@ https://madanitv.assadikb.workers.dev/live.php?id=1369&e=.m3u8
 #http://live.balajibroadband.com:3500/live/1369.m3u8
 http://tv.indigotv.me:80/live.ts?channelId=92&uid=7245&deviceMac=00:1A:79:4A:02:91
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7b/Colors_Bangla.png" group-title="AynaOTT - IN Bangla",Colors Bangla HD
+http://103.165.93.31:8095/colorsBangla/tracks-v1a1/mono.m3u8
 #http://103.114.11.37:8081/Colors-bangla/index.m3u8?token=dsgdfgsdfgasf
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/282063.m3u8
 http://live.balajibroadband.com:3500/live/756.m3u8
@@ -616,8 +619,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Koreandramas2/default/manifest.mpd
 #EXTINF:-1 tvg-id="77" group-title="Movies" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1739965013824.png",Jalsha Movies SD(BD IP)
 https://box.bbaria.net:8083/Jalsha_Movie/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/AsimDipto/Logo-box/refs/heads/main/India/jalsha-movies-hd-in.png" group-title="KOLKATA", Jalsha Movies HD
-https://aboxbdix.aboxbdix-iptv.workers.dev/live/jalsha-movies/6bdd66bb57c0c38c059b6f25bed2c145/1787504086/0.m3u8
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/155771.m3u8
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/asia/1118058.m3u8
 http://103.165.93.31:8095/jalshaMovies/tracks-v1a1/mono.m3u8
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/bn-ch-1/155771.m3u8
 #EXTINF:-1 tvg-chno="1433" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00287G7K.png?lock=720x540" group-title="Bengali",Zee Bangla Sonar
